@@ -1,0 +1,475 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "only motion",
+    "task_name": "only forward vs has forward and not only",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T15:39:23.345104",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "8ouj_JN2ytI.0.27.mp4",
+      "neg_video": "IWv0EhEGmNI.16.6.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5923579931259155,
+        "pos_text_neg_image": 0.1329088658094406,
+        "neg_text_pos_image": 0.3773253858089447,
+        "neg_text_neg_image": 0.14799480140209198
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40712130069732666,
+        "pos_text_neg_image": 0.8666746616363525,
+        "neg_text_pos_image": 0.6221044063568115,
+        "neg_text_neg_image": 0.8516513109207153
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6303.0.21.mp4",
+      "neg_video": "iXzposKQzvs.2.1.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205459713935852,
+        "pos_text_neg_image": 0.26837772130966187,
+        "neg_text_pos_image": 0.2449285238981247,
+        "neg_text_neg_image": 0.14785751700401306
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.678595781326294,
+        "pos_text_neg_image": 0.7295262217521667,
+        "neg_text_pos_image": 0.7544329762458801,
+        "neg_text_neg_image": 0.8508613705635071
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1470.0.35.mp4",
+      "neg_video": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.7.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22237874567508698,
+        "pos_text_neg_image": 0.46839696168899536,
+        "neg_text_pos_image": 0.26857954263687134,
+        "neg_text_neg_image": 0.2687251567840576
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7761780619621277,
+        "pos_text_neg_image": 0.5307633280754089,
+        "neg_text_pos_image": 0.7300748229026794,
+        "neg_text_neg_image": 0.7304706573486328
+      },
+      "error": null
+    },
+    {
+      "pos_video": "fSWFUFdV5TU.2.6.mp4",
+      "neg_video": "4022437.0.0.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.26875799894332886,
+        "pos_text_neg_image": 0.6219068169593811,
+        "neg_text_pos_image": 0.24493838846683502,
+        "neg_text_neg_image": 0.5307804346084595
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7305598855018616,
+        "pos_text_neg_image": 0.3772055506706238,
+        "neg_text_pos_image": 0.7544633746147156,
+        "neg_text_neg_image": 0.4684120714664459
+      },
+      "error": null
+    },
+    {
+      "pos_video": "pNGMY3xVkVE.0.1.mp4",
+      "neg_video": "ZXloF-qGW4U.2.2.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6220588684082031,
+        "pos_text_neg_image": 0.46838024258613586,
+        "neg_text_pos_image": 0.37723997235298157,
+        "neg_text_neg_image": 0.3483111262321472
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3772977590560913,
+        "pos_text_neg_image": 0.5307443141937256,
+        "neg_text_pos_image": 0.6219635605812073,
+        "neg_text_neg_image": 0.6507307887077332
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0UthxdAH0ks.3.0.mp4",
+      "neg_video": "JDaw5I_5hPk.0.19.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11908440291881561,
+        "pos_text_neg_image": 0.22259582579135895,
+        "neg_text_pos_image": 0.11910132318735123,
+        "neg_text_neg_image": 0.13290493190288544
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8799213767051697,
+        "pos_text_neg_image": 0.7769357562065125,
+        "neg_text_pos_image": 0.8800463676452637,
+        "neg_text_neg_image": 0.8666489720344543
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.6.4.mp4",
+      "neg_video": "6h6bMAWLYAI.2.2.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.46820342540740967,
+        "pos_text_neg_image": 0.18203924596309662,
+        "neg_text_pos_image": 0.3771301209926605,
+        "neg_text_neg_image": 0.10658633708953857
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5305439829826355,
+        "pos_text_neg_image": 0.8158432245254517,
+        "neg_text_pos_image": 0.6217824220657349,
+        "neg_text_neg_image": 0.8924364447593689
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.2.0.mp4",
+      "neg_video": "H4AZhS5WqKk.0.0.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.31999966502189636,
+        "pos_text_neg_image": 0.16442550718784332,
+        "neg_text_pos_image": 0.29356932640075684,
+        "neg_text_neg_image": 0.1644345074892044
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.677439272403717,
+        "pos_text_neg_image": 0.8350216746330261,
+        "neg_text_pos_image": 0.7042362689971924,
+        "neg_text_neg_image": 0.8350674510002136
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1018.1.6.mp4",
+      "neg_video": "sKJeTaIEldM.2.2.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6218661665916443,
+        "pos_text_neg_image": 0.11913305521011353,
+        "neg_text_pos_image": 0.4068625569343567,
+        "neg_text_neg_image": 0.13289780914783478
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.37718087434768677,
+        "pos_text_neg_image": 0.8802808523178101,
+        "neg_text_pos_image": 0.5919814705848694,
+        "neg_text_neg_image": 0.8666025400161743
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1448735.0.mp4",
+      "neg_video": "h1PjJ9_Yd2c.2.16.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6507523655891418,
+        "pos_text_neg_image": 0.07582833617925644,
+        "neg_text_pos_image": 0.37714439630508423,
+        "neg_text_neg_image": 0.07583805918693542
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34832265973091125,
+        "pos_text_neg_image": 0.9237782955169678,
+        "neg_text_pos_image": 0.6218059659004211,
+        "neg_text_neg_image": 0.9238967299461365
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.0.mp4",
+      "neg_video": "kSx5KGOv5Qc.0.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07582524418830872,
+        "pos_text_neg_image": 0.2225426882505417,
+        "neg_text_pos_image": 0.06006909906864166,
+        "neg_text_neg_image": 0.20170290768146515
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.923740565776825,
+        "pos_text_neg_image": 0.7767502665519714,
+        "neg_text_pos_image": 0.9396388530731201,
+        "neg_text_neg_image": 0.7977504730224609
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8iZ8RtiJq14.4.0.mp4",
+      "neg_video": "2519.5.16.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4070800244808197,
+        "pos_text_neg_image": 0.04741152375936508,
+        "neg_text_pos_image": 0.3206440210342407,
+        "neg_text_neg_image": 0.05339115485548973
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5922979712486267,
+        "pos_text_neg_image": 0.9522859454154968,
+        "neg_text_pos_image": 0.6788033843040466,
+        "neg_text_neg_image": 0.9463808536529541
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.0.3.mp4",
+      "neg_video": "TktL3QR8Yg8.0.3.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5615360736846924,
+        "pos_text_neg_image": 0.4685339033603668,
+        "neg_text_pos_image": 0.3483235239982605,
+        "neg_text_neg_image": 0.3773379325866699
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43732473254203796,
+        "pos_text_neg_image": 0.5309184789657593,
+        "neg_text_pos_image": 0.6507539749145508,
+        "neg_text_neg_image": 0.6221250295639038
+      },
+      "error": null
+    },
+    {
+      "pos_video": "637ea05e5192428c06fd77b128bd3aa5436dbb3596b8ab6b87405e484e721bc1.0.mp4",
+      "neg_video": "gooWdc6kb80.0.7.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.53053879737854,
+        "pos_text_neg_image": 0.2224729210138321,
+        "neg_text_pos_image": 0.34826403856277466,
+        "neg_text_neg_image": 0.09529333561658859
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4681988060474396,
+        "pos_text_neg_image": 0.776506781578064,
+        "neg_text_pos_image": 0.6506428122520447,
+        "neg_text_neg_image": 0.9041180610656738
+      },
+      "error": null
+    },
+    {
+      "pos_video": "-eyUFAJ1xqo.1.0.mp4",
+      "neg_video": "i82xURPkLWo.3.6.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6218618154525757,
+        "pos_text_neg_image": 0.0675218477845192,
+        "neg_text_pos_image": 0.377098947763443,
+        "neg_text_neg_image": 0.06752629578113556
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.37717825174331665,
+        "pos_text_neg_image": 0.9321103096008301,
+        "neg_text_pos_image": 0.6217310428619385,
+        "neg_text_neg_image": 0.9321717619895935
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MuNyfqxAO6Y.2.0.mp4",
+      "neg_video": "5eDQ2SSsmEk.9.7.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6510515809059143,
+        "pos_text_neg_image": 0.37733739614486694,
+        "neg_text_pos_image": 0.3483937382698059,
+        "neg_text_neg_image": 0.2688264846801758
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34848281741142273,
+        "pos_text_neg_image": 0.622124195098877,
+        "neg_text_pos_image": 0.6508851647377014,
+        "neg_text_neg_image": 0.7307460308074951
+      },
+      "error": null
+    },
+    {
+      "pos_video": "fSWFUFdV5TU.0.4.mp4",
+      "neg_video": "G2EAFkURl0U.5.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11913519352674484,
+        "pos_text_neg_image": 0.650702953338623,
+        "neg_text_pos_image": 0.13289761543273926,
+        "neg_text_neg_image": 0.43717044591903687
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8802966475486755,
+        "pos_text_neg_image": 0.348296195268631,
+        "neg_text_pos_image": 0.866601288318634,
+        "neg_text_neg_image": 0.561337947845459
+      },
+      "error": null
+    },
+    {
+      "pos_video": "lJXaNYTVjrQ.1.2.mp4",
+      "neg_video": "338.2.6.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32044875621795654,
+        "pos_text_neg_image": 0.09531743079423904,
+        "neg_text_pos_image": 0.2687414884567261,
+        "neg_text_neg_image": 0.1191614642739296
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6783900260925293,
+        "pos_text_neg_image": 0.9043466448783875,
+        "neg_text_pos_image": 0.7305150628089905,
+        "neg_text_neg_image": 0.880490779876709
+      },
+      "error": null
+    },
+    {
+      "pos_video": "tJ7xCQpF00s.0.12.mp4",
+      "neg_video": "1470.0.7.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4374893605709076,
+        "pos_text_neg_image": 0.06752564013004303,
+        "neg_text_pos_image": 0.3206276595592499,
+        "neg_text_neg_image": 0.09531950205564499
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5617474913597107,
+        "pos_text_neg_image": 0.9321626424789429,
+        "neg_text_pos_image": 0.6787686944007874,
+        "neg_text_neg_image": 0.9043663144111633
+      },
+      "error": null
+    },
+    {
+      "pos_video": "awPo_VZabRc.1.1.mp4",
+      "neg_video": "_jli4enm3vw.2.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3482417166233063,
+        "pos_text_neg_image": 0.37670883536338806,
+        "neg_text_pos_image": 0.3205646276473999,
+        "neg_text_neg_image": 0.3475803732872009
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6506011486053467,
+        "pos_text_neg_image": 0.6210878491401672,
+        "neg_text_pos_image": 0.67863529920578,
+        "neg_text_neg_image": 0.6493656039237976
+      },
+      "error": null
+    },
+    {
+      "pos_video": "fT6olrwrjnI.5.3.mp4",
+      "neg_video": "CQYQKehqjgI.3.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32062289118766785,
+        "pos_text_neg_image": 0.3202994763851166,
+        "neg_text_pos_image": 0.2940484285354614,
+        "neg_text_neg_image": 0.13281309604644775
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6787586212158203,
+        "pos_text_neg_image": 0.6780739426612854,
+        "neg_text_pos_image": 0.7053855061531067,
+        "neg_text_neg_image": 0.8660501837730408
+      },
+      "error": null
+    },
+    {
+      "pos_video": "pNGMY3xVkVE.0.0.mp4",
+      "neg_video": "kSx5KGOv5Qc.1.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7307669520378113,
+        "pos_text_neg_image": 0.5921891927719116,
+        "neg_text_pos_image": 0.4071049392223358,
+        "neg_text_neg_image": 0.4069911241531372
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2688341438770294,
+        "pos_text_neg_image": 0.40700528025627136,
+        "neg_text_pos_image": 0.5923341512680054,
+        "neg_text_neg_image": 0.5921685695648193
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VKre9_wM3Mo.1.11.mp4",
+      "neg_video": "5e5ef4541835cc6ffc817c5dd4eb7f240d200553b3eed64782d61ccde60d4ade.1.mp4",
+      "pos_question": "Does the camera only move forward (not zooming in) with respect to the ground?",
+      "neg_question": "Does the camera not just move forward with respect to the ground?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.46822211146354675,
+        "pos_text_neg_image": 0.13286349177360535,
+        "neg_text_pos_image": 0.32048508524894714,
+        "neg_text_neg_image": 0.10661964863538742
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5305652022361755,
+        "pos_text_neg_image": 0.8663787841796875,
+        "neg_text_pos_image": 0.6784668564796448,
+        "neg_text_neg_image": 0.8927153944969177
+      },
+      "error": null
+    }
+  ]
+}

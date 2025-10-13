@@ -1,0 +1,835 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion direction",
+    "task_name": "has forward vs backward ground",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T04:04:14.559808",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "F7iLfuci75Y.9.0.mp4",
+      "neg_video": "1018.1.7.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5923471450805664,
+        "pos_text_neg_image": 0.8926003575325012,
+        "neg_text_pos_image": 0.6510612368583679,
+        "neg_text_neg_image": 0.40677186846733093
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40711385011672974,
+        "pos_text_neg_image": 0.1066059097647667,
+        "neg_text_pos_image": 0.3484879732131958,
+        "neg_text_neg_image": 0.5918495655059814
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.1.1.mp4",
+      "neg_video": "oRt5NPY7yYA.5.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7973936796188354,
+        "pos_text_neg_image": 0.904369056224823,
+        "neg_text_pos_image": 0.6783802509307861,
+        "neg_text_neg_image": 0.5617671608924866
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2016126960515976,
+        "pos_text_neg_image": 0.09531979262828827,
+        "neg_text_pos_image": 0.32044416666030884,
+        "neg_text_neg_image": 0.43750467896461487
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ttZAdY3n4nc.3.0.mp4",
+      "neg_video": "y51VUsotZe4.1.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.678523600101471,
+        "pos_text_neg_image": 0.7758496403694153,
+        "neg_text_pos_image": 0.7305965423583984,
+        "neg_text_neg_image": 0.2935429513454437
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3205118477344513,
+        "pos_text_neg_image": 0.22228464484214783,
+        "neg_text_pos_image": 0.2687714695930481,
+        "neg_text_neg_image": 0.7041729092597961
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8ouj_JN2ytI.0.27.mp4",
+      "neg_video": "942.0.30.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.777021050453186,
+        "pos_text_neg_image": 0.4994252324104309,
+        "neg_text_pos_image": 0.6788694262504578,
+        "neg_text_neg_image": 0.6507870554924011
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22262026369571686,
+        "pos_text_neg_image": 0.4994252324104309,
+        "neg_text_pos_image": 0.32067522406578064,
+        "neg_text_neg_image": 0.3483412265777588
+      },
+      "error": null
+    },
+    {
+      "pos_video": "z9Bw94k7AxQ.0.10.mp4",
+      "neg_video": "toXyCmbHl3w.0.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7769388556480408,
+        "pos_text_neg_image": 0.37705716490745544,
+        "neg_text_pos_image": 0.34841087460517883,
+        "neg_text_neg_image": 0.2939632534980774
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22259671986103058,
+        "pos_text_neg_image": 0.6216621994972229,
+        "neg_text_pos_image": 0.6509171724319458,
+        "neg_text_neg_image": 0.7051812410354614
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RooDYxp5Fx8.3.8.mp4",
+      "neg_video": "ttZAdY3n4nc.2.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.976762592792511,
+        "pos_text_neg_image": 0.704999566078186,
+        "neg_text_pos_image": 0.7976927757263184,
+        "neg_text_neg_image": 0.468317449092865
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.02297125570476055,
+        "pos_text_neg_image": 0.29388752579689026,
+        "neg_text_pos_image": 0.20168831944465637,
+        "neg_text_neg_image": 0.5306732058525085
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sKJeTaIEldM.1.1.mp4",
+      "neg_video": "Qh6c-SZmWUI.2.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6780327558517456,
+        "pos_text_neg_image": 0.8930709958076477,
+        "neg_text_pos_image": 0.6215505003929138,
+        "neg_text_neg_image": 0.6510257720947266
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3202800154685974,
+        "pos_text_neg_image": 0.10666212439537048,
+        "neg_text_pos_image": 0.3769894540309906,
+        "neg_text_neg_image": 0.3484690189361572
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3005.1.16.mp4",
+      "neg_video": "ZXloF-qGW4U.2.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10663224756717682,
+        "pos_text_neg_image": 0.8170682787895203,
+        "neg_text_pos_image": 0.06007016450166702,
+        "neg_text_neg_image": 0.6219069957733154
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8928208351135254,
+        "pos_text_neg_image": 0.18231257796287537,
+        "neg_text_pos_image": 0.9396554827690125,
+        "neg_text_neg_image": 0.37720566987991333
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RooDYxp5Fx8.0.4.mp4",
+      "neg_video": "anEdRKaWM-I.0.3.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.904390811920166,
+        "pos_text_neg_image": 0.4068303406238556,
+        "neg_text_pos_image": 0.7053537964820862,
+        "neg_text_neg_image": 0.16438232362270355
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.09532208740711212,
+        "pos_text_neg_image": 0.5919346213340759,
+        "neg_text_pos_image": 0.2940351963043213,
+        "neg_text_neg_image": 0.8348023891448975
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1560.0.11.mp4",
+      "neg_video": "FfSnJdpFBb8.0.1.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8804528713226318,
+        "pos_text_neg_image": 0.8928561210632324,
+        "neg_text_pos_image": 0.6220173239707947,
+        "neg_text_neg_image": 0.4683510363101959
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.11915633827447891,
+        "pos_text_neg_image": 0.10663645714521408,
+        "neg_text_pos_image": 0.3772725760936737,
+        "neg_text_neg_image": 0.53071129322052
+      },
+      "error": null
+    },
+    {
+      "pos_video": "BruiisujNJY.0.4.mp4",
+      "neg_video": "vEvBpjCOBu0.3.7.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8511340022087097,
+        "pos_text_neg_image": 0.8664903044700623,
+        "neg_text_pos_image": 0.5920301079750061,
+        "neg_text_neg_image": 0.7542534470558167
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.1479049026966095,
+        "pos_text_neg_image": 0.13288059830665588,
+        "neg_text_pos_image": 0.4068959355354309,
+        "neg_text_neg_image": 0.24487024545669556
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3vBUREkRzug.0.5.mp4",
+      "neg_video": "8ouj_JN2ytI.0.28.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.776763916015625,
+        "pos_text_neg_image": 0.9146656394004822,
+        "neg_text_pos_image": 0.4069099724292755,
+        "neg_text_neg_image": 0.6220538020133972
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22254659235477448,
+        "pos_text_neg_image": 0.08507715165615082,
+        "neg_text_pos_image": 0.5920504927635193,
+        "neg_text_neg_image": 0.3772946894168854
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6303.0.21.mp4",
+      "neg_video": "H4AZhS5WqKk.2.3.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5618034601211548,
+        "pos_text_neg_image": 0.7978662252426147,
+        "neg_text_pos_image": 0.22255808115005493,
+        "neg_text_neg_image": 0.7053877115249634
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4375329911708832,
+        "pos_text_neg_image": 0.20173215866088867,
+        "neg_text_pos_image": 0.7768040299415588,
+        "neg_text_neg_image": 0.29404932260513306
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1470.0.35.mp4",
+      "neg_video": "ZXloF-qGW4U.0.3.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4066719710826874,
+        "pos_text_neg_image": 0.7300921678543091,
+        "neg_text_pos_image": 0.437095582485199,
+        "neg_text_neg_image": 0.7302852272987366
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.591704249382019,
+        "pos_text_neg_image": 0.2685859203338623,
+        "neg_text_pos_image": 0.561241865158081,
+        "neg_text_neg_image": 0.2686569392681122
+      },
+      "error": null
+    },
+    {
+      "pos_video": "fSWFUFdV5TU.2.6.mp4",
+      "neg_video": "upC8hjr2b4g.14.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3206173777580261,
+        "pos_text_neg_image": 0.7545557022094727,
+        "neg_text_pos_image": 0.3772844970226288,
+        "neg_text_neg_image": 0.650985836982727
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6787469983100891,
+        "pos_text_neg_image": 0.24496836960315704,
+        "neg_text_pos_image": 0.6220369338989258,
+        "neg_text_neg_image": 0.34844762086868286
+      },
+      "error": null
+    },
+    {
+      "pos_video": "pNGMY3xVkVE.0.1.mp4",
+      "neg_video": "ash8vDNcJBs.2.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8351521492004395,
+        "pos_text_neg_image": 0.8514519929885864,
+        "neg_text_pos_image": 0.43753594160079956,
+        "neg_text_neg_image": 0.5306631326675415
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16445119678974152,
+        "pos_text_neg_image": 0.14796015620231628,
+        "neg_text_pos_image": 0.5618072748184204,
+        "neg_text_neg_image": 0.46830856800079346
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.6.1.mp4",
+      "neg_video": "GVr8pZmSa-c.6.3.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7044462561607361,
+        "pos_text_neg_image": 0.817208468914032,
+        "neg_text_pos_image": 0.5609896779060364,
+        "neg_text_neg_image": 0.6220936179161072
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2936568856239319,
+        "pos_text_neg_image": 0.18234385550022125,
+        "neg_text_pos_image": 0.43689918518066406,
+        "neg_text_neg_image": 0.3773188292980194
+      },
+      "error": null
+    },
+    {
+      "pos_video": "M0jmSsQ5ptw.3.16.mp4",
+      "neg_video": "3005.1.8.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8802723288536072,
+        "pos_text_neg_image": 0.5617100596427917,
+        "neg_text_pos_image": 0.5921590328216553,
+        "neg_text_neg_image": 0.530695378780365
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.119131900370121,
+        "pos_text_neg_image": 0.4374602138996124,
+        "neg_text_pos_image": 0.4069845676422119,
+        "neg_text_neg_image": 0.4683369994163513
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0UthxdAH0ks.3.0.mp4",
+      "neg_video": "sKJeTaIEldM.2.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09527052938938141,
+        "pos_text_neg_image": 0.3482319414615631,
+        "neg_text_pos_image": 0.2448454648256302,
+        "neg_text_neg_image": 0.24489369988441467
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9039016962051392,
+        "pos_text_neg_image": 0.6505829095840454,
+        "neg_text_pos_image": 0.7541770935058594,
+        "neg_text_neg_image": 0.7543256878852844
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0BmANHSUbJg.3.1.mp4",
+      "neg_video": "61.1.22.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5615016222000122,
+        "pos_text_neg_image": 0.7052266597747803,
+        "neg_text_pos_image": 0.6218063831329346,
+        "neg_text_neg_image": 0.46829754114151
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43729791045188904,
+        "pos_text_neg_image": 0.2939821779727936,
+        "neg_text_pos_image": 0.37714463472366333,
+        "neg_text_neg_image": 0.5306506156921387
+      },
+      "error": null
+    },
+    {
+      "pos_video": "awPo_VZabRc.0.3.mp4",
+      "neg_video": "4uGfFYzxWEg.5.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6507036089897156,
+        "pos_text_neg_image": 0.4374539256095886,
+        "neg_text_pos_image": 0.5615760684013367,
+        "neg_text_neg_image": 0.3205723464488983
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34829655289649963,
+        "pos_text_neg_image": 0.5617019534111023,
+        "neg_text_pos_image": 0.4373559057712555,
+        "neg_text_neg_image": 0.6786516308784485
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KdfhMulBsyk.2.1.mp4",
+      "neg_video": "4uGfFYzxWEg.12.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9700857400894165,
+        "pos_text_neg_image": 0.7308191061019897,
+        "neg_text_pos_image": 0.1065930724143982,
+        "neg_text_neg_image": 0.777071475982666
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.029294051229953766,
+        "pos_text_neg_image": 0.2688533663749695,
+        "neg_text_pos_image": 0.8924928307533264,
+        "neg_text_neg_image": 0.2226347178220749
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.6.4.mp4",
+      "neg_video": "hHG1wva1B0w.5.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.914405882358551,
+        "pos_text_neg_image": 0.24491854012012482,
+        "neg_text_pos_image": 0.6218714714050293,
+        "neg_text_neg_image": 0.32062315940856934
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.08505299687385559,
+        "pos_text_neg_image": 0.754402220249176,
+        "neg_text_pos_image": 0.377184122800827,
+        "neg_text_neg_image": 0.6787592172622681
+      },
+      "error": null
+    },
+    {
+      "pos_video": "OCBYMQzG44U.21.2.mp4",
+      "neg_video": "hpTEzp-6CkM.0.4.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.992194414138794,
+        "pos_text_neg_image": 0.9522542953491211,
+        "neg_text_pos_image": 0.5921958684921265,
+        "neg_text_neg_image": 0.6507632732391357
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.00757549749687314,
+        "pos_text_neg_image": 0.04740994796156883,
+        "neg_text_pos_image": 0.40700989961624146,
+        "neg_text_neg_image": 0.34832850098609924
+      },
+      "error": null
+    },
+    {
+      "pos_video": "012c118a-b3092f3b.6.mp4",
+      "neg_video": "gKGK0udq8i8.0.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8649986982345581,
+        "pos_text_neg_image": 0.24487031996250153,
+        "neg_text_pos_image": 0.37675875425338745,
+        "neg_text_neg_image": 0.3483169972896576
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.13265185058116913,
+        "pos_text_neg_image": 0.7542536854743958,
+        "neg_text_pos_image": 0.621170163154602,
+        "neg_text_neg_image": 0.6507418155670166
+      },
+      "error": null
+    },
+    {
+      "pos_video": "_6DLjNKtENQ.0.13.mp4",
+      "neg_video": "x6P57x1gx94.0.6.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.851443350315094,
+        "pos_text_neg_image": 0.4065718948841095,
+        "neg_text_pos_image": 0.7544177770614624,
+        "neg_text_neg_image": 0.5917128920555115
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.1479586511850357,
+        "pos_text_neg_image": 0.591558575630188,
+        "neg_text_pos_image": 0.24492359161376953,
+        "neg_text_neg_image": 0.4066779315471649
+      },
+      "error": null
+    },
+    {
+      "pos_video": "hpTEzp-6CkM.0.3.mp4",
+      "neg_video": "mIiPt1YVkP8.11.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9462907314300537,
+        "pos_text_neg_image": 0.8352044224739075,
+        "neg_text_pos_image": 0.6786201596260071,
+        "neg_text_neg_image": 0.49964553117752075
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.05338607355952263,
+        "pos_text_neg_image": 0.16446149349212646,
+        "neg_text_pos_image": 0.32055747509002686,
+        "neg_text_neg_image": 0.49964553117752075
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Hv_DRJZZ2qI.2.9.mp4",
+      "neg_video": "LtXUoaZcp70.4.4.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7294905781745911,
+        "pos_text_neg_image": 0.7546331882476807,
+        "neg_text_pos_image": 0.3478277921676636,
+        "neg_text_neg_image": 0.678866446018219
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.26836463809013367,
+        "pos_text_neg_image": 0.24499352276325226,
+        "neg_text_pos_image": 0.6498278379440308,
+        "neg_text_neg_image": 0.3206738233566284
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ZkLQqywiwlY.0.1.mp4",
+      "neg_video": "mIiPt1YVkP8.11.8.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9522634744644165,
+        "pos_text_neg_image": 0.8667415976524353,
+        "neg_text_pos_image": 0.7543417811393738,
+        "neg_text_neg_image": 0.7306809425354004
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.04741040617227554,
+        "pos_text_neg_image": 0.13291913270950317,
+        "neg_text_pos_image": 0.24489891529083252,
+        "neg_text_neg_image": 0.2688025236129761
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yGsVo0uIJVs.2.0.mp4",
+      "neg_video": "ti231UvSvfQ.11.1.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7978628277778625,
+        "pos_text_neg_image": 0.7051442265510559,
+        "neg_text_pos_image": 0.5308637619018555,
+        "neg_text_neg_image": 0.5306184887886047
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.20173132419586182,
+        "pos_text_neg_image": 0.29394784569740295,
+        "neg_text_pos_image": 0.46848562359809875,
+        "neg_text_neg_image": 0.4682691991329193
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.7.0.mp4",
+      "neg_video": "ZBsv_5fHtIg.0.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5302822589874268,
+        "pos_text_neg_image": 0.8668202757835388,
+        "neg_text_pos_image": 0.40673255920410156,
+        "neg_text_neg_image": 0.7546549439430237
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.46797245740890503,
+        "pos_text_neg_image": 0.1329312026500702,
+        "neg_text_pos_image": 0.5917923450469971,
+        "neg_text_neg_image": 0.24500058591365814
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CjPSzAtLzO8.0.9.mp4",
+      "neg_video": "3epU697sU9E.1.4.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6783609986305237,
+        "pos_text_neg_image": 0.9146976470947266,
+        "neg_text_pos_image": 0.2686019241809845,
+        "neg_text_neg_image": 0.678848385810852
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3204350471496582,
+        "pos_text_neg_image": 0.08508013188838959,
+        "neg_text_pos_image": 0.7301356196403503,
+        "neg_text_neg_image": 0.32066527009010315
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.5.mp4",
+      "neg_video": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9236441254615784,
+        "pos_text_neg_image": 0.04740915074944496,
+        "neg_text_pos_image": 0.7303056120872498,
+        "neg_text_neg_image": 0.32061851024627686
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.07581732422113419,
+        "pos_text_neg_image": 0.9522382616996765,
+        "neg_text_pos_image": 0.2686644494533539,
+        "neg_text_neg_image": 0.6787493824958801
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.2.0.mp4",
+      "neg_video": "qMeHR2Dc4mQ.0.4.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5915493369102478,
+        "pos_text_neg_image": 0.07583001255989075,
+        "neg_text_pos_image": 0.5304486751556396,
+        "neg_text_neg_image": 0.0675283670425415
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40656551718711853,
+        "pos_text_neg_image": 0.9237986207008362,
+        "neg_text_pos_image": 0.4681193232536316,
+        "neg_text_neg_image": 0.9322003126144409
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1018.1.6.mp4",
+      "neg_video": "F7iLfuci75Y.6.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.979454517364502,
+        "pos_text_neg_image": 0.40696489810943604,
+        "neg_text_pos_image": 0.43735718727111816,
+        "neg_text_neg_image": 0.4374335706233978
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.02032792940735817,
+        "pos_text_neg_image": 0.5921304225921631,
+        "neg_text_pos_image": 0.5615777373313904,
+        "neg_text_neg_image": 0.5616757869720459
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.7.mp4",
+      "neg_video": "LtXUoaZcp70.3.4.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8801342844963074,
+        "pos_text_neg_image": 0.7978779673576355,
+        "neg_text_pos_image": 0.6784828901290894,
+        "neg_text_neg_image": 0.8352253437042236
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.11911321431398392,
+        "pos_text_neg_image": 0.20173513889312744,
+        "neg_text_pos_image": 0.3204926550388336,
+        "neg_text_neg_image": 0.16446560621261597
+      },
+      "error": null
+    },
+    {
+      "pos_video": "nGJMwixogyk.5.8.mp4",
+      "neg_video": "4022437.0.0.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9705373048782349,
+        "pos_text_neg_image": 0.7051616311073303,
+        "neg_text_pos_image": 0.8171866536140442,
+        "neg_text_neg_image": 0.7051813006401062
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.029307687655091286,
+        "pos_text_neg_image": 0.29395511746406555,
+        "neg_text_pos_image": 0.18233899772167206,
+        "neg_text_neg_image": 0.2939632833003998
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7xltSb3VBJQ.2.4.mp4",
+      "neg_video": "VaSlqE0Nx2Q.8.1.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9704990983009338,
+        "pos_text_neg_image": 0.8349164128303528,
+        "neg_text_pos_image": 0.7544471025466919,
+        "neg_text_neg_image": 0.6507077217102051
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.029306534677743912,
+        "pos_text_neg_image": 0.16440477967262268,
+        "neg_text_pos_image": 0.2449330985546112,
+        "neg_text_neg_image": 0.3482987582683563
+      },
+      "error": null
+    },
+    {
+      "pos_video": "upC8hjr2b4g.11.6.mp4",
+      "neg_video": "190.2.9.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4070591330528259,
+        "pos_text_neg_image": 0.6509758830070496,
+        "neg_text_pos_image": 0.4685080051422119,
+        "neg_text_neg_image": 0.46848344802856445
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5922675728797913,
+        "pos_text_neg_image": 0.34844228625297546,
+        "neg_text_pos_image": 0.5308891534805298,
+        "neg_text_neg_image": 0.5308613181114197
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1448735.0.mp4",
+      "neg_video": "BKX6EhDrgqQ.3.2.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9395766258239746,
+        "pos_text_neg_image": 0.46838340163230896,
+        "neg_text_pos_image": 0.7976605892181396,
+        "neg_text_neg_image": 0.5307919383049011
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.060065124183893204,
+        "pos_text_neg_image": 0.5307479500770569,
+        "neg_text_pos_image": 0.20168018341064453,
+        "neg_text_neg_image": 0.4684222340583801
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RxrFsOEIRCE.1.1.mp4",
+      "neg_video": "IWv0EhEGmNI.16.4.mp4",
+      "pos_question": "Is the camera moving forward in the scene?",
+      "neg_question": "Is the camera moving backward in the scene?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9574188590049744,
+        "pos_text_neg_image": 0.4683281481266022,
+        "neg_text_pos_image": 0.26856300234794617,
+        "neg_text_neg_image": 0.49958401918411255
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.042066048830747604,
+        "pos_text_neg_image": 0.530685305595398,
+        "neg_text_pos_image": 0.730029821395874,
+        "neg_text_neg_image": 0.49958401918411255
+      },
+      "error": null
+    }
+  ]
+}

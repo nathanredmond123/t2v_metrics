@@ -1,0 +1,3455 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "split_name": "Move_Up",
+    "data_file": "data/binary_classification/Move_Up.jsonl",
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "answer_template": "Yes",
+    "generation_timestamp": "2025-09-18T13:14:49.199556",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "video_path": "4uGfFYzxWEg.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053385667502880096,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.7.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6220646500587463,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.25.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3771381676197052,
+      "error": null
+    },
+    {
+      "video_path": "0OFBj7EjZ-g.6.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40698519349098206,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.6.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3477621078491211,
+      "error": null
+    },
+    {
+      "video_path": "mixkit-beautiful-dusk-on-a-large-lake-from-above-5005.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8169196248054504,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.3.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18218185007572174,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.3.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32042762637138367,
+      "error": null
+    },
+    {
+      "video_path": "dSmZIp41OCM.25.12.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939913868904114,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.21.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2016797810792923,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.4.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6787664890289307,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.5.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46827617287635803,
+      "error": null
+    },
+    {
+      "video_path": "uWCGK4nneeU.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.754456639289856,
+      "error": null
+    },
+    {
+      "video_path": "338.2.32.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750999391078949,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.21.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482101559638977,
+      "error": null
+    },
+    {
+      "video_path": "1018.1.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13282771408557892,
+      "error": null
+    },
+    {
+      "video_path": "Cj6ho1-G6tw.0.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01406078226864338,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.27.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3484061360359192,
+      "error": null
+    },
+    {
+      "video_path": "2aU6O-hbhmI.0.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939245402812958,
+      "error": null
+    },
+    {
+      "video_path": "L0zS8z8YqJ8.2.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43756717443466187,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.4.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22253437340259552,
+      "error": null
+    },
+    {
+      "video_path": "dSmZIp41OCM.17.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20167586207389832,
+      "error": null
+    },
+    {
+      "video_path": "Cj6ho1-G6tw.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46834099292755127,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.46.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40669551491737366,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10658744722604752,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.2.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952082127332687,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.5.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32056087255477905,
+      "error": null
+    },
+    {
+      "video_path": "01d049bb34201744344139f0253c21450f8387a3b8076a57667b61c4f2c6450c.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9321219325065613,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6785022616386414,
+      "error": null
+    },
+    {
+      "video_path": "z7HxJaKjVlU.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338021367788315,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.3.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3484181761741638,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.16.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5302810668945312,
+      "error": null
+    },
+    {
+      "video_path": "ZpJpZGktliQ.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4069165885448456,
+      "error": null
+    },
+    {
+      "video_path": "u35WIs62R2M.1.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7768646478652954,
+      "error": null
+    },
+    {
+      "video_path": "4f3hG-5grlw.4.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012428635731339455,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.4.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22253380715847015,
+      "error": null
+    },
+    {
+      "video_path": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730180114507675,
+      "error": null
+    },
+    {
+      "video_path": "5454.1.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20167459547519684,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307873755693436,
+      "error": null
+    },
+    {
+      "video_path": "Ni7AYED85z4.2.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08505631238222122,
+      "error": null
+    },
+    {
+      "video_path": "0OFBj7EjZ-g.4.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13290421664714813,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.3.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49962785840034485,
+      "error": null
+    },
+    {
+      "video_path": "CQYQKehqjgI.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740031063556671,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.2.11.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530460834503174,
+      "error": null
+    },
+    {
+      "video_path": "168085.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328856498003006,
+      "error": null
+    },
+    {
+      "video_path": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037299782037734985,
+      "error": null
+    },
+    {
+      "video_path": "m3bwXvQoAdo.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24490563571453094,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.4.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14792826771736145,
+      "error": null
+    },
+    {
+      "video_path": "60.0.28.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060060225427150726,
+      "error": null
+    },
+    {
+      "video_path": "l5RWa1D00ck.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.008576515130698681,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.8.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.164385586977005,
+      "error": null
+    },
+    {
+      "video_path": "1497.1.18.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13285604119300842,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.14.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014060716144740582,
+      "error": null
+    },
+    {
+      "video_path": "r5jbhW9uauc.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1065639927983284,
+      "error": null
+    },
+    {
+      "video_path": "fP5UM4elIes.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6509548425674438,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01798042096197605,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017983311787247658,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49958667159080505,
+      "error": null
+    },
+    {
+      "video_path": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0292932391166687,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.12.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663751512765884,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029301917180418968,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.8.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025948548689484596,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08505834639072418,
+      "error": null
+    },
+    {
+      "video_path": "67bfa4eec893c10cba8c4fb180735bf8adc0c7de5a0cfe1ee9d1c1b44c2e56c8.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06748200207948685,
+      "error": null
+    },
+    {
+      "video_path": "FOtmU0oJf-8.0.8.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26873621344566345,
+      "error": null
+    },
+    {
+      "video_path": "k7AU_JfJYYw.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24482762813568115,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.008576599881052971,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.3.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09525489062070847,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.3.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22246026992797852,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206225648522377,
+      "error": null
+    },
+    {
+      "video_path": "r5jbhW9uauc.2.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10655156522989273,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.17.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020328594371676445,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.4.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053382307291030884,
+      "error": null
+    },
+    {
+      "video_path": "9a8a4d0688ffc6b5cb61bc3323634f3dbfbb310ad20130cf56762bfc113e44ed.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02594953216612339,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.3.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32009488344192505,
+      "error": null
+    },
+    {
+      "video_path": "4847.13.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337736755609512,
+      "error": null
+    },
+    {
+      "video_path": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16441529989242554,
+      "error": null
+    },
+    {
+      "video_path": "OCBYMQzG44U.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14795374870300293,
+      "error": null
+    },
+    {
+      "video_path": "urgDBUXShos.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951601564884186,
+      "error": null
+    },
+    {
+      "video_path": "61.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029305102303624153,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.33.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18231283128261566,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.8.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751725822687149,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18214398622512817,
+      "error": null
+    },
+    {
+      "video_path": "IAVXdvsmqBM.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5615122318267822,
+      "error": null
+    },
+    {
+      "video_path": "kSx5KGOv5Qc.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.592106282711029,
+      "error": null
+    },
+    {
+      "video_path": "ZU6ZU14lCNI.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8349913954734802,
+      "error": null
+    },
+    {
+      "video_path": "Vm-b2AVwARw.1.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13290700316429138,
+      "error": null
+    },
+    {
+      "video_path": "2530.0.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11908230930566788,
+      "error": null
+    },
+    {
+      "video_path": "cdbdf71cb5b76ac81a00f2e3e5c22bc27b126da4579752cd6a10da3650b4d8e3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10657688975334167,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02297302894294262,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.1.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0373162105679512,
+      "error": null
+    },
+    {
+      "video_path": "mIiPt1YVkP8.11.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29401275515556335,
+      "error": null
+    },
+    {
+      "video_path": "sLX9J2NBL3w.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2686905860900879,
+      "error": null
+    },
+    {
+      "video_path": "6h6bMAWLYAI.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029297852888703346,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8516860008239746,
+      "error": null
+    },
+    {
+      "video_path": "RZs5Hz1klno.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205910623073578,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037317510694265366,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060067009180784225,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.16.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207535833120346,
+      "error": null
+    },
+    {
+      "video_path": "FUQhNGEu2KA.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014059757813811302,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.11.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.147963747382164,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.16.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731583058834076,
+      "error": null
+    },
+    {
+      "video_path": "wrW0enIo2u8.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663919895887375,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7052785754203796,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.0.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13281294703483582,
+      "error": null
+    },
+    {
+      "video_path": "4jdZkC33NXw.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529414772987366,
+      "error": null
+    },
+    {
+      "video_path": "0UthxdAH0ks.3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05336549133062363,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.4.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14796189963817596,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22250159084796906,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009707145392894745,
+      "error": null
+    },
+    {
+      "video_path": "pNGMY3xVkVE.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060067202895879745,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.9.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16416142880916595,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037314850836992264,
+      "error": null
+    },
+    {
+      "video_path": "1560.0.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939448356628418,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.8.20.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037319742143154144,
+      "error": null
+    },
+    {
+      "video_path": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930598519742489,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006672605872154,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.2.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08504491299390793,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14796572923660278,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.1.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009707379154860973,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337611958384514,
+      "error": null
+    },
+    {
+      "video_path": "gKGK0udq8i8.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930378168821335,
+      "error": null
+    },
+    {
+      "video_path": "RooDYxp5Fx8.3.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6787319779396057,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.4.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1644325703382492,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.22.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34806355834007263,
+      "error": null
+    },
+    {
+      "video_path": "C4Ktho9cjYk.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34836921095848083,
+      "error": null
+    },
+    {
+      "video_path": "kSx5KGOv5Qc.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530238807201385,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11905495822429657,
+      "error": null
+    },
+    {
+      "video_path": "_jli4enm3vw.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07578879594802856,
+      "error": null
+    },
+    {
+      "video_path": "GjEImPidK4g.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5309457182884216,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09531324356794357,
+      "error": null
+    },
+    {
+      "video_path": "190.2.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0953107625246048,
+      "error": null
+    },
+    {
+      "video_path": "187.6.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015902573242783546,
+      "error": null
+    },
+    {
+      "video_path": "sdidb7Z8IUc.9.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205499053001404,
+      "error": null
+    },
+    {
+      "video_path": "C4Ktho9cjYk.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663122683763504,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29405057430267334,
+      "error": null
+    },
+    {
+      "video_path": "MK_p4kzcPVY.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29328763484954834,
+      "error": null
+    },
+    {
+      "video_path": "_I6Y-rtiTPc.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26865050196647644,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.0.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017984017729759216,
+      "error": null
+    },
+    {
+      "video_path": "xo9p8p6deRI.4.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16439791023731232,
+      "error": null
+    },
+    {
+      "video_path": "jGDdHNOeQ0c.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.00970587506890297,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4683693051338196,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.15.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0757855698466301,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047384295612573624,
+      "error": null
+    },
+    {
+      "video_path": "1448735.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11911901831626892,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.3.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940376102924347,
+      "error": null
+    },
+    {
+      "video_path": "J5Pnh0UcNxg.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18227234482765198,
+      "error": null
+    },
+    {
+      "video_path": "QaRnEZFM6ZQ.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029306109994649887,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03306381404399872,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.16.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042076680809259415,
+      "error": null
+    },
+    {
+      "video_path": "9cf72aeafdabae7ed510a61012c08e0f9e008056b5b579288dd57fcd38f9c505.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020318470895290375,
+      "error": null
+    },
+    {
+      "video_path": "8LiVGDq01FU.2.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731684014201164,
+      "error": null
+    },
+    {
+      "video_path": "9a2bcede65764d9e51445eb4dd3007957dfa0b33d28daf48f6932bcf0de79b28.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506373316049576,
+      "error": null
+    },
+    {
+      "video_path": "tCRbVEGHZlQ.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020322920754551888,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.2.16.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020328868180513382,
+      "error": null
+    },
+    {
+      "video_path": "Ejcl5Jk_4QU.8.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3483213484287262,
+      "error": null
+    },
+    {
+      "video_path": "pNGMY3xVkVE.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582484185695648,
+      "error": null
+    },
+    {
+      "video_path": "0Pzq0URbL2M.10.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3773635923862457,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307971730828285,
+      "error": null
+    },
+    {
+      "video_path": "rfg9l66Eskw.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006323918700218,
+      "error": null
+    },
+    {
+      "video_path": "KB3KMUw54Hc.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6784135103225708,
+      "error": null
+    },
+    {
+      "video_path": "iA1xQ0W1vdE.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009707210585474968,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.5.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3204233944416046,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006597727537155,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.35.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06004590168595314,
+      "error": null
+    },
+    {
+      "video_path": "P9Z0XP6mkCg.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025950076058506966,
+      "error": null
+    },
+    {
+      "video_path": "5e7Kk3WEFAA.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4678523540496826,
+      "error": null
+    },
+    {
+      "video_path": "DEypDAnnJL0.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207369685173035,
+      "error": null
+    },
+    {
+      "video_path": "4e95dbc3dd1d19b5bf3026fa3ac72d2d6aba978280cfd151fb74dd2661ac2ac8.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06746616959571838,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.5.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060043301433324814,
+      "error": null
+    },
+    {
+      "video_path": "7pqGzmdE5zE.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029305486008524895,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530019015073776,
+      "error": null
+    },
+    {
+      "video_path": "3005.1.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053381383419036865,
+      "error": null
+    },
+    {
+      "video_path": "WHgh2ajazTw.8.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033064939081668854,
+      "error": null
+    },
+    {
+      "video_path": "mlShD2AvbV8.5.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017983708530664444,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.15.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8171866536140442,
+      "error": null
+    },
+    {
+      "video_path": "aVA7aXOH1pk.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14790694415569305,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951338931918144,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.21.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740041866898537,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060054928064346313,
+      "error": null
+    },
+    {
+      "video_path": "gooWdc6kb80.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022969262674450874,
+      "error": null
+    },
+    {
+      "video_path": "0u4NY-YtVII.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025950949639081955,
+      "error": null
+    },
+    {
+      "video_path": "338.2.33.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020328544080257416,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.15.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930336445569992,
+      "error": null
+    },
+    {
+      "video_path": "Oy8yQZ1Wg7k.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09532301127910614,
+      "error": null
+    },
+    {
+      "video_path": "ttZAdY3n4nc.3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29397132992744446,
+      "error": null
+    },
+    {
+      "video_path": "38855d1bdc38ecd9b0f44c18c7f0007f24fc1071aa86ef3b2a7b21457f3a39fe.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005890294909477,
+      "error": null
+    },
+    {
+      "video_path": "y51VUsotZe4.8.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5303992033004761,
+      "error": null
+    },
+    {
+      "video_path": "upC8hjr2b4g.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940099835395813,
+      "error": null
+    },
+    {
+      "video_path": "guZ5AxQ6xb0.1.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08503454923629761,
+      "error": null
+    },
+    {
+      "video_path": "34b53d534e3200be0eef4bb8c8d77da9723668281a6baee67b376935b20065f9.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43764933943748474,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.21.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307858109474182,
+      "error": null
+    },
+    {
+      "video_path": "SXe40DWaA6A.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022969510406255722,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.5.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582011818885803,
+      "error": null
+    },
+    {
+      "video_path": "MPX29k4uwSg.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012429558672010899,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.165.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029304299503564835,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.17.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951115414500237,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.3.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022967925295233727,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.8.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529171884059906,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752752512693405,
+      "error": null
+    },
+    {
+      "video_path": "d1046a4b2aaba4928fb997c6f4ee93b72219bb1ad1f5a2f0e6696e8ef32312cd.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029301635921001434,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.15.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22257016599178314,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.1.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740390554070473,
+      "error": null
+    },
+    {
+      "video_path": "OrOYvVf6tIM.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0675119012594223,
+      "error": null
+    },
+    {
+      "video_path": "snghE_hWMhY.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020321669057011604,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.13.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731541708111763,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338239297270775,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.6.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206438735127449,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032763510942459,
+      "error": null
+    },
+    {
+      "video_path": "D2PZUB_lDCk.2.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328597515821457,
+      "error": null
+    },
+    {
+      "video_path": "3923c396290520b6dcedf49397a06682322bd225007879cdd4fa2b144116c293.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5614453554153442,
+      "error": null
+    },
+    {
+      "video_path": "w-HYZv6HzAs.3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017978979274630547,
+      "error": null
+    },
+    {
+      "video_path": "9jLZPZEIWq0.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7053755521774292,
+      "error": null
+    },
+    {
+      "video_path": "06789991de47b8c00d46246a5abcfd0a830d609e8ac1723fdda38dfccc3d3523.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017980631440877914,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060068272054195404,
+      "error": null
+    },
+    {
+      "video_path": "154586.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11908174306154251,
+      "error": null
+    },
+    {
+      "video_path": "GjEImPidK4g.7.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337407439947128,
+      "error": null
+    },
+    {
+      "video_path": "EFvnpRE9qC8.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029304130002856255,
+      "error": null
+    },
+    {
+      "video_path": "XDndUR0xeAQ.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9239568710327148,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337141826748848,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.5.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49932676553726196,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.35.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14795319736003876,
+      "error": null
+    },
+    {
+      "video_path": "Ml-9GyPK_hw.4.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047412898391485214,
+      "error": null
+    },
+    {
+      "video_path": "2530.0.10.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328144073486328,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10662949830293655,
+      "error": null
+    },
+    {
+      "video_path": "xBFcUI4z0Wk.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029300367459654808,
+      "error": null
+    },
+    {
+      "video_path": "ti231UvSvfQ.12.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582742720842361,
+      "error": null
+    },
+    {
+      "video_path": "6YDWsGwz2lI.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20154213905334473,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.1.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015903549268841743,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.42.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16438749432563782,
+      "error": null
+    },
+    {
+      "video_path": "MQugcNLFI9k.4.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5615763068199158,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022971712052822113,
+      "error": null
+    },
+    {
+      "video_path": "OrOYvVf6tIM.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012429866008460522,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930046245455742,
+      "error": null
+    },
+    {
+      "video_path": "J5Pnh0UcNxg.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042071495205163956,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24494189023971558,
+      "error": null
+    },
+    {
+      "video_path": "tCRbVEGHZlQ.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012424979358911514,
+      "error": null
+    },
+    {
+      "video_path": "hpTEzp-6CkM.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08504269272089005,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.17.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740515351295471,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07581005990505219,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.37.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042076338082551956,
+      "error": null
+    },
+    {
+      "video_path": "HasIb5pfWkQ.3.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482978940010071,
+      "error": null
+    },
+    {
+      "video_path": "637ea05e5192428c06fd77b128bd3aa5436dbb3596b8ab6b87405e484e721bc1.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2223585844039917,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.10.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307727724313736,
+      "error": null
+    },
+    {
+      "video_path": "190.2.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02595101296901703,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.6.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24481678009033203,
+      "error": null
+    },
+    {
+      "video_path": "338.2.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017983615398406982,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07575157284736633,
+      "error": null
+    },
+    {
+      "video_path": "99f927656086265ccda299e2c2ec394f4bfded4daa3ea64efcb4ee6c95b8c7de.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017976105213165283,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.15.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005844473838806,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22262461483478546,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.4.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5620260834693909,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.14.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053375545889139175,
+      "error": null
+    },
+    {
+      "video_path": "yKHjA7oooPE.4.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663259774446487,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.8.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032867819070816,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.19.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061754569411278,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307820484042168,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.3.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032601647078991,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.5.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3484046161174774,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731756657361984,
+      "error": null
+    },
+    {
+      "video_path": "RIz3klPET3o.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2014947533607483,
+      "error": null
+    },
+    {
+      "video_path": "ckpwSAv5we8.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329009741544724,
+      "error": null
+    },
+    {
+      "video_path": "y51VUsotZe4.7.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01242929045110941,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.3.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307439014315605,
+      "error": null
+    },
+    {
+      "video_path": "1hu1np_BI2M.7.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09527215361595154,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18225492537021637,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731713071465492,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.3.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06748966872692108,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02595304138958454,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.2.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338813364505768,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.11.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14799199998378754,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042066898196935654,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.8.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042076513171195984,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.19.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985770262777805,
+      "error": null
+    },
+    {
+      "video_path": "y0aS2n1WmMg.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042073000222444534,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.11.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037302520126104355,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025950845330953598,
+      "error": null
+    },
+    {
+      "video_path": "05f098e07283ae06f8058a746cd3d87683506af22324a8bdf544b9804e9ae5d5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.592143714427948,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.7.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029306188225746155,
+      "error": null
+    },
+    {
+      "video_path": "6h6bMAWLYAI.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307380527257919,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37717118859291077,
+      "error": null
+    },
+    {
+      "video_path": "8SphTOiOe6k.2.8.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529861807823181,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.9.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939280569553375,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09528892487287521,
+      "error": null
+    },
+    {
+      "video_path": "LZkl0_9xFOU.11.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904098749160767,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951381772756577,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.0.12.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061168767511845,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.15.10.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328836977481842,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005662679672241,
+      "error": null
+    },
+    {
+      "video_path": "L8rSZ26ySPA.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01798315905034542,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.11.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1191076710820198,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.165.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020326755940914154,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3770096004009247,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.12.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307656943798065,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.1.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005845591425896,
+      "error": null
+    },
+    {
+      "video_path": "FfSnJdpFBb8.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2016436755657196,
+      "error": null
+    },
+    {
+      "video_path": "3877.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18224911391735077,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.22.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904288738965988,
+      "error": null
+    },
+    {
+      "video_path": "FV7PVgF3jz4.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07580959796905518,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.1.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0600636824965477,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012429669499397278,
+      "error": null
+    },
+    {
+      "video_path": "1156f206bf6ef72ed3ac9d51d28c81f40031612ca1e79e9d4fc076759bc06c23.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06002891808748245,
+      "error": null
+    },
+    {
+      "video_path": "r-BCbF55fxo.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04739334434270859,
+      "error": null
+    },
+    {
+      "video_path": "61.1.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307541832327843,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752359122037888,
+      "error": null
+    },
+    {
+      "video_path": "RolttrarOOA.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022972550243139267,
+      "error": null
+    },
+    {
+      "video_path": "f4ZzHtww6Tc.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11903750896453857,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.24.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029280325397849083,
+      "error": null
+    },
+    {
+      "video_path": "6YDWsGwz2lI.0.10.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34803399443626404,
+      "error": null
+    },
+    {
+      "video_path": "ckpwSAv5we8.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10662867873907089,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.3.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0953105241060257,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.6.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530540555715561,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.19.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047407761216163635,
+      "error": null
+    },
+    {
+      "video_path": "YBC2JaevzOI.7.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020327920094132423,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02297161892056465,
+      "error": null
+    },
+    {
+      "video_path": "5ClsAp49w3c.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18230979144573212,
+      "error": null
+    },
+    {
+      "video_path": "ljg_EgXMjO0.3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06003403291106224,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.8.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0373106375336647,
+      "error": null
+    },
+    {
+      "video_path": "X9cMkpfnszo.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06004537642002106,
+      "error": null
+    },
+    {
+      "video_path": "guZ5AxQ6xb0.1.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2015724927186966,
+      "error": null
+    },
+    {
+      "video_path": "LI7i6DQfh0o.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43720412254333496,
+      "error": null
+    },
+    {
+      "video_path": "L0zS8z8YqJ8.2.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20158474147319794,
+      "error": null
+    },
+    {
+      "video_path": "XDndUR0xeAQ.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9874425530433655,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.4.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46855393052101135,
+      "error": null
+    },
+    {
+      "video_path": "1448735.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24485138058662415,
+      "error": null
+    },
+    {
+      "video_path": "9H942RAVrHQ.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04205506294965744,
+      "error": null
+    },
+    {
+      "video_path": "QMlfVwN3iTw.8.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24488793313503265,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.3.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1477881222963333,
+      "error": null
+    },
+    {
+      "video_path": "0BmANHSUbJg.3.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0293060801923275,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.3.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5613600611686707,
+      "error": null
+    },
+    {
+      "video_path": "3036.0.13.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006079912185669,
+      "error": null
+    },
+    {
+      "video_path": "y0aS2n1WmMg.3.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13288289308547974,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.23.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32036831974983215,
+      "error": null
+    },
+    {
+      "video_path": "KdfhMulBsyk.2.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750806421041489,
+      "error": null
+    },
+    {
+      "video_path": "Q86kUKa28ow.0.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24464675784111023,
+      "error": null
+    },
+    {
+      "video_path": "KdfhMulBsyk.2.8.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22257032990455627,
+      "error": null
+    },
+    {
+      "video_path": "Wx68yLCrWP0.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13280519843101501,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.23.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11913217604160309,
+      "error": null
+    },
+    {
+      "video_path": "AhnS92hxqCA.3.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751299649477005,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.9.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3483545780181885,
+      "error": null
+    },
+    {
+      "video_path": "z9Bw94k7AxQ.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0850386917591095,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24490495026111603,
+      "error": null
+    },
+    {
+      "video_path": "ZkLQqywiwlY.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4994009733200073,
+      "error": null
+    },
+    {
+      "video_path": "6YZW2eeV-6U.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5302624106407166,
+      "error": null
+    },
+    {
+      "video_path": "G2EAFkURl0U.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29376983642578125,
+      "error": null
+    },
+    {
+      "video_path": "s7I9Ab9rXkU.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09527885168790817,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20167158544063568,
+      "error": null
+    },
+    {
+      "video_path": "XA2X_JBzkzY.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6220060586929321,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01798357628285885,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.5.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1191290020942688,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.1.11.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14792045950889587,
+      "error": null
+    },
+    {
+      "video_path": "CBRwF0LU3Ys.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3480128049850464,
+      "error": null
+    },
+    {
+      "video_path": "YBC2JaevzOI.1.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09524952620267868,
+      "error": null
+    },
+    {
+      "video_path": "NZ3Pba3Xsk4.3.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482859134674072,
+      "error": null
+    },
+    {
+      "video_path": "4021226.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205956816673279,
+      "error": null
+    },
+    {
+      "video_path": "0Pzq0URbL2M.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663268715143204,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.4.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337509512901306,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307788819074631,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29378169775009155,
+      "error": null
+    },
+    {
+      "video_path": "ttZAdY3n4nc.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029299726709723473,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.2.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582757622003555,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24458648264408112,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.4.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060056548565626144,
+      "error": null
+    },
+    {
+      "video_path": "Vm-b2AVwARw.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7770211696624756,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.6.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10664483159780502,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730347752571106,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.5.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18231242895126343,
+      "error": null
+    },
+    {
+      "video_path": "ZBsv_5fHtIg.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13290958106517792,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.31.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529325366020203,
+      "error": null
+    },
+    {
+      "video_path": "4021529.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.561350405216217,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24493832886219025,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.3.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26873132586479187,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.2.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10664509236812592,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.12.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206949099898338,
+      "error": null
+    },
+    {
+      "video_path": "sguYb2y3u6w.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01242935098707676,
+      "error": null
+    },
+    {
+      "video_path": "942.0.30.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16433365643024445,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.15.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3204725980758667,
+      "error": null
+    },
+    {
+      "video_path": "yQLgp8trSDc.0.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13282941281795502,
+      "error": null
+    },
+    {
+      "video_path": "338.2.30.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11914008110761642,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.4.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09523937851190567,
+      "error": null
+    },
+    {
+      "video_path": "VS66VOUmoKQ.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307335451245308,
+      "error": null
+    },
+    {
+      "video_path": "s7I9Ab9rXkU.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037300124764442444,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13288109004497528,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.1.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16444624960422516,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7054697275161743,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751605123281479,
+      "error": null
+    },
+    {
+      "video_path": "4847.13.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18207018077373505,
+      "error": null
+    },
+    {
+      "video_path": "1018.1.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037307798862457275,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22249676287174225,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10658716410398483,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.6.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09525567293167114,
+      "error": null
+    },
+    {
+      "video_path": "NJm86fzxG8s.4.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9042627811431885,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.3.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18221145868301392,
+      "error": null
+    },
+    {
+      "video_path": "t2_J-RVP7EM.2.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.923897922039032,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006462499499321,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11909855902194977,
+      "error": null
+    },
+    {
+      "video_path": "wQ09HsEKmvE.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08499785512685776,
+      "error": null
+    },
+    {
+      "video_path": "yQLgp8trSDc.2.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529557079076767,
+      "error": null
+    },
+    {
+      "video_path": "OCBYMQzG44U.2.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2448599487543106,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.0.7.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205399513244629,
+      "error": null
+    },
+    {
+      "video_path": "03hvbnE0asg.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5612392425537109,
+      "error": null
+    },
+    {
+      "video_path": "0058d7c1829dfe2fcdab924eb527dae182de7b5e5507143313b1cfd51d30c255.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730126470327377,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.6.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047409962862730026,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4372169077396393,
+      "error": null
+    },
+    {
+      "video_path": "fP5UM4elIes.1.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6217870712280273,
+      "error": null
+    },
+    {
+      "video_path": "bPZc7avrCT4.6.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930341847240925,
+      "error": null
+    },
+    {
+      "video_path": "-eyUFAJ1xqo.1.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09527479112148285,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032896690070629,
+      "error": null
+    },
+    {
+      "video_path": "sLX9J2NBL3w.0.12.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529396146535873,
+      "error": null
+    },
+    {
+      "video_path": "sJsu7Tv-fRY.7.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26886871457099915,
+      "error": null
+    },
+    {
+      "video_path": "sdidb7Z8IUc.2.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09531927853822708,
+      "error": null
+    },
+    {
+      "video_path": "xBFcUI4z0Wk.5.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7053281664848328,
+      "error": null
+    },
+    {
+      "video_path": "5e5ef4541835cc6ffc817c5dd4eb7f240d200553b3eed64782d61ccde60d4ade.1.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029301686212420464,
+      "error": null
+    },
+    {
+      "video_path": "tJ7xCQpF00s.0.12.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022972092032432556,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.0.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307577222585678,
+      "error": null
+    },
+    {
+      "video_path": "338.2.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1066179946064949,
+      "error": null
+    },
+    {
+      "video_path": "G_TLZr6ZbLE.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017982833087444305,
+      "error": null
+    },
+    {
+      "video_path": "5454.1.17.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26876938343048096,
+      "error": null
+    },
+    {
+      "video_path": "0ZH_3bcVRe4.0.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042064350098371506,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.7.2.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061388559639454,
+      "error": null
+    },
+    {
+      "video_path": "69PPD7ZUJPc.0.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4369117021560669,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.3.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750410050153732,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.26.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3206371068954468,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2449856698513031,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.1.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307075425982475,
+      "error": null
+    },
+    {
+      "video_path": "bPZc7avrCT4.5.3.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731001913547516,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.9.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03306932747364044,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.3.6.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10664493590593338,
+      "error": null
+    },
+    {
+      "video_path": "un7JOh6x-c4.0.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6502903699874878,
+      "error": null
+    },
+    {
+      "video_path": "t2_J-RVP7EM.10.4.mp4",
+      "question": "Does the camera move upward (not tilting up) with respect to the initial frame?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6219576001167297,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "tracking shot",
+    "task_name": "has tail tracking",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T05:31:38.240299",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "hpTEzp-6CkM.0.3.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7544891238212585,
+        "pos_text_neg_image": 0.029307594522833824,
+        "neg_text_pos_image": 0.37726378440856934,
+        "neg_text_neg_image": 0.16445152461528778
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.24494676291942596,
+        "pos_text_neg_image": 0.9705342650413513,
+        "neg_text_pos_image": 0.6220028400421143,
+        "neg_text_neg_image": 0.8351538181304932
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Hv_DRJZZ2qI.2.9.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8665181398391724,
+        "pos_text_neg_image": 0.005909815896302462,
+        "neg_text_pos_image": 0.348183810710907,
+        "neg_text_neg_image": 0.1822514683008194
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.13288487493991852,
+        "pos_text_neg_image": 0.9938783049583435,
+        "neg_text_pos_image": 0.6504929661750793,
+        "neg_text_neg_image": 0.8167943358421326
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6303.0.21.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.005910816602408886,
+        "pos_text_neg_image": 0.020329754799604416,
+        "neg_text_pos_image": 0.07584740221500397,
+        "neg_text_neg_image": 0.14799290895462036
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9940465688705444,
+        "pos_text_neg_image": 0.9795424938201904,
+        "neg_text_pos_image": 0.9240105152130127,
+        "neg_text_neg_image": 0.8516404032707214
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3005.1.8.mp4",
+      "neg_video": "MuNyfqxAO6Y.8.5.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7307072281837463,
+        "pos_text_neg_image": 0.012430455535650253,
+        "neg_text_pos_image": 0.26877519488334656,
+        "neg_text_neg_image": 0.11916763335466385
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2688121795654297,
+        "pos_text_neg_image": 0.9874733686447144,
+        "neg_text_pos_image": 0.7306066751480103,
+        "neg_text_neg_image": 0.8805363178253174
+      },
+      "error": null
+    },
+    {
+      "pos_video": "M0jmSsQ5ptw.3.16.mp4",
+      "neg_video": "IWv0EhEGmNI.3.5.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9397153854370117,
+        "pos_text_neg_image": 0.16446365416049957,
+        "neg_text_pos_image": 0.40700390934944153,
+        "neg_text_neg_image": 0.10667122900485992
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.06007399037480354,
+        "pos_text_neg_image": 0.8352153897285461,
+        "neg_text_pos_image": 0.5921871662139893,
+        "neg_text_neg_image": 0.8931472897529602
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XN2VC7QFdTs.2.3.mp4",
+      "neg_video": "JGiXuXc3cao.3.4.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.561702311038971,
+        "pos_text_neg_image": 0.04207805544137955,
+        "neg_text_pos_image": 0.2939758598804474,
+        "neg_text_neg_image": 0.14797881245613098
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4374542236328125,
+        "pos_text_neg_image": 0.9576920866966248,
+        "neg_text_pos_image": 0.7052114605903625,
+        "neg_text_neg_image": 0.8515593409538269
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1470.0.10.mp4",
+      "neg_video": "yGsVo0uIJVs.3.3.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9840264320373535,
+        "pos_text_neg_image": 0.46847423911094666,
+        "neg_text_pos_image": 0.4997025728225708,
+        "neg_text_neg_image": 0.40711233019828796
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.015905305743217468,
+        "pos_text_neg_image": 0.530850887298584,
+        "neg_text_pos_image": 0.4997025728225708,
+        "neg_text_neg_image": 0.5923449397087097
+      },
+      "error": null
+    },
+    {
+      "pos_video": "HTMDNZOlUq4.0.2.mp4",
+      "neg_video": "H4AZhS5WqKk.2.2.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9769351482391357,
+        "pos_text_neg_image": 0.037316083908081055,
+        "neg_text_pos_image": 0.40706637501716614,
+        "neg_text_neg_image": 0.1823231279850006
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.022975312545895576,
+        "pos_text_neg_image": 0.9623945355415344,
+        "neg_text_pos_image": 0.5922780632972717,
+        "neg_text_neg_image": 0.8171155452728271
+      },
+      "error": null
+    },
+    {
+      "pos_video": "awPo_VZabRc.0.3.mp4",
+      "neg_video": "5679.1.21.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7768821716308594,
+        "pos_text_neg_image": 0.0031725657172501087,
+        "neg_text_pos_image": 0.43747222423553467,
+        "neg_text_neg_image": 0.053396958857774734
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2225804626941681,
+        "pos_text_neg_image": 0.9967904686927795,
+        "neg_text_pos_image": 0.5617254376411438,
+        "neg_text_neg_image": 0.9464836716651917
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MQugcNLFI9k.4.6.mp4",
+      "neg_video": "187.6.15.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4684732258319855,
+        "pos_text_neg_image": 0.009707469493150711,
+        "neg_text_pos_image": 0.3484545052051544,
+        "neg_text_neg_image": 0.08507498353719711
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5308496952056885,
+        "pos_text_neg_image": 0.9901887774467468,
+        "neg_text_pos_image": 0.6509987115859985,
+        "neg_text_neg_image": 0.9146422743797302
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0xHjRq5hd9c.0.10.mp4",
+      "neg_video": "9ddb5f18be693e72c2dc446d3909d2d59d7036be4466643a956c9fae5e03f977.0.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9901832938194275,
+        "pos_text_neg_image": 0.0850481390953064,
+        "neg_text_pos_image": 0.5615696310997009,
+        "neg_text_neg_image": 0.2225223183631897
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.009707415476441383,
+        "pos_text_neg_image": 0.9143536686897278,
+        "neg_text_pos_image": 0.437350869178772,
+        "neg_text_neg_image": 0.7766791582107544
+      },
+      "error": null
+    },
+    {
+      "pos_video": "P8JgTjTPIuk.3.0.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.16.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5309146046638489,
+        "pos_text_neg_image": 0.6215928196907043,
+        "neg_text_pos_image": 0.18234901130199432,
+        "neg_text_neg_image": 0.5613874197006226
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.46853047609329224,
+        "pos_text_neg_image": 0.377015084028244,
+        "neg_text_pos_image": 0.8172315359115601,
+        "neg_text_neg_image": 0.43720898032188416
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6303.0.14.mp4",
+      "neg_video": "Ni7AYED85z4.2.17.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.010985900647938251,
+        "pos_text_neg_image": 0.6509207487106323,
+        "neg_text_pos_image": 0.07584482431411743,
+        "neg_text_neg_image": 0.4375028610229492
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.988919198513031,
+        "pos_text_neg_image": 0.34841278195381165,
+        "neg_text_pos_image": 0.9239791631698608,
+        "neg_text_neg_image": 0.5617647767066956
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KdfhMulBsyk.2.4.mp4",
+      "neg_video": "oRt5NPY7yYA.0.6.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.914705753326416,
+        "pos_text_neg_image": 0.8171190619468689,
+        "neg_text_pos_image": 0.5923048853874207,
+        "neg_text_neg_image": 0.34831997752189636
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.08508088439702988,
+        "pos_text_neg_image": 0.18232391774654388,
+        "neg_text_pos_image": 0.4070848226547241,
+        "neg_text_neg_image": 0.6507473587989807
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0xHjRq5hd9c.0.9.mp4",
+      "neg_video": "ZpJpZGktliQ.0.0.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.991321861743927,
+        "pos_text_neg_image": 0.43747398257255554,
+        "neg_text_pos_image": 0.5616286396980286,
+        "neg_text_neg_image": 0.37728381156921387
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.008576614782214165,
+        "pos_text_neg_image": 0.5617277026176453,
+        "neg_text_pos_image": 0.4373967945575714,
+        "neg_text_neg_image": 0.6220358610153198
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.5.mp4",
+      "neg_video": "RZs5Hz1klno.5.6.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4683173894882202,
+        "pos_text_neg_image": 0.40709203481674194,
+        "neg_text_pos_image": 0.32060107588768005,
+        "neg_text_neg_image": 0.222599059343338
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5306731462478638,
+        "pos_text_neg_image": 0.5923153758049011,
+        "neg_text_pos_image": 0.6787124872207642,
+        "neg_text_neg_image": 0.7769470810890198
+      },
+      "error": null
+    },
+    {
+      "pos_video": "IWv0EhEGmNI.1.5.mp4",
+      "neg_video": "1hu1np_BI2M.9.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7979795932769775,
+        "pos_text_neg_image": 0.008576945401728153,
+        "neg_text_pos_image": 0.24497605860233307,
+        "neg_text_neg_image": 0.0533980168402195
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.20176082849502563,
+        "pos_text_neg_image": 0.9913601279258728,
+        "neg_text_pos_image": 0.7545794248580933,
+        "neg_text_neg_image": 0.9465024471282959
+      },
+      "error": null
+    },
+    {
+      "pos_video": "HasIb5pfWkQ.3.2.mp4",
+      "neg_video": "upC8hjr2b4g.14.2.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.08507039397954941,
+        "pos_text_neg_image": 0.005219639278948307,
+        "neg_text_pos_image": 0.1644590049982071,
+        "neg_text_neg_image": 0.037321001291275024
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9145929217338562,
+        "pos_text_neg_image": 0.9946871995925903,
+        "neg_text_pos_image": 0.8351917862892151,
+        "neg_text_neg_image": 0.9625213146209717
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CjPSzAtLzO8.0.10.mp4",
+      "neg_video": "KAer-wHAd38.5.8.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5921129584312439,
+        "pos_text_neg_image": 0.9795442223548889,
+        "neg_text_pos_image": 0.2448960840702057,
+        "neg_text_neg_image": 0.3483143448829651
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4069528877735138,
+        "pos_text_neg_image": 0.02032979018986225,
+        "neg_text_pos_image": 0.7543330192565918,
+        "neg_text_neg_image": 0.6507368087768555
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.0.3.mp4",
+      "neg_video": "rz8KzLbdS7g.8.5.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.042074836790561676,
+        "pos_text_neg_image": 0.04740971699357033,
+        "neg_text_pos_image": 0.18233418464660645,
+        "neg_text_neg_image": 0.18233203887939453
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9576188325881958,
+        "pos_text_neg_image": 0.9522496461868286,
+        "neg_text_pos_image": 0.8171650767326355,
+        "neg_text_neg_image": 0.8171555399894714
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.0.2.mp4",
+      "neg_video": "VKre9_wM3Mo.1.15.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10661032050848007,
+        "pos_text_neg_image": 0.14795808494091034,
+        "neg_text_pos_image": 0.24488772451877594,
+        "neg_text_neg_image": 0.22257372736930847
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.892637312412262,
+        "pos_text_neg_image": 0.8514400720596313,
+        "neg_text_pos_image": 0.7543073296546936,
+        "neg_text_neg_image": 0.7768586277961731
+      },
+      "error": null
+    },
+    {
+      "pos_video": "z9Bw94k7AxQ.0.10.mp4",
+      "neg_video": "PIvOfcR77SQ.1.0.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9840331673622131,
+        "pos_text_neg_image": 0.02930360473692417,
+        "neg_text_pos_image": 0.22258292138576508,
+        "neg_text_neg_image": 0.1191483587026596
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.015905413776636124,
+        "pos_text_neg_image": 0.9704021215438843,
+        "neg_text_pos_image": 0.7768906950950623,
+        "neg_text_neg_image": 0.880393922328949
+      },
+      "error": null
+    },
+    {
+      "pos_video": "BruiisujNJY.0.9.mp4",
+      "neg_video": "A_StkRKB1jU.0.7.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18232712149620056,
+        "pos_text_neg_image": 0.7768433094024658,
+        "neg_text_pos_image": 0.18236176669597626,
+        "neg_text_neg_image": 0.40700557827949524
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8171334862709045,
+        "pos_text_neg_image": 0.2225693315267563,
+        "neg_text_pos_image": 0.8172886967658997,
+        "neg_text_neg_image": 0.592189610004425
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5933.2.9.mp4",
+      "neg_video": "QaRnEZFM6ZQ.0.9.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9464247226715088,
+        "pos_text_neg_image": 0.37722381949424744,
+        "neg_text_pos_image": 0.32062196731567383,
+        "neg_text_neg_image": 0.4375650882720947
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.05339363217353821,
+        "pos_text_neg_image": 0.6219369173049927,
+        "neg_text_pos_image": 0.6787567138671875,
+        "neg_text_neg_image": 0.5618447065353394
+      },
+      "error": null
+    },
+    {
+      "pos_video": "IWv0EhEGmNI.16.5.mp4",
+      "neg_video": "Gel59Iy3YhQ.53.3.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5923094749450684,
+        "pos_text_neg_image": 0.5617346167564392,
+        "neg_text_pos_image": 0.26877814531326294,
+        "neg_text_neg_image": 0.32059136033058167
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40708795189857483,
+        "pos_text_neg_image": 0.4374793469905853,
+        "neg_text_pos_image": 0.7306146621704102,
+        "neg_text_neg_image": 0.6786918640136719
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.6.mp4",
+      "neg_video": "012c118a-b3092f3b.6.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6786609292030334,
+        "pos_text_neg_image": 0.43718627095222473,
+        "neg_text_pos_image": 0.32056793570518494,
+        "neg_text_neg_image": 0.32052692770957947
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3205767273902893,
+        "pos_text_neg_image": 0.5613582730293274,
+        "neg_text_pos_image": 0.6786423325538635,
+        "neg_text_neg_image": 0.6785554885864258
+      },
+      "error": null
+    },
+    {
+      "pos_video": "g7gPegf76Mw.0.2.mp4",
+      "neg_video": "394cd3ffde533c8b364131cb7286c88786fc1892c52e78c2fa113e654363a9f7.0.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9819726943969727,
+        "pos_text_neg_image": 0.20156045258045197,
+        "neg_text_pos_image": 0.6510998010635376,
+        "neg_text_neg_image": 0.20162180066108704
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.017985457554459572,
+        "pos_text_neg_image": 0.7971870303153992,
+        "neg_text_pos_image": 0.3485086262226105,
+        "neg_text_neg_image": 0.7974296808242798
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u5lhJHUwvOs.4.4.mp4",
+      "neg_video": "QMlfVwN3iTw.3.0.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9875072240829468,
+        "pos_text_neg_image": 0.01243048906326294,
+        "neg_text_pos_image": 0.32061007618904114,
+        "neg_text_neg_image": 0.13292284309864044
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.012430881150066853,
+        "pos_text_neg_image": 0.9874760508537292,
+        "neg_text_pos_image": 0.6787315011024475,
+        "neg_text_neg_image": 0.8667657971382141
+      },
+      "error": null
+    },
+    {
+      "pos_video": "uWCGK4nneeU.4.1.mp4",
+      "neg_video": "piQsdrDKzzM.1.2.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject as they move?",
+      "neg_question": "Is the camera not following behind the subject in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40674111247062683,
+        "pos_text_neg_image": 0.06752275675535202,
+        "neg_text_pos_image": 0.34831804037094116,
+        "neg_text_neg_image": 0.13292744755744934
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5918048024177551,
+        "pos_text_neg_image": 0.9321228861808777,
+        "neg_text_pos_image": 0.6507437229156494,
+        "neg_text_neg_image": 0.8667958378791809
+      },
+      "error": null
+    }
+  ]
+}

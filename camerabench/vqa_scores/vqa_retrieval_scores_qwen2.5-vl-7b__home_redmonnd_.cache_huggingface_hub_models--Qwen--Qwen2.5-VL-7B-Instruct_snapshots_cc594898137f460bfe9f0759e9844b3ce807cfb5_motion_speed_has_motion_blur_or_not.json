@@ -1,0 +1,735 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion speed",
+    "task_name": "has motion blur or not",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T01:53:52.184140",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "oRt5NPY7yYA.0.6.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9523220658302307,
+        "pos_text_neg_image": 0.017983587458729744,
+        "neg_text_pos_image": 0.16443048417568207,
+        "neg_text_neg_image": 0.9524660110473633
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.04741332307457924,
+        "pos_text_neg_image": 0.9818705320358276,
+        "neg_text_pos_image": 0.8350469470024109,
+        "neg_text_neg_image": 0.04742048680782318
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RZs5Hz1klno.5.6.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9668034911155701,
+        "pos_text_neg_image": 0.5303716063499451,
+        "neg_text_pos_image": 0.20170898735523224,
+        "neg_text_neg_image": 0.5305162072181702
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.03308219462633133,
+        "pos_text_neg_image": 0.46805131435394287,
+        "neg_text_pos_image": 0.7977745532989502,
+        "neg_text_neg_image": 0.468178927898407
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3m-ME9AXCTo.1.5.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.979258120059967,
+        "pos_text_neg_image": 0.4684099555015564,
+        "neg_text_pos_image": 0.0066916015930473804,
+        "neg_text_neg_image": 0.5924287438392639
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.020323853939771652,
+        "pos_text_neg_image": 0.5307780504226685,
+        "neg_text_pos_image": 0.9931216835975647,
+        "neg_text_neg_image": 0.4071699380874634
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VaSlqE0Nx2Q.6.0.mp4",
+      "neg_video": "MuNyfqxAO6Y.8.5.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9462293386459351,
+        "pos_text_neg_image": 0.04207659140229225,
+        "neg_text_pos_image": 0.14794106781482697,
+        "neg_text_neg_image": 0.7770528793334961
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.05338260903954506,
+        "pos_text_neg_image": 0.9576587677001953,
+        "neg_text_pos_image": 0.8513421416282654,
+        "neg_text_neg_image": 0.2226293683052063
+      },
+      "error": null
+    },
+    {
+      "pos_video": "lTxn2BuqyzU.0.7.mp4",
+      "neg_video": "IWv0EhEGmNI.3.5.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.08507175743579865,
+        "pos_text_neg_image": 0.053390227258205414,
+        "neg_text_pos_image": 0.8174010515213013,
+        "neg_text_neg_image": 0.7771247625350952
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.914607584476471,
+        "pos_text_neg_image": 0.9463644027709961,
+        "neg_text_pos_image": 0.1823868453502655,
+        "neg_text_neg_image": 0.2226499766111374
+      },
+      "error": null
+    },
+    {
+      "pos_video": "IAVXdvsmqBM.0.0.mp4",
+      "neg_video": "JGiXuXc3cao.3.4.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9739106297492981,
+        "pos_text_neg_image": 0.03731423243880272,
+        "neg_text_pos_image": 0.08507686853408813,
+        "neg_text_neg_image": 0.9322233200073242
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.025953838601708412,
+        "pos_text_neg_image": 0.9623467326164246,
+        "neg_text_pos_image": 0.9146625399589539,
+        "neg_text_neg_image": 0.06753003597259521
+      },
+      "error": null
+    },
+    {
+      "pos_video": "338.2.26.mp4",
+      "neg_video": "yGsVo0uIJVs.3.3.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8172011375427246,
+        "pos_text_neg_image": 0.09530358016490936,
+        "neg_text_pos_image": 0.4375488758087158,
+        "neg_text_neg_image": 0.7769792079925537
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.18234223127365112,
+        "pos_text_neg_image": 0.9042152166366577,
+        "neg_text_pos_image": 0.561823844909668,
+        "neg_text_neg_image": 0.222608283162117
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CjPSzAtLzO8.0.3.mp4",
+      "neg_video": "H4AZhS5WqKk.2.2.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9738795757293701,
+        "pos_text_neg_image": 0.7544388175010681,
+        "neg_text_pos_image": 0.05339052900671959,
+        "neg_text_neg_image": 0.6788434386253357
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.025953011587262154,
+        "pos_text_neg_image": 0.2449304163455963,
+        "neg_text_pos_image": 0.9463697075843811,
+        "neg_text_neg_image": 0.3206629455089569
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MuNyfqxAO6Y.2.3.mp4",
+      "neg_video": "5679.1.21.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9146761894226074,
+        "pos_text_neg_image": 0.01406171265989542,
+        "neg_text_pos_image": 0.18231651186943054,
+        "neg_text_neg_image": 0.8806511163711548
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.08507813513278961,
+        "pos_text_neg_image": 0.9858022332191467,
+        "neg_text_pos_image": 0.817085862159729,
+        "neg_text_neg_image": 0.11918316781520844
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RxrFsOEIRCE.1.0.mp4",
+      "neg_video": "187.6.15.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9953271150588989,
+        "pos_text_neg_image": 0.3204631507396698,
+        "neg_text_pos_image": 0.003172533819451928,
+        "neg_text_neg_image": 0.06752397865056992
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.0046092793345451355,
+        "pos_text_neg_image": 0.6784204840660095,
+        "neg_text_pos_image": 0.9967803955078125,
+        "neg_text_neg_image": 0.9321397542953491
+      },
+      "error": null
+    },
+    {
+      "pos_video": "y51VUsotZe4.7.1.mp4",
+      "neg_video": "9ddb5f18be693e72c2dc446d3909d2d59d7036be4466643a956c9fae5e03f977.0.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9912179112434387,
+        "pos_text_neg_image": 0.46815529465675354,
+        "neg_text_pos_image": 0.033078376203775406,
+        "neg_text_neg_image": 0.5615311861038208
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.008575715124607086,
+        "pos_text_neg_image": 0.530489444732666,
+        "neg_text_pos_image": 0.9666918516159058,
+        "neg_text_neg_image": 0.43732091784477234
+      },
+      "error": null
+    },
+    {
+      "pos_video": "307.2.11.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.16.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9874839186668396,
+        "pos_text_neg_image": 0.6776435971260071,
+        "neg_text_pos_image": 0.047417253255844116,
+        "neg_text_neg_image": 0.591741144657135
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.012430588714778423,
+        "pos_text_neg_image": 0.3200961649417877,
+        "neg_text_pos_image": 0.9524009823799133,
+        "neg_text_neg_image": 0.4066973328590393
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RxrFsOEIRCE.0.2.mp4",
+      "neg_video": "Ni7AYED85z4.2.17.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9958702921867371,
+        "pos_text_neg_image": 0.14793112874031067,
+        "neg_text_pos_image": 0.02595352940261364,
+        "neg_text_neg_image": 0.6220352649688721
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.004069894552230835,
+        "pos_text_neg_image": 0.8512849807739258,
+        "neg_text_pos_image": 0.9738990068435669,
+        "neg_text_neg_image": 0.3772834539413452
+      },
+      "error": null
+    },
+    {
+      "pos_video": "F7iLfuci75Y.6.2.mp4",
+      "neg_video": "ZpJpZGktliQ.0.0.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07582602649927139,
+        "pos_text_neg_image": 0.09529333561658859,
+        "neg_text_pos_image": 0.678700864315033,
+        "neg_text_neg_image": 0.8351477384567261
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.923750102519989,
+        "pos_text_neg_image": 0.9041180610656738,
+        "neg_text_pos_image": 0.3205955922603607,
+        "neg_text_neg_image": 0.16445033252239227
+      },
+      "error": null
+    },
+    {
+      "pos_video": "60.0.12.mp4",
+      "neg_video": "1hu1np_BI2M.9.1.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9667284488677979,
+        "pos_text_neg_image": 0.020329978317022324,
+        "neg_text_pos_image": 0.14798235893249512,
+        "neg_text_neg_image": 0.7771485447883606
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.03307962790131569,
+        "pos_text_neg_image": 0.97955322265625,
+        "neg_text_pos_image": 0.8515797257423401,
+        "neg_text_neg_image": 0.22265678644180298
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1560.0.0.mp4",
+      "neg_video": "upC8hjr2b4g.14.2.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9239773154258728,
+        "pos_text_neg_image": 0.022972075268626213,
+        "neg_text_pos_image": 0.1479877382516861,
+        "neg_text_neg_image": 0.9322652220726013
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.0758446753025055,
+        "pos_text_neg_image": 0.9767975211143494,
+        "neg_text_pos_image": 0.8516106605529785,
+        "neg_text_neg_image": 0.06753306835889816
+      },
+      "error": null
+    },
+    {
+      "pos_video": "wq1iqovmqOA.0.1.mp4",
+      "neg_video": "KAer-wHAd38.5.8.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.957686722278595,
+        "pos_text_neg_image": 0.20156709849834442,
+        "neg_text_pos_image": 0.03731992095708847,
+        "neg_text_neg_image": 0.8803978562355042
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.042077820748090744,
+        "pos_text_neg_image": 0.7972133159637451,
+        "neg_text_pos_image": 0.9624934792518616,
+        "neg_text_neg_image": 0.11914889514446259
+      },
+      "error": null
+    },
+    {
+      "pos_video": "FfSnJdpFBb8.0.1.mp4",
+      "neg_video": "rz8KzLbdS7g.8.5.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9705267548561096,
+        "pos_text_neg_image": 0.29388535022735596,
+        "neg_text_pos_image": 0.02297445945441723,
+        "neg_text_neg_image": 0.85161292552948
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.029307367280125618,
+        "pos_text_neg_image": 0.7049943208694458,
+        "neg_text_pos_image": 0.9768988490104675,
+        "neg_text_neg_image": 0.14798812568187714
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KdfhMulBsyk.2.1.mp4",
+      "neg_video": "VKre9_wM3Mo.1.15.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40666332840919495,
+        "pos_text_neg_image": 0.222496896982193,
+        "neg_text_pos_image": 0.34822648763656616,
+        "neg_text_neg_image": 0.7545274496078491
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5916916131973267,
+        "pos_text_neg_image": 0.7765904664993286,
+        "neg_text_pos_image": 0.6505727171897888,
+        "neg_text_neg_image": 0.24495919048786163
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8ouj_JN2ytI.0.21.mp4",
+      "neg_video": "PIvOfcR77SQ.1.0.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37713423371315,
+        "pos_text_neg_image": 0.591809093952179,
+        "neg_text_pos_image": 0.6788081526756287,
+        "neg_text_neg_image": 0.6217796802520752
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6217892169952393,
+        "pos_text_neg_image": 0.4067440629005432,
+        "neg_text_pos_image": 0.3206462860107422,
+        "neg_text_neg_image": 0.3771284520626068
+      },
+      "error": null
+    },
+    {
+      "pos_video": "HasIb5pfWkQ.3.2.mp4",
+      "neg_video": "A_StkRKB1jU.0.7.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9524096250534058,
+        "pos_text_neg_image": 0.9624757170677185,
+        "neg_text_pos_image": 0.13290387392044067,
+        "neg_text_neg_image": 0.16442127525806427
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.04741768166422844,
+        "pos_text_neg_image": 0.037319231778383255,
+        "neg_text_pos_image": 0.8666420578956604,
+        "neg_text_neg_image": 0.8350001573562622
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RxrFsOEIRCE.1.1.mp4",
+      "neg_video": "QaRnEZFM6ZQ.0.9.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9923079013824463,
+        "pos_text_neg_image": 0.268663614988327,
+        "neg_text_pos_image": 0.01406172290444374,
+        "neg_text_neg_image": 0.6788004040718079
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.00757636409252882,
+        "pos_text_neg_image": 0.7303033471107483,
+        "neg_text_pos_image": 0.9858028888702393,
+        "neg_text_neg_image": 0.3206426203250885
+      },
+      "error": null
+    },
+    {
+      "pos_video": "l5RWa1D00ck.0.9.mp4",
+      "neg_video": "Gel59Iy3YhQ.53.3.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8666099905967712,
+        "pos_text_neg_image": 0.2448578029870987,
+        "neg_text_pos_image": 0.20169462263584137,
+        "neg_text_neg_image": 0.7306992411613464
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.1328989565372467,
+        "pos_text_neg_image": 0.7542151808738708,
+        "neg_text_pos_image": 0.7977176904678345,
+        "neg_text_neg_image": 0.2688092589378357
+      },
+      "error": null
+    },
+    {
+      "pos_video": "OCBYMQzG44U.2.23.mp4",
+      "neg_video": "012c118a-b3092f3b.6.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9625456929206848,
+        "pos_text_neg_image": 0.4677194058895111,
+        "neg_text_pos_image": 0.06752878427505493,
+        "neg_text_neg_image": 0.37703737616539
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.037321947515010834,
+        "pos_text_neg_image": 0.5299955010414124,
+        "neg_text_pos_image": 0.9322060346603394,
+        "neg_text_neg_image": 0.621629536151886
+      },
+      "error": null
+    },
+    {
+      "pos_video": "PIvOfcR77SQ.0.5.mp4",
+      "neg_video": "394cd3ffde533c8b364131cb7286c88786fc1892c52e78c2fa113e654363a9f7.0.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9462341666221619,
+        "pos_text_neg_image": 0.20138446986675262,
+        "neg_text_pos_image": 0.20164917409420013,
+        "neg_text_neg_image": 0.7541235685348511
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.05338288098573685,
+        "pos_text_neg_image": 0.7964910864830017,
+        "neg_text_pos_image": 0.7975379824638367,
+        "neg_text_neg_image": 0.24482807517051697
+      },
+      "error": null
+    },
+    {
+      "pos_video": "88vmzn_LufA.1.3.mp4",
+      "neg_video": "QMlfVwN3iTw.3.0.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9239097237586975,
+        "pos_text_neg_image": 0.34825560450553894,
+        "neg_text_pos_image": 0.2225494533777237,
+        "neg_text_neg_image": 0.6220515370368958
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.07583913207054138,
+        "pos_text_neg_image": 0.650627076625824,
+        "neg_text_pos_image": 0.7767738699913025,
+        "neg_text_neg_image": 0.37729331851005554
+      },
+      "error": null
+    },
+    {
+      "pos_video": "px9IqOnilHI.3.0.mp4",
+      "neg_video": "piQsdrDKzzM.1.2.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9042947292327881,
+        "pos_text_neg_image": 0.053388308733701706,
+        "neg_text_pos_image": 0.18231578171253204,
+        "neg_text_neg_image": 0.8352893590927124
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.0953119620680809,
+        "pos_text_neg_image": 0.9463303089141846,
+        "neg_text_pos_image": 0.8170825839042664,
+        "neg_text_neg_image": 0.16447821259498596
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CjPSzAtLzO8.0.9.mp4",
+      "neg_video": "hpTEzp-6CkM.0.3.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8169901371002197,
+        "pos_text_neg_image": 0.6217944025993347,
+        "neg_text_pos_image": 0.3482895791530609,
+        "neg_text_neg_image": 0.5617034435272217
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.18229514360427856,
+        "pos_text_neg_image": 0.37713736295700073,
+        "neg_text_pos_image": 0.6506905555725098,
+        "neg_text_neg_image": 0.43745508790016174
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3HYfPz8lvDI.1.5.mp4",
+      "neg_video": "0Pzq0URbL2M.5.1.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9624950289726257,
+        "pos_text_neg_image": 0.0474129393696785,
+        "neg_text_pos_image": 0.08507474511861801,
+        "neg_text_neg_image": 0.7770536541938782
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.037319980561733246,
+        "pos_text_neg_image": 0.9523143768310547,
+        "neg_text_pos_image": 0.9146397113800049,
+        "neg_text_neg_image": 0.2226296067237854
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Hby08EPZV1c.0.0.mp4",
+      "neg_video": "MQugcNLFI9k.0.2.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6503913402557373,
+        "pos_text_neg_image": 0.16442495584487915,
+        "neg_text_pos_image": 0.4995473027229309,
+        "neg_text_neg_image": 0.7770584225654602
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34812939167022705,
+        "pos_text_neg_image": 0.8350188732147217,
+        "neg_text_pos_image": 0.4995473027229309,
+        "neg_text_neg_image": 0.22263096272945404
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CBRwF0LU3Ys.0.11.mp4",
+      "neg_video": "u35WIs62R2M.1.4.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9819231629371643,
+        "pos_text_neg_image": 0.09530054777860641,
+        "neg_text_pos_image": 0.07583802193403244,
+        "neg_text_neg_image": 0.7978053092956543
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.017984550446271896,
+        "pos_text_neg_image": 0.904186487197876,
+        "neg_text_pos_image": 0.9238961935043335,
+        "neg_text_neg_image": 0.20171678066253662
+      },
+      "error": null
+    },
+    {
+      "pos_video": "-2uIa-XMJC0.5.8.mp4",
+      "neg_video": "7xltSb3VBJQ.2.4.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9524373412132263,
+        "pos_text_neg_image": 0.04740936681628227,
+        "neg_text_pos_image": 0.18233293294906616,
+        "neg_text_neg_image": 0.8805067539215088
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.04741906002163887,
+        "pos_text_neg_image": 0.9522426128387451,
+        "neg_text_pos_image": 0.8171594738960266,
+        "neg_text_neg_image": 0.1191636249423027
+      },
+      "error": null
+    },
+    {
+      "pos_video": "YakCuBMlQXQ.3.2.mp4",
+      "neg_video": "2254244.3.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9522970914840698,
+        "pos_text_neg_image": 0.09530448168516159,
+        "neg_text_pos_image": 0.09530217945575714,
+        "neg_text_neg_image": 0.8805966973304749
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.04741207882761955,
+        "pos_text_neg_image": 0.9042237997055054,
+        "neg_text_pos_image": 0.9042019844055176,
+        "neg_text_neg_image": 0.11917579919099808
+      },
+      "error": null
+    },
+    {
+      "pos_video": "338.2.2.mp4",
+      "neg_video": "4f3hG-5grlw.4.3.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9875093102455139,
+        "pos_text_neg_image": 0.0850469172000885,
+        "neg_text_pos_image": 0.025954680517315865,
+        "neg_text_neg_image": 0.7768781185150146
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.012430907227098942,
+        "pos_text_neg_image": 0.9143404960632324,
+        "neg_text_pos_image": 0.973942220211029,
+        "neg_text_neg_image": 0.22257931530475616
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5454.1.17.mp4",
+      "neg_video": "3HYfPz8lvDI.4.3.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7306956052780151,
+        "pos_text_neg_image": 0.02595125511288643,
+        "neg_text_pos_image": 0.2687816023826599,
+        "neg_text_neg_image": 0.8517194390296936
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.26880791783332825,
+        "pos_text_neg_image": 0.9738136529922485,
+        "neg_text_pos_image": 0.7306240797042847,
+        "neg_text_neg_image": 0.1480066329240799
+      },
+      "error": null
+    },
+    {
+      "pos_video": "69PPD7ZUJPc.0.0.mp4",
+      "neg_video": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "pos_question": "Does the video contain noticeable motion blur?",
+      "neg_question": "Is the video free from any noticeable motion blur?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9320676326751709,
+        "pos_text_neg_image": 0.04205941781401634,
+        "neg_text_pos_image": 0.06006554886698723,
+        "neg_text_neg_image": 0.9461950659751892
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.06751875579357147,
+        "pos_text_neg_image": 0.9572679400444031,
+        "neg_text_pos_image": 0.9395833015441895,
+        "neg_text_neg_image": 0.05338067561388016
+      },
+      "error": null
+    }
+  ]
+}

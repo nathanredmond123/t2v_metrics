@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "tracking shot",
+    "task_name": "has arc tracking",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T05:35:29.871867",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "Gel59Iy3YhQ.53.3.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6509320139884949,
+        "pos_text_neg_image": 0.4997280538082123,
+        "neg_text_pos_image": 0.3772726356983185,
+        "neg_text_neg_image": 0.24496425688266754
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34841883182525635,
+        "pos_text_neg_image": 0.4997280538082123,
+        "neg_text_pos_image": 0.6220174431800842,
+        "neg_text_neg_image": 0.7545430064201355
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0TqQje61Hoo.3.1.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32049253582954407,
+        "pos_text_neg_image": 0.10660362988710403,
+        "neg_text_pos_image": 0.3205921947956085,
+        "neg_text_neg_image": 0.14794304966926575
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.678482711315155,
+        "pos_text_neg_image": 0.8925812244415283,
+        "neg_text_pos_image": 0.6786936521530151,
+        "neg_text_neg_image": 0.8513535857200623
+      },
+      "error": null
+    },
+    {
+      "pos_video": "B_8bbKn3amE.0.6.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.914699137210846,
+        "pos_text_neg_image": 0.24490758776664734,
+        "neg_text_pos_image": 0.6788821816444397,
+        "neg_text_neg_image": 0.13291721045970917
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.08508027344942093,
+        "pos_text_neg_image": 0.7543684840202332,
+        "neg_text_pos_image": 0.32068124413490295,
+        "neg_text_neg_image": 0.8667290806770325
+      },
+      "error": null
+    },
+    {
+      "pos_video": "wqn8akChql4.0.8.mp4",
+      "neg_video": "MuNyfqxAO6Y.8.5.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.26860570907592773,
+        "pos_text_neg_image": 0.09531417489051819,
+        "neg_text_pos_image": 0.2939317524433136,
+        "neg_text_neg_image": 0.09532054513692856
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7301459312438965,
+        "pos_text_neg_image": 0.904315710067749,
+        "neg_text_pos_image": 0.7051056623458862,
+        "neg_text_neg_image": 0.9043761491775513
+      },
+      "error": null
+    },
+    {
+      "pos_video": "P8JgTjTPIuk.5.0.mp4",
+      "neg_video": "IWv0EhEGmNI.3.5.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22245857119560242,
+        "pos_text_neg_image": 0.1329198181629181,
+        "neg_text_pos_image": 0.222532719373703,
+        "neg_text_neg_image": 0.2017461508512497
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7764566540718079,
+        "pos_text_neg_image": 0.8667461276054382,
+        "neg_text_pos_image": 0.7767154574394226,
+        "neg_text_neg_image": 0.7979215383529663
+      },
+      "error": null
+    },
+    {
+      "pos_video": "TP_0Vv5F29I.2.3.mp4",
+      "neg_video": "JGiXuXc3cao.3.4.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4681035280227661,
+        "pos_text_neg_image": 0.07582839578390121,
+        "neg_text_pos_image": 0.49950358271598816,
+        "neg_text_neg_image": 0.14798597991466522
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.530430793762207,
+        "pos_text_neg_image": 0.9237790107727051,
+        "neg_text_pos_image": 0.49950358271598816,
+        "neg_text_neg_image": 0.8516005873680115
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CBRwF0LU3Ys.0.6.mp4",
+      "neg_video": "yGsVo0uIJVs.3.3.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7975800633430481,
+        "pos_text_neg_image": 0.3205646276473999,
+        "neg_text_pos_image": 0.7053681015968323,
+        "neg_text_neg_image": 0.37732505798339844
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.20165981352329254,
+        "pos_text_neg_image": 0.67863529920578,
+        "neg_text_pos_image": 0.2940411865711212,
+        "neg_text_neg_image": 0.6221038103103638
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.7.mp4",
+      "neg_video": "H4AZhS5WqKk.2.2.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8666278123855591,
+        "pos_text_neg_image": 0.2686978876590729,
+        "neg_text_pos_image": 0.6220490336418152,
+        "neg_text_neg_image": 0.1191570833325386
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.13290168344974518,
+        "pos_text_neg_image": 0.730396568775177,
+        "neg_text_pos_image": 0.37729182839393616,
+        "neg_text_neg_image": 0.880458414554596
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.4.mp4",
+      "neg_video": "5679.1.21.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7768623232841492,
+        "pos_text_neg_image": 0.03307834640145302,
+        "neg_text_pos_image": 0.49965882301330566,
+        "neg_text_neg_image": 0.0533926859498024
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22257478535175323,
+        "pos_text_neg_image": 0.9666910171508789,
+        "neg_text_pos_image": 0.49965882301330566,
+        "neg_text_neg_image": 0.9464079737663269
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3vBUREkRzug.0.4.mp4",
+      "neg_video": "187.6.15.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7301724553108215,
+        "pos_text_neg_image": 0.06752168387174606,
+        "neg_text_pos_image": 0.6786779165267944,
+        "neg_text_neg_image": 0.09531303495168686
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2686154544353485,
+        "pos_text_neg_image": 0.9321080446243286,
+        "neg_text_pos_image": 0.3205847442150116,
+        "neg_text_neg_image": 0.9043049216270447
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Y-Ana439DgE.0.2.mp4",
+      "neg_video": "9ddb5f18be693e72c2dc446d3909d2d59d7036be4466643a956c9fae5e03f977.0.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8805356621742249,
+        "pos_text_neg_image": 0.1328323781490326,
+        "neg_text_pos_image": 0.4996573328971863,
+        "neg_text_neg_image": 0.13288915157318115
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.11916754394769669,
+        "pos_text_neg_image": 0.8661758899688721,
+        "neg_text_pos_image": 0.4996573328971863,
+        "neg_text_neg_image": 0.866546094417572
+      },
+      "error": null
+    },
+    {
+      "pos_video": "88vmzn_LufA.1.6.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.16.mp4",
+      "pos_question": "Does the camera follow the subject while moving in an arc?",
+      "neg_question": "Is the video not a tracking shot with arc movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8351365923881531,
+        "pos_text_neg_image": 0.467909038066864,
+        "neg_text_pos_image": 0.40703362226486206,
+        "neg_text_neg_image": 0.499455988407135
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16444814205169678,
+        "pos_text_neg_image": 0.5302104353904724,
+        "neg_text_pos_image": 0.5922304391860962,
+        "neg_text_neg_image": 0.499455988407135
+      },
+      "error": null
+    }
+  ]
+}

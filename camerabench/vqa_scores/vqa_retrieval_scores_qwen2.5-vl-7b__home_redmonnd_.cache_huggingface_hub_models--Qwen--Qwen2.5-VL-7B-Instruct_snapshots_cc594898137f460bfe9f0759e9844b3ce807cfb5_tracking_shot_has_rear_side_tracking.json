@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "tracking shot",
+    "task_name": "has rear side tracking",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T05:36:21.341723",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "IWv0EhEGmNI.0.8.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject at a rear-side angle?",
+      "neg_question": "Is the camera not following behind the subject at a rear-side angle?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22261881828308105,
+        "pos_text_neg_image": 0.20172645151615143,
+        "neg_text_pos_image": 0.37735605239868164,
+        "neg_text_neg_image": 0.24496261775493622
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7770159840583801,
+        "pos_text_neg_image": 0.7978435754776001,
+        "neg_text_pos_image": 0.622154951095581,
+        "neg_text_neg_image": 0.7545379996299744
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8ouj_JN2ytI.0.25.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject at a rear-side angle?",
+      "neg_question": "Is the camera not following behind the subject at a rear-side angle?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9239108562469482,
+        "pos_text_neg_image": 0.01098561193794012,
+        "neg_text_pos_image": 0.7306602001190186,
+        "neg_text_neg_image": 0.08505512028932571
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.07583922147750854,
+        "pos_text_neg_image": 0.9888932108879089,
+        "neg_text_pos_image": 0.2687948942184448,
+        "neg_text_neg_image": 0.9144287109375
+      },
+      "error": null
+    },
+    {
+      "pos_video": "YakCuBMlQXQ.3.2.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera following behind the subject at a rear-side angle?",
+      "neg_question": "Is the camera not following behind the subject at a rear-side angle?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9577275514602661,
+        "pos_text_neg_image": 0.060074806213378906,
+        "neg_text_pos_image": 0.4682680666446686,
+        "neg_text_neg_image": 0.22259581089019775
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.042079612612724304,
+        "pos_text_neg_image": 0.9397281408309937,
+        "neg_text_pos_image": 0.5306172370910645,
+        "neg_text_neg_image": 0.7769356966018677
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "has motion",
+    "task_name": "has zoom out not move vs has move not zoom out",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T08:54:30.473403",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "NJm86fzxG8s.4.5.mp4",
+      "neg_video": "ttZAdY3n4nc.2.0.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8171613216400146,
+        "pos_text_neg_image": 0.16436867415905,
+        "neg_text_pos_image": 0.26869985461235046,
+        "neg_text_neg_image": 0.18227840960025787
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.1823333501815796,
+        "pos_text_neg_image": 0.8347330689430237,
+        "neg_text_pos_image": 0.7304018139839172,
+        "neg_text_neg_image": 0.8169150948524475
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yGsVo0uIJVs.0.4.mp4",
+      "neg_video": "hpTEzp-6CkM.0.4.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24496416747570038,
+        "pos_text_neg_image": 0.40680262446403503,
+        "neg_text_pos_image": 0.06007077544927597,
+        "neg_text_neg_image": 0.2938730716705322
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7545427680015564,
+        "pos_text_neg_image": 0.5918943285942078,
+        "neg_text_pos_image": 0.9396650791168213,
+        "neg_text_neg_image": 0.7049648761749268
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.6.2.mp4",
+      "neg_video": "gKGK0udq8i8.0.2.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7053802013397217,
+        "pos_text_neg_image": 0.32053858041763306,
+        "neg_text_pos_image": 0.07582766562700272,
+        "neg_text_neg_image": 0.13287116587162018
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.29404622316360474,
+        "pos_text_neg_image": 0.6785801649093628,
+        "neg_text_pos_image": 0.9237700700759888,
+        "neg_text_neg_image": 0.8664288520812988
+      },
+      "error": null
+    },
+    {
+      "pos_video": "t2_J-RVP7EM.2.3.mp4",
+      "neg_video": "4uGfFYzxWEg.1.5.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7546046376228333,
+        "pos_text_neg_image": 0.7545676827430725,
+        "neg_text_pos_image": 0.2687813937664032,
+        "neg_text_neg_image": 0.24493055045604706
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.24498426914215088,
+        "pos_text_neg_image": 0.24497225880622864,
+        "neg_text_pos_image": 0.7306234836578369,
+        "neg_text_neg_image": 0.7544391751289368
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KdfhMulBsyk.2.8.mp4",
+      "neg_video": "qMeHR2Dc4mQ.0.4.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4996582865715027,
+        "pos_text_neg_image": 0.20169594883918762,
+        "neg_text_pos_image": 0.14797493815422058,
+        "neg_text_neg_image": 0.033078789710998535
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4996582865715027,
+        "pos_text_neg_image": 0.7977229356765747,
+        "neg_text_pos_image": 0.8515370488166809,
+        "neg_text_neg_image": 0.9667038917541504
+      },
+      "error": null
+    },
+    {
+      "pos_video": "xBFcUI4z0Wk.5.mp4",
+      "neg_video": "fP5UM4elIes.1.1.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8667221665382385,
+        "pos_text_neg_image": 0.8170903325080872,
+        "neg_text_pos_image": 0.10663584619760513,
+        "neg_text_neg_image": 0.20162294805049896
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.1329161524772644,
+        "pos_text_neg_image": 0.18231749534606934,
+        "neg_text_pos_image": 0.892850935459137,
+        "neg_text_neg_image": 0.7974342703819275
+      },
+      "error": null
+    },
+    {
+      "pos_video": "lz5xvWTodyw.9.3.mp4",
+      "neg_video": "anEdRKaWM-I.0.3.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5306125283241272,
+        "pos_text_neg_image": 0.20166540145874023,
+        "neg_text_pos_image": 0.10661400854587555,
+        "neg_text_neg_image": 0.04740987345576286
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4682639241218567,
+        "pos_text_neg_image": 0.797602117061615,
+        "neg_text_pos_image": 0.8926681876182556,
+        "neg_text_neg_image": 0.9522527456283569
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4PcpGxihPac.4.0.mp4",
+      "neg_video": "LtXUoaZcp70.4.4.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.776979386806488,
+        "pos_text_neg_image": 0.62212735414505,
+        "neg_text_pos_image": 0.29403573274612427,
+        "neg_text_neg_image": 0.2687794268131256
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22260832786560059,
+        "pos_text_neg_image": 0.37733933329582214,
+        "neg_text_pos_image": 0.7053550481796265,
+        "neg_text_neg_image": 0.7306181192398071
+      },
+      "error": null
+    },
+    {
+      "pos_video": "QMlfVwN3iTw.8.2.mp4",
+      "neg_video": "190.2.9.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6509267091751099,
+        "pos_text_neg_image": 0.18232637643814087,
+        "neg_text_pos_image": 0.16441546380519867,
+        "neg_text_neg_image": 0.1329035609960556
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34841597080230713,
+        "pos_text_neg_image": 0.8171301484107971,
+        "neg_text_pos_image": 0.8349706530570984,
+        "neg_text_neg_image": 0.8666400909423828
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1hu1np_BI2M.7.0.mp4",
+      "neg_video": "sKJeTaIEldM.2.2.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7542383074760437,
+        "pos_text_neg_image": 0.2687372863292694,
+        "neg_text_pos_image": 0.16436077654361725,
+        "neg_text_neg_image": 0.053384337574243546
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2448653131723404,
+        "pos_text_neg_image": 0.7305036187171936,
+        "neg_text_pos_image": 0.8346929550170898,
+        "neg_text_neg_image": 0.9462599754333496
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5679.1.3.mp4",
+      "neg_video": "VKre9_wM3Mo.1.3.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5923269987106323,
+        "pos_text_neg_image": 0.18230341374874115,
+        "neg_text_pos_image": 0.320638507604599,
+        "neg_text_neg_image": 0.03307768702507019
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40710002183914185,
+        "pos_text_neg_image": 0.81702721118927,
+        "neg_text_pos_image": 0.6787917017936707,
+        "neg_text_neg_image": 0.9666717052459717
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.6.0.mp4",
+      "neg_video": "4021529.0.0.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4375355839729309,
+        "pos_text_neg_image": 0.7767413258552551,
+        "neg_text_pos_image": 0.060065485537052155,
+        "neg_text_neg_image": 0.04207097366452217
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5618067979812622,
+        "pos_text_neg_image": 0.22254011034965515,
+        "neg_text_pos_image": 0.939582347869873,
+        "neg_text_neg_image": 0.9575309753417969
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.2.mp4",
+      "neg_video": "MuNyfqxAO6Y.2.3.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32061538100242615,
+        "pos_text_neg_image": 0.20168431103229523,
+        "neg_text_pos_image": 0.03307885676622391,
+        "neg_text_neg_image": 0.16442467272281647
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6787427663803101,
+        "pos_text_neg_image": 0.7976769208908081,
+        "neg_text_pos_image": 0.9667059183120728,
+        "neg_text_neg_image": 0.8350174427032471
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sLX9J2NBL3w.0.12.mp4",
+      "neg_video": "6303.0.26.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.561530351638794,
+        "pos_text_neg_image": 0.7306544184684753,
+        "neg_text_pos_image": 0.4069320857524872,
+        "neg_text_neg_image": 0.14796115458011627
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4373202919960022,
+        "pos_text_neg_image": 0.2687927484512329,
+        "neg_text_pos_image": 0.592082679271698,
+        "neg_text_neg_image": 0.8514577150344849
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ttZAdY3n4nc.3.0.mp4",
+      "neg_video": "1560.0.15.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6787764430046082,
+        "pos_text_neg_image": 0.29393085837364197,
+        "neg_text_pos_image": 0.22253473103046417,
+        "neg_text_neg_image": 0.348308801651001
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3206312954425812,
+        "pos_text_neg_image": 0.7051035165786743,
+        "neg_text_pos_image": 0.7767225503921509,
+        "neg_text_neg_image": 0.6507264971733093
+      },
+      "error": null
+    },
+    {
+      "pos_video": "oRt5NPY7yYA.3.4.mp4",
+      "neg_video": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4681070148944855,
+        "pos_text_neg_image": 0.7307053208351135,
+        "neg_text_pos_image": 0.2686012387275696,
+        "neg_text_neg_image": 0.06752277910709381
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5304347276687622,
+        "pos_text_neg_image": 0.26881149411201477,
+        "neg_text_pos_image": 0.7301337718963623,
+        "neg_text_neg_image": 0.9321231842041016
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yQLgp8trSDc.0.5.mp4",
+      "neg_video": "vEvBpjCOBu0.3.7.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3204806447029114,
+        "pos_text_neg_image": 0.22249959409236908,
+        "neg_text_pos_image": 0.16438521444797516,
+        "neg_text_neg_image": 0.22246408462524414
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.678457498550415,
+        "pos_text_neg_image": 0.7765998840332031,
+        "neg_text_pos_image": 0.8348170518875122,
+        "neg_text_neg_image": 0.7764759063720703
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.3.5.mp4",
+      "neg_video": "ZBsv_5fHtIg.0.2.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37713873386383057,
+        "pos_text_neg_image": 0.5308920741081238,
+        "neg_text_pos_image": 0.04740834981203079,
+        "neg_text_neg_image": 0.22256678342819214
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6217966079711914,
+        "pos_text_neg_image": 0.46851059794425964,
+        "neg_text_pos_image": 0.9522221684455872,
+        "neg_text_neg_image": 0.7768343687057495
+      },
+      "error": null
+    },
+    {
+      "pos_video": "AhnS92hxqCA.3.1.mp4",
+      "neg_video": "LtXUoaZcp70.3.4.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2448931634426117,
+        "pos_text_neg_image": 0.37729138135910034,
+        "neg_text_pos_image": 0.07582477480173111,
+        "neg_text_neg_image": 0.1644209623336792
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7543240785598755,
+        "pos_text_neg_image": 0.6220483183860779,
+        "neg_text_pos_image": 0.9237348437309265,
+        "neg_text_neg_image": 0.834998607635498
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.5.7.mp4",
+      "neg_video": "4uGfFYzxWEg.5.2.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.561823844909668,
+        "pos_text_neg_image": 0.4374849796295166,
+        "neg_text_pos_image": 0.053385958075523376,
+        "neg_text_neg_image": 0.10663408041000366
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4375488758087158,
+        "pos_text_neg_image": 0.561741828918457,
+        "neg_text_pos_image": 0.9462887048721313,
+        "neg_text_neg_image": 0.8928362131118774
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XA2X_JBzkzY.2.1.mp4",
+      "neg_video": "3HYfPz8lvDI.5.0.mp4",
+      "pos_question": "Does the camera zoom out without physically moving backward?",
+      "neg_question": "Does the camera physically move backward without zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8666208982467651,
+        "pos_text_neg_image": 0.6785222291946411,
+        "neg_text_pos_image": 0.0952964723110199,
+        "neg_text_neg_image": 0.24485409259796143
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.13290062546730042,
+        "pos_text_neg_image": 0.32051119208335876,
+        "neg_text_pos_image": 0.904147744178772,
+        "neg_text_neg_image": 0.7542036771774292
+      },
+      "error": null
+    }
+  ]
+}

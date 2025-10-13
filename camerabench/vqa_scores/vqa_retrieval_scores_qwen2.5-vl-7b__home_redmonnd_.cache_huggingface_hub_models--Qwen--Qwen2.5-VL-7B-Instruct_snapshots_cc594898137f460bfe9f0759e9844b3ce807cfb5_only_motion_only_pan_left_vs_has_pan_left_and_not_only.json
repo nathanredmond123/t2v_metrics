@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "only motion",
+    "task_name": "only pan left vs has pan left and not only",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T15:57:12.153108",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "iXzposKQzvs.2.1.mp4",
+      "neg_video": "IWv0EhEGmNI.16.6.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04206959530711174,
+        "pos_text_neg_image": 0.0533902533352375,
+        "neg_text_pos_image": 0.037304773926734924,
+        "neg_text_neg_image": 0.13291703164577484
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.957499623298645,
+        "pos_text_neg_image": 0.9463648200035095,
+        "neg_text_pos_image": 0.9621028304100037,
+        "neg_text_neg_image": 0.8667279481887817
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8SphTOiOe6k.2.8.mp4",
+      "neg_video": "1934.1.11.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.119138203561306,
+        "pos_text_neg_image": 0.1479499787092209,
+        "neg_text_pos_image": 0.32054129242897034,
+        "neg_text_neg_image": 0.2016087919473648
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8803188800811768,
+        "pos_text_neg_image": 0.8513934016227722,
+        "neg_text_pos_image": 0.6785858869552612,
+        "neg_text_neg_image": 0.7973782420158386
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.2.4.mp4",
+      "neg_video": "6h6bMAWLYAI.2.2.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.16440589725971222,
+        "pos_text_neg_image": 0.07582346349954605,
+        "neg_text_pos_image": 0.34815025329589844,
+        "neg_text_neg_image": 0.06749904900789261
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8349220752716064,
+        "pos_text_neg_image": 0.9237188696861267,
+        "neg_text_pos_image": 0.6504302620887756,
+        "neg_text_neg_image": 0.931795597076416
+      },
+      "error": null
+    },
+    {
+      "pos_video": "y0aS2n1WmMg.3.2.mp4",
+      "neg_video": "H4AZhS5WqKk.0.0.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04207577928900719,
+        "pos_text_neg_image": 0.05338917300105095,
+        "neg_text_pos_image": 0.182301327586174,
+        "neg_text_neg_image": 0.06752731651067734
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9576402902603149,
+        "pos_text_neg_image": 0.9463456869125366,
+        "neg_text_pos_image": 0.8170178532600403,
+        "neg_text_neg_image": 0.9321858286857605
+      },
+      "error": null
+    },
+    {
+      "pos_video": "YBC2JaevzOI.1.4.mp4",
+      "neg_video": "G_TLZr6ZbLE.0.0.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2448773980140686,
+        "pos_text_neg_image": 0.053390614688396454,
+        "neg_text_pos_image": 0.499423086643219,
+        "neg_text_neg_image": 0.05338845029473305
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7542755007743835,
+        "pos_text_neg_image": 0.9463711977005005,
+        "neg_text_pos_image": 0.499423086643219,
+        "neg_text_neg_image": 0.9463328719139099
+      },
+      "error": null
+    },
+    {
+      "pos_video": "NZ3Pba3Xsk4.3.2.mp4",
+      "neg_video": "2519.5.16.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5308281779289246,
+        "pos_text_neg_image": 0.042077429592609406,
+        "neg_text_pos_image": 0.5920809507369995,
+        "neg_text_neg_image": 0.0533885732293129
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4684542417526245,
+        "pos_text_neg_image": 0.9576779007911682,
+        "neg_text_pos_image": 0.4069308936595917,
+        "neg_text_neg_image": 0.9463350176811218
+      },
+      "error": null
+    },
+    {
+      "pos_video": "PIvOfcR77SQ.0.5.mp4",
+      "neg_video": "gooWdc6kb80.0.7.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14796333014965057,
+        "pos_text_neg_image": 0.025951456278562546,
+        "neg_text_pos_image": 0.46822988986968994,
+        "neg_text_neg_image": 0.017982834950089455
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8514702320098877,
+        "pos_text_neg_image": 0.973821222782135,
+        "neg_text_pos_image": 0.5305739641189575,
+        "neg_text_neg_image": 0.9818295240402222
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4PcpGxihPac.3.2.mp4",
+      "neg_video": "_I6Y-rtiTPc.0.2.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.16443844139575958,
+        "pos_text_neg_image": 0.1191498339176178,
+        "neg_text_pos_image": 0.4070703983306885,
+        "neg_text_neg_image": 0.32053324580192566
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8350873589515686,
+        "pos_text_neg_image": 0.8804048299789429,
+        "neg_text_pos_image": 0.5922839641571045,
+        "neg_text_neg_image": 0.6785688400268555
+      },
+      "error": null
+    },
+    {
+      "pos_video": "338.2.30.mp4",
+      "neg_video": "1470.0.7.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10665430873632431,
+        "pos_text_neg_image": 0.04207845777273178,
+        "neg_text_pos_image": 0.4996066689491272,
+        "neg_text_neg_image": 0.04208073019981384
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8930056095123291,
+        "pos_text_neg_image": 0.9577012658119202,
+        "neg_text_pos_image": 0.4996066689491272,
+        "neg_text_neg_image": 0.9577530026435852
+      },
+      "error": null
+    },
+    {
+      "pos_video": "M0jmSsQ5ptw.3.5.mp4",
+      "neg_video": "kSx5KGOv5Qc.1.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.13289077579975128,
+        "pos_text_neg_image": 0.08506385236978531,
+        "neg_text_pos_image": 0.24491475522518158,
+        "neg_text_neg_image": 0.0600648894906044
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8665566444396973,
+        "pos_text_neg_image": 0.914522647857666,
+        "neg_text_pos_image": 0.7543905377388,
+        "neg_text_neg_image": 0.9395729899406433
+      },
+      "error": null
+    },
+    {
+      "pos_video": "LNHBMFCzznE.5.9.mp4",
+      "neg_video": "XA2X_JBzkzY.2.1.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10663539171218872,
+        "pos_text_neg_image": 0.04740995168685913,
+        "neg_text_pos_image": 0.11909853667020798,
+        "neg_text_neg_image": 0.10663936287164688
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8928471803665161,
+        "pos_text_neg_image": 0.9522544145584106,
+        "neg_text_pos_image": 0.8800257444381714,
+        "neg_text_neg_image": 0.8928804397583008
+      },
+      "error": null
+    },
+    {
+      "pos_video": "un7JOh6x-c4.0.mp4",
+      "neg_video": "1560.0.17.mp4",
+      "pos_question": "Does the camera only pan leftward without any other camera movements?",
+      "neg_question": "Does the camera not just pan left?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2939920425415039,
+        "pos_text_neg_image": 0.16439197957515717,
+        "neg_text_pos_image": 0.37685102224349976,
+        "neg_text_neg_image": 0.16438579559326172
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7052502632141113,
+        "pos_text_neg_image": 0.8348514437675476,
+        "neg_text_pos_image": 0.6213223338127136,
+        "neg_text_neg_image": 0.834820032119751
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "only motion",
+    "task_name": "only tilt up vs has tilt up and not only",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T16:09:03.314880",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "fT6olrwrjnI.0.0.mp4",
+      "neg_video": "IWv0EhEGmNI.16.6.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.320625901222229,
+        "pos_text_neg_image": 0.10665358603000641,
+        "neg_text_pos_image": 0.4375418722629547,
+        "neg_text_neg_image": 0.1823461353778839
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6787649989128113,
+        "pos_text_neg_image": 0.892999529838562,
+        "neg_text_pos_image": 0.5618149042129517,
+        "neg_text_neg_image": 0.8172186613082886
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9jLZPZEIWq0.0.0.mp4",
+      "neg_video": "iXzposKQzvs.2.1.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7307928204536438,
+        "pos_text_neg_image": 0.32046788930892944,
+        "neg_text_pos_image": 0.7769505381584167,
+        "neg_text_neg_image": 0.14787594974040985
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2688436806201935,
+        "pos_text_neg_image": 0.6784304976463318,
+        "neg_text_pos_image": 0.222600057721138,
+        "neg_text_neg_image": 0.8509674072265625
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XDndUR0xeAQ.0.2.mp4",
+      "neg_video": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.7.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7054618000984192,
+        "pos_text_neg_image": 0.2687609791755676,
+        "neg_text_pos_image": 0.8172158002853394,
+        "neg_text_neg_image": 0.14796020090579987
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2940802276134491,
+        "pos_text_neg_image": 0.7305680513381958,
+        "neg_text_pos_image": 0.18234549462795258,
+        "neg_text_neg_image": 0.8514522314071655
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3877.0.2.mp4",
+      "neg_video": "1934.1.11.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29390788078308105,
+        "pos_text_neg_image": 0.13287624716758728,
+        "neg_text_pos_image": 0.24485313892364502,
+        "neg_text_neg_image": 0.09529010206460953
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7050483226776123,
+        "pos_text_neg_image": 0.8664619326591492,
+        "neg_text_pos_image": 0.7542007565498352,
+        "neg_text_neg_image": 0.9040873646736145
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XDndUR0xeAQ.0.3.mp4",
+      "neg_video": "4uGfFYzxWEg.1.5.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8931053280830383,
+        "pos_text_neg_image": 0.29404863715171814,
+        "neg_text_pos_image": 0.8804680109024048,
+        "neg_text_neg_image": 0.2017190307378769
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.10666622221469879,
+        "pos_text_neg_image": 0.7053860425949097,
+        "neg_text_pos_image": 0.11915838718414307,
+        "neg_text_neg_image": 0.7978141903877258
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Vm-b2AVwARw.0.0.mp4",
+      "neg_video": "JDaw5I_5hPk.0.19.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29404786229133606,
+        "pos_text_neg_image": 0.0533912219107151,
+        "neg_text_pos_image": 0.6788741946220398,
+        "neg_text_neg_image": 0.047414179891347885
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7053841948509216,
+        "pos_text_neg_image": 0.9463819861412048,
+        "neg_text_pos_image": 0.3206774592399597,
+        "neg_text_neg_image": 0.952339231967926
+      },
+      "error": null
+    },
+    {
+      "pos_video": "TktL3QR8Yg8.0.1.mp4",
+      "neg_video": "6h6bMAWLYAI.2.2.mp4",
+      "pos_question": "Does the camera only tilt upward without any other camera movements?",
+      "neg_question": "Does the camera not just tilt up?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6789352297782898,
+        "pos_text_neg_image": 0.13288211822509766,
+        "neg_text_pos_image": 0.7546800971031189,
+        "neg_text_neg_image": 0.07579506188631058
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.320706307888031,
+        "pos_text_neg_image": 0.8665002584457397,
+        "neg_text_pos_image": 0.24500875174999237,
+        "neg_text_neg_image": 0.9233728647232056
+      },
+      "error": null
+    }
+  ]
+}

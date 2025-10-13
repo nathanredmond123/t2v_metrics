@@ -1,0 +1,3919 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "split_name": "Move_Left",
+    "data_file": "data/binary_classification/Move_Left.jsonl",
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "answer_template": "Yes",
+    "generation_timestamp": "2025-09-18T11:52:40.472938",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "video_path": "oRt5NPY7yYA.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49923697113990784,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.5.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582199573516846,
+      "error": null
+    },
+    {
+      "video_path": "2530.0.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1642482876777649,
+      "error": null
+    },
+    {
+      "video_path": "0OFBj7EjZ-g.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20166131854057312,
+      "error": null
+    },
+    {
+      "video_path": "mIiPt1YVkP8.11.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13289059698581696,
+      "error": null
+    },
+    {
+      "video_path": "OCBYMQzG44U.30.14.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6219459176063538,
+      "error": null
+    },
+    {
+      "video_path": "Ao4Y7JU30zc.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1479422152042389,
+      "error": null
+    },
+    {
+      "video_path": "uWCGK4nneeU.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32057470083236694,
+      "error": null
+    },
+    {
+      "video_path": "MK_p4kzcPVY.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26775506138801575,
+      "error": null
+    },
+    {
+      "video_path": "CjPSzAtLzO8.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5307689309120178,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11910922825336456,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06748934090137482,
+      "error": null
+    },
+    {
+      "video_path": "rz8KzLbdS7g.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5615735650062561,
+      "error": null
+    },
+    {
+      "video_path": "ash8vDNcJBs.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29385459423065186,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029307978227734566,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.7.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530380368232727,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.15.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037316080182790756,
+      "error": null
+    },
+    {
+      "video_path": "ZXloF-qGW4U.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.561464250087738,
+      "error": null
+    },
+    {
+      "video_path": "154586.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40652772784233093,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.4.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18232209980487823,
+      "error": null
+    },
+    {
+      "video_path": "6YDWsGwz2lI.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3479965031147003,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3770078718662262,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.14.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5611556768417358,
+      "error": null
+    },
+    {
+      "video_path": "RIz3klPET3o.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08500822633504868,
+      "error": null
+    },
+    {
+      "video_path": "1hu1np_BI2M.7.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43701300024986267,
+      "error": null
+    },
+    {
+      "video_path": "rz8KzLbdS7g.8.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8348773717880249,
+      "error": null
+    },
+    {
+      "video_path": "sguYb2y3u6w.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09527714550495148,
+      "error": null
+    },
+    {
+      "video_path": "KoJ0Pih0Ssc.1.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.468154639005661,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.4.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6220169067382812,
+      "error": null
+    },
+    {
+      "video_path": "wm7U8nEH59o.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13285109400749207,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07580989599227905,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16428115963935852,
+      "error": null
+    },
+    {
+      "video_path": "f4ZzHtww6Tc.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2937133014202118,
+      "error": null
+    },
+    {
+      "video_path": "MQugcNLFI9k.7.11.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3770921528339386,
+      "error": null
+    },
+    {
+      "video_path": "ZkLQqywiwlY.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7540712952613831,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10661561042070389,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20158934593200684,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18223980069160461,
+      "error": null
+    },
+    {
+      "video_path": "r-BCbF55fxo.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.377036452293396,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7051364779472351,
+      "error": null
+    },
+    {
+      "video_path": "3vBUREkRzug.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2223810851573944,
+      "error": null
+    },
+    {
+      "video_path": "rz8KzLbdS7g.8.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6782703399658203,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14792053401470184,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20155644416809082,
+      "error": null
+    },
+    {
+      "video_path": "SsgsWJbroCA.0.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34781020879745483,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.6.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7053226232528687,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08504720032215118,
+      "error": null
+    },
+    {
+      "video_path": "upC8hjr2b4g.7.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4067193269729614,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.7.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46833544969558716,
+      "error": null
+    },
+    {
+      "video_path": "RooDYxp5Fx8.15.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.776548445224762,
+      "error": null
+    },
+    {
+      "video_path": "x6P57x1gx94.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2015327513217926,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.5.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4683685600757599,
+      "error": null
+    },
+    {
+      "video_path": "8SphTOiOe6k.5.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4068664610385895,
+      "error": null
+    },
+    {
+      "video_path": "VaSlqE0Nx2Q.4.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32045289874076843,
+      "error": null
+    },
+    {
+      "video_path": "t2_J-RVP7EM.10.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731668367981911,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13291718065738678,
+      "error": null
+    },
+    {
+      "video_path": "z7HxJaKjVlU.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005941331386566,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4374421238899231,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.16.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40594252943992615,
+      "error": null
+    },
+    {
+      "video_path": "ZpJpZGktliQ.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37713831663131714,
+      "error": null
+    },
+    {
+      "video_path": "MQugcNLFI9k.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3483652174472809,
+      "error": null
+    },
+    {
+      "video_path": "4f3hG-5grlw.4.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025949275121092796,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.4.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338510125875473,
+      "error": null
+    },
+    {
+      "video_path": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01098397932946682,
+      "error": null
+    },
+    {
+      "video_path": "5454.1.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14793647825717926,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07583118975162506,
+      "error": null
+    },
+    {
+      "video_path": "Ni7AYED85z4.2.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951262563467026,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.3.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34840863943099976,
+      "error": null
+    },
+    {
+      "video_path": "CQYQKehqjgI.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025934521108865738,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.2.11.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506380766630173,
+      "error": null
+    },
+    {
+      "video_path": "168085.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.003172523807734251,
+      "error": null
+    },
+    {
+      "video_path": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206147789955139,
+      "error": null
+    },
+    {
+      "video_path": "m3bwXvQoAdo.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329102873802185,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.4.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08504606783390045,
+      "error": null
+    },
+    {
+      "video_path": "60.0.28.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10662730783224106,
+      "error": null
+    },
+    {
+      "video_path": "l5RWa1D00ck.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.006692174822092056,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.8.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037308257073163986,
+      "error": null
+    },
+    {
+      "video_path": "1497.1.18.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328483670949936,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.14.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009706391952931881,
+      "error": null
+    },
+    {
+      "video_path": "r5jbhW9uauc.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.007575501222163439,
+      "error": null
+    },
+    {
+      "video_path": "fP5UM4elIes.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338136479258537,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529659152030945,
+      "error": null
+    },
+    {
+      "video_path": "nGJMwixogyk.5.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4372037649154663,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1641683578491211,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014059977605938911,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017983412370085716,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11912623047828674,
+      "error": null
+    },
+    {
+      "video_path": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010983757674694061,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.12.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952689349651337,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206790775060654,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.8.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022968724370002747,
+      "error": null
+    },
+    {
+      "video_path": "QYAWxJ8a7RA.4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29406970739364624,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0533883236348629,
+      "error": null
+    },
+    {
+      "video_path": "67bfa4eec893c10cba8c4fb180735bf8adc0c7de5a0cfe1ee9d1c1b44c2e56c8.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032419666647911,
+      "error": null
+    },
+    {
+      "video_path": "FOtmU0oJf-8.0.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40694910287857056,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.005910446401685476,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.3.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010982858948409557,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.3.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1190989688038826,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017978085204958916,
+      "error": null
+    },
+    {
+      "video_path": "r5jbhW9uauc.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.008575355634093285,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.17.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16439098119735718,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.4.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029302194714546204,
+      "error": null
+    },
+    {
+      "video_path": "9a8a4d0688ffc6b5cb61bc3323634f3dbfbb310ad20130cf56762bfc113e44ed.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730681538581848,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1821286529302597,
+      "error": null
+    },
+    {
+      "video_path": "4847.13.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07581763714551926,
+      "error": null
+    },
+    {
+      "video_path": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029304753988981247,
+      "error": null
+    },
+    {
+      "video_path": "urgDBUXShos.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951027870178223,
+      "error": null
+    },
+    {
+      "video_path": "61.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307763859629631,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.33.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207724332809448,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985651053488255,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017974190413951874,
+      "error": null
+    },
+    {
+      "video_path": "8jT9ygmMvMg.0.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40692710876464844,
+      "error": null
+    },
+    {
+      "video_path": "mixkit-snowy-mountain-in-canada-full-of-pine-trees-3390.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14790835976600647,
+      "error": null
+    },
+    {
+      "video_path": "IAVXdvsmqBM.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6502184271812439,
+      "error": null
+    },
+    {
+      "video_path": "190.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2938554584980011,
+      "error": null
+    },
+    {
+      "video_path": "kSx5KGOv5Qc.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34817954897880554,
+      "error": null
+    },
+    {
+      "video_path": "cdbdf71cb5b76ac81a00f2e3e5c22bc27b126da4579752cd6a10da3650b4d8e3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033066485077142715,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061588793992996,
+      "error": null
+    },
+    {
+      "video_path": "0OFBj7EjZ-g.6.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20168361067771912,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.1.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015903443098068237,
+      "error": null
+    },
+    {
+      "video_path": "mixkit-beautiful-dusk-on-a-large-lake-from-above-5005.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09527162462472916,
+      "error": null
+    },
+    {
+      "video_path": "sLX9J2NBL3w.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4373195171356201,
+      "error": null
+    },
+    {
+      "video_path": "6h6bMAWLYAI.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730466961860657,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022973433136940002,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731762245297432,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.3.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05336739122867584,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.16.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731777146458626,
+      "error": null
+    },
+    {
+      "video_path": "FUQhNGEu2KA.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730900585651398,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.16.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012429817579686642,
+      "error": null
+    },
+    {
+      "video_path": "wrW0enIo2u8.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5306366682052612,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24487225711345673,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07580287009477615,
+      "error": null
+    },
+    {
+      "video_path": "0UthxdAH0ks.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022969380021095276,
+      "error": null
+    },
+    {
+      "video_path": "1widYShgv6o.5.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22219876945018768,
+      "error": null
+    },
+    {
+      "video_path": "RIz3klPET3o.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2937780022621155,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328858584165573,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3204857110977173,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.3.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3204652965068817,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.006692260503768921,
+      "error": null
+    },
+    {
+      "video_path": "pNGMY3xVkVE.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985830798745155,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.21.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047411978244781494,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.9.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5297521352767944,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020328396931290627,
+      "error": null
+    },
+    {
+      "video_path": "1560.0.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32039007544517517,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.8.20.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329518243670464,
+      "error": null
+    },
+    {
+      "video_path": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985561646521091,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20168796181678772,
+      "error": null
+    },
+    {
+      "video_path": "ZBsv_5fHtIg.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2686440050601959,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20160268247127533,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.530576229095459,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.1.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.001324969343841076,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02594858594238758,
+      "error": null
+    },
+    {
+      "video_path": "video_206294.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206511750817299,
+      "error": null
+    },
+    {
+      "video_path": "gKGK0udq8i8.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750523298978806,
+      "error": null
+    },
+    {
+      "video_path": "RooDYxp5Fx8.3.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.754300057888031,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.4.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4996493458747864,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.22.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5913073420524597,
+      "error": null
+    },
+    {
+      "video_path": "C4Ktho9cjYk.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13287197053432465,
+      "error": null
+    },
+    {
+      "video_path": "kSx5KGOv5Qc.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08504919707775116,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328270435333252,
+      "error": null
+    },
+    {
+      "video_path": "_jli4enm3vw.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24431440234184265,
+      "error": null
+    },
+    {
+      "video_path": "GjEImPidK4g.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1823280304670334,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.21.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10659913718700409,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07583175599575043,
+      "error": null
+    },
+    {
+      "video_path": "mIiPt1YVkP8.10.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5305651426315308,
+      "error": null
+    },
+    {
+      "video_path": "1018.1.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16425351798534393,
+      "error": null
+    },
+    {
+      "video_path": "Uofofz62A2E.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.222371444106102,
+      "error": null
+    },
+    {
+      "video_path": "190.2.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2687376141548157,
+      "error": null
+    },
+    {
+      "video_path": "187.6.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0066916970536112785,
+      "error": null
+    },
+    {
+      "video_path": "sdidb7Z8IUc.9.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328931748867035,
+      "error": null
+    },
+    {
+      "video_path": "C4Ktho9cjYk.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2938966751098633,
+      "error": null
+    },
+    {
+      "video_path": "VaSlqE0Nx2Q.6.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20149023830890656,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0600656233727932,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.5.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34834206104278564,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3481328785419464,
+      "error": null
+    },
+    {
+      "video_path": "_I6Y-rtiTPc.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46799054741859436,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.0.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2687518298625946,
+      "error": null
+    },
+    {
+      "video_path": "xo9p8p6deRI.4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4069260060787201,
+      "error": null
+    },
+    {
+      "video_path": "jGDdHNOeQ0c.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07577719539403915,
+      "error": null
+    },
+    {
+      "video_path": "RIz3klPET3o.0.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07577133923768997,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.15.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4674530029296875,
+      "error": null
+    },
+    {
+      "video_path": "1448735.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5614402294158936,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.3.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20169179141521454,
+      "error": null
+    },
+    {
+      "video_path": "J5Pnh0UcNxg.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5305904150009155,
+      "error": null
+    },
+    {
+      "video_path": "JpEfHcVrtXI.3.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4996003806591034,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.21.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01242918986827135,
+      "error": null
+    },
+    {
+      "video_path": "Cj6ho1-G6tw.0.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20156200230121613,
+      "error": null
+    },
+    {
+      "video_path": "852363.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16409562528133392,
+      "error": null
+    },
+    {
+      "video_path": "QPqOP1iaxkc.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24466541409492493,
+      "error": null
+    },
+    {
+      "video_path": "QaRnEZFM6ZQ.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904249623417854,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.27.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22256173193454742,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.2.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18234165012836456,
+      "error": null
+    },
+    {
+      "video_path": "KAer-wHAd38.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24487154185771942,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307052701711655,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.16.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02297256886959076,
+      "error": null
+    },
+    {
+      "video_path": "9cf72aeafdabae7ed510a61012c08e0f9e008056b5b579288dd57fcd38f9c505.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.005218664184212685,
+      "error": null
+    },
+    {
+      "video_path": "8LiVGDq01FU.2.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904145315289497,
+      "error": null
+    },
+    {
+      "video_path": "9a2bcede65764d9e51445eb4dd3007957dfa0b33d28daf48f6932bcf0de79b28.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337924510240555,
+      "error": null
+    },
+    {
+      "video_path": "tCRbVEGHZlQ.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03306412696838379,
+      "error": null
+    },
+    {
+      "video_path": "VaSlqE0Nx2Q.7.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26852595806121826,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.2.16.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952452793717384,
+      "error": null
+    },
+    {
+      "video_path": "Ejcl5Jk_4QU.8.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0533815398812294,
+      "error": null
+    },
+    {
+      "video_path": "pNGMY3xVkVE.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012430161237716675,
+      "error": null
+    },
+    {
+      "video_path": "0Pzq0URbL2M.10.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5309337973594666,
+      "error": null
+    },
+    {
+      "video_path": "rfg9l66Eskw.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.008576403371989727,
+      "error": null
+    },
+    {
+      "video_path": "KB3KMUw54Hc.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24483557045459747,
+      "error": null
+    },
+    {
+      "video_path": "iA1xQ0W1vdE.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.007576542440801859,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.5.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46818602085113525,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22252501547336578,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.35.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13278090953826904,
+      "error": null
+    },
+    {
+      "video_path": "P9Z0XP6mkCg.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061040244996548,
+      "error": null
+    },
+    {
+      "video_path": "5e7Kk3WEFAA.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060047078877687454,
+      "error": null
+    },
+    {
+      "video_path": "DEypDAnnJL0.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751438975334167,
+      "error": null
+    },
+    {
+      "video_path": "4e95dbc3dd1d19b5bf3026fa3ac72d2d6aba978280cfd151fb74dd2661ac2ac8.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010983159765601158,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.5.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014058309607207775,
+      "error": null
+    },
+    {
+      "video_path": "7pqGzmdE5zE.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.005219722166657448,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18229320645332336,
+      "error": null
+    },
+    {
+      "video_path": "3005.1.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07581540197134018,
+      "error": null
+    },
+    {
+      "video_path": "WHgh2ajazTw.8.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022967936471104622,
+      "error": null
+    },
+    {
+      "video_path": "mlShD2AvbV8.5.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009707622230052948,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.15.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20169156789779663,
+      "error": null
+    },
+    {
+      "video_path": "aVA7aXOH1pk.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1643150895833969,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22244341671466827,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.21.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06748998910188675,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015902815386652946,
+      "error": null
+    },
+    {
+      "video_path": "gooWdc6kb80.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014059838838875294,
+      "error": null
+    },
+    {
+      "video_path": "0u4NY-YtVII.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029303360730409622,
+      "error": null
+    },
+    {
+      "video_path": "338.2.33.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985585860908031,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.15.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.007576282601803541,
+      "error": null
+    },
+    {
+      "video_path": "Oy8yQZ1Wg7k.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.005910677369683981,
+      "error": null
+    },
+    {
+      "video_path": "ttZAdY3n4nc.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14792633056640625,
+      "error": null
+    },
+    {
+      "video_path": "38855d1bdc38ecd9b0f44c18c7f0007f24fc1071aa86ef3b2a7b21457f3a39fe.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029302282258868217,
+      "error": null
+    },
+    {
+      "video_path": "y51VUsotZe4.8.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26846349239349365,
+      "error": null
+    },
+    {
+      "video_path": "guZ5AxQ6xb0.1.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017979659140110016,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.25.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43704259395599365,
+      "error": null
+    },
+    {
+      "video_path": "34b53d534e3200be0eef4bb8c8d77da9723668281a6baee67b376935b20065f9.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5306901931762695,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.21.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029306158423423767,
+      "error": null
+    },
+    {
+      "video_path": "SXe40DWaA6A.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014060630463063717,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.5.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08505949378013611,
+      "error": null
+    },
+    {
+      "video_path": "MPX29k4uwSg.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025949837639927864,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.165.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0330752357840538,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.17.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017983760684728622,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010984926484525204,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.8.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08505122363567352,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307943418622017,
+      "error": null
+    },
+    {
+      "video_path": "d1046a4b2aaba4928fb997c6f4ee93b72219bb1ad1f5a2f0e6696e8ef32312cd.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025946786627173424,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.1.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02297028712928295,
+      "error": null
+    },
+    {
+      "video_path": "OrOYvVf6tIM.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1066085621714592,
+      "error": null
+    },
+    {
+      "video_path": "snghE_hWMhY.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022967789322137833,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.13.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930362895131111,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02595154382288456,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.6.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20142073929309845,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061438851058483,
+      "error": null
+    },
+    {
+      "video_path": "D2PZUB_lDCk.2.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005015969276428,
+      "error": null
+    },
+    {
+      "video_path": "3923c396290520b6dcedf49397a06682322bd225007879cdd4fa2b144116c293.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24477680027484894,
+      "error": null
+    },
+    {
+      "video_path": "w-HYZv6HzAs.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033069025725126266,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582206279039383,
+      "error": null
+    },
+    {
+      "video_path": "9jLZPZEIWq0.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22252137959003448,
+      "error": null
+    },
+    {
+      "video_path": "06789991de47b8c00d46246a5abcfd0a830d609e8ac1723fdda38dfccc3d3523.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014059528708457947,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13289296627044678,
+      "error": null
+    },
+    {
+      "video_path": "GjEImPidK4g.7.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053374797105789185,
+      "error": null
+    },
+    {
+      "video_path": "EFvnpRE9qC8.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750991195440292,
+      "error": null
+    },
+    {
+      "video_path": "XDndUR0xeAQ.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0533871129155159,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037305381149053574,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.5.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46790555119514465,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.35.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02595156989991665,
+      "error": null
+    },
+    {
+      "video_path": "Ml-9GyPK_hw.4.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904230996966362,
+      "error": null
+    },
+    {
+      "video_path": "2530.0.10.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2014777958393097,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328842043876648,
+      "error": null
+    },
+    {
+      "video_path": "xBFcUI4z0Wk.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042067963629961014,
+      "error": null
+    },
+    {
+      "video_path": "ti231UvSvfQ.12.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20164456963539124,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.1.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930259518325329,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.42.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11911431699991226,
+      "error": null
+    },
+    {
+      "video_path": "MQugcNLFI9k.4.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08505206555128098,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11907176673412323,
+      "error": null
+    },
+    {
+      "video_path": "OrOYvVf6tIM.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061878435313702,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07579824328422546,
+      "error": null
+    },
+    {
+      "video_path": "J5Pnh0UcNxg.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731604665517807,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940099239349365,
+      "error": null
+    },
+    {
+      "video_path": "tCRbVEGHZlQ.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060003623366355896,
+      "error": null
+    },
+    {
+      "video_path": "hpTEzp-6CkM.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24479736387729645,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.17.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053380370140075684,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042067281901836395,
+      "error": null
+    },
+    {
+      "video_path": "K3U7Ybik1wM.4.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4680793583393097,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.37.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061684720218182,
+      "error": null
+    },
+    {
+      "video_path": "HasIb5pfWkQ.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11913539469242096,
+      "error": null
+    },
+    {
+      "video_path": "637ea05e5192428c06fd77b128bd3aa5436dbb3596b8ab6b87405e484e721bc1.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16428756713867188,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.10.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015903029590845108,
+      "error": null
+    },
+    {
+      "video_path": "190.2.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037314869463443756,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.6.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14786581695079803,
+      "error": null
+    },
+    {
+      "video_path": "338.2.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014062252826988697,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022960424423217773,
+      "error": null
+    },
+    {
+      "video_path": "Yp5eTT6kZIo.4.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40680167078971863,
+      "error": null
+    },
+    {
+      "video_path": "99f927656086265ccda299e2c2ec394f4bfded4daa3ea64efcb4ee6c95b8c7de.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01797548122704029,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.15.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022968944162130356,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029306333512067795,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.4.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18234936892986298,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.14.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207043722271919,
+      "error": null
+    },
+    {
+      "video_path": "yKHjA7oooPE.4.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506793528795242,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061827212572098,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.19.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207395762205124,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952540338039398,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.3.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033064212650060654,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.5.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2225073128938675,
+      "error": null
+    },
+    {
+      "video_path": "FbSNaKmBfO0.3.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37685197591781616,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338535085320473,
+      "error": null
+    },
+    {
+      "video_path": "ckpwSAv5we8.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025950977578759193,
+      "error": null
+    },
+    {
+      "video_path": "y51VUsotZe4.7.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337638035416603,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.3.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01590300165116787,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13285349309444427,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329035818576813,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.3.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025944456458091736,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012430299073457718,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.2.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04741205275058746,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.11.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042078517377376556,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02594793774187565,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029306726530194283,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.19.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951270014047623,
+      "error": null
+    },
+    {
+      "video_path": "60.0.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2685624957084656,
+      "error": null
+    },
+    {
+      "video_path": "y0aS2n1WmMg.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015903493389487267,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.11.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09526968002319336,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037316128611564636,
+      "error": null
+    },
+    {
+      "video_path": "05f098e07283ae06f8058a746cd3d87683506af22324a8bdf544b9804e9ae5d5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2224830985069275,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.7.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952773168683052,
+      "error": null
+    },
+    {
+      "video_path": "6h6bMAWLYAI.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047402817755937576,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2685779631137848,
+      "error": null
+    },
+    {
+      "video_path": "8SphTOiOe6k.2.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6783610582351685,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.9.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337956175208092,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033074408769607544,
+      "error": null
+    },
+    {
+      "video_path": "LZkl0_9xFOU.11.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.005219809710979462,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207214340567589,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.0.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022971421480178833,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.15.10.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01798247918486595,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025947488844394684,
+      "error": null
+    },
+    {
+      "video_path": "L8rSZ26ySPA.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012430040165781975,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.11.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337737873196602,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.165.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029303502291440964,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22238689661026,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11910171806812286,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.1.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0229695625603199,
+      "error": null
+    },
+    {
+      "video_path": "3877.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13283498585224152,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.22.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047411270439624786,
+      "error": null
+    },
+    {
+      "video_path": "FV7PVgF3jz4.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10662049800157547,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.1.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530333429574966,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.008576629683375359,
+      "error": null
+    },
+    {
+      "video_path": "1156f206bf6ef72ed3ac9d51d28c81f40031612ca1e79e9d4fc076759bc06c23.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08501269668340683,
+      "error": null
+    },
+    {
+      "video_path": "r-BCbF55fxo.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07577726244926453,
+      "error": null
+    },
+    {
+      "video_path": "61.1.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04741022363305092,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01590433344244957,
+      "error": null
+    },
+    {
+      "video_path": "eWpsukBVJAI.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26859912276268005,
+      "error": null
+    },
+    {
+      "video_path": "RolttrarOOA.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032848261296749,
+      "error": null
+    },
+    {
+      "video_path": "f4ZzHtww6Tc.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32007932662963867,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.24.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0849304050207138,
+      "error": null
+    },
+    {
+      "video_path": "Vm-b2AVwARw.1.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49960726499557495,
+      "error": null
+    },
+    {
+      "video_path": "6YDWsGwz2lI.0.10.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2936183214187622,
+      "error": null
+    },
+    {
+      "video_path": "ckpwSAv5we8.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042071860283613205,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.3.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731343150138855,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.6.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307780250906944,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.19.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10661901533603668,
+      "error": null
+    },
+    {
+      "video_path": "YBC2JaevzOI.7.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.007576384581625462,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985574685037136,
+      "error": null
+    },
+    {
+      "video_path": "5ClsAp49w3c.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207758232951164,
+      "error": null
+    },
+    {
+      "video_path": "ljg_EgXMjO0.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09525611996650696,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.8.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025944752618670464,
+      "error": null
+    },
+    {
+      "video_path": "X9cMkpfnszo.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042059026658535004,
+      "error": null
+    },
+    {
+      "video_path": "hHG1wva1B0w.1.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2449229657649994,
+      "error": null
+    },
+    {
+      "video_path": "guZ5AxQ6xb0.1.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060038771480321884,
+      "error": null
+    },
+    {
+      "video_path": "L0zS8z8YqJ8.2.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20165330171585083,
+      "error": null
+    },
+    {
+      "video_path": "LI7i6DQfh0o.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2684602737426758,
+      "error": null
+    },
+    {
+      "video_path": "L0zS8z8YqJ8.2.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2937280237674713,
+      "error": null
+    },
+    {
+      "video_path": "XDndUR0xeAQ.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053385525941848755,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.3.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3770449161529541,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46852678060531616,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5612964630126953,
+      "error": null
+    },
+    {
+      "video_path": "1448735.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43725883960723877,
+      "error": null
+    },
+    {
+      "video_path": "9H942RAVrHQ.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09525379538536072,
+      "error": null
+    },
+    {
+      "video_path": "3125982.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24454304575920105,
+      "error": null
+    },
+    {
+      "video_path": "QMlfVwN3iTw.8.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16437047719955444,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.3.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2015140950679779,
+      "error": null
+    },
+    {
+      "video_path": "0BmANHSUbJg.3.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053385525941848755,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.3.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750576198101044,
+      "error": null
+    },
+    {
+      "video_path": "3036.0.13.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009707225486636162,
+      "error": null
+    },
+    {
+      "video_path": "JpEfHcVrtXI.3.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22251640260219574,
+      "error": null
+    },
+    {
+      "video_path": "RIz3klPET3o.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1642599254846573,
+      "error": null
+    },
+    {
+      "video_path": "y0aS2n1WmMg.3.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2016027271747589,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.23.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20153667032718658,
+      "error": null
+    },
+    {
+      "video_path": "KdfhMulBsyk.2.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.132852241396904,
+      "error": null
+    },
+    {
+      "video_path": "Q86kUKa28ow.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5299443006515503,
+      "error": null
+    },
+    {
+      "video_path": "KdfhMulBsyk.2.8.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0953039601445198,
+      "error": null
+    },
+    {
+      "video_path": "upC8hjr2b4g.14.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3206057548522949,
+      "error": null
+    },
+    {
+      "video_path": "Wx68yLCrWP0.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26828452944755554,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.23.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13288092613220215,
+      "error": null
+    },
+    {
+      "video_path": "AhnS92hxqCA.3.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751300394535065,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.9.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1823180913925171,
+      "error": null
+    },
+    {
+      "video_path": "z9Bw94k7AxQ.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005195900797844,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0850568637251854,
+      "error": null
+    },
+    {
+      "video_path": "G2EAFkURl0U.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4366964101791382,
+      "error": null
+    },
+    {
+      "video_path": "s7I9Ab9rXkU.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11911184340715408,
+      "error": null
+    },
+    {
+      "video_path": "XA2X_JBzkzY.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751665472984314,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01243041455745697,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.5.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24486257135868073,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.1.11.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49943843483924866,
+      "error": null
+    },
+    {
+      "video_path": "YBC2JaevzOI.1.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7765559554100037,
+      "error": null
+    },
+    {
+      "video_path": "dSmZIp41OCM.25.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5307807922363281,
+      "error": null
+    },
+    {
+      "video_path": "NZ3Pba3Xsk4.3.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9395018219947815,
+      "error": null
+    },
+    {
+      "video_path": "4021226.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.293905109167099,
+      "error": null
+    },
+    {
+      "video_path": "0Pzq0URbL2M.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582591474056244,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005806103348732,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731466084718704,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5913480520248413,
+      "error": null
+    },
+    {
+      "video_path": "ttZAdY3n4nc.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13281583786010742,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.2.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.561416506767273,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2682633697986603,
+      "error": null
+    },
+    {
+      "video_path": "BruiisujNJY.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7299147844314575,
+      "error": null
+    },
+    {
+      "video_path": "Cj6ho1-G6tw.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3771960437297821,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.4.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07581278681755066,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.1.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43723922967910767,
+      "error": null
+    },
+    {
+      "video_path": "Vm-b2AVwARw.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205779194831848,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4989143908023834,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.5.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11912771314382553,
+      "error": null
+    },
+    {
+      "video_path": "ZBsv_5fHtIg.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4070553183555603,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.31.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582368701696396,
+      "error": null
+    },
+    {
+      "video_path": "4021529.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033069342374801636,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.15.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5307005047798157,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.3.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34837964177131653,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.2.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940346300601959,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206397011876106,
+      "error": null
+    },
+    {
+      "video_path": "sguYb2y3u6w.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14787963032722473,
+      "error": null
+    },
+    {
+      "video_path": "942.0.30.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32027265429496765,
+      "error": null
+    },
+    {
+      "video_path": "yQLgp8trSDc.0.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20156808197498322,
+      "error": null
+    },
+    {
+      "video_path": "338.2.30.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5617502331733704,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06003823131322861,
+      "error": null
+    },
+    {
+      "video_path": "VS66VOUmoKQ.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022968709468841553,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.23.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2681977450847626,
+      "error": null
+    },
+    {
+      "video_path": "s7I9Ab9rXkU.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06001928448677063,
+      "error": null
+    },
+    {
+      "video_path": "cwjcfAAXIPs.0.14.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46781983971595764,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.1.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10664357244968414,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.10.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0758168175816536,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13290904462337494,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032904140651226,
+      "error": null
+    },
+    {
+      "video_path": "4847.13.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05997821316123009,
+      "error": null
+    },
+    {
+      "video_path": "1018.1.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2685961127281189,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34811875224113464,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40687528252601624,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.6.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20152145624160767,
+      "error": null
+    },
+    {
+      "video_path": "NJm86fzxG8s.4.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4068908393383026,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.5.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18229371309280396,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20155033469200134,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.3.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18215255439281464,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.18.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26875200867652893,
+      "error": null
+    },
+    {
+      "video_path": "1a1cecb8-2476-4966-9786-3fe0dce1ec0f.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3759132921695709,
+      "error": null
+    },
+    {
+      "video_path": "t2_J-RVP7EM.2.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.294032484292984,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329158753156662,
+      "error": null
+    },
+    {
+      "video_path": "wQ09HsEKmvE.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06746762990951538,
+      "error": null
+    },
+    {
+      "video_path": "yQLgp8trSDc.2.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482261300086975,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18228250741958618,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.0.7.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4373934268951416,
+      "error": null
+    },
+    {
+      "video_path": "03hvbnE0asg.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16433444619178772,
+      "error": null
+    },
+    {
+      "video_path": "0058d7c1829dfe2fcdab924eb527dae182de7b5e5507143313b1cfd51d30c255.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01405799388885498,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.6.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020328793674707413,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34809690713882446,
+      "error": null
+    },
+    {
+      "video_path": "fP5UM4elIes.1.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0675097331404686,
+      "error": null
+    },
+    {
+      "video_path": "bPZc7avrCT4.6.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.067515529692173,
+      "error": null
+    },
+    {
+      "video_path": "-eyUFAJ1xqo.1.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13286277651786804,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01406098622828722,
+      "error": null
+    },
+    {
+      "video_path": "sLX9J2NBL3w.0.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49942928552627563,
+      "error": null
+    },
+    {
+      "video_path": "sJsu7Tv-fRY.7.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14796572923660278,
+      "error": null
+    },
+    {
+      "video_path": "sdidb7Z8IUc.2.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20171447098255157,
+      "error": null
+    },
+    {
+      "video_path": "xBFcUI4z0Wk.5.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529097378253937,
+      "error": null
+    },
+    {
+      "video_path": "5e5ef4541835cc6ffc817c5dd4eb7f240d200553b3eed64782d61ccde60d4ade.1.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0203266441822052,
+      "error": null
+    },
+    {
+      "video_path": "tJ7xCQpF00s.0.12.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18230102956295013,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.0.4.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0850638821721077,
+      "error": null
+    },
+    {
+      "video_path": "338.2.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482576608657837,
+      "error": null
+    },
+    {
+      "video_path": "G_TLZr6ZbLE.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015903742983937263,
+      "error": null
+    },
+    {
+      "video_path": "5454.1.17.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22254234552383423,
+      "error": null
+    },
+    {
+      "video_path": "0ZH_3bcVRe4.0.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06004949286580086,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.7.2.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.006692245602607727,
+      "error": null
+    },
+    {
+      "video_path": "01d049bb34201744344139f0253c21450f8387a3b8076a57667b61c4f2c6450c.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2224547117948532,
+      "error": null
+    },
+    {
+      "video_path": "69PPD7ZUJPc.0.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2682770788669586,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.3.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307340294122696,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.26.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16440798342227936,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4685232937335968,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.1.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.008575966581702232,
+      "error": null
+    },
+    {
+      "video_path": "bPZc7avrCT4.5.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014060408808290958,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.9.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0533580482006073,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.3.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11904028058052063,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.3.6.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07583404332399368,
+      "error": null
+    },
+    {
+      "video_path": "un7JOh6x-c4.0.mp4",
+      "question": "Does the camera move leftward in the scene?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8508683443069458,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1035 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion speed",
+    "task_name": "is camera movement slow or fast",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T01:40:32.521578",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "187.6.15.mp4",
+      "neg_video": "oRt5NPY7yYA.0.6.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.053381022065877914,
+        "pos_text_neg_image": 0.24490679800510406,
+        "neg_text_pos_image": 0.005219561513513327,
+        "neg_text_neg_image": 0.2225532978773117
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9462011456489563,
+        "pos_text_neg_image": 0.7543660402297974,
+        "neg_text_pos_image": 0.9946723580360413,
+        "neg_text_neg_image": 0.7767873406410217
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4f3hG-5grlw.4.3.mp4",
+      "neg_video": "RZs5Hz1klno.5.6.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06005949154496193,
+        "pos_text_neg_image": 0.2225959450006485,
+        "neg_text_pos_image": 0.004069680348038673,
+        "neg_text_neg_image": 0.7307888865470886
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9394885897636414,
+        "pos_text_neg_image": 0.7769361734390259,
+        "neg_text_pos_image": 0.9958179593086243,
+        "neg_text_neg_image": 0.26884225010871887
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CbIWq4PGFCo.1.1.mp4",
+      "neg_video": "0Pzq0URbL2M.5.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04207238554954529,
+        "pos_text_neg_image": 0.10664420574903488,
+        "neg_text_pos_image": 0.005219367332756519,
+        "neg_text_neg_image": 0.022973839193582535
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9575631022453308,
+        "pos_text_neg_image": 0.8929210305213928,
+        "neg_text_pos_image": 0.994635283946991,
+        "neg_text_neg_image": 0.976872444152832
+      },
+      "error": null
+    },
+    {
+      "pos_video": "168085.0.mp4",
+      "neg_video": "mIiPt1YVkP8.5.3.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.037318918853998184,
+        "pos_text_neg_image": 0.14798606932163239,
+        "neg_text_pos_image": 0.010985882952809334,
+        "neg_text_neg_image": 0.407117635011673
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.962467610836029,
+        "pos_text_neg_image": 0.8516010642051697,
+        "neg_text_pos_image": 0.9889175891876221,
+        "neg_text_neg_image": 0.5923526287078857
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yGsVo0uIJVs.3.5.mp4",
+      "neg_video": "0u4NY-YtVII.6.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.020329879596829414,
+        "pos_text_neg_image": 0.10663574934005737,
+        "neg_text_pos_image": 0.0011694737477228045,
+        "neg_text_neg_image": 0.067522794008255
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.979548454284668,
+        "pos_text_neg_image": 0.8928502202033997,
+        "neg_text_pos_image": 0.9987993240356445,
+        "neg_text_neg_image": 0.9321233630180359
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VaSlqE0Nx2Q.8.1.mp4",
+      "neg_video": "2053420.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34830808639526367,
+        "pos_text_neg_image": 0.05338384956121445,
+        "neg_text_pos_image": 0.022971797734498978,
+        "neg_text_neg_image": 0.5307905077934265
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6507251858711243,
+        "pos_text_neg_image": 0.9462513327598572,
+        "neg_text_pos_image": 0.9767856597900391,
+        "neg_text_neg_image": 0.46842098236083984
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mIiPt1YVkP8.11.6.mp4",
+      "neg_video": "1560.0.15.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1644326001405716,
+        "pos_text_neg_image": 0.16441042721271515,
+        "neg_text_pos_image": 0.014061917550861835,
+        "neg_text_neg_image": 0.4995800852775574
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8350576758384705,
+        "pos_text_neg_image": 0.8349450826644897,
+        "neg_text_pos_image": 0.9858165979385376,
+        "neg_text_neg_image": 0.4995800852775574
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "neg_video": "ZBsv_5fHtIg.0.3.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.029305683448910713,
+        "pos_text_neg_image": 0.07582645863294601,
+        "neg_text_pos_image": 0.00757636409252882,
+        "neg_text_neg_image": 0.20168039202690125
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9704709053039551,
+        "pos_text_neg_image": 0.923755407333374,
+        "neg_text_pos_image": 0.9923079013824463,
+        "neg_text_neg_image": 0.7976614236831665
+      },
+      "error": null
+    },
+    {
+      "pos_video": "iXzposKQzvs.2.1.mp4",
+      "neg_video": "GjEImPidK4g.0.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32043781876564026,
+        "pos_text_neg_image": 0.22258257865905762,
+        "neg_text_pos_image": 0.08502780646085739,
+        "neg_text_neg_image": 0.08507081866264343
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6783668398857117,
+        "pos_text_neg_image": 0.7768895030021667,
+        "neg_text_pos_image": 0.9141350984573364,
+        "neg_text_neg_image": 0.9145975112915039
+      },
+      "error": null
+    },
+    {
+      "pos_video": "BKX6EhDrgqQ.3.2.mp4",
+      "neg_video": "0u4NY-YtVII.5.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1191534474492073,
+        "pos_text_neg_image": 0.08506283909082413,
+        "neg_text_pos_image": 0.022973887622356415,
+        "neg_text_neg_image": 0.037318963557481766
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8804315328598022,
+        "pos_text_neg_image": 0.9145117998123169,
+        "neg_text_pos_image": 0.9768745303153992,
+        "neg_text_neg_image": 0.9624687433242798
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mixkit-snowy-mountain-in-canada-full-of-pine-trees-3390.0.mp4",
+      "neg_video": "3m-ME9AXCTo.1.5.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09530835598707199,
+        "pos_text_neg_image": 0.20154514908790588,
+        "neg_text_pos_image": 0.017983214929699898,
+        "neg_text_neg_image": 0.40677493810653687
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.904260516166687,
+        "pos_text_neg_image": 0.7971265316009521,
+        "neg_text_pos_image": 0.9818502068519592,
+        "neg_text_neg_image": 0.5918540358543396
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4022437.0.1.mp4",
+      "neg_video": "fT6olrwrjnI.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2224946916103363,
+        "pos_text_neg_image": 0.3206370174884796,
+        "neg_text_pos_image": 0.020327061414718628,
+        "neg_text_neg_image": 0.26878607273101807
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7765827178955078,
+        "pos_text_neg_image": 0.6787885427474976,
+        "neg_text_pos_image": 0.9794126749038696,
+        "neg_text_neg_image": 0.7306361794471741
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VKre9_wM3Mo.1.3.mp4",
+      "neg_video": "_I6Y-rtiTPc.0.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.020329061895608902,
+        "pos_text_neg_image": 0.3205893635749817,
+        "neg_text_pos_image": 0.002182606840506196,
+        "neg_text_neg_image": 0.4069960117340088
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9795091152191162,
+        "pos_text_neg_image": 0.6786876320838928,
+        "neg_text_pos_image": 0.9977672100067139,
+        "neg_text_neg_image": 0.5921756625175476
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mixkit-beautiful-dusk-on-a-large-lake-from-above-5005.0.mp4",
+      "neg_video": "lTxn2BuqyzU.0.7.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18228580057621002,
+        "pos_text_neg_image": 0.1066499724984169,
+        "neg_text_pos_image": 0.012429515831172466,
+        "neg_text_neg_image": 0.022974105551838875
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8169482946395874,
+        "pos_text_neg_image": 0.8929693102836609,
+        "neg_text_pos_image": 0.9873987436294556,
+        "neg_text_neg_image": 0.9768838286399841
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.2.mp4",
+      "neg_video": "c41pRPO9TQk.3.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06006622686982155,
+        "pos_text_neg_image": 0.04741065949201584,
+        "neg_text_pos_image": 0.009707357734441757,
+        "neg_text_neg_image": 0.02595100738108158
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9395939111709595,
+        "pos_text_neg_image": 0.9522685408592224,
+        "neg_text_pos_image": 0.99017733335495,
+        "neg_text_neg_image": 0.9738043546676636
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.1.mp4",
+      "neg_video": "IAVXdvsmqBM.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.015904176980257034,
+        "pos_text_neg_image": 0.4374222755432129,
+        "neg_text_pos_image": 0.002182593336328864,
+        "neg_text_neg_image": 0.5922032594680786
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9839566349983215,
+        "pos_text_neg_image": 0.5616613030433655,
+        "neg_text_pos_image": 0.9977610111236572,
+        "neg_text_neg_image": 0.407014936208725
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qMeHR2Dc4mQ.0.4.mp4",
+      "neg_video": "PIvOfcR77SQ.0.4.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.029306460171937943,
+        "pos_text_neg_image": 0.18229447305202484,
+        "neg_text_pos_image": 0.0035933367908000946,
+        "neg_text_neg_image": 0.03307841718196869
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.970496654510498,
+        "pos_text_neg_image": 0.8169870972633362,
+        "neg_text_pos_image": 0.9963326454162598,
+        "neg_text_neg_image": 0.966693103313446
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MuNyfqxAO6Y.8.20.mp4",
+      "neg_video": "CjPSzAtLzO8.0.3.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06753004342317581,
+        "pos_text_neg_image": 0.1479671746492386,
+        "neg_text_pos_image": 0.008576948195695877,
+        "neg_text_neg_image": 0.7307064533233643
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9322234392166138,
+        "pos_text_neg_image": 0.8514923453330994,
+        "neg_text_pos_image": 0.9913603663444519,
+        "neg_text_neg_image": 0.2688119113445282
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MuNyfqxAO6Y.2.0.mp4",
+      "neg_video": "RxrFsOEIRCE.1.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07583417743444443,
+        "pos_text_neg_image": 0.09529771655797958,
+        "neg_text_pos_image": 0.025953445583581924,
+        "neg_text_neg_image": 0.8930267095565796
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9238494038581848,
+        "pos_text_neg_image": 0.9041595458984375,
+        "neg_text_pos_image": 0.9738958477973938,
+        "neg_text_neg_image": 0.10665683448314667
+      },
+      "error": null
+    },
+    {
+      "pos_video": "xo9p8p6deRI.10.1.mp4",
+      "neg_video": "8ouj_JN2ytI.0.25.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04207522049546242,
+        "pos_text_neg_image": 0.6508596539497375,
+        "neg_text_pos_image": 0.005910523235797882,
+        "neg_text_neg_image": 0.8351414203643799
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9576275944709778,
+        "pos_text_neg_image": 0.34838008880615234,
+        "neg_text_pos_image": 0.9939972162246704,
+        "neg_text_neg_image": 0.164449080824852
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ti231UvSvfQ.0.0.mp4",
+      "neg_video": "6YDWsGwz2lI.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06750094890594482,
+        "pos_text_neg_image": 0.22245746850967407,
+        "neg_text_pos_image": 0.007575546856969595,
+        "neg_text_neg_image": 0.5616000294685364
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.931821882724762,
+        "pos_text_neg_image": 0.7764528393745422,
+        "neg_text_pos_image": 0.9922009110450745,
+        "neg_text_neg_image": 0.4373745620250702
+      },
+      "error": null
+    },
+    {
+      "pos_video": "pNGMY3xVkVE.0.1.mp4",
+      "neg_video": "F7iLfuci75Y.6.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10664136707782745,
+        "pos_text_neg_image": 0.05338211730122566,
+        "neg_text_pos_image": 0.017983460798859596,
+        "neg_text_neg_image": 0.015903523191809654
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8928972482681274,
+        "pos_text_neg_image": 0.9462205767631531,
+        "neg_text_pos_image": 0.9818636178970337,
+        "neg_text_neg_image": 0.9839161038398743
+      },
+      "error": null
+    },
+    {
+      "pos_video": "X-keHLL75tg.3.6.mp4",
+      "neg_video": "2KuVjf4uB9k.0.12.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.025952143594622612,
+        "pos_text_neg_image": 0.24493268132209778,
+        "neg_text_pos_image": 0.0040698423981666565,
+        "neg_text_neg_image": 0.8352043628692627
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.973846971988678,
+        "pos_text_neg_image": 0.7544457912445068,
+        "neg_text_pos_image": 0.9958575367927551,
+        "neg_text_neg_image": 0.16446147859096527
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.15.5.mp4",
+      "neg_video": "1560.0.11.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18233013153076172,
+        "pos_text_neg_image": 0.5619074702262878,
+        "neg_text_pos_image": 0.020329153165221214,
+        "neg_text_neg_image": 0.49974215030670166
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.817146897315979,
+        "pos_text_neg_image": 0.43761399388313293,
+        "neg_text_pos_image": 0.9795134663581848,
+        "neg_text_neg_image": 0.49974215030670166
+      },
+      "error": null
+    },
+    {
+      "pos_video": "L0zS8z8YqJ8.0.4.mp4",
+      "neg_video": "1560.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.268820583820343,
+        "pos_text_neg_image": 0.43756023049354553,
+        "neg_text_pos_image": 0.042079340666532516,
+        "neg_text_neg_image": 0.7770662307739258
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7307300567626953,
+        "pos_text_neg_image": 0.5618384480476379,
+        "neg_text_pos_image": 0.9577214121818542,
+        "neg_text_neg_image": 0.2226332128047943
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.15.1.mp4",
+      "neg_video": "wq1iqovmqOA.0.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.025952696800231934,
+        "pos_text_neg_image": 0.16439396142959595,
+        "neg_text_pos_image": 0.0035933435428887606,
+        "neg_text_neg_image": 0.3205477297306061
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9738677740097046,
+        "pos_text_neg_image": 0.8348614573478699,
+        "neg_text_pos_image": 0.9963345527648926,
+        "neg_text_neg_image": 0.6785995364189148
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.8.2.mp4",
+      "neg_video": "3epU697sU9E.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1644100397825241,
+        "pos_text_neg_image": 0.16439609229564667,
+        "neg_text_pos_image": 0.015903815627098083,
+        "neg_text_neg_image": 0.09529734402894974
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8349431753158569,
+        "pos_text_neg_image": 0.834872305393219,
+        "neg_text_pos_image": 0.983934223651886,
+        "neg_text_neg_image": 0.9041560292243958
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Vm-b2AVwARw.5.0.mp4",
+      "neg_video": "KdfhMulBsyk.2.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14795611798763275,
+        "pos_text_neg_image": 0.05337430164217949,
+        "neg_text_pos_image": 0.015903551131486893,
+        "neg_text_neg_image": 0.06750448048114777
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.851428747177124,
+        "pos_text_neg_image": 0.9460820555686951,
+        "neg_text_pos_image": 0.9839178323745728,
+        "neg_text_neg_image": 0.9318706393241882
+      },
+      "error": null
+    },
+    {
+      "pos_video": "154586.0.mp4",
+      "neg_video": "PIvOfcR77SQ.3.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37693455815315247,
+        "pos_text_neg_image": 0.1328691691160202,
+        "neg_text_pos_image": 0.01405990868806839,
+        "neg_text_neg_image": 0.029304035007953644
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6214600205421448,
+        "pos_text_neg_image": 0.8664157390594482,
+        "neg_text_pos_image": 0.9856756925582886,
+        "neg_text_neg_image": 0.9704163670539856
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.42.3.mp4",
+      "neg_video": "3pxrECZYEAA.3.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.13289755582809448,
+        "pos_text_neg_image": 0.06005898118019104,
+        "neg_text_pos_image": 0.022973215207457542,
+        "neg_text_neg_image": 0.033075280487537384
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8666008710861206,
+        "pos_text_neg_image": 0.9394806027412415,
+        "neg_text_pos_image": 0.9768459796905518,
+        "neg_text_neg_image": 0.9666014313697815
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3zU-4Ft0MKQ.6.0.mp4",
+      "neg_video": "RxrFsOEIRCE.1.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7979260683059692,
+        "pos_text_neg_image": 0.0600636787712574,
+        "neg_text_pos_image": 0.5309349298477173,
+        "neg_text_neg_image": 0.9238966107368469
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.20174731314182281,
+        "pos_text_neg_image": 0.9395540356636047,
+        "neg_text_pos_image": 0.468548446893692,
+        "neg_text_neg_image": 0.07583805173635483
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CbIWq4PGFCo.1.4.mp4",
+      "neg_video": "OCBYMQzG44U.2.23.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06751718372106552,
+        "pos_text_neg_image": 0.530903160572052,
+        "neg_text_pos_image": 0.005219465587288141,
+        "neg_text_neg_image": 0.40713271498680115
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9320459365844727,
+        "pos_text_neg_image": 0.4685204029083252,
+        "neg_text_pos_image": 0.9946540594100952,
+        "neg_text_neg_image": 0.5923745632171631
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.1.1.mp4",
+      "neg_video": "2KuVjf4uB9k.0.6.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04740328714251518,
+        "pos_text_neg_image": 0.14795365929603577,
+        "neg_text_pos_image": 0.022968899458646774,
+        "neg_text_neg_image": 0.65086829662323
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9521204829216003,
+        "pos_text_neg_image": 0.8514145612716675,
+        "neg_text_pos_image": 0.9766623973846436,
+        "neg_text_neg_image": 0.34838470816612244
+      },
+      "error": null
+    },
+    {
+      "pos_video": "hHG1wva1B0w.1.1.mp4",
+      "neg_video": "88vmzn_LufA.1.3.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.05338943377137184,
+        "pos_text_neg_image": 0.13290254771709442,
+        "neg_text_pos_image": 0.004069897811859846,
+        "neg_text_neg_image": 0.4996717870235443
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9463502764701843,
+        "pos_text_neg_image": 0.8666334748268127,
+        "neg_text_pos_image": 0.9958711266517639,
+        "neg_text_neg_image": 0.4996717870235443
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Vm-b2AVwARw.3.5.mp4",
+      "neg_video": "CjPSzAtLzO8.0.9.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.03731575235724449,
+        "pos_text_neg_image": 0.11911328136920929,
+        "neg_text_pos_image": 0.00970720686018467,
+        "neg_text_neg_image": 0.4994821548461914
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.962385892868042,
+        "pos_text_neg_image": 0.8801347017288208,
+        "neg_text_pos_image": 0.9901620149612427,
+        "neg_text_neg_image": 0.4994821548461914
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CbIWq4PGFCo.0.1.mp4",
+      "neg_video": "Hby08EPZV1c.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06751170754432678,
+        "pos_text_neg_image": 0.18227088451385498,
+        "neg_text_pos_image": 0.005219354759901762,
+        "neg_text_neg_image": 0.03731084614992142
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9319702982902527,
+        "pos_text_neg_image": 0.8168813586235046,
+        "neg_text_pos_image": 0.9946329593658447,
+        "neg_text_neg_image": 0.9622594118118286
+      },
+      "error": null
+    },
+    {
+      "pos_video": "y0aS2n1WmMg.0.0.mp4",
+      "neg_video": "O6_XM2Mn0lg.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.022973043844103813,
+        "pos_text_neg_image": 0.34836921095848083,
+        "neg_text_pos_image": 0.002472451888024807,
+        "neg_text_neg_image": 0.2939762473106384
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9768386483192444,
+        "pos_text_neg_image": 0.6508393883705139,
+        "neg_text_pos_image": 0.997458279132843,
+        "neg_text_neg_image": 0.705212414264679
+      },
+      "error": null
+    },
+    {
+      "pos_video": "xo9p8p6deRI.10.2.mp4",
+      "neg_video": "338.2.30.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.037315960973501205,
+        "pos_text_neg_image": 0.3484058082103729,
+        "neg_text_pos_image": 0.00591044407337904,
+        "neg_text_neg_image": 0.2687854766845703
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9623913168907166,
+        "pos_text_neg_image": 0.6509076952934265,
+        "neg_text_pos_image": 0.9939839243888855,
+        "neg_text_neg_image": 0.7306346297264099
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.2.0.mp4",
+      "neg_video": "1560.0.8.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06751924753189087,
+        "pos_text_neg_image": 0.40707629919052124,
+        "neg_text_pos_image": 0.022971821948885918,
+        "neg_text_neg_image": 0.49969667196273804
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9320743680000305,
+        "pos_text_neg_image": 0.5922924876213074,
+        "neg_text_pos_image": 0.9767866730690002,
+        "neg_text_neg_image": 0.49969667196273804
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8ouj_JN2ytI.0.9.mp4",
+      "neg_video": "fT6olrwrjnI.5.3.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09531136602163315,
+        "pos_text_neg_image": 0.26877132058143616,
+        "neg_text_pos_image": 0.0533866211771965,
+        "neg_text_neg_image": 0.2017044872045517
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9042891263961792,
+        "pos_text_neg_image": 0.730596125125885,
+        "neg_text_pos_image": 0.9463004469871521,
+        "neg_text_neg_image": 0.7977567315101624
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.8.3.mp4",
+      "neg_video": "B_8bbKn3amE.0.4.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.014061507768929005,
+        "pos_text_neg_image": 0.04208086058497429,
+        "neg_text_pos_image": 0.003172443713992834,
+        "neg_text_neg_image": 0.880645751953125
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9857878684997559,
+        "pos_text_neg_image": 0.957755982875824,
+        "neg_text_pos_image": 0.996752142906189,
+        "neg_text_neg_image": 0.11918244510889053
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CbIWq4PGFCo.0.2.mp4",
+      "neg_video": "yQLgp8trSDc.2.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06750575453042984,
+        "pos_text_neg_image": 0.26874926686286926,
+        "neg_text_pos_image": 0.005910084117203951,
+        "neg_text_neg_image": 0.4374518394470215
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9318881034851074,
+        "pos_text_neg_image": 0.730536162853241,
+        "neg_text_pos_image": 0.9939233660697937,
+        "neg_text_neg_image": 0.5616992712020874
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qMeHR2Dc4mQ.3.5.mp4",
+      "neg_video": "RIz3klPET3o.1.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.020328672602772713,
+        "pos_text_neg_image": 0.0420701690018177,
+        "neg_text_pos_image": 0.0028006876818835735,
+        "neg_text_neg_image": 0.03731069713830948
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.979490339756012,
+        "pos_text_neg_image": 0.957512617111206,
+        "neg_text_pos_image": 0.997113823890686,
+        "neg_text_neg_image": 0.9622555375099182
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VKre9_wM3Mo.2.3.mp4",
+      "neg_video": "5679.1.20.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18230131268501282,
+        "pos_text_neg_image": 0.025952724739909172,
+        "neg_text_pos_image": 0.06006055697798729,
+        "neg_text_neg_image": 0.00521969934925437
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8170177340507507,
+        "pos_text_neg_image": 0.9738688468933105,
+        "neg_text_pos_image": 0.9395052194595337,
+        "neg_text_neg_image": 0.9946986436843872
+      },
+      "error": null
+    },
+    {
+      "pos_video": "QaRnEZFM6ZQ.2.8.mp4",
+      "neg_video": "-2uIa-XMJC0.5.8.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2940470576286316,
+        "pos_text_neg_image": 0.22260253131389618,
+        "neg_text_pos_image": 0.10664671659469604,
+        "neg_text_neg_image": 0.49975377321243286
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.705382227897644,
+        "pos_text_neg_image": 0.7769591212272644,
+        "neg_text_pos_image": 0.8929420113563538,
+        "neg_text_neg_image": 0.49975377321243286
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KdfhMulBsyk.2.8.mp4",
+      "neg_video": "Gel59Iy3YhQ.20.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06752771139144897,
+        "pos_text_neg_image": 0.13291195034980774,
+        "neg_text_pos_image": 0.010985870845615864,
+        "neg_text_neg_image": 0.2225801646709442
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9321912527084351,
+        "pos_text_neg_image": 0.8666948080062866,
+        "neg_text_pos_image": 0.9889165163040161,
+        "neg_text_neg_image": 0.7768810987472534
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.9.7.mp4",
+      "neg_video": "sLX9J2NBL3w.0.12.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.20173044502735138,
+        "pos_text_neg_image": 0.34836336970329285,
+        "neg_text_pos_image": 0.0675310418009758,
+        "neg_text_neg_image": 0.08506970852613449
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7978593707084656,
+        "pos_text_neg_image": 0.65082848072052,
+        "neg_text_pos_image": 0.9322372078895569,
+        "neg_text_neg_image": 0.914585530757904
+      },
+      "error": null
+    },
+    {
+      "pos_video": "z9Bw94k7AxQ.0.7.mp4",
+      "neg_video": "338.2.2.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.053384970873594284,
+        "pos_text_neg_image": 0.40706491470336914,
+        "neg_text_pos_image": 0.0066919997334480286,
+        "neg_text_neg_image": 0.5308679342269897
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9462711811065674,
+        "pos_text_neg_image": 0.5922759771347046,
+        "neg_text_pos_image": 0.9931808710098267,
+        "neg_text_neg_image": 0.46848931908607483
+      },
+      "error": null
+    },
+    {
+      "pos_video": "LZkl0_9xFOU.14.2.mp4",
+      "neg_video": "5454.1.17.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07583627849817276,
+        "pos_text_neg_image": 0.2687731087207794,
+        "neg_text_pos_image": 0.009707723744213581,
+        "neg_text_neg_image": 0.18231730163097382
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9238750338554382,
+        "pos_text_neg_image": 0.7306010127067566,
+        "neg_text_pos_image": 0.9902147054672241,
+        "neg_text_neg_image": 0.8170894384384155
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.4.2.mp4",
+      "neg_video": "69PPD7ZUJPc.0.0.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04206768423318863,
+        "pos_text_neg_image": 0.3203890323638916,
+        "neg_text_pos_image": 0.02032466232776642,
+        "neg_text_neg_image": 0.348312109708786
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.957456111907959,
+        "pos_text_neg_image": 0.6782636046409607,
+        "neg_text_pos_image": 0.9792971014976501,
+        "neg_text_neg_image": 0.650732696056366
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.5.7.mp4",
+      "neg_video": "sKJeTaIEldM.1.1.mp4",
+      "pos_question": "Does the camera have noticeable motion but at a slow motion speed?",
+      "neg_question": "Does the camera have noticeable motion but at a fast motion speed?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11914360523223877,
+        "pos_text_neg_image": 0.2447739988565445,
+        "neg_text_pos_image": 0.053387343883514404,
+        "neg_text_neg_image": 0.18223129212856293
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8803588151931763,
+        "pos_text_neg_image": 0.7539570331573486,
+        "neg_text_pos_image": 0.9463132619857788,
+        "neg_text_neg_image": 0.8167039752006531
+      },
+      "error": null
+    }
+  ]
+}

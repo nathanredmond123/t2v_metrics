@@ -1,0 +1,1615 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion and steadiness",
+    "task_name": "is the camera fixed or moving",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T01:15:29.916131",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "5454.1.13.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.005910624749958515,
+        "pos_text_neg_image": 0.08506584912538528,
+        "neg_text_pos_image": 0.9625913500785828,
+        "neg_text_neg_image": 0.34849628806114197
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.994014322757721,
+        "pos_text_neg_image": 0.9145441055297852,
+        "neg_text_pos_image": 0.0373237170279026,
+        "neg_text_neg_image": 0.6510767340660095
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5qKYrajRNwo.2.4.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2688090205192566,
+        "pos_text_neg_image": 0.06750718504190445,
+        "neg_text_pos_image": 0.22255179286003113,
+        "neg_text_neg_image": 0.7542269825935364
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7306985855102539,
+        "pos_text_neg_image": 0.9319078922271729,
+        "neg_text_pos_image": 0.7767820954322815,
+        "neg_text_neg_image": 0.2448616325855255
+      },
+      "error": null
+    },
+    {
+      "pos_video": "CQYQKehqjgI.3.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5306691527366638,
+        "pos_text_neg_image": 0.07583578675985336,
+        "neg_text_pos_image": 0.37699776887893677,
+        "neg_text_neg_image": 0.3484288156032562
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.46831387281417847,
+        "pos_text_neg_image": 0.9238690137863159,
+        "neg_text_pos_image": 0.6215642690658569,
+        "neg_text_neg_image": 0.6509507298469543
+      },
+      "error": null
+    },
+    {
+      "pos_video": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.3.mp4",
+      "neg_video": "MuNyfqxAO6Y.8.5.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24476760625839233,
+        "pos_text_neg_image": 0.1644548922777176,
+        "neg_text_pos_image": 0.24479693174362183,
+        "neg_text_neg_image": 0.2688024640083313
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.753937304019928,
+        "pos_text_neg_image": 0.8351709246635437,
+        "neg_text_pos_image": 0.7540276646614075,
+        "neg_text_neg_image": 0.7306808233261108
+      },
+      "error": null
+    },
+    {
+      "pos_video": "l5RWa1D00ck.0.1.mp4",
+      "neg_video": "IWv0EhEGmNI.3.5.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6511136889457703,
+        "pos_text_neg_image": 0.09532596170902252,
+        "neg_text_pos_image": 0.014061503112316132,
+        "neg_text_neg_image": 0.5924957990646362
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.348516047000885,
+        "pos_text_neg_image": 0.9044275283813477,
+        "neg_text_pos_image": 0.9857875108718872,
+        "neg_text_neg_image": 0.40721604228019714
+      },
+      "error": null
+    },
+    {
+      "pos_video": "lz5xvWTodyw.8.0.mp4",
+      "neg_video": "JGiXuXc3cao.3.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205740749835968,
+        "pos_text_neg_image": 0.20170733332633972,
+        "neg_text_pos_image": 0.2448417991399765,
+        "neg_text_neg_image": 0.5618570446968079
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6786552667617798,
+        "pos_text_neg_image": 0.7977679967880249,
+        "neg_text_pos_image": 0.7541658878326416,
+        "neg_text_neg_image": 0.43757471442222595
+      },
+      "error": null
+    },
+    {
+      "pos_video": "i82xURPkLWo.3.5.mp4",
+      "neg_video": "yGsVo0uIJVs.3.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4071521759033203,
+        "pos_text_neg_image": 0.1644328236579895,
+        "neg_text_pos_image": 0.047410815954208374,
+        "neg_text_neg_image": 0.777054488658905
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5924028754234314,
+        "pos_text_neg_image": 0.835058867931366,
+        "neg_text_pos_image": 0.9522716999053955,
+        "neg_text_neg_image": 0.2226298451423645
+      },
+      "error": null
+    },
+    {
+      "pos_video": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.1.mp4",
+      "neg_video": "H4AZhS5WqKk.2.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32043832540512085,
+        "pos_text_neg_image": 0.07582448422908783,
+        "neg_text_pos_image": 0.13285595178604126,
+        "neg_text_neg_image": 0.6508774161338806
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6783679127693176,
+        "pos_text_neg_image": 0.92373126745224,
+        "neg_text_pos_image": 0.8663296103477478,
+        "neg_text_neg_image": 0.348389595746994
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.12.3.mp4",
+      "neg_video": "5679.1.21.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22262892127037048,
+        "pos_text_neg_image": 0.43762385845184326,
+        "neg_text_pos_image": 0.11915215849876404,
+        "neg_text_neg_image": 0.025952769443392754
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7770512700080872,
+        "pos_text_neg_image": 0.561920166015625,
+        "neg_text_pos_image": 0.8804219961166382,
+        "neg_text_neg_image": 0.9738705158233643
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7jUW96CiEKA.8.1.mp4",
+      "neg_video": "187.6.15.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4683168828487396,
+        "pos_text_neg_image": 0.24489931762218475,
+        "neg_text_pos_image": 0.11908973008394241,
+        "neg_text_neg_image": 0.32052668929100037
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.530672550201416,
+        "pos_text_neg_image": 0.7543429732322693,
+        "neg_text_pos_image": 0.8799606561660767,
+        "neg_text_neg_image": 0.6785549521446228
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7jUW96CiEKA.0.3.mp4",
+      "neg_video": "9ddb5f18be693e72c2dc446d3909d2d59d7036be4466643a956c9fae5e03f977.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7546117901802063,
+        "pos_text_neg_image": 0.0675055980682373,
+        "neg_text_pos_image": 0.015904532745480537,
+        "neg_text_neg_image": 0.7767911553382874
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.24498657882213593,
+        "pos_text_neg_image": 0.9318860173225403,
+        "neg_text_pos_image": 0.9839786887168884,
+        "neg_text_neg_image": 0.22255440056324005
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.4.5.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.16.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2448723167181015,
+        "pos_text_neg_image": 0.04740017652511597,
+        "neg_text_pos_image": 0.37727615237236023,
+        "neg_text_neg_image": 0.9237358570098877
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7542598247528076,
+        "pos_text_neg_image": 0.9520580172538757,
+        "neg_text_pos_image": 0.6220232248306274,
+        "neg_text_neg_image": 0.07582485675811768
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9a8a4d0688ffc6b5cb61bc3323634f3dbfbb310ad20130cf56762bfc113e44ed.0.mp4",
+      "neg_video": "Ni7AYED85z4.2.17.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22250935435295105,
+        "pos_text_neg_image": 0.07582906633615494,
+        "neg_text_pos_image": 0.705387532711029,
+        "neg_text_neg_image": 0.9044559001922607
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7766339182853699,
+        "pos_text_neg_image": 0.9237871170043945,
+        "neg_text_pos_image": 0.2940492630004883,
+        "neg_text_neg_image": 0.09532894939184189
+      },
+      "error": null
+    },
+    {
+      "pos_video": "oRt5NPY7yYA.3.3.mp4",
+      "neg_video": "oRt5NPY7yYA.0.6.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07580379396677017,
+        "pos_text_neg_image": 0.002182621043175459,
+        "neg_text_pos_image": 0.7305776476860046,
+        "neg_text_neg_image": 0.9795823097229004
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9234793186187744,
+        "pos_text_neg_image": 0.9977735877037048,
+        "neg_text_pos_image": 0.26876452565193176,
+        "neg_text_neg_image": 0.020330581814050674
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RYzkI_5ub58.8.8.mp4",
+      "neg_video": "ZpJpZGktliQ.0.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3484098017215729,
+        "pos_text_neg_image": 0.20165826380252838,
+        "neg_text_pos_image": 0.053386107087135315,
+        "neg_text_neg_image": 0.7768412828445435
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6509151458740234,
+        "pos_text_neg_image": 0.7975739240646362,
+        "neg_text_pos_image": 0.9462913870811462,
+        "neg_text_neg_image": 0.22256876528263092
+      },
+      "error": null
+    },
+    {
+      "pos_video": "cdbdf71cb5b76ac81a00f2e3e5c22bc27b126da4579752cd6a10da3650b4d8e3.0.mp4",
+      "neg_video": "RZs5Hz1klno.5.6.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18227985501289368,
+        "pos_text_neg_image": 0.001501146238297224,
+        "neg_text_pos_image": 0.46804171800613403,
+        "neg_text_neg_image": 0.9940674304962158
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8169216513633728,
+        "pos_text_neg_image": 0.9984748959541321,
+        "neg_text_pos_image": 0.530360758304596,
+        "neg_text_neg_image": 0.005910940933972597
+      },
+      "error": null
+    },
+    {
+      "pos_video": "H4AZhS5WqKk.0.0.mp4",
+      "neg_video": "1hu1np_BI2M.9.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2940690517425537,
+        "pos_text_neg_image": 0.53109210729599,
+        "neg_text_pos_image": 0.24493621289730072,
+        "neg_text_neg_image": 0.015904473140835762
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.705435037612915,
+        "pos_text_neg_image": 0.46868714690208435,
+        "neg_text_pos_image": 0.754456639289856,
+        "neg_text_neg_image": 0.9839749932289124
+      },
+      "error": null
+    },
+    {
+      "pos_video": "FUQhNGEu2KA.0.0.mp4",
+      "neg_video": "upC8hjr2b4g.14.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4996244013309479,
+        "pos_text_neg_image": 0.2687620520591736,
+        "neg_text_pos_image": 0.18223267793655396,
+        "neg_text_neg_image": 0.26876696944236755
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4996244013309479,
+        "pos_text_neg_image": 0.730570912361145,
+        "neg_text_pos_image": 0.8167101740837097,
+        "neg_text_neg_image": 0.7305843234062195
+      },
+      "error": null
+    },
+    {
+      "pos_video": "px9IqOnilHI.1.2.mp4",
+      "neg_video": "KAer-wHAd38.5.8.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3774198889732361,
+        "pos_text_neg_image": 0.00970771349966526,
+        "neg_text_pos_image": 0.017983680590987206,
+        "neg_text_neg_image": 0.952380895614624
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6222601532936096,
+        "pos_text_neg_image": 0.9902136921882629,
+        "neg_text_pos_image": 0.9818757176399231,
+        "neg_text_neg_image": 0.04741625115275383
+      },
+      "error": null
+    },
+    {
+      "pos_video": "TktL3QR8Yg8.0.3.mp4",
+      "neg_video": "rz8KzLbdS7g.8.5.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11915169656276703,
+        "pos_text_neg_image": 0.01098595466464758,
+        "neg_text_pos_image": 0.5618712306022644,
+        "neg_text_neg_image": 0.9464631676673889
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.880418598651886,
+        "pos_text_neg_image": 0.9889240860939026,
+        "neg_text_pos_image": 0.4375857412815094,
+        "neg_text_neg_image": 0.05339580029249191
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9cf72aeafdabae7ed510a61012c08e0f9e008056b5b579288dd57fcd38f9c505.1.mp4",
+      "neg_video": "VKre9_wM3Mo.1.15.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40676307678222656,
+        "pos_text_neg_image": 0.1823071837425232,
+        "neg_text_pos_image": 0.18213723599910736,
+        "neg_text_neg_image": 0.678808867931366
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5918367505073547,
+        "pos_text_neg_image": 0.8170440793037415,
+        "neg_text_pos_image": 0.8162824511528015,
+        "neg_text_neg_image": 0.32064661383628845
+      },
+      "error": null
+    },
+    {
+      "pos_video": "DEypDAnnJL0.0.0.mp4",
+      "neg_video": "PIvOfcR77SQ.1.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22252392768859863,
+        "pos_text_neg_image": 0.005910644307732582,
+        "neg_text_pos_image": 0.377217561006546,
+        "neg_text_neg_image": 0.9889190793037415
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7766847610473633,
+        "pos_text_neg_image": 0.9940176010131836,
+        "neg_text_pos_image": 0.6219266057014465,
+        "neg_text_neg_image": 0.010985899716615677
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4e95dbc3dd1d19b5bf3026fa3ac72d2d6aba978280cfd151fb74dd2661ac2ac8.0.mp4",
+      "neg_video": "A_StkRKB1jU.0.7.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2937767207622528,
+        "pos_text_neg_image": 0.0052196187898516655,
+        "neg_text_pos_image": 0.3202669620513916,
+        "neg_text_neg_image": 0.9768797159194946
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7047337293624878,
+        "pos_text_neg_image": 0.9946833252906799,
+        "neg_text_pos_image": 0.6780050992965698,
+        "neg_text_neg_image": 0.022974010556936264
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7pqGzmdE5zE.0.3.mp4",
+      "neg_video": "QaRnEZFM6ZQ.0.9.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4072212278842926,
+        "pos_text_neg_image": 0.13288573920726776,
+        "neg_text_pos_image": 0.029305927455425262,
+        "neg_text_neg_image": 0.797860324382782
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5925033688545227,
+        "pos_text_neg_image": 0.8665238618850708,
+        "neg_text_pos_image": 0.9704790115356445,
+        "neg_text_neg_image": 0.20173068344593048
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3005.1.15.mp4",
+      "neg_video": "Gel59Iy3YhQ.53.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18231026828289032,
+        "pos_text_neg_image": 0.014061803929507732,
+        "neg_text_pos_image": 0.5923687815666199,
+        "neg_text_neg_image": 0.9044678211212158
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8170579075813293,
+        "pos_text_neg_image": 0.9858086109161377,
+        "neg_text_pos_image": 0.4071287214756012,
+        "neg_text_neg_image": 0.09533020108938217
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mlShD2AvbV8.5.6.mp4",
+      "neg_video": "012c118a-b3092f3b.6.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.43759801983833313,
+        "pos_text_neg_image": 0.13282716274261475,
+        "neg_text_pos_image": 0.06752106547355652,
+        "neg_text_neg_image": 0.8168217539787292
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5618869662284851,
+        "pos_text_neg_image": 0.8661418557167053,
+        "neg_text_pos_image": 0.9320995807647705,
+        "neg_text_neg_image": 0.18225756287574768
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qYztDs8vPBg.2.2.mp4",
+      "neg_video": "394cd3ffde533c8b364131cb7286c88786fc1892c52e78c2fa113e654363a9f7.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.085069939494133,
+        "pos_text_neg_image": 0.025952212512493134,
+        "neg_text_pos_image": 0.32054653763771057,
+        "neg_text_neg_image": 0.9237526655197144
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9145880341529846,
+        "pos_text_neg_image": 0.9738495945930481,
+        "neg_text_pos_image": 0.6785970330238342,
+        "neg_text_neg_image": 0.0758262351155281
+      },
+      "error": null
+    },
+    {
+      "pos_video": "gooWdc6kb80.0.7.mp4",
+      "neg_video": "QMlfVwN3iTw.3.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4995017349720001,
+        "pos_text_neg_image": 0.08506369590759277,
+        "neg_text_pos_image": 0.14791055023670197,
+        "neg_text_neg_image": 0.67885422706604
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4995017349720001,
+        "pos_text_neg_image": 0.9145209193229675,
+        "neg_text_pos_image": 0.8511665463447571,
+        "neg_text_neg_image": 0.3206680417060852
+      },
+      "error": null
+    },
+    {
+      "pos_video": "338.2.33.mp4",
+      "neg_video": "piQsdrDKzzM.1.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3772679567337036,
+        "pos_text_neg_image": 0.24491488933563232,
+        "neg_text_pos_image": 0.13287538290023804,
+        "neg_text_neg_image": 0.5618866086006165
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6220096945762634,
+        "pos_text_neg_image": 0.7543909549713135,
+        "neg_text_pos_image": 0.8664563298225403,
+        "neg_text_neg_image": 0.43759772181510925
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Oy8yQZ1Wg7k.0.1.mp4",
+      "neg_video": "hpTEzp-6CkM.0.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32073768973350525,
+        "pos_text_neg_image": 0.0075765736401081085,
+        "neg_text_pos_image": 0.02595272846519947,
+        "neg_text_neg_image": 0.962530255317688
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6790016889572144,
+        "pos_text_neg_image": 0.9923353791236877,
+        "neg_text_pos_image": 0.9738689064979553,
+        "neg_text_neg_image": 0.03732134774327278
+      },
+      "error": null
+    },
+    {
+      "pos_video": "guZ5AxQ6xb0.1.2.mp4",
+      "neg_video": "0Pzq0URbL2M.5.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205401301383972,
+        "pos_text_neg_image": 0.13290540874004364,
+        "neg_text_pos_image": 0.18225093185901642,
+        "neg_text_neg_image": 0.798005223274231
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6785834431648254,
+        "pos_text_neg_image": 0.8666520714759827,
+        "neg_text_pos_image": 0.8167919516563416,
+        "neg_text_neg_image": 0.20176732540130615
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4PcpGxihPac.3.3.mp4",
+      "neg_video": "MQugcNLFI9k.0.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3772145211696625,
+        "pos_text_neg_image": 0.075836181640625,
+        "neg_text_pos_image": 0.2015945166349411,
+        "neg_text_neg_image": 0.8668575882911682
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6219215989112854,
+        "pos_text_neg_image": 0.9238738417625427,
+        "neg_text_pos_image": 0.7973217964172363,
+        "neg_text_neg_image": 0.13293692469596863
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6303.0.2.mp4",
+      "neg_video": "u35WIs62R2M.1.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.20172527432441711,
+        "pos_text_neg_image": 0.033079031854867935,
+        "neg_text_pos_image": 0.1328963339328766,
+        "neg_text_neg_image": 0.9524099826812744
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7978389263153076,
+        "pos_text_neg_image": 0.9667110443115234,
+        "neg_text_pos_image": 0.8665928840637207,
+        "neg_text_neg_image": 0.04741770029067993
+      },
+      "error": null
+    },
+    {
+      "pos_video": "d1046a4b2aaba4928fb997c6f4ee93b72219bb1ad1f5a2f0e6696e8ef32312cd.0.mp4",
+      "neg_video": "7xltSb3VBJQ.2.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24490708112716675,
+        "pos_text_neg_image": 0.042079534381628036,
+        "neg_text_pos_image": 0.4372837245464325,
+        "neg_text_neg_image": 0.9668247103691101
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.754366934299469,
+        "pos_text_neg_image": 0.9577257633209229,
+        "neg_text_pos_image": 0.5614833831787109,
+        "neg_text_neg_image": 0.03308292105793953
+      },
+      "error": null
+    },
+    {
+      "pos_video": "GdRJCTR1KDQ.1.4.mp4",
+      "neg_video": "2254244.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.03731471672654152,
+        "pos_text_neg_image": 0.012430834583938122,
+        "neg_text_pos_image": 0.3483934998512268,
+        "neg_text_neg_image": 0.9769625663757324
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9623591899871826,
+        "pos_text_neg_image": 0.9875034689903259,
+        "neg_text_pos_image": 0.6508846879005432,
+        "neg_text_neg_image": 0.02297595888376236
+      },
+      "error": null
+    },
+    {
+      "pos_video": "OrOYvVf6tIM.2.1.mp4",
+      "neg_video": "4f3hG-5grlw.4.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24484871327877045,
+        "pos_text_neg_image": 0.43747249245643616,
+        "neg_text_pos_image": 0.5616952180862427,
+        "neg_text_neg_image": 0.18225762248039246
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7541871666908264,
+        "pos_text_neg_image": 0.5617257952690125,
+        "neg_text_pos_image": 0.4374486804008484,
+        "neg_text_neg_image": 0.8168219923973083
+      },
+      "error": null
+    },
+    {
+      "pos_video": "snghE_hWMhY.0.mp4",
+      "neg_video": "3HYfPz8lvDI.4.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.46832358837127686,
+        "pos_text_neg_image": 0.14798504114151,
+        "neg_text_pos_image": 0.11905761808156967,
+        "neg_text_neg_image": 0.5923773050308228
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5306801199913025,
+        "pos_text_neg_image": 0.8515952229499817,
+        "neg_text_pos_image": 0.8797234296798706,
+        "neg_text_neg_image": 0.4071345627307892
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.13.2.mp4",
+      "neg_video": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2449655383825302,
+        "pos_text_neg_image": 0.5616390109062195,
+        "neg_text_pos_image": 0.24489259719848633,
+        "neg_text_neg_image": 0.11908074468374252
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7545469403266907,
+        "pos_text_neg_image": 0.43740490078926086,
+        "neg_text_pos_image": 0.7543222904205322,
+        "neg_text_neg_image": 0.8798943161964417
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.6.1.mp4",
+      "neg_video": "OCBYMQzG44U.2.8.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09528689086437225,
+        "pos_text_neg_image": 0.060070525854825974,
+        "neg_text_pos_image": 0.5306652784347534,
+        "neg_text_neg_image": 0.9465299844741821
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9040568470954895,
+        "pos_text_neg_image": 0.9396611452102661,
+        "neg_text_pos_image": 0.4683104455471039,
+        "neg_text_neg_image": 0.053399570286273956
+      },
+      "error": null
+    },
+    {
+      "pos_video": "i82xURPkLWo.3.6.mp4",
+      "neg_video": "Gel59Iy3YhQ.13.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5308485627174377,
+        "pos_text_neg_image": 0.00857688020914793,
+        "neg_text_pos_image": 0.09528332203626633,
+        "neg_text_neg_image": 0.9739781618118286
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4684722423553467,
+        "pos_text_neg_image": 0.9913525581359863,
+        "neg_text_pos_image": 0.9040230512619019,
+        "neg_text_neg_image": 0.02595563791692257
+      },
+      "error": null
+    },
+    {
+      "pos_video": "D2PZUB_lDCk.2.5.mp4",
+      "neg_video": "Gel59Iy3YhQ.29.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4683606028556824,
+        "pos_text_neg_image": 0.025952700525522232,
+        "neg_text_pos_image": 0.18220794200897217,
+        "neg_text_neg_image": 0.9044417142868042
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5307220816612244,
+        "pos_text_neg_image": 0.9738678932189941,
+        "neg_text_pos_image": 0.8165993094444275,
+        "neg_text_neg_image": 0.0953274518251419
+      },
+      "error": null
+    },
+    {
+      "pos_video": "w-HYZv6HzAs.3.0.mp4",
+      "neg_video": "Ni7AYED85z4.2.15.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3771485388278961,
+        "pos_text_neg_image": 0.16443316638469696,
+        "neg_text_pos_image": 0.3480401337146759,
+        "neg_text_neg_image": 0.20167644321918488
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6218128204345703,
+        "pos_text_neg_image": 0.8350605964660645,
+        "neg_text_pos_image": 0.6502245664596558,
+        "neg_text_neg_image": 0.7976458072662354
+      },
+      "error": null
+    },
+    {
+      "pos_video": "06789991de47b8c00d46246a5abcfd0a830d609e8ac1723fdda38dfccc3d3523.0.mp4",
+      "neg_video": "KF5p8VIbt0Y.1.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.43746697902679443,
+        "pos_text_neg_image": 0.01590246893465519,
+        "neg_text_pos_image": 0.1643342822790146,
+        "neg_text_neg_image": 0.8170173764228821
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5617187023162842,
+        "pos_text_neg_image": 0.98385089635849,
+        "neg_text_pos_image": 0.8345584273338318,
+        "neg_text_neg_image": 0.18230122327804565
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.2.4.mp4",
+      "neg_video": "NZ3Pba3Xsk4.5.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11915768682956696,
+        "pos_text_neg_image": 0.007576701696962118,
+        "neg_text_pos_image": 0.5924291014671326,
+        "neg_text_neg_image": 0.9889206290245056
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8804628252983093,
+        "pos_text_neg_image": 0.9923521876335144,
+        "neg_text_pos_image": 0.4071701765060425,
+        "neg_text_neg_image": 0.01098591648042202
+      },
+      "error": null
+    },
+    {
+      "pos_video": "GjEImPidK4g.7.0.mp4",
+      "neg_video": "7pqGzmdE5zE.0.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32049092650413513,
+        "pos_text_neg_image": 0.32068002223968506,
+        "neg_text_pos_image": 0.3204098343849182,
+        "neg_text_neg_image": 0.053384002298116684
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6784793138504028,
+        "pos_text_neg_image": 0.6788795590400696,
+        "neg_text_pos_image": 0.6783075928688049,
+        "neg_text_neg_image": 0.9462540149688721
+      },
+      "error": null
+    },
+    {
+      "pos_video": "opXBWdk-mbQ.0.4.mp4",
+      "neg_video": "0OFBj7EjZ-g.4.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22249506413936615,
+        "pos_text_neg_image": 0.29408901929855347,
+        "neg_text_pos_image": 0.5306115746498108,
+        "neg_text_neg_image": 0.2017078399658203
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7765840291976929,
+        "pos_text_neg_image": 0.7054829001426697,
+        "neg_text_pos_image": 0.46826305985450745,
+        "neg_text_neg_image": 0.7977699637413025
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.35.4.mp4",
+      "neg_video": "LNHBMFCzznE.5.13.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.20173299312591553,
+        "pos_text_neg_image": 0.3205888271331787,
+        "neg_text_pos_image": 0.24493591487407684,
+        "neg_text_neg_image": 0.18226352334022522
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7978694438934326,
+        "pos_text_neg_image": 0.6786864995956421,
+        "neg_text_pos_image": 0.7544557452201843,
+        "neg_text_neg_image": 0.8168484568595886
+      },
+      "error": null
+    },
+    {
+      "pos_video": "2530.0.10.mp4",
+      "neg_video": "5eDQ2SSsmEk.3.6.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.033069808036088943,
+        "pos_text_neg_image": 0.0373213030397892,
+        "neg_text_pos_image": 0.8804900050163269,
+        "neg_text_neg_image": 0.8669305443763733
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9664415121078491,
+        "pos_text_neg_image": 0.9625291228294373,
+        "neg_text_pos_image": 0.11916136741638184,
+        "neg_text_neg_image": 0.1329481154680252
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ti231UvSvfQ.12.2.mp4",
+      "neg_video": "CbIWq4PGFCo.1.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14797618985176086,
+        "pos_text_neg_image": 0.5617007613182068,
+        "neg_text_pos_image": 0.43761876225471497,
+        "neg_text_neg_image": 0.3204558193683624
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.851544201374054,
+        "pos_text_neg_image": 0.4374529719352722,
+        "neg_text_pos_image": 0.5619136095046997,
+        "neg_text_neg_image": 0.6784049272537231
+      },
+      "error": null
+    },
+    {
+      "pos_video": "px9IqOnilHI.1.5.mp4",
+      "neg_video": "mIiPt1YVkP8.10.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4996350109577179,
+        "pos_text_neg_image": 0.1066519245505333,
+        "neg_text_pos_image": 0.1066204085946083,
+        "neg_text_neg_image": 0.5924214124679565
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4996350109577179,
+        "pos_text_neg_image": 0.8929856419563293,
+        "neg_text_pos_image": 0.8927217125892639,
+        "neg_text_neg_image": 0.40716490149497986
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JDaw5I_5hPk.0.1.mp4",
+      "neg_video": "4uGfFYzxWEg.4.9.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205493092536926,
+        "pos_text_neg_image": 0.029307140037417412,
+        "neg_text_pos_image": 0.26868289709091187,
+        "neg_text_neg_image": 0.9147777557373047
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6786028146743774,
+        "pos_text_neg_image": 0.9705191850662231,
+        "neg_text_pos_image": 0.7303557395935059,
+        "neg_text_neg_image": 0.08508758246898651
+      },
+      "error": null
+    },
+    {
+      "pos_video": "OrOYvVf6tIM.2.2.mp4",
+      "neg_video": "eWpsukBVJAI.0.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5619568228721619,
+        "pos_text_neg_image": 0.0059104301035404205,
+        "neg_text_pos_image": 0.0675194188952446,
+        "neg_text_neg_image": 0.9624516367912292
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4376524090766907,
+        "pos_text_neg_image": 0.9939815402030945,
+        "neg_text_pos_image": 0.9320767521858215,
+        "neg_text_neg_image": 0.03731829673051834
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.37.2.mp4",
+      "neg_video": "H4AZhS5WqKk.2.11.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6511979699134827,
+        "pos_text_neg_image": 0.20168520510196686,
+        "neg_text_pos_image": 0.07582468539476395,
+        "neg_text_neg_image": 0.40707334876060486
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34856116771698,
+        "pos_text_neg_image": 0.7976804375648499,
+        "neg_text_pos_image": 0.9237337112426758,
+        "neg_text_neg_image": 0.5922881960868835
+      },
+      "error": null
+    },
+    {
+      "pos_video": "338.2.6.mp4",
+      "neg_video": "168085.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34850671887397766,
+        "pos_text_neg_image": 0.377350389957428,
+        "neg_text_pos_image": 0.08506478369235992,
+        "neg_text_neg_image": 0.017983797937631607
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6510962247848511,
+        "pos_text_neg_image": 0.6221455931663513,
+        "neg_text_pos_image": 0.9145326018333435,
+        "neg_text_neg_image": 0.9818820357322693
+      },
+      "error": null
+    },
+    {
+      "pos_video": "vEvBpjCOBu0.5.0.mp4",
+      "neg_video": "0BmANHSUbJg.3.5.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34811389446258545,
+        "pos_text_neg_image": 0.11915942281484604,
+        "neg_text_pos_image": 0.13280349969863892,
+        "neg_text_neg_image": 0.37732285261154175
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6503623127937317,
+        "pos_text_neg_image": 0.8804756999015808,
+        "neg_text_pos_image": 0.8659875988960266,
+        "neg_text_neg_image": 0.6221001744270325
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RYzkI_5ub58.15.7.mp4",
+      "neg_video": "m3bwXvQoAdo.0.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29404568672180176,
+        "pos_text_neg_image": 0.29408666491508484,
+        "neg_text_pos_image": 0.1479354053735733,
+        "neg_text_neg_image": 0.1644286811351776
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7053789496421814,
+        "pos_text_neg_image": 0.7054772973060608,
+        "neg_text_pos_image": 0.851309597492218,
+        "neg_text_neg_image": 0.8350378274917603
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.4.6.mp4",
+      "neg_video": "4PcpGxihPac.4.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22258532047271729,
+        "pos_text_neg_image": 0.26868605613708496,
+        "neg_text_pos_image": 0.43764281272888184,
+        "neg_text_neg_image": 0.43735238909721375
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7768990397453308,
+        "pos_text_neg_image": 0.7303643822669983,
+        "neg_text_pos_image": 0.5619444847106934,
+        "neg_text_neg_image": 0.5615715980529785
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yKHjA7oooPE.4.2.mp4",
+      "neg_video": "60.0.28.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1479949653148651,
+        "pos_text_neg_image": 0.029306307435035706,
+        "neg_text_pos_image": 0.32063379883766174,
+        "neg_text_neg_image": 0.5618787407875061
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8516522645950317,
+        "pos_text_neg_image": 0.9704915881156921,
+        "neg_text_pos_image": 0.6787817478179932,
+        "neg_text_neg_image": 0.4375916123390198
+      },
+      "error": null
+    },
+    {
+      "pos_video": "i82xURPkLWo.3.8.mp4",
+      "neg_video": "3HYfPz8lvDI.1.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5619202256202698,
+        "pos_text_neg_image": 0.3206845819950104,
+        "neg_text_pos_image": 0.033077750355005264,
+        "neg_text_neg_image": 0.132901132106781
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43762391805648804,
+        "pos_text_neg_image": 0.6788892149925232,
+        "neg_text_pos_image": 0.9666736125946045,
+        "neg_text_neg_image": 0.8666242361068726
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7jUW96CiEKA.3.1.mp4",
+      "neg_video": "LI7i6DQfh0o.0.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37714502215385437,
+        "pos_text_neg_image": 0.3485070765018463,
+        "neg_text_pos_image": 0.34826210141181946,
+        "neg_text_neg_image": 0.05338219553232193
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6218069791793823,
+        "pos_text_neg_image": 0.6510968804359436,
+        "neg_text_pos_image": 0.6506392359733582,
+        "neg_text_neg_image": 0.9462220072746277
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ckpwSAv5we8.2.2.mp4",
+      "neg_video": "vEvBpjCOBu0.6.7.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.49975234270095825,
+        "pos_text_neg_image": 0.10663865506649017,
+        "neg_text_pos_image": 0.060065943747758865,
+        "neg_text_neg_image": 0.7770135402679443
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.49975234270095825,
+        "pos_text_neg_image": 0.892874538898468,
+        "neg_text_pos_image": 0.9395895004272461,
+        "neg_text_neg_image": 0.22261811792850494
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4080.2.4.mp4",
+      "neg_video": "0tIoyN7WKuA.3.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.0019266230519860983,
+        "pos_text_neg_image": 0.0031723042484372854,
+        "neg_text_pos_image": 0.9795856475830078,
+        "neg_text_neg_image": 0.9577378034591675
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9980154037475586,
+        "pos_text_neg_image": 0.9967082738876343,
+        "neg_text_pos_image": 0.020330650731921196,
+        "neg_text_neg_image": 0.04208006337285042
+      },
+      "error": null
+    },
+    {
+      "pos_video": "kxcw0iSn0xw.3.2.mp4",
+      "neg_video": "1560.0.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24482578039169312,
+        "pos_text_neg_image": 0.03731798753142357,
+        "neg_text_pos_image": 0.18218451738357544,
+        "neg_text_neg_image": 0.8352933526039124
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7541164755821228,
+        "pos_text_neg_image": 0.9624435305595398,
+        "neg_text_pos_image": 0.816494345664978,
+        "neg_text_neg_image": 0.16447900235652924
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5679.1.1.mp4",
+      "neg_video": "1497.1.18.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2940872609615326,
+        "pos_text_neg_image": 0.07582110911607742,
+        "neg_text_pos_image": 0.08505839854478836,
+        "neg_text_neg_image": 0.7053301930427551
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7054786682128906,
+        "pos_text_neg_image": 0.9236901998519897,
+        "neg_text_pos_image": 0.914463996887207,
+        "neg_text_neg_image": 0.29402536153793335
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KI2lsdXJQ40.0.11.mp4",
+      "neg_video": "LNHBMFCzznE.5.14.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3206712305545807,
+        "pos_text_neg_image": 0.4997241199016571,
+        "neg_text_pos_image": 0.24498465657234192,
+        "neg_text_neg_image": 0.08504719287157059
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6788609623908997,
+        "pos_text_neg_image": 0.4997241199016571,
+        "neg_text_pos_image": 0.7546058893203735,
+        "neg_text_neg_image": 0.914343535900116
+      },
+      "error": null
+    },
+    {
+      "pos_video": "GdRJCTR1KDQ.0.6.mp4",
+      "neg_video": "88vmzn_LufA.6.6.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2016538381576538,
+        "pos_text_neg_image": 0.06752844899892807,
+        "neg_text_pos_image": 0.34830281138420105,
+        "neg_text_neg_image": 0.9323611259460449
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7975564002990723,
+        "pos_text_neg_image": 0.9322015047073364,
+        "neg_text_pos_image": 0.6507152915000916,
+        "neg_text_neg_image": 0.06754001975059509
+      },
+      "error": null
+    },
+    {
+      "pos_video": "bX8GaZ3O4-Q.3.8.mp4",
+      "neg_video": "yGsVo0uIJVs.3.5.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24497996270656586,
+        "pos_text_neg_image": 0.2688850462436676,
+        "neg_text_pos_image": 0.13290958106517792,
+        "neg_text_neg_image": 0.022973889485001564
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7545914053916931,
+        "pos_text_neg_image": 0.7309052348136902,
+        "neg_text_pos_image": 0.866679310798645,
+        "neg_text_neg_image": 0.9768746495246887
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1934.1.11.mp4",
+      "neg_video": "fP5UM4elIes.0.5.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40693163871765137,
+        "pos_text_neg_image": 0.29395774006843567,
+        "neg_text_pos_image": 0.26858851313591003,
+        "neg_text_neg_image": 0.46848663687705994
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5920820236206055,
+        "pos_text_neg_image": 0.7051680088043213,
+        "neg_text_pos_image": 0.7300992608070374,
+        "neg_text_neg_image": 0.5308648943901062
+      },
+      "error": null
+    },
+    {
+      "pos_video": "M0jmSsQ5ptw.0.7.mp4",
+      "neg_video": "4uGfFYzxWEg.5.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22259677946567535,
+        "pos_text_neg_image": 0.22258615493774414,
+        "neg_text_pos_image": 0.16443116962909698,
+        "neg_text_neg_image": 0.18230891227722168
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7769390940666199,
+        "pos_text_neg_image": 0.7769020199775696,
+        "neg_text_pos_image": 0.8350504636764526,
+        "neg_text_neg_image": 0.8170518279075623
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6h6bMAWLYAI.2.1.mp4",
+      "neg_video": "nGJMwixogyk.5.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14797435700893402,
+        "pos_text_neg_image": 0.012430412694811821,
+        "neg_text_pos_image": 0.3204919397830963,
+        "neg_text_neg_image": 0.9819485545158386
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8515336513519287,
+        "pos_text_neg_image": 0.9874699711799622,
+        "neg_text_pos_image": 0.67848140001297,
+        "neg_text_neg_image": 0.017985016107559204
+      },
+      "error": null
+    },
+    {
+      "pos_video": "rs4B8-qoY1I.0.4.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.9.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3773204982280731,
+        "pos_text_neg_image": 0.025948170572519302,
+        "neg_text_pos_image": 0.10662608593702316,
+        "neg_text_neg_image": 0.952244222164154
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6220963001251221,
+        "pos_text_neg_image": 0.9736979007720947,
+        "neg_text_pos_image": 0.8927692174911499,
+        "neg_text_neg_image": 0.04740944877266884
+      },
+      "error": null
+    },
+    {
+      "pos_video": "opXBWdk-mbQ.0.1.mp4",
+      "neg_video": "mIiPt1YVkP8.5.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205789029598236,
+        "pos_text_neg_image": 0.005910777021199465,
+        "neg_text_pos_image": 0.3484043776988983,
+        "neg_text_neg_image": 0.9796200394630432
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6786655187606812,
+        "pos_text_neg_image": 0.9940398931503296,
+        "neg_text_pos_image": 0.6509050726890564,
+        "neg_text_neg_image": 0.02033136412501335
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7jUW96CiEKA.0.12.mp4",
+      "neg_video": "iXzposKQzvs.2.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4996328055858612,
+        "pos_text_neg_image": 0.5922500491142273,
+        "neg_text_pos_image": 0.06006085127592087,
+        "neg_text_neg_image": 0.08502271771430969
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4996328055858612,
+        "pos_text_neg_image": 0.4070471227169037,
+        "neg_text_pos_image": 0.9395098090171814,
+        "neg_text_neg_image": 0.9140803813934326
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qYztDs8vPBg.1.1.mp4",
+      "neg_video": "OrOYvVf6tIM.2.4.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34845641255378723,
+        "pos_text_neg_image": 0.20156526565551758,
+        "neg_text_pos_image": 0.22252649068832397,
+        "neg_text_neg_image": 0.7543480396270752
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6510022282600403,
+        "pos_text_neg_image": 0.7972060441970825,
+        "neg_text_pos_image": 0.7766937613487244,
+        "neg_text_neg_image": 0.24490094184875488
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1934.1.9.mp4",
+      "neg_video": "GVr8pZmSa-c.0.3.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.26859843730926514,
+        "pos_text_neg_image": 0.01798391528427601,
+        "neg_text_pos_image": 0.43719878792762756,
+        "neg_text_neg_image": 0.9323329329490662
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7301262021064758,
+        "pos_text_neg_image": 0.981888473033905,
+        "neg_text_pos_image": 0.5613743662834167,
+        "neg_text_neg_image": 0.06753797829151154
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qYztDs8vPBg.1.2.mp4",
+      "neg_video": "uzj1rNNhmY0.0.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2688012421131134,
+        "pos_text_neg_image": 0.06006522476673126,
+        "neg_text_pos_image": 0.2225240170955658,
+        "neg_text_neg_image": 0.5921608805656433
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7306774258613586,
+        "pos_text_neg_image": 0.9395782351493835,
+        "neg_text_pos_image": 0.7766851186752319,
+        "neg_text_neg_image": 0.4069858491420746
+      },
+      "error": null
+    },
+    {
+      "pos_video": "fSWFUFdV5TU.0.3.mp4",
+      "neg_video": "mixkit-sun-set-over-calm-beach-1949.0.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5924071669578552,
+        "pos_text_neg_image": 0.2449512779712677,
+        "neg_text_pos_image": 0.025952685624361038,
+        "neg_text_neg_image": 0.348294198513031
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4071550965309143,
+        "pos_text_neg_image": 0.754503071308136,
+        "neg_text_pos_image": 0.9738673567771912,
+        "neg_text_neg_image": 0.6506991982460022
+      },
+      "error": null
+    },
+    {
+      "pos_video": "H4AZhS5WqKk.0.3.mp4",
+      "neg_video": "kSx5KGOv5Qc.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40719836950302124,
+        "pos_text_neg_image": 0.34848588705062866,
+        "neg_text_pos_image": 0.033079952001571655,
+        "neg_text_neg_image": 0.08506183326244354
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.592470109462738,
+        "pos_text_neg_image": 0.6510573029518127,
+        "neg_text_pos_image": 0.9667378664016724,
+        "neg_text_neg_image": 0.914500892162323
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RolttrarOOA.0.5.mp4",
+      "neg_video": "SsbNOKn2cOs.3.2.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6221669912338257,
+        "pos_text_neg_image": 0.06751607358455658,
+        "neg_text_pos_image": 0.06005866080522537,
+        "neg_text_neg_image": 0.49954086542129517
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3773633539676666,
+        "pos_text_neg_image": 0.9320305585861206,
+        "neg_text_pos_image": 0.9394755363464355,
+        "neg_text_neg_image": 0.49954086542129517
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ckpwSAv5we8.2.1.mp4",
+      "neg_video": "BV7Q0zYDO9I.1.1.mp4",
+      "pos_question": "Is the camera completely still without any visible movement?",
+      "neg_question": "Is the camera not completely still and shows visible movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11914227902889252,
+        "pos_text_neg_image": 0.530945360660553,
+        "neg_text_pos_image": 0.4375835359096527,
+        "neg_text_neg_image": 0.04207704961299896
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8803489804267883,
+        "pos_text_neg_image": 0.4685576260089874,
+        "neg_text_pos_image": 0.5618683695793152,
+        "neg_text_neg_image": 0.9576692581176758
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,3615 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "split_name": "Zoom_In",
+    "data_file": "data/binary_classification/Zoom_In.jsonl",
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "answer_template": "Yes",
+    "generation_timestamp": "2025-09-18T20:19:04.786990",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "video_path": "4f3hG-5grlw.4.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029304299503564835,
+      "error": null
+    },
+    {
+      "video_path": "mIiPt1YVkP8.11.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2448972910642624,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24488818645477295,
+      "error": null
+    },
+    {
+      "video_path": "0u4NY-YtVII.6.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9857565760612488,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.5.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5616879463195801,
+      "error": null
+    },
+    {
+      "video_path": "0OFBj7EjZ-g.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940266728401184,
+      "error": null
+    },
+    {
+      "video_path": "sLX9J2NBL3w.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9395485520362854,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022973010316491127,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.9.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6774256825447083,
+      "error": null
+    },
+    {
+      "video_path": "kSx5KGOv5Qc.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033077921718358994,
+      "error": null
+    },
+    {
+      "video_path": "_I6Y-rtiTPc.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9319698214530945,
+      "error": null
+    },
+    {
+      "video_path": "rfg9l66Eskw.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1479305922985077,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7543442845344543,
+      "error": null
+    },
+    {
+      "video_path": "5e7Kk3WEFAA.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5304198265075684,
+      "error": null
+    },
+    {
+      "video_path": "X-keHLL75tg.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37725698947906494,
+      "error": null
+    },
+    {
+      "video_path": "aVA7aXOH1pk.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5305095314979553,
+      "error": null
+    },
+    {
+      "video_path": "0u4NY-YtVII.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582095265388489,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.15.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07583073526620865,
+      "error": null
+    },
+    {
+      "video_path": "KoJ0Pih0Ssc.2.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9235671758651733,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.939393162727356,
+      "error": null
+    },
+    {
+      "video_path": "Uofofz62A2E.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9619150161743164,
+      "error": null
+    },
+    {
+      "video_path": "X-keHLL75tg.3.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9739349484443665,
+      "error": null
+    },
+    {
+      "video_path": "mIiPt1YVkP8.12.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5616469383239746,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.1.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8351222276687622,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.8.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0159037746489048,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5615198016166687,
+      "error": null
+    },
+    {
+      "video_path": "L0zS8z8YqJ8.2.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9795758724212646,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.3.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060065243393182755,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.3.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9462670087814331,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7306218147277832,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.4.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9939898252487183,
+      "error": null
+    },
+    {
+      "video_path": "0Pzq0URbL2M.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5920789241790771,
+      "error": null
+    },
+    {
+      "video_path": "anEdRKaWM-I.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7304046154022217,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.4.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205064833164215,
+      "error": null
+    },
+    {
+      "video_path": "0u4NY-YtVII.4.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9463181495666504,
+      "error": null
+    },
+    {
+      "video_path": "ttZAdY3n4nc.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09527213126420975,
+      "error": null
+    },
+    {
+      "video_path": "W7S2LT1xay0.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6786540150642395,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.4.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8803988099098206,
+      "error": null
+    },
+    {
+      "video_path": "O6_XM2Mn0lg.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49945974349975586,
+      "error": null
+    },
+    {
+      "video_path": "f4ZzHtww6Tc.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2935051918029785,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.2.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4996500611305237,
+      "error": null
+    },
+    {
+      "video_path": "0kpu6VM3rZU.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8664162755012512,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.3.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07580006122589111,
+      "error": null
+    },
+    {
+      "video_path": "yQLgp8trSDc.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9666538834571838,
+      "error": null
+    },
+    {
+      "video_path": "upC8hjr2b4g.12.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37721046805381775,
+      "error": null
+    },
+    {
+      "video_path": "sKJeTaIEldM.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9236754775047302,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.7.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207668453454971,
+      "error": null
+    },
+    {
+      "video_path": "5454.1.17.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.622109591960907,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.3.9.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.976813793182373,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.7.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "Yes",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731759637594223,
+      "error": null
+    },
+    {
+      "video_path": "z7HxJaKjVlU.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1191384568810463,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.3.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4374087154865265,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.16.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7295166850090027,
+      "error": null
+    },
+    {
+      "video_path": "ZpJpZGktliQ.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6218208074569702,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.4.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7978288531303406,
+      "error": null
+    },
+    {
+      "video_path": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05337357893586159,
+      "error": null
+    },
+    {
+      "video_path": "5454.1.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4068607985973358,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752472370862961,
+      "error": null
+    },
+    {
+      "video_path": "Ni7AYED85z4.2.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2687153220176697,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46850794553756714,
+      "error": null
+    },
+    {
+      "video_path": "CQYQKehqjgI.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16432765126228333,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.2.11.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5617543458938599,
+      "error": null
+    },
+    {
+      "video_path": "168085.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506801724433899,
+      "error": null
+    },
+    {
+      "video_path": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16430631279945374,
+      "error": null
+    },
+    {
+      "video_path": "m3bwXvQoAdo.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18231569230556488,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.4.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.730376660823822,
+      "error": null
+    },
+    {
+      "video_path": "60.0.28.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4683680832386017,
+      "error": null
+    },
+    {
+      "video_path": "l5RWa1D00ck.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.006692253984510899,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.8.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2448367178440094,
+      "error": null
+    },
+    {
+      "video_path": "1497.1.18.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5920453071594238,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.14.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01590273343026638,
+      "error": null
+    },
+    {
+      "video_path": "r5jbhW9uauc.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2937358319759369,
+      "error": null
+    },
+    {
+      "video_path": "fP5UM4elIes.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7768555283546448,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1066296324133873,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206693544983864,
+      "error": null
+    },
+    {
+      "video_path": "0kpu6VM3rZU.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.530468761920929,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930600754916668,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6508315205574036,
+      "error": null
+    },
+    {
+      "video_path": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10657139122486115,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.12.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07583048194646835,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09528715908527374,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.8.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04206874594092369,
+      "error": null
+    },
+    {
+      "video_path": "67bfa4eec893c10cba8c4fb180735bf8adc0c7de5a0cfe1ee9d1c1b44c2e56c8.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24477307498455048,
+      "error": null
+    },
+    {
+      "video_path": "FOtmU0oJf-8.0.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43740367889404297,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.003172479337081313,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.3.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26859480142593384,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.3.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8665598034858704,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2447538524866104,
+      "error": null
+    },
+    {
+      "video_path": "r5jbhW9uauc.2.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3769253194332123,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.17.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025951910763978958,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.4.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6218976378440857,
+      "error": null
+    },
+    {
+      "video_path": "9a8a4d0688ffc6b5cb61bc3323634f3dbfbb310ad20130cf56762bfc113e44ed.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037307869642972946,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.3.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5913421511650085,
+      "error": null
+    },
+    {
+      "video_path": "4847.13.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11911062896251678,
+      "error": null
+    },
+    {
+      "video_path": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307854011654854,
+      "error": null
+    },
+    {
+      "video_path": "urgDBUXShos.0.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506207168102264,
+      "error": null
+    },
+    {
+      "video_path": "61.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22251243889331818,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.33.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029307808727025986,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43744832277297974,
+      "error": null
+    },
+    {
+      "video_path": "iXzposKQzvs.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46789678931236267,
+      "error": null
+    },
+    {
+      "video_path": "IAVXdvsmqBM.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32043856382369995,
+      "error": null
+    },
+    {
+      "video_path": "kSx5KGOv5Qc.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5922098159790039,
+      "error": null
+    },
+    {
+      "video_path": "2530.0.9.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5304180383682251,
+      "error": null
+    },
+    {
+      "video_path": "cdbdf71cb5b76ac81a00f2e3e5c22bc27b126da4579752cd6a10da3650b4d8e3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24476967751979828,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.006692277267575264,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.1.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.005910530220717192,
+      "error": null
+    },
+    {
+      "video_path": "mIiPt1YVkP8.11.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752291321754456,
+      "error": null
+    },
+    {
+      "video_path": "mixkit-beautiful-dusk-on-a-large-lake-from-above-5005.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1191326156258583,
+      "error": null
+    },
+    {
+      "video_path": "6h6bMAWLYAI.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20157743990421295,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.11.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1479574292898178,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506771177053452,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.3.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.00669189915060997,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.16.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2225484400987625,
+      "error": null
+    },
+    {
+      "video_path": "FUQhNGEu2KA.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18223664164543152,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.16.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32057279348373413,
+      "error": null
+    },
+    {
+      "video_path": "wrW0enIo2u8.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7543594837188721,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.678541898727417,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.3.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02594963274896145,
+      "error": null
+    },
+    {
+      "video_path": "0UthxdAH0ks.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14791294932365417,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.4.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.993202269077301,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9888400435447693,
+      "error": null
+    },
+    {
+      "video_path": "pNGMY3xVkVE.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26878753304481506,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.21.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4683346748352051,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18231281638145447,
+      "error": null
+    },
+    {
+      "video_path": "1560.0.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18225577473640442,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.8.20.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.01798374392092228,
+      "error": null
+    },
+    {
+      "video_path": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037318676710128784,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20168401300907135,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.2.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9462610483169556,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1643979549407959,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.1.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329050719738007,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022970883175730705,
+      "error": null
+    },
+    {
+      "video_path": "gKGK0udq8i8.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037314560264348984,
+      "error": null
+    },
+    {
+      "video_path": "RooDYxp5Fx8.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9818860292434692,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.4.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5923111438751221,
+      "error": null
+    },
+    {
+      "video_path": "Hv_DRJZZ2qI.2.22.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5915858149528503,
+      "error": null
+    },
+    {
+      "video_path": "C4Ktho9cjYk.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6219016909599304,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9317724704742432,
+      "error": null
+    },
+    {
+      "video_path": "_jli4enm3vw.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37660643458366394,
+      "error": null
+    },
+    {
+      "video_path": "GjEImPidK4g.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6787410378456116,
+      "error": null
+    },
+    {
+      "video_path": "338.2.32.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5616204738616943,
+      "error": null
+    },
+    {
+      "video_path": "RZs5Hz1klno.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8665814399719238,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.21.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.164397194981575,
+      "error": null
+    },
+    {
+      "video_path": "0u4NY-YtVII.5.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7054121494293213,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.952391505241394,
+      "error": null
+    },
+    {
+      "video_path": "1018.1.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14783519506454468,
+      "error": null
+    },
+    {
+      "video_path": "190.2.9.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32053783535957336,
+      "error": null
+    },
+    {
+      "video_path": "187.6.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.012429754249751568,
+      "error": null
+    },
+    {
+      "video_path": "sdidb7Z8IUc.9.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.561782717704773,
+      "error": null
+    },
+    {
+      "video_path": "C4Ktho9cjYk.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8514503240585327,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8351467251777649,
+      "error": null
+    },
+    {
+      "video_path": "MK_p4kzcPVY.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46642935276031494,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.0.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940727770328522,
+      "error": null
+    },
+    {
+      "video_path": "xo9p8p6deRI.4.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8350910544395447,
+      "error": null
+    },
+    {
+      "video_path": "jGDdHNOeQ0c.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.017979983240365982,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042074400931596756,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.15.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2685149908065796,
+      "error": null
+    },
+    {
+      "video_path": "qMeHR2Dc4mQ.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2685411870479584,
+      "error": null
+    },
+    {
+      "video_path": "1448735.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2016797959804535,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.3.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9396914839744568,
+      "error": null
+    },
+    {
+      "video_path": "J5Pnh0UcNxg.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20161427557468414,
+      "error": null
+    },
+    {
+      "video_path": "Cj6ho1-G6tw.0.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529629349708557,
+      "error": null
+    },
+    {
+      "video_path": "QaRnEZFM6ZQ.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731946647167206,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.27.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2687923014163971,
+      "error": null
+    },
+    {
+      "video_path": "XA2X_JBzkzY.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16437269747257233,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.037309739738702774,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.16.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939997911453247,
+      "error": null
+    },
+    {
+      "video_path": "9cf72aeafdabae7ed510a61012c08e0f9e008056b5b579288dd57fcd38f9c505.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4991961419582367,
+      "error": null
+    },
+    {
+      "video_path": "c41pRPO9TQk.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16439615190029144,
+      "error": null
+    },
+    {
+      "video_path": "8LiVGDq01FU.2.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1479598879814148,
+      "error": null
+    },
+    {
+      "video_path": "9a2bcede65764d9e51445eb4dd3007957dfa0b33d28daf48f6932bcf0de79b28.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740994796156883,
+      "error": null
+    },
+    {
+      "video_path": "tCRbVEGHZlQ.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005266681313515,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.10.10.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2687864601612091,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.2.16.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930578775703907,
+      "error": null
+    },
+    {
+      "video_path": "Ejcl5Jk_4QU.8.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37713372707366943,
+      "error": null
+    },
+    {
+      "video_path": "pNGMY3xVkVE.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24493174254894257,
+      "error": null
+    },
+    {
+      "video_path": "0Pzq0URbL2M.10.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3206199109554291,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03308022394776344,
+      "error": null
+    },
+    {
+      "video_path": "KB3KMUw54Hc.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482852280139923,
+      "error": null
+    },
+    {
+      "video_path": "iA1xQ0W1vdE.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061828143894672,
+      "error": null
+    },
+    {
+      "video_path": "LtXUoaZcp70.5.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9320590496063232,
+      "error": null
+    },
+    {
+      "video_path": "1470.0.35.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18220455944538116,
+      "error": null
+    },
+    {
+      "video_path": "P9Z0XP6mkCg.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13287104666233063,
+      "error": null
+    },
+    {
+      "video_path": "DEypDAnnJL0.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14794926345348358,
+      "error": null
+    },
+    {
+      "video_path": "4e95dbc3dd1d19b5bf3026fa3ac72d2d6aba978280cfd151fb74dd2661ac2ac8.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.914208173751831,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.5.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3481968939304352,
+      "error": null
+    },
+    {
+      "video_path": "7pqGzmdE5zE.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985526256263256,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4374113082885742,
+      "error": null
+    },
+    {
+      "video_path": "3005.1.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24491356313228607,
+      "error": null
+    },
+    {
+      "video_path": "WHgh2ajazTw.8.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2937856912612915,
+      "error": null
+    },
+    {
+      "video_path": "mlShD2AvbV8.5.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032901905477047,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.15.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5923872590065002,
+      "error": null
+    },
+    {
+      "video_path": "MuNyfqxAO6Y.2.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3772249221801758,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.21.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1821966916322708,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1479492336511612,
+      "error": null
+    },
+    {
+      "video_path": "gooWdc6kb80.0.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43738308548927307,
+      "error": null
+    },
+    {
+      "video_path": "338.2.33.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752162426710129,
+      "error": null
+    },
+    {
+      "video_path": "Oy8yQZ1Wg7k.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009707444347441196,
+      "error": null
+    },
+    {
+      "video_path": "ttZAdY3n4nc.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18229496479034424,
+      "error": null
+    },
+    {
+      "video_path": "38855d1bdc38ecd9b0f44c18c7f0007f24fc1071aa86ef3b2a7b21457f3a39fe.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8349548578262329,
+      "error": null
+    },
+    {
+      "video_path": "y51VUsotZe4.8.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40667724609375,
+      "error": null
+    },
+    {
+      "video_path": "guZ5AxQ6xb0.1.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08503735065460205,
+      "error": null
+    },
+    {
+      "video_path": "34b53d534e3200be0eef4bb8c8d77da9723668281a6baee67b376935b20065f9.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3772422671318054,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.21.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930639125406742,
+      "error": null
+    },
+    {
+      "video_path": "SXe40DWaA6A.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029302313923835754,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.5.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10661222040653229,
+      "error": null
+    },
+    {
+      "video_path": "MPX29k4uwSg.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.014061248861253262,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.165.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0533863790333271,
+      "error": null
+    },
+    {
+      "video_path": "IWv0EhEGmNI.17.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207555204629898,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.3.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08504682779312134,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.1.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14786134660243988,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.8.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8665534257888794,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2225976139307022,
+      "error": null
+    },
+    {
+      "video_path": "d1046a4b2aaba4928fb997c6f4ee93b72219bb1ad1f5a2f0e6696e8ef32312cd.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032727748155594,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.15.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.047414835542440414,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.1.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22250896692276,
+      "error": null
+    },
+    {
+      "video_path": "OrOYvVf6tIM.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053376346826553345,
+      "error": null
+    },
+    {
+      "video_path": "snghE_hWMhY.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03306698054075241,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.13.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4374755322933197,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11913030594587326,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.6.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18220734596252441,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752008199691772,
+      "error": null
+    },
+    {
+      "video_path": "D2PZUB_lDCk.2.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06750957667827606,
+      "error": null
+    },
+    {
+      "video_path": "3923c396290520b6dcedf49397a06682322bd225007879cdd4fa2b144116c293.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.914405107498169,
+      "error": null
+    },
+    {
+      "video_path": "w-HYZv6HzAs.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06002729758620262,
+      "error": null
+    },
+    {
+      "video_path": "9jLZPZEIWq0.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9888727068901062,
+      "error": null
+    },
+    {
+      "video_path": "06789991de47b8c00d46246a5abcfd0a830d609e8ac1723fdda38dfccc3d3523.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029302401468157768,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04741475358605385,
+      "error": null
+    },
+    {
+      "video_path": "154586.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40649914741516113,
+      "error": null
+    },
+    {
+      "video_path": "GjEImPidK4g.7.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0952763557434082,
+      "error": null
+    },
+    {
+      "video_path": "EFvnpRE9qC8.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751471012830734,
+      "error": null
+    },
+    {
+      "video_path": "XDndUR0xeAQ.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9463130235671997,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5918706655502319,
+      "error": null
+    },
+    {
+      "video_path": "307.2.11.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1643647700548172,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.5.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5305670499801636,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.35.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207736626267433,
+      "error": null
+    },
+    {
+      "video_path": "Ml-9GyPK_hw.4.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506976813077927,
+      "error": null
+    },
+    {
+      "video_path": "2530.0.10.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5918484926223755,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7977200746536255,
+      "error": null
+    },
+    {
+      "video_path": "xBFcUI4z0Wk.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0373174324631691,
+      "error": null
+    },
+    {
+      "video_path": "ti231UvSvfQ.12.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5921491980552673,
+      "error": null
+    },
+    {
+      "video_path": "6YDWsGwz2lI.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13282418251037598,
+      "error": null
+    },
+    {
+      "video_path": "px9IqOnilHI.1.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010985215194523335,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.42.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582152634859085,
+      "error": null
+    },
+    {
+      "video_path": "MQugcNLFI9k.4.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3205055594444275,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1066141203045845,
+      "error": null
+    },
+    {
+      "video_path": "OrOYvVf6tIM.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02595297247171402,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10659976303577423,
+      "error": null
+    },
+    {
+      "video_path": "J5Pnh0UcNxg.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08505525439977646,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663991421461105,
+      "error": null
+    },
+    {
+      "video_path": "tCRbVEGHZlQ.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.009704431518912315,
+      "error": null
+    },
+    {
+      "video_path": "hpTEzp-6CkM.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.26863279938697815,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.17.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4682638347148895,
+      "error": null
+    },
+    {
+      "video_path": "2519.5.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10661029070615768,
+      "error": null
+    },
+    {
+      "video_path": "Gel59Iy3YhQ.37.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4375915825366974,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7974841594696045,
+      "error": null
+    },
+    {
+      "video_path": "HasIb5pfWkQ.3.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5306828618049622,
+      "error": null
+    },
+    {
+      "video_path": "637ea05e5192428c06fd77b128bd3aa5436dbb3596b8ab6b87405e484e721bc1.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0758119598031044,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.10.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.007576420437544584,
+      "error": null
+    },
+    {
+      "video_path": "190.2.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22254431247711182,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.6.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9766854643821716,
+      "error": null
+    },
+    {
+      "video_path": "338.2.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006781384348869,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09520106762647629,
+      "error": null
+    },
+    {
+      "video_path": "99f927656086265ccda299e2c2ec394f4bfded4daa3ea64efcb4ee6c95b8c7de.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03306387737393379,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.15.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006145104765892,
+      "error": null
+    },
+    {
+      "video_path": "as8lT-q2_E8.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6221259236335754,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.4.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.437632292509079,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.14.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7052549719810486,
+      "error": null
+    },
+    {
+      "video_path": "yKHjA7oooPE.4.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060071151703596115,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207591339945793,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.19.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02595181204378605,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0373183973133564,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.3.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0330691933631897,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.5.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9767948985099792,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.22252319753170013,
+      "error": null
+    },
+    {
+      "video_path": "RIz3klPET3o.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05336916819214821,
+      "error": null
+    },
+    {
+      "video_path": "ckpwSAv5we8.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0066922130063176155,
+      "error": null
+    },
+    {
+      "video_path": "y51VUsotZe4.7.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06751030683517456,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10663409531116486,
+      "error": null
+    },
+    {
+      "video_path": "1hu1np_BI2M.7.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20155158638954163,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1643887758255005,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307785838842392,
+      "error": null
+    },
+    {
+      "video_path": "kxcw0iSn0xw.3.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7049484848976135,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952443480491638,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.2.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07583308219909668,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.11.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2688086926937103,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939371168613434,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18231916427612305,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.19.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.007576620206236839,
+      "error": null
+    },
+    {
+      "video_path": "y0aS2n1WmMg.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02930595353245735,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.11.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029301434755325317,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.0.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06752579659223557,
+      "error": null
+    },
+    {
+      "video_path": "05f098e07283ae06f8058a746cd3d87683506af22324a8bdf544b9804e9ae5d5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.348358690738678,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.7.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338723957538605,
+      "error": null
+    },
+    {
+      "video_path": "6h6bMAWLYAI.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0600612573325634,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11913221329450607,
+      "error": null
+    },
+    {
+      "video_path": "sguYb2y3u6w.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731231018900871,
+      "error": null
+    },
+    {
+      "video_path": "8SphTOiOe6k.2.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37721195816993713,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.9.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5306614637374878,
+      "error": null
+    },
+    {
+      "video_path": "rs4B8-qoY1I.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.006692100316286087,
+      "error": null
+    },
+    {
+      "video_path": "LZkl0_9xFOU.11.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904482454061508,
+      "error": null
+    },
+    {
+      "video_path": "opXBWdk-mbQ.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29394975304603577,
+      "error": null
+    },
+    {
+      "video_path": "7jUW96CiEKA.0.12.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015904108062386513,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.15.10.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032831870019436,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2686837613582611,
+      "error": null
+    },
+    {
+      "video_path": "L8rSZ26ySPA.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060065824538469315,
+      "error": null
+    },
+    {
+      "video_path": "RYzkI_5ub58.8.11.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.053380195051431656,
+      "error": null
+    },
+    {
+      "video_path": "u-dEnJpCGAQ.165.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033078573644161224,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.9.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2938791513442993,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.12.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1328771561384201,
+      "error": null
+    },
+    {
+      "video_path": "qYztDs8vPBg.1.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10661745816469193,
+      "error": null
+    },
+    {
+      "video_path": "3877.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4372830092906952,
+      "error": null
+    },
+    {
+      "video_path": "187.6.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11915164440870285,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.22.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03307919576764107,
+      "error": null
+    },
+    {
+      "video_path": "QMlfVwN3iTw.7.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14796683192253113,
+      "error": null
+    },
+    {
+      "video_path": "FV7PVgF3jz4.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8513649106025696,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.004069885704666376,
+      "error": null
+    },
+    {
+      "video_path": "1156f206bf6ef72ed3ac9d51d28c81f40031612ca1e79e9d4fc076759bc06c23.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2685508131980896,
+      "error": null
+    },
+    {
+      "video_path": "r-BCbF55fxo.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24465440213680267,
+      "error": null
+    },
+    {
+      "video_path": "61.1.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939228117465973,
+      "error": null
+    },
+    {
+      "video_path": "H4AZhS5WqKk.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020329078659415245,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.1.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11914000660181046,
+      "error": null
+    },
+    {
+      "video_path": "RolttrarOOA.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04207577928900719,
+      "error": null
+    },
+    {
+      "video_path": "f4ZzHtww6Tc.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.729947030544281,
+      "error": null
+    },
+    {
+      "video_path": "1934.1.24.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05333762615919113,
+      "error": null
+    },
+    {
+      "video_path": "6YDWsGwz2lI.0.10.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4065045714378357,
+      "error": null
+    },
+    {
+      "video_path": "ckpwSAv5we8.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940116822719574,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.3.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37704557180404663,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.6.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582247257232666,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.2.19.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24482470750808716,
+      "error": null
+    },
+    {
+      "video_path": "YBC2JaevzOI.7.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582471519708633,
+      "error": null
+    },
+    {
+      "video_path": "h1PjJ9_Yd2c.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.015903472900390625,
+      "error": null
+    },
+    {
+      "video_path": "5ClsAp49w3c.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3772973120212555,
+      "error": null
+    },
+    {
+      "video_path": "ljg_EgXMjO0.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18214818835258484,
+      "error": null
+    },
+    {
+      "video_path": "lz5xvWTodyw.8.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529591351747513,
+      "error": null
+    },
+    {
+      "video_path": "X9cMkpfnszo.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09525823593139648,
+      "error": null
+    },
+    {
+      "video_path": "guZ5AxQ6xb0.1.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1822134405374527,
+      "error": null
+    },
+    {
+      "video_path": "LI7i6DQfh0o.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5611499547958374,
+      "error": null
+    },
+    {
+      "video_path": "L0zS8z8YqJ8.2.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40671318769454956,
+      "error": null
+    },
+    {
+      "video_path": "XDndUR0xeAQ.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9913040399551392,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.4.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08507323265075684,
+      "error": null
+    },
+    {
+      "video_path": "1448735.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18229538202285767,
+      "error": null
+    },
+    {
+      "video_path": "9H942RAVrHQ.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.033070698380470276,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.4.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.029305245727300644,
+      "error": null
+    },
+    {
+      "video_path": "QMlfVwN3iTw.8.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740893468260765,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.3.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20147597789764404,
+      "error": null
+    },
+    {
+      "video_path": "0BmANHSUbJg.3.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.08506199717521667,
+      "error": null
+    },
+    {
+      "video_path": "vEvBpjCOBu0.3.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8347063660621643,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03730709105730057,
+      "error": null
+    },
+    {
+      "video_path": "3036.0.13.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37715694308280945,
+      "error": null
+    },
+    {
+      "video_path": "y0aS2n1WmMg.3.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4067075848579407,
+      "error": null
+    },
+    {
+      "video_path": "JDaw5I_5hPk.0.23.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6505070924758911,
+      "error": null
+    },
+    {
+      "video_path": "KdfhMulBsyk.2.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14793173968791962,
+      "error": null
+    },
+    {
+      "video_path": "Q86kUKa28ow.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4988478124141693,
+      "error": null
+    },
+    {
+      "video_path": "KdfhMulBsyk.2.8.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0474124401807785,
+      "error": null
+    },
+    {
+      "video_path": "Wx68yLCrWP0.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.32030045986175537,
+      "error": null
+    },
+    {
+      "video_path": "XA2X_JBzkzY.4.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18234017491340637,
+      "error": null
+    },
+    {
+      "video_path": "_6DLjNKtENQ.0.23.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.43741467595100403,
+      "error": null
+    },
+    {
+      "video_path": "AhnS92hxqCA.3.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.04740887135267258,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.9.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2225685566663742,
+      "error": null
+    },
+    {
+      "video_path": "z9Bw94k7AxQ.0.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.042070891708135605,
+      "error": null
+    },
+    {
+      "video_path": "ZkLQqywiwlY.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7304003834724426,
+      "error": null
+    },
+    {
+      "video_path": "G2EAFkURl0U.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14792093634605408,
+      "error": null
+    },
+    {
+      "video_path": "s7I9Ab9rXkU.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5305532813072205,
+      "error": null
+    },
+    {
+      "video_path": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05338621139526367,
+      "error": null
+    },
+    {
+      "video_path": "XA2X_JBzkzY.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37721118330955505,
+      "error": null
+    },
+    {
+      "video_path": "i82xURPkLWo.3.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.02032906375825405,
+      "error": null
+    },
+    {
+      "video_path": "8iZ8RtiJq14.5.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529479593038559,
+      "error": null
+    },
+    {
+      "video_path": "VKre9_wM3Mo.1.11.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.8169938921928406,
+      "error": null
+    },
+    {
+      "video_path": "YBC2JaevzOI.1.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49939218163490295,
+      "error": null
+    },
+    {
+      "video_path": "NZ3Pba3Xsk4.3.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2225307673215866,
+      "error": null
+    },
+    {
+      "video_path": "4021226.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3204869031906128,
+      "error": null
+    },
+    {
+      "video_path": "bX8GaZ3O4-Q.3.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09529856592416763,
+      "error": null
+    },
+    {
+      "video_path": "G4kX-P0f0gE.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4996069073677063,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14786192774772644,
+      "error": null
+    },
+    {
+      "video_path": "5eDQ2SSsmEk.2.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6220876574516296,
+      "error": null
+    },
+    {
+      "video_path": "PIvOfcR77SQ.2.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.40692877769470215,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7043823599815369,
+      "error": null
+    },
+    {
+      "video_path": "Cj6ho1-G6tw.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1823302060365677,
+      "error": null
+    },
+    {
+      "video_path": "Vm-b2AVwARw.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6510422229766846,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9392391443252563,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.5.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7305902242660522,
+      "error": null
+    },
+    {
+      "video_path": "ZBsv_5fHtIg.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37726372480392456,
+      "error": null
+    },
+    {
+      "video_path": "4080.2.31.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5307360291481018,
+      "error": null
+    },
+    {
+      "video_path": "4021529.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3203875720500946,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.11914859712123871,
+      "error": null
+    },
+    {
+      "video_path": "4PcpGxihPac.3.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6219726800918579,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.5.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1643989235162735,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.2.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7768853902816772,
+      "error": null
+    },
+    {
+      "video_path": "8ouj_JN2ytI.0.12.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07581444829702377,
+      "error": null
+    },
+    {
+      "video_path": "sguYb2y3u6w.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.010984872467815876,
+      "error": null
+    },
+    {
+      "video_path": "942.0.30.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.34808701276779175,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.15.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4374162256717682,
+      "error": null
+    },
+    {
+      "video_path": "yQLgp8trSDc.0.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4680387079715729,
+      "error": null
+    },
+    {
+      "video_path": "338.2.30.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2939913868904114,
+      "error": null
+    },
+    {
+      "video_path": "KF5p8VIbt0Y.4.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1478734016418457,
+      "error": null
+    },
+    {
+      "video_path": "VS66VOUmoKQ.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46836161613464355,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.2.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.1479119062423706,
+      "error": null
+    },
+    {
+      "video_path": "s7I9Ab9rXkU.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06002306565642357,
+      "error": null
+    },
+    {
+      "video_path": "4uGfFYzxWEg.1.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10664553940296173,
+      "error": null
+    },
+    {
+      "video_path": "TktL3QR8Yg8.0.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6221674084663391,
+      "error": null
+    },
+    {
+      "video_path": "yGsVo0uIJVs.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.18230678141117096,
+      "error": null
+    },
+    {
+      "video_path": "4847.13.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.560775637626648,
+      "error": null
+    },
+    {
+      "video_path": "1018.1.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5613111853599548,
+      "error": null
+    },
+    {
+      "video_path": "M0jmSsQ5ptw.3.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13287034630775452,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.10661011934280396,
+      "error": null
+    },
+    {
+      "video_path": "awPo_VZabRc.6.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29380521178245544,
+      "error": null
+    },
+    {
+      "video_path": "NJm86fzxG8s.4.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.09530876576900482,
+      "error": null
+    },
+    {
+      "video_path": "fT6olrwrjnI.5.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7977556586265564,
+      "error": null
+    },
+    {
+      "video_path": "3epU697sU9E.1.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.05336149036884308,
+      "error": null
+    },
+    {
+      "video_path": "oRt5NPY7yYA.3.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2224157452583313,
+      "error": null
+    },
+    {
+      "video_path": "t2_J-RVP7EM.2.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.46851280331611633,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4996206760406494,
+      "error": null
+    },
+    {
+      "video_path": "fUjoIUTFH1I.0.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.13285520672798157,
+      "error": null
+    },
+    {
+      "video_path": "wQ09HsEKmvE.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06003379449248314,
+      "error": null
+    },
+    {
+      "video_path": "3pxrECZYEAA.2.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4684033989906311,
+      "error": null
+    },
+    {
+      "video_path": "88vmzn_LufA.0.7.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.060066770762205124,
+      "error": null
+    },
+    {
+      "video_path": "03hvbnE0asg.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5303493738174438,
+      "error": null
+    },
+    {
+      "video_path": "0058d7c1829dfe2fcdab924eb527dae182de7b5e5507143313b1cfd51d30c255.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3482021689414978,
+      "error": null
+    },
+    {
+      "video_path": "JGiXuXc3cao.6.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.025952160358428955,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.20.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.020328423008322716,
+      "error": null
+    },
+    {
+      "video_path": "3HYfPz8lvDI.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5303968787193298,
+      "error": null
+    },
+    {
+      "video_path": "fP5UM4elIes.1.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37705397605895996,
+      "error": null
+    },
+    {
+      "video_path": "bPZc7avrCT4.6.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24488388001918793,
+      "error": null
+    },
+    {
+      "video_path": "-eyUFAJ1xqo.1.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.5616971254348755,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.022972699254751205,
+      "error": null
+    },
+    {
+      "video_path": "sLX9J2NBL3w.0.12.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20159733295440674,
+      "error": null
+    },
+    {
+      "video_path": "sJsu7Tv-fRY.7.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.07582877576351166,
+      "error": null
+    },
+    {
+      "video_path": "sdidb7Z8IUc.2.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.16443130373954773,
+      "error": null
+    },
+    {
+      "video_path": "xBFcUI4z0Wk.5.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.20168368518352509,
+      "error": null
+    },
+    {
+      "video_path": "5e5ef4541835cc6ffc817c5dd4eb7f240d200553b3eed64782d61ccde60d4ade.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06006111949682236,
+      "error": null
+    },
+    {
+      "video_path": "tJ7xCQpF00s.0.12.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.03731817007064819,
+      "error": null
+    },
+    {
+      "video_path": "fSWFUFdV5TU.0.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0420747846364975,
+      "error": null
+    },
+    {
+      "video_path": "338.2.2.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4994528293609619,
+      "error": null
+    },
+    {
+      "video_path": "G_TLZr6ZbLE.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.0259524118155241,
+      "error": null
+    },
+    {
+      "video_path": "0ZH_3bcVRe4.0.9.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.06005653366446495,
+      "error": null
+    },
+    {
+      "video_path": "01d049bb34201744344139f0253c21450f8387a3b8076a57667b61c4f2c6450c.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.3483455777168274,
+      "error": null
+    },
+    {
+      "video_path": "69PPD7ZUJPc.0.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.7040875554084778,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.3.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.24482813477516174,
+      "error": null
+    },
+    {
+      "video_path": "6303.0.26.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2940289080142975,
+      "error": null
+    },
+    {
+      "video_path": "5679.1.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.29404523968696594,
+      "error": null
+    },
+    {
+      "video_path": "GdRJCTR1KDQ.1.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.49951720237731934,
+      "error": null
+    },
+    {
+      "video_path": "bPZc7avrCT4.5.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2225133776664734,
+      "error": null
+    },
+    {
+      "video_path": "LNHBMFCzznE.5.9.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.14787554740905762,
+      "error": null
+    },
+    {
+      "video_path": "KI2lsdXJQ40.0.3.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.4066529870033264,
+      "error": null
+    },
+    {
+      "video_path": "gOGFBkBqiI0.8.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.37710994482040405,
+      "error": null
+    },
+    {
+      "video_path": "5qKYrajRNwo.3.6.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.561855673789978,
+      "error": null
+    },
+    {
+      "video_path": "un7JOh6x-c4.0.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.9620153307914734,
+      "error": null
+    },
+    {
+      "video_path": "molA_wwvFbk.9.1.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.2223910093307495,
+      "error": null
+    },
+    {
+      "video_path": "t2_J-RVP7EM.10.4.mp4",
+      "question": "Does the camera zoom in?",
+      "ground_truth_label": "No",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "score": 0.6786462664604187,
+      "error": null
+    }
+  ]
+}

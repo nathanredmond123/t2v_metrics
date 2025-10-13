@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "has motion",
+    "task_name": "has crane down",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T12:14:08.036116",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "LZkl0_9xFOU.13.5.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Does the camera crane downward in an arc?",
+      "neg_question": "Is the camera not craning downward in an arc?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.03731921315193176,
+        "pos_text_neg_image": 0.20170599222183228,
+        "neg_text_pos_image": 0.11916609108448029,
+        "neg_text_neg_image": 0.22260645031929016
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9624752402305603,
+        "pos_text_neg_image": 0.7977626919746399,
+        "neg_text_pos_image": 0.8805249333381653,
+        "neg_text_neg_image": 0.7769728302955627
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8LiVGDq01FU.2.3.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Does the camera crane downward in an arc?",
+      "neg_question": "Is the camera not craning downward in an arc?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09529627859592438,
+        "pos_text_neg_image": 0.06746029108762741,
+        "neg_text_pos_image": 0.20169810950756073,
+        "neg_text_neg_image": 0.22239328920841217
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9041458964347839,
+        "pos_text_neg_image": 0.9312605857849121,
+        "neg_text_pos_image": 0.7977315187454224,
+        "neg_text_neg_image": 0.7762288451194763
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mlUKWRnYzR4.0.11.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Does the camera crane downward in an arc?",
+      "neg_question": "Is the camera not craning downward in an arc?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04741056263446808,
+        "pos_text_neg_image": 0.03307705000042915,
+        "neg_text_pos_image": 0.14797748625278473,
+        "neg_text_neg_image": 0.16445419192314148
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9522666335105896,
+        "pos_text_neg_image": 0.9666531085968018,
+        "neg_text_pos_image": 0.8515517115592957,
+        "neg_text_neg_image": 0.8351673483848572
+      },
+      "error": null
+    },
+    {
+      "pos_video": "upC8hjr2b4g.13.2.mp4",
+      "neg_video": "MuNyfqxAO6Y.8.5.mp4",
+      "pos_question": "Does the camera crane downward in an arc?",
+      "neg_question": "Is the camera not craning downward in an arc?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.13290190696716309,
+        "pos_text_neg_image": 0.0953085795044899,
+        "neg_text_pos_image": 0.22258782386779785,
+        "neg_text_neg_image": 0.16444692015647888
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8666292428970337,
+        "pos_text_neg_image": 0.9042626619338989,
+        "neg_text_pos_image": 0.7769078612327576,
+        "neg_text_neg_image": 0.8351304531097412
+      },
+      "error": null
+    }
+  ]
+}

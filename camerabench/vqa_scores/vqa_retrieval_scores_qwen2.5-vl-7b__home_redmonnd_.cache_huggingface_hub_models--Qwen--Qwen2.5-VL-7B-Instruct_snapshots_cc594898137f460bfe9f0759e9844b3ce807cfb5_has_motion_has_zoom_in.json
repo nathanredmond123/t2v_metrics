@@ -1,0 +1,1055 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "has motion",
+    "task_name": "has zoom in",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T12:12:48.268725",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "4f3hG-5grlw.4.3.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.029304299503564835,
+        "pos_text_neg_image": 0.1191384568810463,
+        "neg_text_pos_image": 0.7307654023170471,
+        "neg_text_neg_image": 0.4376241862773895
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9704251289367676,
+        "pos_text_neg_image": 0.8803207278251648,
+        "neg_text_pos_image": 0.26883360743522644,
+        "neg_text_neg_image": 0.5619205832481384
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mIiPt1YVkP8.11.6.mp4",
+      "neg_video": "yGsVo0uIJVs.3.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2448972910642624,
+        "pos_text_neg_image": 0.4374087154865265,
+        "neg_text_pos_image": 0.5619820952415466,
+        "neg_text_neg_image": 0.4375557601451874
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7543367743492126,
+        "pos_text_neg_image": 0.5616438984870911,
+        "neg_text_pos_image": 0.43767207860946655,
+        "neg_text_neg_image": 0.5618327260017395
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.3.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.16.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24488818645477295,
+        "pos_text_neg_image": 0.7295166850090027,
+        "neg_text_pos_image": 0.4998091459274292,
+        "neg_text_neg_image": 0.4682098925113678
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7543087601661682,
+        "pos_text_neg_image": 0.2683742046356201,
+        "neg_text_pos_image": 0.4998091459274292,
+        "neg_text_neg_image": 0.5305513143539429
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0u4NY-YtVII.6.0.mp4",
+      "neg_video": "ZpJpZGktliQ.0.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9857565760612488,
+        "pos_text_neg_image": 0.6218208074569702,
+        "neg_text_pos_image": 0.22255893051624298,
+        "neg_text_neg_image": 0.4996431767940521
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.014061061665415764,
+        "pos_text_neg_image": 0.3771533966064453,
+        "neg_text_pos_image": 0.7768069505691528,
+        "neg_text_neg_image": 0.4996431767940521
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.5.2.mp4",
+      "neg_video": "upC8hjr2b4g.14.2.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5616879463195801,
+        "pos_text_neg_image": 0.10663439333438873,
+        "neg_text_pos_image": 0.43761780858039856,
+        "neg_text_neg_image": 0.5619155764579773
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4374430179595947,
+        "pos_text_neg_image": 0.8928387761116028,
+        "neg_text_pos_image": 0.5619124174118042,
+        "neg_text_neg_image": 0.43762028217315674
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0OFBj7EjZ-g.0.1.mp4",
+      "neg_video": "3HYfPz8lvDI.4.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2940266728401184,
+        "pos_text_neg_image": 0.7978288531303406,
+        "neg_text_pos_image": 0.40715593099594116,
+        "neg_text_neg_image": 0.3484898805618286
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7053332924842834,
+        "pos_text_neg_image": 0.20172272622585297,
+        "neg_text_pos_image": 0.5924083590507507,
+        "neg_text_neg_image": 0.6510648131370544
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sLX9J2NBL3w.0.6.mp4",
+      "neg_video": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9395485520362854,
+        "pos_text_neg_image": 0.05337357893586159,
+        "neg_text_pos_image": 0.24496132135391235,
+        "neg_text_neg_image": 0.7543576955795288
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.060063328593969345,
+        "pos_text_neg_image": 0.9460693001747131,
+        "neg_text_pos_image": 0.7545340061187744,
+        "neg_text_neg_image": 0.24490408599376678
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.1.mp4",
+      "neg_video": "5454.1.13.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.022973010316491127,
+        "pos_text_neg_image": 0.4068607985973358,
+        "neg_text_pos_image": 0.4998839199542999,
+        "neg_text_neg_image": 0.32063430547714233
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9768372178077698,
+        "pos_text_neg_image": 0.5919789671897888,
+        "neg_text_pos_image": 0.4998839199542999,
+        "neg_text_neg_image": 0.6787827610969543
+      },
+      "error": null
+    },
+    {
+      "pos_video": "molA_wwvFbk.9.0.mp4",
+      "neg_video": "5qKYrajRNwo.2.4.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6774256825447083,
+        "pos_text_neg_image": 0.06752472370862961,
+        "neg_text_pos_image": 0.406718373298645,
+        "neg_text_neg_image": 0.4376732409000397
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3199932277202606,
+        "pos_text_neg_image": 0.9321500062942505,
+        "neg_text_pos_image": 0.5917717218399048,
+        "neg_text_neg_image": 0.561983585357666
+      },
+      "error": null
+    },
+    {
+      "pos_video": "kSx5KGOv5Qc.0.mp4",
+      "neg_video": "Ni7AYED85z4.2.15.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.033077921718358994,
+        "pos_text_neg_image": 0.2687153220176697,
+        "neg_text_pos_image": 0.5619068145751953,
+        "neg_text_neg_image": 0.43761658668518066
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9666786193847656,
+        "pos_text_neg_image": 0.7304438948631287,
+        "neg_text_pos_image": 0.43761345744132996,
+        "neg_text_neg_image": 0.5619108080863953
+      },
+      "error": null
+    },
+    {
+      "pos_video": "_I6Y-rtiTPc.0.2.mp4",
+      "neg_video": "5eDQ2SSsmEk.3.6.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9319698214530945,
+        "pos_text_neg_image": 0.46850794553756714,
+        "neg_text_pos_image": 0.4375264644622803,
+        "neg_text_neg_image": 0.3774052560329437
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.0675116702914238,
+        "pos_text_neg_image": 0.530889093875885,
+        "neg_text_pos_image": 0.5617951154708862,
+        "neg_text_neg_image": 0.6222360134124756
+      },
+      "error": null
+    },
+    {
+      "pos_video": "rfg9l66Eskw.0.1.mp4",
+      "neg_video": "CQYQKehqjgI.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1479305922985077,
+        "pos_text_neg_image": 0.16432765126228333,
+        "neg_text_pos_image": 0.29403725266456604,
+        "neg_text_neg_image": 0.7053165435791016
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8512818813323975,
+        "pos_text_neg_image": 0.8345246911048889,
+        "neg_text_pos_image": 0.7053587436676025,
+        "neg_text_neg_image": 0.2940196692943573
+      },
+      "error": null
+    },
+    {
+      "pos_video": "PIvOfcR77SQ.0.4.mp4",
+      "neg_video": "4uGfFYzxWEg.4.9.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7543442845344543,
+        "pos_text_neg_image": 0.9739115834236145,
+        "neg_text_pos_image": 0.561772882938385,
+        "neg_text_neg_image": 0.26881325244903564
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.24489973485469818,
+        "pos_text_neg_image": 0.025953862816095352,
+        "neg_text_pos_image": 0.437509149312973,
+        "neg_text_neg_image": 0.7307100892066956
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5e7Kk3WEFAA.0.3.mp4",
+      "neg_video": "H4AZhS5WqKk.2.11.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5304198265075684,
+        "pos_text_neg_image": 0.5617543458938599,
+        "neg_text_pos_image": 0.6218891143798828,
+        "neg_text_neg_image": 0.4685785174369812
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4680938422679901,
+        "pos_text_neg_image": 0.4374947249889374,
+        "neg_text_pos_image": 0.3771948218345642,
+        "neg_text_neg_image": 0.5309690237045288
+      },
+      "error": null
+    },
+    {
+      "pos_video": "X-keHLL75tg.3.6.mp4",
+      "neg_video": "168085.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37725698947906494,
+        "pos_text_neg_image": 0.08506801724433899,
+        "neg_text_pos_image": 0.5924010872840881,
+        "neg_text_neg_image": 0.49979642033576965
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6219916343688965,
+        "pos_text_neg_image": 0.9145674109458923,
+        "neg_text_pos_image": 0.40715092420578003,
+        "neg_text_neg_image": 0.49979642033576965
+      },
+      "error": null
+    },
+    {
+      "pos_video": "aVA7aXOH1pk.0.1.mp4",
+      "neg_video": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5305095314979553,
+        "pos_text_neg_image": 0.16430631279945374,
+        "neg_text_pos_image": 0.4684797525405884,
+        "neg_text_neg_image": 0.5307062864303589
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4681730270385742,
+        "pos_text_neg_image": 0.834416389465332,
+        "neg_text_pos_image": 0.5308571457862854,
+        "neg_text_neg_image": 0.46834665536880493
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0u4NY-YtVII.5.0.mp4",
+      "neg_video": "m3bwXvQoAdo.0.4.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07582095265388489,
+        "pos_text_neg_image": 0.18231569230556488,
+        "neg_text_pos_image": 0.49977752566337585,
+        "neg_text_neg_image": 0.49985471367836
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9236882925033569,
+        "pos_text_neg_image": 0.8170822262763977,
+        "neg_text_pos_image": 0.49977752566337585,
+        "neg_text_neg_image": 0.49985471367836
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.15.1.mp4",
+      "neg_video": "4PcpGxihPac.4.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07583073526620865,
+        "pos_text_neg_image": 0.730376660823822,
+        "neg_text_pos_image": 0.4376126229763031,
+        "neg_text_neg_image": 0.4070056974887848
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9238075017929077,
+        "pos_text_neg_image": 0.2686905860900879,
+        "neg_text_pos_image": 0.5619057416915894,
+        "neg_text_neg_image": 0.5921897888183594
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KoJ0Pih0Ssc.2.5.mp4",
+      "neg_video": "60.0.28.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9235671758651733,
+        "pos_text_neg_image": 0.4683680832386017,
+        "neg_text_pos_image": 0.20168699324131012,
+        "neg_text_neg_image": 0.40715163946151733
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.075811006128788,
+        "pos_text_neg_image": 0.5307305455207825,
+        "neg_text_pos_image": 0.7976875305175781,
+        "neg_text_neg_image": 0.5924021601676941
+      },
+      "error": null
+    },
+    {
+      "pos_video": "iXzposKQzvs.2.8.mp4",
+      "neg_video": "l5RWa1D00ck.0.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.939393162727356,
+        "pos_text_neg_image": 0.006692253984510899,
+        "neg_text_pos_image": 0.4068734645843506,
+        "neg_text_neg_image": 0.46867093443870544
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.06005339324474335,
+        "pos_text_neg_image": 0.9932186007499695,
+        "neg_text_pos_image": 0.5919973850250244,
+        "neg_text_neg_image": 0.5310737490653992
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Uofofz62A2E.0.1.mp4",
+      "neg_video": "lz5xvWTodyw.8.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9619150161743164,
+        "pos_text_neg_image": 0.2448367178440094,
+        "neg_text_pos_image": 0.24486756324768066,
+        "neg_text_neg_image": 0.7767654657363892
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.03729749098420143,
+        "pos_text_neg_image": 0.7541502118110657,
+        "neg_text_pos_image": 0.7542452216148376,
+        "neg_text_neg_image": 0.2225470393896103
+      },
+      "error": null
+    },
+    {
+      "pos_video": "X-keHLL75tg.3.2.mp4",
+      "neg_video": "1497.1.18.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9739349484443665,
+        "pos_text_neg_image": 0.5920453071594238,
+        "neg_text_pos_image": 0.437589168548584,
+        "neg_text_neg_image": 0.40704458951950073
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.025954486802220345,
+        "pos_text_neg_image": 0.406906396150589,
+        "neg_text_pos_image": 0.5618756413459778,
+        "neg_text_neg_image": 0.592246413230896
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mIiPt1YVkP8.12.2.mp4",
+      "neg_video": "LNHBMFCzznE.5.14.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5616469383239746,
+        "pos_text_neg_image": 0.01590273343026638,
+        "neg_text_pos_image": 0.40708014369010925,
+        "neg_text_neg_image": 0.6789189577102661
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4374110996723175,
+        "pos_text_neg_image": 0.9838672876358032,
+        "neg_text_pos_image": 0.5922980904579163,
+        "neg_text_neg_image": 0.320698618888855
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4PcpGxihPac.1.3.mp4",
+      "neg_video": "r5jbhW9uauc.2.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8351222276687622,
+        "pos_text_neg_image": 0.2937358319759369,
+        "neg_text_pos_image": 0.20172692835330963,
+        "neg_text_neg_image": 0.4374512732028961
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16444529592990875,
+        "pos_text_neg_image": 0.7046356797218323,
+        "neg_text_pos_image": 0.7978454828262329,
+        "neg_text_neg_image": 0.5616985559463501
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.8.3.mp4",
+      "neg_video": "fP5UM4elIes.0.5.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.0159037746489048,
+        "pos_text_neg_image": 0.7768555283546448,
+        "neg_text_pos_image": 0.7547306418418884,
+        "neg_text_neg_image": 0.46857622265815735
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9839316606521606,
+        "pos_text_neg_image": 0.22257284820079803,
+        "neg_text_pos_image": 0.245025172829628,
+        "neg_text_neg_image": 0.5309664011001587
+      },
+      "error": null
+    },
+    {
+      "pos_video": "PIvOfcR77SQ.3.0.mp4",
+      "neg_video": "4uGfFYzxWEg.5.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5615198016166687,
+        "pos_text_neg_image": 0.1066296324133873,
+        "neg_text_pos_image": 0.6509336829185486,
+        "neg_text_neg_image": 0.4997992217540741
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4373120665550232,
+        "pos_text_neg_image": 0.8927989602088928,
+        "neg_text_pos_image": 0.348419725894928,
+        "neg_text_neg_image": 0.4997992217540741
+      },
+      "error": null
+    },
+    {
+      "pos_video": "L0zS8z8YqJ8.2.5.mp4",
+      "neg_video": "iXzposKQzvs.2.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9795758724212646,
+        "pos_text_neg_image": 0.04206693544983864,
+        "neg_text_pos_image": 0.29408079385757446,
+        "neg_text_neg_image": 0.7054117918014526
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.02033044770359993,
+        "pos_text_neg_image": 0.9574390649795532,
+        "neg_text_pos_image": 0.705463171005249,
+        "neg_text_neg_image": 0.2940593659877777
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qMeHR2Dc4mQ.3.5.mp4",
+      "neg_video": "0kpu6VM3rZU.5.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.060065243393182755,
+        "pos_text_neg_image": 0.530468761920929,
+        "neg_text_pos_image": 0.5309985876083374,
+        "neg_text_neg_image": 0.49955520033836365
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9395785331726074,
+        "pos_text_neg_image": 0.46813705563545227,
+        "neg_text_pos_image": 0.46860459446907043,
+        "neg_text_neg_image": 0.49955520033836365
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.3.1.mp4",
+      "neg_video": "i82xURPkLWo.3.5.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9462670087814331,
+        "pos_text_neg_image": 0.02930600754916668,
+        "neg_text_pos_image": 0.32056641578674316,
+        "neg_text_neg_image": 0.4998539388179779
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.05338473618030548,
+        "pos_text_neg_image": 0.9704816937446594,
+        "neg_text_pos_image": 0.6786390542984009,
+        "neg_text_neg_image": 0.4998539388179779
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3HYfPz8lvDI.2.2.mp4",
+      "neg_video": "3HYfPz8lvDI.0.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7306218147277832,
+        "pos_text_neg_image": 0.6508315205574036,
+        "neg_text_pos_image": 0.530994713306427,
+        "neg_text_neg_image": 0.2017015814781189
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.26878076791763306,
+        "pos_text_neg_image": 0.34836503863334656,
+        "neg_text_pos_image": 0.46860116720199585,
+        "neg_text_neg_image": 0.7977452278137207
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.4.3.mp4",
+      "neg_video": "027bd84e297a500c52d35ab4a67f37e62007e76483baad5687496911e441d65d.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9939898252487183,
+        "pos_text_neg_image": 0.10657139122486115,
+        "neg_text_pos_image": 0.37728288769721985,
+        "neg_text_neg_image": 0.5922472476959229
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.005910478997975588,
+        "pos_text_neg_image": 0.8923113346099854,
+        "neg_text_pos_image": 0.6220343112945557,
+        "neg_text_neg_image": 0.4070452153682709
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0Pzq0URbL2M.2.0.mp4",
+      "neg_video": "Gel59Iy3YhQ.12.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5920789241790771,
+        "pos_text_neg_image": 0.07583048194646835,
+        "neg_text_pos_image": 0.40711870789527893,
+        "neg_text_neg_image": 0.5310834646224976
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40692952275276184,
+        "pos_text_neg_image": 0.9238044619560242,
+        "neg_text_pos_image": 0.5923541784286499,
+        "neg_text_neg_image": 0.4686795175075531
+      },
+      "error": null
+    },
+    {
+      "pos_video": "anEdRKaWM-I.0.3.mp4",
+      "neg_video": "h1PjJ9_Yd2c.2.5.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7304046154022217,
+        "pos_text_neg_image": 0.09528715908527374,
+        "neg_text_pos_image": 0.268667995929718,
+        "neg_text_neg_image": 0.530922532081604
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.26870086789131165,
+        "pos_text_neg_image": 0.9040594100952148,
+        "neg_text_pos_image": 0.7303152680397034,
+        "neg_text_neg_image": 0.46853744983673096
+      },
+      "error": null
+    },
+    {
+      "pos_video": "awPo_VZabRc.4.0.mp4",
+      "neg_video": "7jUW96CiEKA.8.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205064833164215,
+        "pos_text_neg_image": 0.04206874594092369,
+        "neg_text_pos_image": 0.4071232080459595,
+        "neg_text_neg_image": 0.6220606565475464
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6785122156143188,
+        "pos_text_neg_image": 0.957480251789093,
+        "neg_text_pos_image": 0.59236079454422,
+        "neg_text_neg_image": 0.37729886174201965
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0u4NY-YtVII.4.4.mp4",
+      "neg_video": "67bfa4eec893c10cba8c4fb180735bf8adc0c7de5a0cfe1ee9d1c1b44c2e56c8.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9463181495666504,
+        "pos_text_neg_image": 0.24477307498455048,
+        "neg_text_pos_image": 0.29401957988739014,
+        "neg_text_neg_image": 0.6507376432418823
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.05338761955499649,
+        "pos_text_neg_image": 0.7539541721343994,
+        "neg_text_pos_image": 0.7053163647651672,
+        "neg_text_neg_image": 0.3483147621154785
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ttZAdY3n4nc.2.0.mp4",
+      "neg_video": "FOtmU0oJf-8.0.8.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09527213126420975,
+        "pos_text_neg_image": 0.43740367889404297,
+        "neg_text_pos_image": 0.46842342615127563,
+        "neg_text_neg_image": 0.43762803077697754
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9039168953895569,
+        "pos_text_neg_image": 0.5616374611854553,
+        "neg_text_pos_image": 0.5307932496070862,
+        "neg_text_neg_image": 0.5619255304336548
+      },
+      "error": null
+    },
+    {
+      "pos_video": "W7S2LT1xay0.0.5.mp4",
+      "neg_video": "7jUW96CiEKA.0.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6786540150642395,
+        "pos_text_neg_image": 0.003172479337081313,
+        "neg_text_pos_image": 0.1823277771472931,
+        "neg_text_neg_image": 0.8352788686752319
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.32057347893714905,
+        "pos_text_neg_image": 0.9967633485794067,
+        "neg_text_pos_image": 0.8171364068984985,
+        "neg_text_neg_image": 0.1644761562347412
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.4.2.mp4",
+      "neg_video": "kxcw0iSn0xw.3.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8803988099098206,
+        "pos_text_neg_image": 0.26859480142593384,
+        "neg_text_pos_image": 0.46839916706085205,
+        "neg_text_neg_image": 0.406997412443161
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.11914902180433273,
+        "pos_text_neg_image": 0.7301163077354431,
+        "neg_text_pos_image": 0.5307657718658447,
+        "neg_text_neg_image": 0.5921777486801147
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ZABX9Cf3KSY.0.1.mp4",
+      "neg_video": "as8lT-q2_E8.3.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2224573791027069,
+        "pos_text_neg_image": 0.8665598034858704,
+        "neg_text_pos_image": 0.5922209024429321,
+        "neg_text_neg_image": 0.40706875920295715
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7764524817466736,
+        "pos_text_neg_image": 0.13289125263690948,
+        "neg_text_pos_image": 0.40702706575393677,
+        "neg_text_neg_image": 0.5922815799713135
+      },
+      "error": null
+    },
+    {
+      "pos_video": "O6_XM2Mn0lg.2.mp4",
+      "neg_video": "1470.0.4.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.49945974349975586,
+        "pos_text_neg_image": 0.2447538524866104,
+        "neg_text_pos_image": 0.3772810101509094,
+        "neg_text_neg_image": 0.6220079064369202
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.49945974349975586,
+        "pos_text_neg_image": 0.7538949251174927,
+        "neg_text_pos_image": 0.6220312118530273,
+        "neg_text_neg_image": 0.37726685404777527
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.5.0.mp4",
+      "neg_video": "r5jbhW9uauc.2.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2935051918029785,
+        "pos_text_neg_image": 0.3769253194332123,
+        "neg_text_pos_image": 0.49938568472862244,
+        "neg_text_neg_image": 0.40698134899139404
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7040823698043823,
+        "pos_text_neg_image": 0.621444821357727,
+        "neg_text_pos_image": 0.49938568472862244,
+        "neg_text_neg_image": 0.5921543836593628
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.2.7.mp4",
+      "neg_video": "fUjoIUTFH1I.0.17.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4996500611305237,
+        "pos_text_neg_image": 0.025951910763978958,
+        "neg_text_pos_image": 0.6222059726715088,
+        "neg_text_neg_image": 0.6789823770523071
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4996500611305237,
+        "pos_text_neg_image": 0.9738382697105408,
+        "neg_text_pos_image": 0.37738701701164246,
+        "neg_text_neg_image": 0.3207285702228546
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0kpu6VM3rZU.1.mp4",
+      "neg_video": "5eDQ2SSsmEk.4.5.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8664162755012512,
+        "pos_text_neg_image": 0.6218976378440857,
+        "neg_text_pos_image": 0.49944931268692017,
+        "neg_text_neg_image": 0.29403725266456604
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.13286924362182617,
+        "pos_text_neg_image": 0.3771999776363373,
+        "neg_text_pos_image": 0.49944931268692017,
+        "neg_text_neg_image": 0.7053586840629578
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.3.5.mp4",
+      "neg_video": "9a8a4d0688ffc6b5cb61bc3323634f3dbfbb310ad20130cf56762bfc113e44ed.0.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07580006122589111,
+        "pos_text_neg_image": 0.037307869642972946,
+        "neg_text_pos_image": 0.7541868090629578,
+        "neg_text_neg_image": 0.6510205864906311
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.923433780670166,
+        "pos_text_neg_image": 0.9621827006340027,
+        "neg_text_pos_image": 0.2448486089706421,
+        "neg_text_neg_image": 0.3484662175178528
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yQLgp8trSDc.2.0.mp4",
+      "neg_video": "oRt5NPY7yYA.3.3.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9666538834571838,
+        "pos_text_neg_image": 0.5913421511650085,
+        "neg_text_pos_image": 0.320590615272522,
+        "neg_text_neg_image": 0.32042238116264343
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.03307707607746124,
+        "pos_text_neg_image": 0.4064231514930725,
+        "neg_text_pos_image": 0.6786903142929077,
+        "neg_text_neg_image": 0.6783341765403748
+      },
+      "error": null
+    },
+    {
+      "pos_video": "upC8hjr2b4g.12.6.mp4",
+      "neg_video": "4847.13.4.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37721046805381775,
+        "pos_text_neg_image": 0.11911062896251678,
+        "neg_text_pos_image": 0.24499200284481049,
+        "neg_text_neg_image": 0.5309463143348694
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6219149231910706,
+        "pos_text_neg_image": 0.8801151514053345,
+        "neg_text_pos_image": 0.7546284794807434,
+        "neg_text_neg_image": 0.4685584604740143
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sKJeTaIEldM.2.2.mp4",
+      "neg_video": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9236754775047302,
+        "pos_text_neg_image": 0.03307854011654854,
+        "neg_text_pos_image": 0.40703141689300537,
+        "neg_text_neg_image": 0.7308085560798645
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.07581989467144012,
+        "pos_text_neg_image": 0.9666966795921326,
+        "neg_text_pos_image": 0.5922272205352783,
+        "neg_text_neg_image": 0.2688494622707367
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.7.1.mp4",
+      "neg_video": "urgDBUXShos.0.7.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04207668453454971,
+        "pos_text_neg_image": 0.08506207168102264,
+        "neg_text_pos_image": 0.5620237588882446,
+        "neg_text_neg_image": 0.43769073486328125
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9576609134674072,
+        "pos_text_neg_image": 0.9145035147666931,
+        "neg_text_pos_image": 0.43770456314086914,
+        "neg_text_neg_image": 0.5620059967041016
+      },
+      "error": null
+    },
+    {
+      "pos_video": "anEdRKaWM-I.0.0.mp4",
+      "neg_video": "61.1.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8514929413795471,
+        "pos_text_neg_image": 0.22251243889331818,
+        "neg_text_pos_image": 0.3772653639316559,
+        "neg_text_neg_image": 0.3773525357246399
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.14796727895736694,
+        "pos_text_neg_image": 0.7766447067260742,
+        "neg_text_pos_image": 0.6220054626464844,
+        "neg_text_neg_image": 0.6221491694450378
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5454.1.17.mp4",
+      "neg_video": "Gel59Iy3YhQ.33.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.622109591960907,
+        "pos_text_neg_image": 0.029307808727025986,
+        "neg_text_pos_image": 0.3773534595966339,
+        "neg_text_neg_image": 0.7309256792068481
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3773285448551178,
+        "pos_text_neg_image": 0.9705412983894348,
+        "neg_text_pos_image": 0.6221506595611572,
+        "neg_text_neg_image": 0.2688925564289093
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.3.9.mp4",
+      "neg_video": "RYzkI_5ub58.8.8.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.976813793182373,
+        "pos_text_neg_image": 0.43744832277297974,
+        "neg_text_pos_image": 0.22256693243980408,
+        "neg_text_neg_image": 0.2449571192264557
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.022972458973526955,
+        "pos_text_neg_image": 0.5616947412490845,
+        "neg_text_pos_image": 0.7768349051475525,
+        "neg_text_neg_image": 0.7545210123062134
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.7.2.mp4",
+      "neg_video": "iXzposKQzvs.2.1.mp4",
+      "pos_question": "Does the camera zoom in?",
+      "neg_question": "Is the camera free from any zoom in effects?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.03731759637594223,
+        "pos_text_neg_image": 0.46789678931236267,
+        "neg_text_pos_image": 0.6789635419845581,
+        "neg_text_neg_image": 0.5614811182022095
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9624335169792175,
+        "pos_text_neg_image": 0.5301965475082397,
+        "neg_text_pos_image": 0.3207196891307831,
+        "neg_text_neg_image": 0.43728193640708923
+      },
+      "error": null
+    }
+  ]
+}

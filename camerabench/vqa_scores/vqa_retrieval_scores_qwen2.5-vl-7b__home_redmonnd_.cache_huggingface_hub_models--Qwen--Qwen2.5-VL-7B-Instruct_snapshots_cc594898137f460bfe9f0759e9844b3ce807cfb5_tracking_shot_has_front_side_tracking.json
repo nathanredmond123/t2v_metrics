@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "tracking shot",
+    "task_name": "has front side tracking",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T04:49:02.833171",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "ash8vDNcJBs.2.0.mp4",
+      "neg_video": "0OFBj7EjZ-g.0.7.mp4",
+      "pos_question": "Is it a tracking shot with the camera leading the subject from a front-side angle?",
+      "neg_question": "Is the camera not leading the subject from a front-side angle in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6219751834869385,
+        "pos_text_neg_image": 0.2017326056957245,
+        "neg_text_pos_image": 0.32060298323631287,
+        "neg_text_neg_image": 0.13292139768600464
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.37724703550338745,
+        "pos_text_neg_image": 0.7978679537773132,
+        "neg_text_pos_image": 0.6787164807319641,
+        "neg_text_neg_image": 0.8667563796043396
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VaSlqE0Nx2Q.7.2.mp4",
+      "neg_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera leading the subject from a front-side angle?",
+      "neg_question": "Is the camera not leading the subject from a front-side angle in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34832528233528137,
+        "pos_text_neg_image": 0.29391419887542725,
+        "neg_text_pos_image": 0.2687579393386841,
+        "neg_text_neg_image": 0.26869094371795654
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6507572531700134,
+        "pos_text_neg_image": 0.70506352186203,
+        "neg_text_pos_image": 0.730559766292572,
+        "neg_text_neg_image": 0.7303776144981384
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ZXloF-qGW4U.2.2.mp4",
+      "neg_video": "z7HxJaKjVlU.0.1.mp4",
+      "pos_question": "Is it a tracking shot with the camera leading the subject from a front-side angle?",
+      "neg_question": "Is the camera not leading the subject from a front-side angle in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6509180068969727,
+        "pos_text_neg_image": 0.10665889829397202,
+        "neg_text_pos_image": 0.40705904364585876,
+        "neg_text_neg_image": 0.20173674821853638
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34841132164001465,
+        "pos_text_neg_image": 0.8930439949035645,
+        "neg_text_pos_image": 0.5922673940658569,
+        "neg_text_neg_image": 0.7978843450546265
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sdidb7Z8IUc.2.1.mp4",
+      "neg_video": "MuNyfqxAO6Y.8.5.mp4",
+      "pos_question": "Is it a tracking shot with the camera leading the subject from a front-side angle?",
+      "neg_question": "Is the camera not leading the subject from a front-side angle in a tracking shot?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1644737273454666,
+        "pos_text_neg_image": 0.24499233067035675,
+        "neg_text_pos_image": 0.20174327492713928,
+        "neg_text_neg_image": 0.18235273659229279
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8352665901184082,
+        "pos_text_neg_image": 0.7546294927597046,
+        "neg_text_pos_image": 0.7979101538658142,
+        "neg_text_neg_image": 0.8172482848167419
+      },
+      "error": null
+    }
+  ]
+}
