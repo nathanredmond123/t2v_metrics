@@ -56,8 +56,6 @@ def generate_vqa_retrieval_scores(samples, model, video_base_path, question_temp
     results = []
     
     for i, sample in enumerate(tqdm(samples, desc="Computing VQA/Retrieval scores")):
-        # pos_video = sample["pos_video"]
-        # neg_video = sample["neg_video"]
         agent1_image = sample['images'][0]
         agent2_image = sample['images'][1]
         question = sample['question']
@@ -68,10 +66,10 @@ def generate_vqa_retrieval_scores(samples, model, video_base_path, question_temp
             "agent2_image": agent2_image,
             "question": question,
             "method": method_name,
-            "agent1_score": None,
-            "agent2_score": None,
-            "neither_score": None,
-            "both_score": None,
+            "option1_score": None,
+            "option2_score": None,
+            "option3_score": None,
+            "option4_score": None,
             "ground_truth": sample['ground_truth'],
             "error": None
         }
@@ -80,16 +78,16 @@ def generate_vqa_retrieval_scores(samples, model, video_base_path, question_temp
         agent1_img_path = os.path.join(video_base_path, agent1_image)
         agent2_img_path = os.path.join(video_base_path, agent2_image)
         
-        # Check if video files exist
+        # Check if img files exist
         if not os.path.exists(agent1_img_path):
             print(f"Warning: Image not found: {agent1_img_path}")
             result_entry["error"] = f"Image file not found: {agent1_img_path}"
             # Default scores for missing files
             default_score = 0.0
-            result_entry["agent1_score"] = default_score
-            result_entry["agent2_score"] = default_score
-            result_entry["neither_score"] = default_score
-            result_entry["both_score"] = default_score
+            result_entry["option1_score"] = default_score
+            result_entry["option2_score"] = default_score
+            result_entry["option3_score"] = default_score
+            result_entry["option4_score"] = default_score
             results.append(result_entry)
             continue
         
@@ -99,29 +97,28 @@ def generate_vqa_retrieval_scores(samples, model, video_base_path, question_temp
             continue
         
         try:
-            # Use question_template and answer_template like original scripts
-            # yes_kwargs = {"question_template": question_template, "answer_template": "Yes"}
-            # no_kwargs = {"question_template": question_template, "answer_template": "No"}
-            qa_kwargs = {"question_template": "The following question/proposition has 4 possible answers. You must respond with '1', '2', 'none', or 'both' If the proposition does not apply to either agent, you should choose 'neither'. {}"}
-            choices = ["1", "2", "none", "both"]
-            # Compute scores for all 4 combinations with "Yes" answer
-            model_result = model(images=[agent1_img_path, agent2_img_path], texts=[question], choices=choices, **qa_kwargs).detach().cpu().tolist()
+            choices = sample['choices']
+            answer_choice_text = f"Possible choices are '1': {choices[0]}, '2': {choices[1]}, '3': {choices[2]}, '4': {choices[3]}. Remember to respond with the number that corresponds to your selected answer."
+            question = f"{question}{answer_choice_text}"
+            qa_kwargs = {"question_template": "The following question/proposition has 4 possible answers that are presented in numerical order. You must respond to the question with '1', '2', '3', or '4', where each number corresponds to its respective answer choice. {}"}
+
+            # Compute scores for all 4 MC answers
+            model_result = model(images=[agent1_img_path, agent2_img_path], texts=[question], choices=['1', '2', '3', '4'], **qa_kwargs).detach().cpu().tolist()
             print(f"model_result: {model_result}")
-            result_entry["agent1_score"] = float(model_result[0])
-            result_entry["agent2_score"] = float(model_result[1])
-            result_entry["neither_score"] = float(model_result[2])
-            result_entry["both_score"] = float(model_result[3])
+            result_entry["option1_score"] = float(model_result[0])
+            result_entry["option2_score"] = float(model_result[1])
+            result_entry["option3_score"] = float(model_result[2])
+            result_entry["option4_score"] = float(model_result[3])
             
         
         except Exception as e:
             print(f"Error processing sample: {e}")
             result_entry["error"] = str(e)
-        # Default scores for failed samples
             default_score = 0.0
-            result_entry["agent1_score"] = default_score
-            result_entry["agent2_score"] = default_score
-            result_entry["neither"] = default_score
-            result_entry["both"] = default_score
+            result_entry["option1_score"] = default_score
+            result_entry["option2_score"] = default_score
+            result_entry["option3_score"] = default_score
+            result_entry["option4_score"] = default_score
         
         results.append(result_entry)
     
