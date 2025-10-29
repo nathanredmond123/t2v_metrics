@@ -66,3 +66,22 @@ python3 get_scores.py --score_dir $HOME/qwen_eval/datasets/oct21_eval/mc_scores_
 
 **NOTE**
 Make sure to set up the t2v_metrics environment by following the README in the original repo as found here: https://github.com/linzhiqiu/t2v_metrics
+
+
+# GUI Annotator Usage
+To annotate image pairs, simply define the directory tree seen above (where root is vqa_and_retrieval).. 
+
+Skill names/categories should be
+        - distance_awareness
+        - occlusion_visibility
+        - navigation
+        - relative_agents
+        - egocentric_motion
+
+Then, ensure that your image pairs are consolidated in a directory (as discussed earlier). The filename for the first image in the image pair should be X.extension, and the second image in the image pair should be X+1.extension
+where X is an even integer and X+1 is obviously an odd integer. Accepted extensions are currently .png and .jpg
+
+The user can easily extend this to support more images, and this will be added to the repo in a future commit. 
+
+## Example Usage
+python3 gui_annotator.py --images data/images/ --ann-root data/vqa_and_retrieval/
