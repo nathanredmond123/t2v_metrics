@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "confusable motion",
+    "task_name": "only tilt down vs only pedestal down",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T14:59:03.392344",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "Ejcl5Jk_4QU.8.1.mp4",
+      "neg_video": "C4Ktho9cjYk.0.3.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4374989867210388,
+        "pos_text_neg_image": 0.5617451071739197,
+        "neg_text_pos_image": 0.24492181837558746,
+        "neg_text_neg_image": 0.4374898076057434
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5617598295211792,
+        "pos_text_neg_image": 0.43748751282691956,
+        "neg_text_pos_image": 0.7544123530387878,
+        "neg_text_neg_image": 0.5617480278015137
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.15.5.mp4",
+      "neg_video": "GjEImPidK4g.0.1.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5618408918380737,
+        "pos_text_neg_image": 0.20168595016002655,
+        "neg_text_pos_image": 0.43755042552948,
+        "neg_text_neg_image": 0.22258448600769043
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43756213784217834,
+        "pos_text_neg_image": 0.7976834177970886,
+        "neg_text_pos_image": 0.5618258714675903,
+        "neg_text_neg_image": 0.7768961787223816
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3HYfPz8lvDI.5.2.mp4",
+      "neg_video": "C4Ktho9cjYk.0.5.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4994526505470276,
+        "pos_text_neg_image": 0.6219205260276794,
+        "neg_text_pos_image": 0.46830931305885315,
+        "neg_text_neg_image": 0.4374755620956421
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4994526505470276,
+        "pos_text_neg_image": 0.37721389532089233,
+        "neg_text_pos_image": 0.5306639671325684,
+        "neg_text_neg_image": 0.5617297291755676
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JDaw5I_5hPk.0.23.mp4",
+      "neg_video": "QaRnEZFM6ZQ.0.3.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2448274791240692,
+        "pos_text_neg_image": 0.10665406286716461,
+        "neg_text_pos_image": 0.22250014543533325,
+        "neg_text_neg_image": 0.22261323034763336
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.754121720790863,
+        "pos_text_neg_image": 0.893003523349762,
+        "neg_text_pos_image": 0.7766017913818359,
+        "neg_text_neg_image": 0.7769964933395386
+      },
+      "error": null
+    },
+    {
+      "pos_video": "s7I9Ab9rXkU.0.0.mp4",
+      "neg_video": "y51VUsotZe4.8.3.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.13284461200237274,
+        "pos_text_neg_image": 0.24476683139801025,
+        "neg_text_pos_image": 0.16434431076049805,
+        "neg_text_neg_image": 0.5307064056396484
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8662556409835815,
+        "pos_text_neg_image": 0.753934919834137,
+        "neg_text_pos_image": 0.83460932970047,
+        "neg_text_neg_image": 0.4683467447757721
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4847.13.1.mp4",
+      "neg_video": "HasIb5pfWkQ.3.3.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18220387399196625,
+        "pos_text_neg_image": 0.182315394282341,
+        "neg_text_pos_image": 0.13284610211849213,
+        "neg_text_neg_image": 0.16443254053592682
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.816581130027771,
+        "pos_text_neg_image": 0.8170808553695679,
+        "neg_text_pos_image": 0.8662653565406799,
+        "neg_text_neg_image": 0.8350573778152466
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sJsu7Tv-fRY.7.2.mp4",
+      "neg_video": "5eDQ2SSsmEk.5.3.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1479874700307846,
+        "pos_text_neg_image": 0.2225334197282791,
+        "neg_text_pos_image": 0.14798235893249512,
+        "neg_text_neg_image": 0.14796507358551025
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8516091108322144,
+        "pos_text_neg_image": 0.7767179012298584,
+        "neg_text_pos_image": 0.8515797257423401,
+        "neg_text_neg_image": 0.85148024559021
+      },
+      "error": null
+    },
+    {
+      "pos_video": "69PPD7ZUJPc.0.0.mp4",
+      "neg_video": "5ClsAp49w3c.2.0.mp4",
+      "pos_question": "Does the camera only tilt down with no other movement?",
+      "neg_question": "Does the camera only move physically downward (pedestal down) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14788515865802765,
+        "pos_text_neg_image": 0.16442489624023438,
+        "neg_text_pos_image": 0.20158064365386963,
+        "neg_text_neg_image": 0.24493958055973053
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8510204553604126,
+        "pos_text_neg_image": 0.8350185751914978,
+        "neg_text_pos_image": 0.7972669005393982,
+        "neg_text_neg_image": 0.7544670104980469
+      },
+      "error": null
+    }
+  ]
+}

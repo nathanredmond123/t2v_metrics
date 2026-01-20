@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion direction",
+    "task_name": "tilt up vs tilt down",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T02:26:50.250434",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "0OFBj7EjZ-g.0.7.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.16.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5618726015090942,
+        "pos_text_neg_image": 0.677503764629364,
+        "neg_text_pos_image": 0.0758339911699295,
+        "neg_text_neg_image": 0.3767661154270172
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43758681416511536,
+        "pos_text_neg_image": 0.320030152797699,
+        "neg_text_pos_image": 0.9238471388816833,
+        "neg_text_neg_image": 0.6211823225021362
+      },
+      "error": null
+    },
+    {
+      "pos_video": "016570694b24f7fefbc284e65d330e11e053542bd6ae8c24194ac0823b82c1eb.1.mp4",
+      "neg_video": "ZpJpZGktliQ.0.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6208429932594299,
+        "pos_text_neg_image": 0.2938871383666992,
+        "neg_text_pos_image": 0.2015172243118286,
+        "neg_text_neg_image": 0.1191335916519165
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3765603005886078,
+        "pos_text_neg_image": 0.7049986124038696,
+        "neg_text_pos_image": 0.7970160841941833,
+        "neg_text_neg_image": 0.8802847862243652
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u35WIs62R2M.1.4.mp4",
+      "neg_video": "2254244.3.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9576945304870605,
+        "pos_text_neg_image": 0.37722331285476685,
+        "neg_text_pos_image": 0.13288700580596924,
+        "neg_text_neg_image": 0.06752637773752213
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.042078159749507904,
+        "pos_text_neg_image": 0.6219360828399658,
+        "neg_text_pos_image": 0.8665320873260498,
+        "neg_text_neg_image": 0.9321728944778442
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.1.1.mp4",
+      "neg_video": "mIiPt1YVkP8.10.2.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5916820168495178,
+        "pos_text_neg_image": 0.09531597793102264,
+        "neg_text_pos_image": 0.4066486656665802,
+        "neg_text_neg_image": 0.18231861293315887
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4066567122936249,
+        "pos_text_neg_image": 0.9043328762054443,
+        "neg_text_pos_image": 0.5916702747344971,
+        "neg_text_neg_image": 0.8170953392982483
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VKre9_wM3Mo.0.4.mp4",
+      "neg_video": "4uGfFYzxWEg.4.9.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22248469293117523,
+        "pos_text_neg_image": 0.4374540448188782,
+        "neg_text_pos_image": 0.05337965488433838,
+        "neg_text_neg_image": 0.32055729627609253
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.776547908782959,
+        "pos_text_neg_image": 0.5617020726203918,
+        "neg_text_pos_image": 0.9461769461631775,
+        "neg_text_neg_image": 0.6786197423934937
+      },
+      "error": null
+    },
+    {
+      "pos_video": "QYAWxJ8a7RA.4.0.mp4",
+      "neg_video": "eWpsukBVJAI.0.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.0953182652592659,
+        "pos_text_neg_image": 0.06750062853097916,
+        "neg_text_pos_image": 0.0293081346899271,
+        "neg_text_neg_image": 0.11910483241081238
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9043545126914978,
+        "pos_text_neg_image": 0.9318174123764038,
+        "neg_text_pos_image": 0.9705520868301392,
+        "neg_text_neg_image": 0.880072295665741
+      },
+      "error": null
+    },
+    {
+      "pos_video": "OCBYMQzG44U.0.5.mp4",
+      "neg_video": "IAVXdvsmqBM.0.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.201609268784523,
+        "pos_text_neg_image": 0.13280491530895233,
+        "neg_text_pos_image": 0.5305967330932617,
+        "neg_text_neg_image": 0.4372605085372925
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7973801493644714,
+        "pos_text_neg_image": 0.8659968376159668,
+        "neg_text_pos_image": 0.46824997663497925,
+        "neg_text_neg_image": 0.5614535808563232
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mixkit-beautiful-dusk-on-a-large-lake-from-above-5005.0.mp4",
+      "neg_video": "kSx5KGOv5Qc.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.93208909034729,
+        "pos_text_neg_image": 0.07582247257232666,
+        "neg_text_pos_image": 0.02930479124188423,
+        "neg_text_neg_image": 0.1823292374610901
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.06752031296491623,
+        "pos_text_neg_image": 0.9237067699432373,
+        "neg_text_pos_image": 0.9704414010047913,
+        "neg_text_neg_image": 0.8171429634094238
+      },
+      "error": null
+    },
+    {
+      "pos_video": "88vmzn_LufA.0.1.mp4",
+      "neg_video": "ZU6ZU14lCNI.0.5.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6221563220024109,
+        "pos_text_neg_image": 0.621871292591095,
+        "neg_text_pos_image": 0.9795835614204407,
+        "neg_text_neg_image": 0.6786044239997864
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3773568868637085,
+        "pos_text_neg_image": 0.3771840035915375,
+        "neg_text_pos_image": 0.020330607891082764,
+        "neg_text_neg_image": 0.3205500543117523
+      },
+      "error": null
+    },
+    {
+      "pos_video": "as8lT-q2_E8.3.0.mp4",
+      "neg_video": "0OFBj7EjZ-g.6.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7542458772659302,
+        "pos_text_neg_image": 0.2225450873374939,
+        "neg_text_pos_image": 0.060060933232307434,
+        "neg_text_neg_image": 0.2449040710926056
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.24486778676509857,
+        "pos_text_neg_image": 0.77675861120224,
+        "neg_text_pos_image": 0.9395111203193665,
+        "neg_text_neg_image": 0.754357635974884
+      },
+      "error": null
+    },
+    {
+      "pos_video": "awPo_VZabRc.2.3.mp4",
+      "neg_video": "1hu1np_BI2M.11.4.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.16436880826950073,
+        "pos_text_neg_image": 0.7545697093009949,
+        "neg_text_pos_image": 0.07582030445337296,
+        "neg_text_neg_image": 0.3772978186607361
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8347337245941162,
+        "pos_text_neg_image": 0.24497291445732117,
+        "neg_text_pos_image": 0.9236804246902466,
+        "neg_text_neg_image": 0.6220589280128479
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Y_df8_eRbnY.1.0.mp4",
+      "neg_video": "Hv_DRJZZ2qI.2.22.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24460555613040924,
+        "pos_text_neg_image": 0.40641963481903076,
+        "neg_text_pos_image": 0.2937013804912567,
+        "neg_text_neg_image": 0.5302827954292297
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7534381747245789,
+        "pos_text_neg_image": 0.5913370251655579,
+        "neg_text_pos_image": 0.7045530080795288,
+        "neg_text_neg_image": 0.46797293424606323
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RooDYxp5Fx8.3.6.mp4",
+      "neg_video": "F7iLfuci75Y.9.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9238541722297668,
+        "pos_text_neg_image": 0.06006885692477226,
+        "neg_text_pos_image": 0.08506587892770767,
+        "neg_text_neg_image": 0.03731933608651161
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.07583457231521606,
+        "pos_text_neg_image": 0.9396350383758545,
+        "neg_text_pos_image": 0.914544403553009,
+        "neg_text_neg_image": 0.9624783396720886
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mIiPt1YVkP8.10.7.mp4",
+      "neg_video": "5eDQ2SSsmEk.9.8.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5306446552276611,
+        "pos_text_neg_image": 0.3483791649341583,
+        "neg_text_pos_image": 0.03731509670615196,
+        "neg_text_neg_image": 0.20168527960777283
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4682922661304474,
+        "pos_text_neg_image": 0.6508579254150391,
+        "neg_text_pos_image": 0.9623690247535706,
+        "neg_text_neg_image": 0.7976807951927185
+      },
+      "error": null
+    },
+    {
+      "pos_video": "fT6olrwrjnI.0.0.mp4",
+      "neg_video": "1448735.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205869197845459,
+        "pos_text_neg_image": 0.07582105696201324,
+        "neg_text_pos_image": 0.0675259679555893,
+        "neg_text_neg_image": 0.1822807937860489
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6786825060844421,
+        "pos_text_neg_image": 0.923689603805542,
+        "neg_text_pos_image": 0.9321671724319458,
+        "neg_text_neg_image": 0.8169258236885071
+      },
+      "error": null
+    },
+    {
+      "pos_video": "H4AZhS5WqKk.2.19.mp4",
+      "neg_video": "Ejcl5Jk_4QU.8.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7052316069602966,
+        "pos_text_neg_image": 0.22252985835075378,
+        "neg_text_pos_image": 0.2687360346317291,
+        "neg_text_neg_image": 0.46834051609039307
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2939842641353607,
+        "pos_text_neg_image": 0.7767055034637451,
+        "neg_text_pos_image": 0.7305002212524414,
+        "neg_text_neg_image": 0.5306993722915649
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.15.3.mp4",
+      "neg_video": "338.2.26.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.04205263406038284,
+        "pos_text_neg_image": 0.14793020486831665,
+        "neg_text_pos_image": 0.10655993223190308,
+        "neg_text_neg_image": 0.22253137826919556
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.95711350440979,
+        "pos_text_neg_image": 0.851279616355896,
+        "neg_text_pos_image": 0.892215371131897,
+        "neg_text_neg_image": 0.7767108082771301
+      },
+      "error": null
+    },
+    {
+      "pos_video": "J5Pnh0UcNxg.2.2.mp4",
+      "neg_video": "5eDQ2SSsmEk.15.5.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14791326224803925,
+        "pos_text_neg_image": 0.6221405863761902,
+        "neg_text_pos_image": 0.0675099641084671,
+        "neg_text_neg_image": 0.32068464159965515
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8511821031570435,
+        "pos_text_neg_image": 0.37734735012054443,
+        "neg_text_pos_image": 0.9319462776184082,
+        "neg_text_neg_image": 0.6788893342018127
+      },
+      "error": null
+    },
+    {
+      "pos_video": "88vmzn_LufA.5.0.mp4",
+      "neg_video": "3HYfPz8lvDI.5.2.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07583286613225937,
+        "pos_text_neg_image": 0.32042545080184937,
+        "neg_text_pos_image": 0.0953158363699913,
+        "neg_text_neg_image": 0.7541788816452026
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.923833429813385,
+        "pos_text_neg_image": 0.6783406734466553,
+        "neg_text_pos_image": 0.9043315052986145,
+        "neg_text_neg_image": 0.24484603106975555
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7jUW96CiEKA.3.2.mp4",
+      "neg_video": "QYAWxJ8a7RA.1.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1066049337387085,
+        "pos_text_neg_image": 0.04741169139742851,
+        "neg_text_pos_image": 0.13285599648952484,
+        "neg_text_neg_image": 0.14796841144561768
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.892592191696167,
+        "pos_text_neg_image": 0.952289342880249,
+        "neg_text_pos_image": 0.8663298487663269,
+        "neg_text_neg_image": 0.8514994978904724
+      },
+      "error": null
+    },
+    {
+      "pos_video": "upC8hjr2b4g.1.1.mp4",
+      "neg_video": "CBRwF0LU3Ys.0.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.16444434225559235,
+        "pos_text_neg_image": 0.24479056894779205,
+        "neg_text_pos_image": 0.042079538106918335,
+        "neg_text_neg_image": 0.29388946294784546
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8351172804832458,
+        "pos_text_neg_image": 0.7540080547332764,
+        "neg_text_pos_image": 0.9577258825302124,
+        "neg_text_neg_image": 0.7050042152404785
+      },
+      "error": null
+    },
+    {
+      "pos_video": "34b53d534e3200be0eef4bb8c8d77da9723668281a6baee67b376935b20065f9.0.mp4",
+      "neg_video": "JDaw5I_5hPk.0.23.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1479807049036026,
+        "pos_text_neg_image": 0.7049844264984131,
+        "neg_text_pos_image": 0.1644151210784912,
+        "neg_text_neg_image": 0.5918887853622437
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8515702486038208,
+        "pos_text_neg_image": 0.29388120770454407,
+        "neg_text_pos_image": 0.8349689245223999,
+        "neg_text_neg_image": 0.4067988395690918
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4021298.0.4.mp4",
+      "neg_video": "CBRwF0LU3Ys.0.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4683229923248291,
+        "pos_text_neg_image": 0.3770065903663635,
+        "neg_text_pos_image": 0.16439300775527954,
+        "neg_text_neg_image": 0.40676718950271606
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.53067946434021,
+        "pos_text_neg_image": 0.6215788125991821,
+        "neg_text_pos_image": 0.8348566889762878,
+        "neg_text_neg_image": 0.591842770576477
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0UthxdAH0ks.1.2.mp4",
+      "neg_video": "88vmzn_LufA.3.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2225334644317627,
+        "pos_text_neg_image": 0.09531082212924957,
+        "neg_text_pos_image": 0.08506112545728683,
+        "neg_text_neg_image": 0.1191452294588089
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7767180800437927,
+        "pos_text_neg_image": 0.9042839407920837,
+        "neg_text_pos_image": 0.9144933223724365,
+        "neg_text_neg_image": 0.8803707957267761
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9jLZPZEIWq0.0.0.mp4",
+      "neg_video": "OCBYMQzG44U.2.23.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7306584119796753,
+        "pos_text_neg_image": 0.34831202030181885,
+        "neg_text_pos_image": 0.022973557934165,
+        "neg_text_neg_image": 0.46835240721702576
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2687942385673523,
+        "pos_text_neg_image": 0.6507324576377869,
+        "neg_text_pos_image": 0.976860523223877,
+        "neg_text_neg_image": 0.5307127833366394
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XDndUR0xeAQ.0.2.mp4",
+      "neg_video": "GVr8pZmSa-c.0.11.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7545097470283508,
+        "pos_text_neg_image": 0.08506658673286438,
+        "neg_text_pos_image": 0.04207727313041687,
+        "neg_text_neg_image": 0.20170237123966217
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.244953453540802,
+        "pos_text_neg_image": 0.9145520329475403,
+        "neg_text_pos_image": 0.9576742649078369,
+        "neg_text_neg_image": 0.7977483868598938
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6YDWsGwz2lI.0.0.mp4",
+      "neg_video": "1934.1.22.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.18218162655830383,
+        "pos_text_neg_image": 0.04201590642333031,
+        "neg_text_pos_image": 0.18221808969974518,
+        "neg_text_neg_image": 0.2931438982486725
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.816481351852417,
+        "pos_text_neg_image": 0.95627760887146,
+        "neg_text_pos_image": 0.8166447877883911,
+        "neg_text_neg_image": 0.7032156586647034
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KoJ0Pih0Ssc.2.5.mp4",
+      "neg_video": "wIYD42DV3Ro.0.5.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1822511851787567,
+        "pos_text_neg_image": 0.09528054296970367,
+        "neg_text_pos_image": 0.0600566603243351,
+        "neg_text_neg_image": 0.08504270762205124
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8167930841445923,
+        "pos_text_neg_image": 0.9039966464042664,
+        "neg_text_pos_image": 0.9394443035125732,
+        "neg_text_neg_image": 0.9142952561378479
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XDndUR0xeAQ.0.5.mp4",
+      "neg_video": "-2uIa-XMJC0.5.3.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40705937147140503,
+        "pos_text_neg_image": 0.37718331813812256,
+        "neg_text_pos_image": 0.2017030119895935,
+        "neg_text_neg_image": 0.75443434715271
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5922678709030151,
+        "pos_text_neg_image": 0.6218701601028442,
+        "neg_text_pos_image": 0.7977508902549744,
+        "neg_text_neg_image": 0.24492895603179932
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4859.1.9.mp4",
+      "neg_video": "yGsVo0uIJVs.2.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.20166410505771637,
+        "pos_text_neg_image": 0.04741494730114937,
+        "neg_text_pos_image": 0.22252699732780457,
+        "neg_text_neg_image": 0.07583636790513992
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7975970506668091,
+        "pos_text_neg_image": 0.9523547291755676,
+        "neg_text_pos_image": 0.7766954898834229,
+        "neg_text_neg_image": 0.9238760471343994
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.2.15.mp4",
+      "neg_video": "8iZ8RtiJq14.1.4.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.042073097079992294,
+        "pos_text_neg_image": 0.2687522768974304,
+        "neg_text_pos_image": 0.02930457703769207,
+        "neg_text_neg_image": 0.10664418339729309
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9575792551040649,
+        "pos_text_neg_image": 0.73054438829422,
+        "neg_text_pos_image": 0.970434308052063,
+        "neg_text_neg_image": 0.8929207921028137
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0Um7WnY72Us.1.0.mp4",
+      "neg_video": "fUjoIUTFH1I.0.15.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.834338366985321,
+        "pos_text_neg_image": 0.08506126701831818,
+        "neg_text_pos_image": 0.05336948111653328,
+        "neg_text_neg_image": 0.16443856060504913
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16429094970226288,
+        "pos_text_neg_image": 0.9144948124885559,
+        "neg_text_pos_image": 0.9459966421127319,
+        "neg_text_neg_image": 0.8350879549980164
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1560.0.11.mp4",
+      "neg_video": "mXZ45yLpg14.0.7.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9043155908584595,
+        "pos_text_neg_image": 0.18229131400585175,
+        "neg_text_pos_image": 0.2939988672733307,
+        "neg_text_neg_image": 0.13289131224155426
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.095314159989357,
+        "pos_text_neg_image": 0.8169729709625244,
+        "neg_text_pos_image": 0.7052666544914246,
+        "neg_text_neg_image": 0.866560161113739
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.2.10.mp4",
+      "neg_video": "942.0.30.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07573039829730988,
+        "pos_text_neg_image": 0.13281263411045074,
+        "neg_text_pos_image": 0.07573658972978592,
+        "neg_text_neg_image": 0.09528040885925293
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.922585129737854,
+        "pos_text_neg_image": 0.8660471439361572,
+        "neg_text_pos_image": 0.9226605296134949,
+        "neg_text_neg_image": 0.9039953947067261
+      },
+      "error": null
+    },
+    {
+      "pos_video": "60.0.12.mp4",
+      "neg_video": "x6P57x1gx94.0.6.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06005237251520157,
+        "pos_text_neg_image": 0.06003614142537117,
+        "neg_text_pos_image": 0.04207197576761246,
+        "neg_text_neg_image": 0.26857882738113403
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9393771886825562,
+        "pos_text_neg_image": 0.939123272895813,
+        "neg_text_pos_image": 0.9575536847114563,
+        "neg_text_neg_image": 0.7300728559494019
+      },
+      "error": null
+    },
+    {
+      "pos_video": "y0aS2n1WmMg.0.0.mp4",
+      "neg_video": "s7I9Ab9rXkU.0.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.02297309786081314,
+        "pos_text_neg_image": 0.05334946885704994,
+        "neg_text_pos_image": 0.009707629680633545,
+        "neg_text_neg_image": 0.07578399777412415
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9768409729003906,
+        "pos_text_neg_image": 0.9456419348716736,
+        "neg_text_pos_image": 0.9902051687240601,
+        "neg_text_neg_image": 0.9232380986213684
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1560.0.0.mp4",
+      "neg_video": "M0jmSsQ5ptw.0.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9321786165237427,
+        "pos_text_neg_image": 0.18228594958782196,
+        "neg_text_pos_image": 0.10663913190364838,
+        "neg_text_neg_image": 0.5617064833641052
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.06752679497003555,
+        "pos_text_neg_image": 0.8169489502906799,
+        "neg_text_pos_image": 0.892878532409668,
+        "neg_text_neg_image": 0.43745747208595276
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5eDQ2SSsmEk.3.4.mp4",
+      "neg_video": "Gel59Iy3YhQ.2.4.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40713757276535034,
+        "pos_text_neg_image": 0.3770831823348999,
+        "neg_text_pos_image": 0.10665765404701233,
+        "neg_text_neg_image": 0.1328798234462738
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5923816561698914,
+        "pos_text_neg_image": 0.6217050552368164,
+        "neg_text_pos_image": 0.8930335640907288,
+        "neg_text_neg_image": 0.8664852380752563
+      },
+      "error": null
+    },
+    {
+      "pos_video": "FfSnJdpFBb8.0.1.mp4",
+      "neg_video": "4847.13.1.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.406770259141922,
+        "pos_text_neg_image": 0.20133545994758606,
+        "neg_text_pos_image": 0.20163674652576447,
+        "neg_text_neg_image": 0.13275067508220673
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5918472409248352,
+        "pos_text_neg_image": 0.7962971925735474,
+        "neg_text_pos_image": 0.797488808631897,
+        "neg_text_neg_image": 0.8656430840492249
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3877.0.2.mp4",
+      "neg_video": "BV7Q0zYDO9I.3.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32040902972221375,
+        "pos_text_neg_image": 0.07583162933588028,
+        "neg_text_pos_image": 0.20160815119743347,
+        "neg_text_neg_image": 0.042079173028469086
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6783058643341064,
+        "pos_text_neg_image": 0.9238183498382568,
+        "neg_text_pos_image": 0.7973757386207581,
+        "neg_text_neg_image": 0.9577175974845886
+      },
+      "error": null
+    },
+    {
+      "pos_video": "OCBYMQzG44U.21.3.mp4",
+      "neg_video": "3epU697sU9E.1.7.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6508862972259521,
+        "pos_text_neg_image": 0.025944547727704048,
+        "neg_text_pos_image": 0.025951925665140152,
+        "neg_text_neg_image": 0.03730563074350357
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34839436411857605,
+        "pos_text_neg_image": 0.9735619425773621,
+        "neg_text_pos_image": 0.9738388657569885,
+        "neg_text_neg_image": 0.9621248841285706
+      },
+      "error": null
+    },
+    {
+      "pos_video": "xo9p8p6deRI.3.2.mp4",
+      "neg_video": "sJsu7Tv-fRY.7.2.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5618240237236023,
+        "pos_text_neg_image": 0.08507028967142105,
+        "neg_text_pos_image": 0.08506760746240616,
+        "neg_text_neg_image": 0.29407060146331787
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43754899501800537,
+        "pos_text_neg_image": 0.9145918488502502,
+        "neg_text_pos_image": 0.914563000202179,
+        "neg_text_neg_image": 0.7054387331008911
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XDndUR0xeAQ.0.3.mp4",
+      "neg_video": "m1LHXV49zn8.2.10.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9523928761482239,
+        "pos_text_neg_image": 0.09529443830251694,
+        "neg_text_pos_image": 0.0179834496229887,
+        "neg_text_neg_image": 0.3205617368221283
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.047416847199201584,
+        "pos_text_neg_image": 0.9041284918785095,
+        "neg_text_pos_image": 0.9818630814552307,
+        "neg_text_neg_image": 0.6786291599273682
+      },
+      "error": null
+    },
+    {
+      "pos_video": "_6DLjNKtENQ.0.13.mp4",
+      "neg_video": "69PPD7ZUJPc.0.0.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1190982311964035,
+        "pos_text_neg_image": 0.49847567081451416,
+        "neg_text_pos_image": 0.09528060257434845,
+        "neg_text_neg_image": 0.6208893656730652
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8800235390663147,
+        "pos_text_neg_image": 0.49847567081451416,
+        "neg_text_pos_image": 0.9039972424507141,
+        "neg_text_neg_image": 0.3765884339809418
+      },
+      "error": null
+    },
+    {
+      "pos_video": "8iZ8RtiJq14.5.3.mp4",
+      "neg_video": "4021786.0.4.mp4",
+      "pos_question": "Does the camera tilt upward?",
+      "neg_question": "Does the camera tilt downward?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1191500574350357,
+        "pos_text_neg_image": 0.32047200202941895,
+        "neg_text_pos_image": 0.05338974669575691,
+        "neg_text_neg_image": 0.9043533205986023
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8804064989089966,
+        "pos_text_neg_image": 0.678439199924469,
+        "neg_text_pos_image": 0.9463558197021484,
+        "neg_text_neg_image": 0.09531813859939575
+      },
+      "error": null
+    }
+  ]
+}

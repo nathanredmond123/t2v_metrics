@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "confusable motion",
+    "task_name": "downward camera only vs downward camera and ground",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T14:53:14.206000",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "z9Bw94k7AxQ.0.7.mp4",
+      "neg_video": "RZs5Hz1klno.1.1.mp4",
+      "pos_question": "Does the camera move downward only relative to its initial viewing direction but not relative to the ground?",
+      "neg_question": "Does the camera move downward relative to both the ground and its initial viewing direction?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1329072117805481,
+        "pos_text_neg_image": 0.37735533714294434,
+        "neg_text_pos_image": 0.06752388179302216,
+        "neg_text_neg_image": 0.22261656820774078
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8666638135910034,
+        "pos_text_neg_image": 0.6221537590026855,
+        "neg_text_pos_image": 0.9321383833885193,
+        "neg_text_neg_image": 0.7770081758499146
+      },
+      "error": null
+    },
+    {
+      "pos_video": "-eyUFAJ1xqo.1.0.mp4",
+      "neg_video": "QaRnEZFM6ZQ.0.3.mp4",
+      "pos_question": "Does the camera move downward only relative to its initial viewing direction but not relative to the ground?",
+      "neg_question": "Does the camera move downward relative to both the ground and its initial viewing direction?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2449249029159546,
+        "pos_text_neg_image": 0.14800004661083221,
+        "neg_text_pos_image": 0.16441524028778076,
+        "neg_text_neg_image": 0.1644679456949234
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7544218301773071,
+        "pos_text_neg_image": 0.8516815304756165,
+        "neg_text_pos_image": 0.8349695205688477,
+        "neg_text_neg_image": 0.8352372050285339
+      },
+      "error": null
+    }
+  ]
+}

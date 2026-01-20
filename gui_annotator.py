@@ -22,17 +22,45 @@ SKILL_OPTIONS = [
 
 IMG_EXTS = {".jpg", ".jpeg", ".png"}
 
+
 def natural_key(s: str):
     return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", s)]
 
-def list_pairs(img_dir: Path) -> List[Tuple[str, str]]:
-    files = [f.name for f in img_dir.iterdir() if f.suffix.lower() in IMG_EXTS]
-    files.sort(key=natural_key)
-    pairs = []
-    for i in range(0, len(files), 2):
-        if i + 1 < len(files):
-            pairs.append((files[i], files[i+1]))
-    return pairs
+
+def list_image_sets(img_dir: Path) -> List[List[str]]:
+    """
+    Group images by prefix before the first underscore, e.g.:
+
+        0_a.jpg, 0_b.jpg, 0_c.jpg, 0_d.jpg --> set "0"
+
+    Returns a list of sets, where each set is a list of filenames.
+    """
+    groups: Dict[str, List[str]] = defaultdict(list)
+    for f in img_dir.iterdir():
+        if not f.is_file():
+            continue
+        if f.suffix.lower() not in IMG_EXTS:
+            continue
+        name = f.name
+        stem = f.stem
+        if "_" not in stem:
+            # Skip files that don't match the prefix_suffix pattern
+            continue
+        prefix = stem.split("_", 1)[0]
+        groups[prefix].append(name)
+
+    if not groups:
+        return []
+
+    # Sort sets by the numeric/natural order of their prefix
+    prefixes = sorted(groups.keys(), key=natural_key)
+    sets = []
+    for p in prefixes:
+        files = groups[p]
+        files.sort(key=natural_key)
+        sets.append(files)
+    return sets
+
 
 def load_all_annotations(ann_root: Path) -> List[dict]:
     ann = []
@@ -65,74 +93,97 @@ def load_all_annotations(ann_root: Path) -> List[dict]:
             pass
     return ann
 
-def build_pair_index(ann_list: List[dict]) -> Dict[Tuple[str,str], List[dict]]:
-    idx = defaultdict(list)
+
+def build_set_index(ann_list: List[dict]) -> Dict[Tuple[str, ...], List[dict]]:
+    """
+    Index annotations by the (sorted) tuple of image basenames.
+    Works for any number of images per set.
+    """
+    idx: Dict[Tuple[str, ...], List[dict]] = defaultdict(list)
     for d in ann_list:
         imgs = d.get("images")
-        if not imgs or len(imgs) != 2:
+        if not imgs or not isinstance(imgs, list):
             continue
-        a, b = str(Path(imgs[0]).name), str(Path(imgs[1]).name)
-        idx[(a, b)].append(d)
-        idx[(b, a)].append(d)
+        names = [str(Path(p).name) for p in imgs]
+        key = tuple(sorted(names))
+        idx[key].append(d)
     return idx
+
 
 class App(tk.Tk):
     def __init__(self, images_dir: Path, ann_root: Path):
         super().__init__()
-        self.title("Paired Image Annotation")
-        # Lower default height so content fits on 768px displays
+        self.title("Multi-Agent Image Annotation")
         self.geometry("1280x760")
         self.minsize(1100, 700)
 
         self.images_dir = images_dir
         self.ann_root = ann_root
 
-        self.pairs = list_pairs(self.images_dir)
-        if not self.pairs:
-            messagebox.showerror("No pairs", "No image pairs found (jpg/jpeg/png).")
+        self.image_sets: List[List[str]] = list_image_sets(self.images_dir)
+        if not self.image_sets:
+            messagebox.showerror(
+                "No image sets",
+                "No image sets found. Ensure files are named like '0_a.jpg', '0_b.jpg', etc.",
+            )
             self.destroy()
             return
-        self.idx = 0
+        self.idx = 0  # current set index
 
         self.all_ann = load_all_annotations(self.ann_root)
-        self.pair_index = build_pair_index(self.all_ann)
+        self.set_index = build_set_index(self.all_ann)
 
         self._build_ui()
-        self._load_pair()
+        self._load_set()
 
     def _build_ui(self):
         # TOP: nav bar
         top = ttk.Frame(self)
         top.pack(side=tk.TOP, fill=tk.X, padx=8, pady=6)
 
-        self.prev_btn = ttk.Button(top, text="← Prev", command=self.prev_pair)
+        self.prev_btn = ttk.Button(top, text="← Prev", command=self.prev_set)
         self.prev_btn.pack(side=tk.LEFT)
 
         self.title_var = tk.StringVar()
-        self.title_lbl = ttk.Label(top, textvariable=self.title_var, font=("TkDefaultFont", 11, "bold"))
+        self.title_lbl = ttk.Label(
+            top, textvariable=self.title_var, font=("TkDefaultFont", 11, "bold")
+        )
         self.title_lbl.pack(side=tk.LEFT, padx=12)
 
-        self.next_btn = ttk.Button(top, text="Next →", command=self.next_pair)
+        self.next_btn = ttk.Button(top, text="Next →", command=self.next_set)
         self.next_btn.pack(side=tk.RIGHT)
 
-        # MID: images (this is the big stretchy area)
-        mid = ttk.Frame(self)
-        mid.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=8)
+        # MID: scrollable area for ALL images in the current set
+        mid = ttk.LabelFrame(self, text="Images in current set")
+        mid.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=8, pady=(4, 4))
 
-        self.left_img_lbl = ttk.Label(mid, relief=tk.SUNKEN)
-        self.right_img_lbl = ttk.Label(mid, relief=tk.SUNKEN)
+        self.mid_canvas = tk.Canvas(mid)
+        self.mid_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        mid.columnconfigure(0, weight=1, uniform="img")
-        mid.columnconfigure(1, weight=0)
-        mid.columnconfigure(2, weight=1, uniform="img")
-        mid.rowconfigure(0, weight=1)
+        mid_vscroll = ttk.Scrollbar(
+            mid, orient=tk.VERTICAL, command=self.mid_canvas.yview
+        )
+        mid_vscroll.pack(side=tk.RIGHT, fill=tk.Y)
 
-        self.left_img_lbl.grid(row=0, column=0, sticky="nsew", padx=(4, 6), pady=4)
-        ttk.Separator(mid, orient=tk.VERTICAL).grid(row=0, column=1, sticky="ns", padx=4)
-        self.right_img_lbl.grid(row=0, column=2, sticky="nsew", padx=(6, 4), pady=4)
+        mid_hscroll = ttk.Scrollbar(
+            self, orient=tk.HORIZONTAL, command=self.mid_canvas.xview
+        )
+        mid_hscroll.pack(side=tk.TOP, fill=tk.X, padx=8)  # under the image frame
 
-        # ASKED frame (not super tall so bottom fits)
-        asked_frame = ttk.LabelFrame(self, text="Already asked (this exact image pair)")
+        self.mid_canvas.configure(yscrollcommand=mid_vscroll.set, xscrollcommand=mid_hscroll.set)
+
+        self.images_frame = ttk.Frame(self.mid_canvas)
+        self.mid_canvas.create_window((0, 0), window=self.images_frame, anchor="nw")
+
+        self.images_frame.bind(
+            "<Configure>",
+            lambda e: self.mid_canvas.configure(
+                scrollregion=self.mid_canvas.bbox("all")
+            ),
+        )
+
+        # ASKED frame
+        asked_frame = ttk.LabelFrame(self, text="Already asked (this exact image set)")
         asked_frame.pack(side=tk.TOP, fill=tk.X, padx=8, pady=(4, 4))
         self.asked_text = tk.Text(asked_frame, height=7, wrap=tk.WORD)
         self.asked_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
@@ -140,7 +191,7 @@ class App(tk.Tk):
         asked_scroll.pack(side=tk.RIGHT, fill=tk.Y)
         self.asked_text.configure(yscrollcommand=asked_scroll.set)
 
-        # BOTTOM panel (skills + form). This should NOT expand vertically.
+        # BOTTOM panel (skills + form)
         bottom = ttk.Frame(self)
         bottom.pack(side=tk.BOTTOM, fill=tk.X, expand=False, padx=8, pady=(4, 6))
 
@@ -148,11 +199,11 @@ class App(tk.Tk):
         skills_frame = ttk.LabelFrame(bottom, text="Category (skill)")
         skills_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 8))
         self.skill_var = tk.StringVar(value=SKILL_OPTIONS[0])
-
-        # two-column radio layout for 6 skills
         for i, sk in enumerate(SKILL_OPTIONS):
-            rb = ttk.Radiobutton(skills_frame, text=sk, value=sk, variable=self.skill_var)
-            rb.grid(row=i//2, column=i%2, sticky="w", padx=8, pady=2)
+            rb = ttk.Radiobutton(
+                skills_frame, text=sk, value=sk, variable=self.skill_var
+            )
+            rb.grid(row=i // 2, column=i % 2, sticky="w", padx=8, pady=2)
 
         # Annotation form
         form = ttk.LabelFrame(bottom, text="New annotation")
@@ -163,99 +214,157 @@ class App(tk.Tk):
         qrow.pack(fill=tk.X, padx=8, pady=(6, 2))
         ttk.Label(qrow, text="Question:").pack(anchor="w")
 
-        # make the question box slightly shorter (2 lines instead of 3)
         self.q_text = tk.Text(form, height=2, wrap=tk.WORD)
         self.q_text.pack(fill=tk.X, padx=8)
 
-        # Choices block
-        ttk.Label(form, text="Choices (exactly 4 strings):").pack(anchor="w", padx=8, pady=(8, 2))
+        # Choices header + "+" button
+        choices_header = ttk.Frame(form)
+        choices_header.pack(fill=tk.X, padx=8, pady=(8, 2))
+        ttk.Label(choices_header, text="Choices (at least 4 strings):").pack(
+            side=tk.LEFT, anchor="w"
+        )
+        ttk.Button(
+            choices_header, text="+ Choice", command=self.add_choice_field
+        ).pack(side=tk.RIGHT)
 
-        self.gt_var = tk.IntVar(value=0)
-        self.choice_vars = []
-        grid = ttk.Frame(form)
-        grid.pack(fill=tk.X, padx=8)
+        # Scrollable choices area
+        choices_container = ttk.Frame(form)
+        choices_container.pack(fill=tk.BOTH, expand=True, padx=8, pady=(0, 4))
 
-        for i in range(4):
-            row = ttk.Frame(grid)
-            row.pack(fill=tk.X, pady=2)
-            ttk.Radiobutton(row, variable=self.gt_var, value=i).pack(side=tk.LEFT, padx=(0, 6))
-            var = tk.StringVar()
-            self.choice_vars.append(var)
-            e = ttk.Entry(row, textvariable=var)
-            e.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        self.choices_canvas = tk.Canvas(choices_container, height=120)
+        self.choices_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        # Submit row – shrink vertical padding
+        choices_scroll = ttk.Scrollbar(
+            choices_container, orient=tk.VERTICAL, command=self.choices_canvas.yview
+        )
+        choices_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+
+        self.choices_canvas.configure(yscrollcommand=choices_scroll.set)
+
+        self.choices_frame = ttk.Frame(self.choices_canvas)
+        self.choices_canvas.create_window(
+            (0, 0), window=self.choices_frame, anchor="nw"
+        )
+
+        self.choices_frame.bind(
+            "<Configure>",
+            lambda e: self.choices_canvas.configure(
+                scrollregion=self.choices_canvas.bbox("all")
+            ),
+        )
+
+        # Submit row
         btn_row = ttk.Frame(form)
         btn_row.pack(fill=tk.X, pady=(8, 4), padx=8)
-        ttk.Button(btn_row, text="Submit annotation", command=self.submit).pack(side=tk.RIGHT)
+        ttk.Button(
+            btn_row, text="Submit annotation", command=self.submit
+        ).pack(side=tk.RIGHT)
 
-        # cached images
-        self._left_img = None
-        self._right_img = None
+        # dynamic state
+        self._img_photos: List[ImageTk.PhotoImage] = []
+        self.gt_var = tk.IntVar(value=-1)
+        self.choice_vars: List[tk.StringVar] = []
+        self.choice_rows: List[ttk.Frame] = []
 
-        self.bind("<Configure>", self._on_resize)
+        # Initialize with 4 choices
+        for _ in range(4):
+            self._create_choice_row()
 
-    def _pair_label(self):
-        a, b = self.pairs[self.idx]
-        return f"Pair {self.idx+1}/{len(self.pairs)} — {a} | {b}"
+    # ---------- Image set handling ----------
 
-    def _load_pair(self):
-        a, b = self.pairs[self.idx]
-        self.title_var.set(self._pair_label())
-        self._load_images(a, b)
+    def _set_label_text(self) -> str:
+        names = self.image_sets[self.idx]
+        disp = ", ".join(names)
+        return f"Set {self.idx + 1}/{len(self.image_sets)} — {disp}"
+
+    def _load_set(self):
+        # Title
+        self.title_var.set(self._set_label_text())
+
+        # Load images for current set
+        for row in self.images_frame.winfo_children():
+            row.destroy()
+        self._img_photos.clear()
+
+        names = self.image_sets[self.idx]
+
+        # Arrange images in a grid (up to 2 per row by default)
+        max_cols = 2
+        for i, name in enumerate(names):
+            img_path = self.images_dir / name
+            try:
+                img = Image.open(img_path).convert("RGB")
+                # Optional: downscale very large images while preserving content
+                max_w, max_h = 800, 800
+                img.thumbnail((max_w, max_h), Image.LANCZOS)
+                photo = ImageTk.PhotoImage(img)
+                self._img_photos.append(photo)
+
+                lbl = ttk.Label(self.images_frame, image=photo, relief=tk.SUNKEN)
+                lbl.grid(
+                    row=i // max_cols,
+                    column=i % max_cols,
+                    padx=6,
+                    pady=6,
+                    sticky="nsew",
+                )
+
+            except Exception as e:
+                lbl = ttk.Label(
+                    self.images_frame,
+                    text=f"Failed to load {name}\n{e}",
+                    relief=tk.SUNKEN,
+                )
+                lbl.grid(
+                    row=i // max_cols,
+                    column=i % max_cols,
+                    padx=6,
+                    pady=6,
+                    sticky="nsew",
+                )
+
+        # Make grid reasonably stretchy
+        num_rows = (len(names) + max_cols - 1) // max_cols
+        for r in range(num_rows):
+            self.images_frame.rowconfigure(r, weight=1)
+        for c in range(max_cols):
+            self.images_frame.columnconfigure(c, weight=1)
+
+        # Refresh "already asked"
         self._refresh_already_asked()
 
+        # Reset question + choices
         self.q_text.delete("1.0", tk.END)
-        for v in self.choice_vars:
-            v.set("")
-        self.gt_var.set(0)
+        # Clear existing choice rows and re-create 4
+        for row in self.choice_rows:
+            row.destroy()
+        self.choice_rows.clear()
+        self.choice_vars.clear()
+        self.gt_var.set(-1)
+        for _ in range(4):
+            self._create_choice_row()
 
-    def _on_resize(self, event):
-        if hasattr(self, "pairs") and self.pairs:
-            a, b = self.pairs[self.idx]
-            self._load_images(a, b, from_resize=True)
+    def prev_set(self):
+        self.idx = (self.idx - 1) % len(self.image_sets)
+        self._load_set()
 
-    def _load_images(self, left_name, right_name, from_resize=False):
-        # Scale to ~55% of window height minus headers
-        mid_w = max(1, self.winfo_width() - 80)
-        mid_h = max(1, int(self.winfo_height() * 0.5))
-        target_w = mid_w // 2 - 40
-        target_h = mid_h - 60
+    def next_set(self):
+        self.idx = (self.idx + 1) % len(self.image_sets)
+        self._load_set()
 
-        def load_one(p: Path):
-            img = Image.open(p).convert("RGB")
-            img.thumbnail((target_w, target_h), Image.LANCZOS)
-            return ImageTk.PhotoImage(img)
-
-        try:
-            self._left_img = load_one(self.images_dir / left_name)
-            self.left_img_lbl.configure(image=self._left_img, text="")
-        except Exception as e:
-            self.left_img_lbl.configure(text=f"Failed to load {left_name}\n{e}", image="")
-            self._left_img = None
-
-        try:
-            self._right_img = load_one(self.images_dir / right_name)
-            self.right_img_lbl.configure(image=self._right_img, text="")
-        except Exception as e:
-            self.right_img_lbl.configure(text=f"Failed to load {right_name}\n{e}", image="")
-            self._right_img = None
-
-    def prev_pair(self):
-        self.idx = (self.idx - 1) % len(self.pairs)
-        self._load_pair()
-
-    def next_pair(self):
-        self.idx = (self.idx + 1) % len(self.pairs)
-        self._load_pair()
+    # ---------- Existing annotations display ----------
 
     def _refresh_already_asked(self):
         self.asked_text.config(state=tk.NORMAL)
         self.asked_text.delete("1.0", tk.END)
-        a, b = self.pairs[self.idx]
-        items = self.pair_index.get((a, b), [])
+
+        names = self.image_sets[self.idx]
+        key = tuple(sorted(names))
+        items = self.set_index.get(key, [])
         if not items:
-            self.asked_text.insert(tk.END, "(No existing annotations for this pair.)\n")
+            self.asked_text.insert(
+                tk.END, "(No existing annotations for this image set.)\n"
+            )
         else:
             for i, d in enumerate(items, 1):
                 skill = d.get("skill", "unknown")
@@ -268,10 +377,35 @@ class App(tk.Tk):
                 self.asked_text.insert(tk.END, "\n")
         self.asked_text.config(state=tk.DISABLED)
 
+    # ---------- Choices / answers UI ----------
+
+    def _create_choice_row(self, initial_text: str = ""):
+        idx = len(self.choice_vars)
+        row = ttk.Frame(self.choices_frame)
+        row.pack(fill=tk.X, pady=2)
+
+        rb = ttk.Radiobutton(row, variable=self.gt_var, value=idx)
+        rb.pack(side=tk.LEFT, padx=(0, 6))
+
+        var = tk.StringVar(value=initial_text)
+        self.choice_vars.append(var)
+
+        e = ttk.Entry(row, textvariable=var)
+        e.pack(side=tk.LEFT, fill=tk.X, expand=True)
+
+        self.choice_rows.append(row)
+
+    def add_choice_field(self):
+        self._create_choice_row()
+
+    # ---------- IO helpers ----------
+
     def _get_jsonl_path_for_skill(self, skill: str) -> Path:
         folder = self.ann_root / skill
         folder.mkdir(parents=True, exist_ok=True)
         return folder / f"{skill}.jsonl"
+
+    # ---------- Submit logic ----------
 
     def submit(self):
         skill = self.skill_var.get()
@@ -285,20 +419,29 @@ class App(tk.Tk):
         if not question:
             messagebox.showerror("Missing question", "Please enter a question.")
             return
-        if len(choices) != 4 or any(c == "" for c in choices):
-            messagebox.showerror("Choices", "Please fill all 4 choice boxes (strings).")
+        if any(c == "" for c in choices):
+            messagebox.showerror(
+                "Choices", "Please fill all choice boxes (no empty choices)."
+            )
             return
-        if gt not in (0, 1, 2, 3):
-            messagebox.showerror("Ground truth", "Select exactly one ground-truth option.")
+        if len(choices) < 4:
+            messagebox.showerror(
+                "Choices", "Please provide at least 4 answer choices."
+            )
+            return
+        if not (0 <= gt < len(choices)):
+            messagebox.showerror(
+                "Ground truth", "Select exactly one ground-truth option."
+            )
             return
 
-        imgA, imgB = self.pairs[self.idx]
+        imgs = self.image_sets[self.idx]
         record = {
             "skill": skill,
-            "images": [imgA, imgB],
+            "images": imgs,
             "choices": choices,
             "ground_truth": gt,
-            "question": question
+            "question": question,
         }
 
         out_path = self._get_jsonl_path_for_skill(skill)
@@ -309,19 +452,29 @@ class App(tk.Tk):
             messagebox.showerror("Write failed", f"Could not append to {out_path}:\n{e}")
             return
 
-        # update in-memory index so "Already asked" refreshes live
+        # Update in-memory index so "Already asked" refreshes live
         self.all_ann.append(record)
-        a, b = imgA, imgB
-        self.pair_index.setdefault((a, b), []).append(record)
-        self.pair_index.setdefault((b, a), []).append(record)
+        key = tuple(sorted(imgs))
+        self.set_index.setdefault(key, []).append(record)
 
         self._refresh_already_asked()
         messagebox.showinfo("Saved", f"Added annotation to {out_path}")
 
+
 def main():
-    ap = argparse.ArgumentParser(description="Paired Image Annotation GUI")
-    ap.add_argument("--images", required=True, type=Path, help="Directory with images (.jpg/.jpeg/.png)")
-    ap.add_argument("--ann-root", required=True, type=Path, help="Annotation root (contains skill subdirs)")
+    ap = argparse.ArgumentParser(description="Multi-Agent Image Annotation GUI")
+    ap.add_argument(
+        "--images",
+        required=True,
+        type=Path,
+        help="Directory with images (.jpg/.jpeg/.png) named like '0_a.jpg', '0_b.jpg', etc.",
+    )
+    ap.add_argument(
+        "--ann-root",
+        required=True,
+        type=Path,
+        help="Annotation root (contains skill subdirs)",
+    )
     args = ap.parse_args()
 
     if not args.images.is_dir():
@@ -333,6 +486,7 @@ def main():
 
     app = App(args.images, args.ann_root)
     app.mainloop()
+
 
 if __name__ == "__main__":
     main()

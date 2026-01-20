@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion direction",
+    "task_name": "dolly zoom in vs dolly zoom out",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T03:42:09.150670",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "anEdRKaWM-I.0.3.mp4",
+      "neg_video": "ttZAdY3n4nc.3.0.mp4",
+      "pos_question": "Does the shot feature a dolly zoom effect with the camera moving backward and zooming in?",
+      "neg_question": "Does the shot feature a dolly zoom effect with the camera moving forward and zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29398834705352783,
+        "pos_text_neg_image": 0.40698114037513733,
+        "neg_text_pos_image": 0.08505717664957047,
+        "neg_text_neg_image": 0.4995902478694916
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7052413821220398,
+        "pos_text_neg_image": 0.5921540260314941,
+        "neg_text_pos_image": 0.9144508838653564,
+        "neg_text_neg_image": 0.4995902478694916
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ttZAdY3n4nc.2.0.mp4",
+      "neg_video": "KdfhMulBsyk.1.6.mp4",
+      "pos_question": "Does the shot feature a dolly zoom effect with the camera moving backward and zooming in?",
+      "neg_question": "Does the shot feature a dolly zoom effect with the camera moving forward and zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11913066357374191,
+        "pos_text_neg_image": 0.3771817684173584,
+        "neg_text_pos_image": 0.10662585496902466,
+        "neg_text_neg_image": 0.2016366571187973
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8802632093429565,
+        "pos_text_neg_image": 0.6218675971031189,
+        "neg_text_pos_image": 0.8927673697471619,
+        "neg_text_neg_image": 0.7974884510040283
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ZABX9Cf3KSY.0.1.mp4",
+      "neg_video": "yGsVo0uIJVs.0.4.mp4",
+      "pos_question": "Does the shot feature a dolly zoom effect with the camera moving backward and zooming in?",
+      "neg_question": "Does the shot feature a dolly zoom effect with the camera moving forward and zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205764591693878,
+        "pos_text_neg_image": 0.06007062643766403,
+        "neg_text_pos_image": 0.26873549818992615,
+        "neg_text_neg_image": 0.033079370856285095
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6786603927612305,
+        "pos_text_neg_image": 0.939662754535675,
+        "neg_text_pos_image": 0.730498731136322,
+        "neg_text_neg_image": 0.9667209386825562
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sKJeTaIEldM.2.2.mp4",
+      "neg_video": "3005.1.16.mp4",
+      "pos_question": "Does the shot feature a dolly zoom effect with the camera moving backward and zooming in?",
+      "neg_question": "Does the shot feature a dolly zoom effect with the camera moving forward and zooming out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.09530876576900482,
+        "pos_text_neg_image": 0.03307933360338211,
+        "neg_text_pos_image": 0.025950569659471512,
+        "neg_text_neg_image": 0.020328601822257042
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9042644500732422,
+        "pos_text_neg_image": 0.9667198657989502,
+        "neg_text_pos_image": 0.9737879633903503,
+        "neg_text_neg_image": 0.979486882686615
+      },
+      "error": null
+    }
+  ]
+}

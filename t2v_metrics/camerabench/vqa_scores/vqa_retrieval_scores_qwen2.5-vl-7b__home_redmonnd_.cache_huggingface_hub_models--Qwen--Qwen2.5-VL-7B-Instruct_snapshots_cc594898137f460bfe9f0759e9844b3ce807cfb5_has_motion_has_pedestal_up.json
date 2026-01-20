@@ -1,0 +1,475 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "has motion",
+    "task_name": "has pedestal up",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T11:02:37.327408",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "F7iLfuci75Y.9.0.mp4",
+      "neg_video": "wrW0enIo2u8.0.6.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10664818435907364,
+        "pos_text_neg_image": 0.2939588129520416,
+        "neg_text_pos_image": 0.4685974717140198,
+        "neg_text_neg_image": 0.3772464990615845
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8929542899131775,
+        "pos_text_neg_image": 0.7051705718040466,
+        "neg_text_pos_image": 0.530990481376648,
+        "neg_text_neg_image": 0.6219742894172668
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KF5p8VIbt0Y.6.1.mp4",
+      "neg_video": "5qKYrajRNwo.3.6.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4981589913368225,
+        "pos_text_neg_image": 0.06752278655767441,
+        "neg_text_pos_image": 0.37667548656463623,
+        "neg_text_neg_image": 0.4071442186832428
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4981589913368225,
+        "pos_text_neg_image": 0.9321233034133911,
+        "neg_text_pos_image": 0.6210328936576843,
+        "neg_text_neg_image": 0.5923913717269897
+      },
+      "error": null
+    },
+    {
+      "pos_video": "rs4B8-qoY1I.3.4.mp4",
+      "neg_video": "KF5p8VIbt0Y.1.1.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22243057191371918,
+        "pos_text_neg_image": 0.436739444732666,
+        "neg_text_pos_image": 0.6787200570106506,
+        "neg_text_neg_image": 0.14788435399532318
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.776358962059021,
+        "pos_text_neg_image": 0.5607845783233643,
+        "neg_text_pos_image": 0.32060468196868896,
+        "neg_text_neg_image": 0.8510157465934753
+      },
+      "error": null
+    },
+    {
+      "pos_video": "dSmZIp41OCM.25.12.mp4",
+      "neg_video": "9cf72aeafdabae7ed510a61012c08e0f9e008056b5b579288dd57fcd38f9c505.1.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22256264090538025,
+        "pos_text_neg_image": 0.06002595275640488,
+        "neg_text_pos_image": 0.5619386434555054,
+        "neg_text_neg_image": 0.6504755616188049
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7768199443817139,
+        "pos_text_neg_image": 0.9389639496803284,
+        "neg_text_pos_image": 0.4376382827758789,
+        "neg_text_neg_image": 0.34817448258399963
+      },
+      "error": null
+    },
+    {
+      "pos_video": "QYAWxJ8a7RA.1.0.mp4",
+      "neg_video": "1018.1.7.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1823234111070633,
+        "pos_text_neg_image": 0.2446853071451187,
+        "neg_text_pos_image": 0.40715834498405457,
+        "neg_text_neg_image": 0.22242383658885956
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8171168565750122,
+        "pos_text_neg_image": 0.7536838054656982,
+        "neg_text_pos_image": 0.5924118757247925,
+        "neg_text_neg_image": 0.7763354182243347
+      },
+      "error": null
+    },
+    {
+      "pos_video": "i82xURPkLWo.2.13.mp4",
+      "neg_video": "5qKYrajRNwo.2.4.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.022973379120230675,
+        "pos_text_neg_image": 0.022973502054810524,
+        "neg_text_pos_image": 0.49974584579467773,
+        "neg_text_neg_image": 0.46858227252960205
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9768528938293457,
+        "pos_text_neg_image": 0.9768581390380859,
+        "neg_text_pos_image": 0.49974584579467773,
+        "neg_text_neg_image": 0.5309733152389526
+      },
+      "error": null
+    },
+    {
+      "pos_video": "xo9p8p6deRI.0.0.mp4",
+      "neg_video": "338.2.30.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1822643131017685,
+        "pos_text_neg_image": 0.06751691550016403,
+        "neg_text_pos_image": 0.29398754239082336,
+        "neg_text_neg_image": 0.3484148383140564
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8168519735336304,
+        "pos_text_neg_image": 0.9320421814918518,
+        "neg_text_pos_image": 0.705239474773407,
+        "neg_text_neg_image": 0.650924563407898
+      },
+      "error": null
+    },
+    {
+      "pos_video": "dSmZIp41OCM.17.3.mp4",
+      "neg_video": "bPZc7avrCT4.5.3.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24495546519756317,
+        "pos_text_neg_image": 0.05338200181722641,
+        "neg_text_pos_image": 0.5619733929634094,
+        "neg_text_neg_image": 0.6220924854278564
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7545159459114075,
+        "pos_text_neg_image": 0.9462185502052307,
+        "neg_text_pos_image": 0.43766534328460693,
+        "neg_text_neg_image": 0.3773181736469269
+      },
+      "error": null
+    },
+    {
+      "pos_video": "mixkit-beautiful-dusk-on-a-large-lake-from-above-5005.0.mp4",
+      "neg_video": "3036.0.13.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.834998369216919,
+        "pos_text_neg_image": 0.025949537754058838,
+        "neg_text_pos_image": 0.29395103454589844,
+        "neg_text_neg_image": 0.46848687529563904
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16442091763019562,
+        "pos_text_neg_image": 0.9737492203712463,
+        "neg_text_pos_image": 0.7051518559455872,
+        "neg_text_neg_image": 0.5308651924133301
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.46.1.mp4",
+      "neg_video": "0058d7c1829dfe2fcdab924eb527dae182de7b5e5507143313b1cfd51d30c255.0.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.43699637055397034,
+        "pos_text_neg_image": 0.03729809448122978,
+        "neg_text_pos_image": 0.2939910292625427,
+        "neg_text_neg_image": 0.6785274147987366
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5611144304275513,
+        "pos_text_neg_image": 0.9619305729866028,
+        "neg_text_pos_image": 0.7052478790283203,
+        "neg_text_neg_image": 0.32051366567611694
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.12.0.mp4",
+      "neg_video": "s7I9Ab9rXkU.0.2.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4997482895851135,
+        "pos_text_neg_image": 0.06005334109067917,
+        "neg_text_pos_image": 0.29407915472984314,
+        "neg_text_neg_image": 0.5921909809112549
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4997482895851135,
+        "pos_text_neg_image": 0.9393923282623291,
+        "neg_text_pos_image": 0.7054592370986938,
+        "neg_text_neg_image": 0.40700653195381165
+      },
+      "error": null
+    },
+    {
+      "pos_video": "hHG1wva1B0w.5.0.mp4",
+      "neg_video": "ttZAdY3n4nc.3.0.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.164425328373909,
+        "pos_text_neg_image": 0.13287723064422607,
+        "neg_text_pos_image": 0.4071359634399414,
+        "neg_text_neg_image": 0.4070582091808319
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8350207805633545,
+        "pos_text_neg_image": 0.8664683699607849,
+        "neg_text_pos_image": 0.5923792719841003,
+        "neg_text_neg_image": 0.5922661423683167
+      },
+      "error": null
+    },
+    {
+      "pos_video": "HYl9QIJJvdA.1.1.mp4",
+      "neg_video": "RYzkI_5ub58.15.7.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8803173899650574,
+        "pos_text_neg_image": 0.10662540048360825,
+        "neg_text_pos_image": 0.4373704493045807,
+        "neg_text_neg_image": 0.4375078082084656
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.11913800239562988,
+        "pos_text_neg_image": 0.8927635550498962,
+        "neg_text_pos_image": 0.5615947842597961,
+        "neg_text_neg_image": 0.5617711544036865
+      },
+      "error": null
+    },
+    {
+      "pos_video": "LtXUoaZcp70.6.3.mp4",
+      "neg_video": "5679.1.1.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10664671659469604,
+        "pos_text_neg_image": 0.02297353930771351,
+        "neg_text_pos_image": 0.49980542063713074,
+        "neg_text_neg_image": 0.49975311756134033
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8929420113563538,
+        "pos_text_neg_image": 0.9768597483634949,
+        "neg_text_pos_image": 0.49980542063713074,
+        "neg_text_neg_image": 0.49975311756134033
+      },
+      "error": null
+    },
+    {
+      "pos_video": "uWCGK4nneeU.1.1.mp4",
+      "neg_video": "_6DLjNKtENQ.0.23.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6509971618652344,
+        "pos_text_neg_image": 0.0850600078701973,
+        "neg_text_pos_image": 0.46855220198631287,
+        "neg_text_neg_image": 0.5309197902679443
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.34845367074012756,
+        "pos_text_neg_image": 0.9144812822341919,
+        "neg_text_pos_image": 0.5309392213821411,
+        "neg_text_neg_image": 0.46853509545326233
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Cj6ho1-G6tw.0.13.mp4",
+      "neg_video": "as8lT-q2_E8.3.1.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.022971073165535927,
+        "pos_text_neg_image": 0.22247862815856934,
+        "neg_text_pos_image": 0.46851810812950134,
+        "neg_text_neg_image": 0.320527046918869
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9767548441886902,
+        "pos_text_neg_image": 0.776526689529419,
+        "neg_text_pos_image": 0.5309005379676819,
+        "neg_text_neg_image": 0.6785557270050049
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3HYfPz8lvDI.1.5.mp4",
+      "neg_video": "7jUW96CiEKA.8.1.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4374038279056549,
+        "pos_text_neg_image": 0.037306513637304306,
+        "neg_text_pos_image": 0.26875802874565125,
+        "neg_text_neg_image": 0.6508318781852722
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5616376399993896,
+        "pos_text_neg_image": 0.9621477127075195,
+        "neg_text_pos_image": 0.7305599451065063,
+        "neg_text_neg_image": 0.3483652174472809
+      },
+      "error": null
+    },
+    {
+      "pos_video": "IWv0EhEGmNI.4.3.mp4",
+      "neg_video": "4PcpGxihPac.3.3.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7306273579597473,
+        "pos_text_neg_image": 0.025948185473680496,
+        "neg_text_pos_image": 0.3206321895122528,
+        "neg_text_neg_image": 0.5616838335990906
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2687827944755554,
+        "pos_text_neg_image": 0.9736984372138977,
+        "neg_text_pos_image": 0.678778350353241,
+        "neg_text_neg_image": 0.43743979930877686
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0OFBj7EjZ-g.0.10.mp4",
+      "neg_video": "338.2.2.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.07582054287195206,
+        "pos_text_neg_image": 0.0758156105875969,
+        "neg_text_pos_image": 0.4070686995983124,
+        "neg_text_neg_image": 0.1823071539402008
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9236832857131958,
+        "pos_text_neg_image": 0.9236232042312622,
+        "neg_text_pos_image": 0.5922814011573792,
+        "neg_text_neg_image": 0.8170439004898071
+      },
+      "error": null
+    },
+    {
+      "pos_video": "F7iLfuci75Y.7.0.mp4",
+      "neg_video": "guZ5AxQ6xb0.1.3.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7307590842247009,
+        "pos_text_neg_image": 0.13280771672725677,
+        "neg_text_pos_image": 0.4071570634841919,
+        "neg_text_neg_image": 0.4068830609321594
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2688312828540802,
+        "pos_text_neg_image": 0.8660150766372681,
+        "neg_text_pos_image": 0.5924100279808044,
+        "neg_text_neg_image": 0.5920113325119019
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.1.4.mp4",
+      "neg_video": "8ouj_JN2ytI.0.27.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2687589228153229,
+        "pos_text_neg_image": 0.5308955311775208,
+        "neg_text_pos_image": 0.37731555104255676,
+        "neg_text_neg_image": 0.32066020369529724
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7305624485015869,
+        "pos_text_neg_image": 0.4685136377811432,
+        "neg_text_pos_image": 0.6220881342887878,
+        "neg_text_neg_image": 0.6788376569747925
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RZs5Hz1klno.5.7.mp4",
+      "neg_video": "rfg9l66Eskw.0.1.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.49967947602272034,
+        "pos_text_neg_image": 0.06005789339542389,
+        "neg_text_pos_image": 0.32065075635910034,
+        "neg_text_neg_image": 0.43750184774398804
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.49967947602272034,
+        "pos_text_neg_image": 0.9394635558128357,
+        "neg_text_pos_image": 0.678817629814148,
+        "neg_text_neg_image": 0.5617634654045105
+      },
+      "error": null
+    },
+    {
+      "pos_video": "lz5xvWTodyw.5.1.mp4",
+      "neg_video": "ce7a2df064c272a750b3eaa0e6ea6aa10e975f2df17b825549ca3c439aaf0317.0.mp4",
+      "pos_question": "Does the camera move upward relative to the ground?",
+      "neg_question": "Is the camera free from any upward pedestal motion?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4373105764389038,
+        "pos_text_neg_image": 0.033062368631362915,
+        "neg_text_pos_image": 0.37733784317970276,
+        "neg_text_neg_image": 0.5615165829658508
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5615178942680359,
+        "pos_text_neg_image": 0.9662241339683533,
+        "neg_text_pos_image": 0.6221249103546143,
+        "neg_text_neg_image": 0.4373095631599426
+      },
+      "error": null
+    }
+  ]
+}

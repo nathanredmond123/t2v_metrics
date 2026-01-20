@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion direction",
+    "task_name": "side tracking leftward vs rightward",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T04:11:34.977226",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "oRt5NPY7yYA.0.6.mp4",
+      "neg_video": "rs4B8-qoY1I.3.3.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4995596706867218,
+        "pos_text_neg_image": 0.03731657192111015,
+        "neg_text_pos_image": 0.7545044422149658,
+        "neg_text_neg_image": 0.05338490381836891
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4995596706867218,
+        "pos_text_neg_image": 0.962407112121582,
+        "neg_text_pos_image": 0.24495171010494232,
+        "neg_text_neg_image": 0.9462699890136719
+      },
+      "error": null
+    },
+    {
+      "pos_video": "qMeHR2Dc4mQ.0.0.mp4",
+      "neg_video": "1widYShgv6o.5.1.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06006155163049698,
+        "pos_text_neg_image": 0.2937411665916443,
+        "neg_text_pos_image": 0.047409527003765106,
+        "neg_text_neg_image": 0.5917185544967651
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9395207762718201,
+        "pos_text_neg_image": 0.7046484351158142,
+        "neg_text_pos_image": 0.952245831489563,
+        "neg_text_neg_image": 0.4066818356513977
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ash8vDNcJBs.2.0.mp4",
+      "neg_video": "RIz3klPET3o.0.0.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24488255381584167,
+        "pos_text_neg_image": 0.4069518744945526,
+        "neg_text_pos_image": 0.43749988079071045,
+        "neg_text_neg_image": 0.7544270753860474
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7542913556098938,
+        "pos_text_neg_image": 0.5921114683151245,
+        "neg_text_pos_image": 0.5617609620094299,
+        "neg_text_neg_image": 0.2449266016483307
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ZXloF-qGW4U.2.2.mp4",
+      "neg_video": "88vmzn_LufA.3.5.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7054089307785034,
+        "pos_text_neg_image": 0.164433091878891,
+        "neg_text_pos_image": 0.6788015365600586,
+        "neg_text_neg_image": 0.16443108022212982
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2940581738948822,
+        "pos_text_neg_image": 0.835060179233551,
+        "neg_text_pos_image": 0.3206431567668915,
+        "neg_text_neg_image": 0.8350499868392944
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.2.3.mp4",
+      "neg_video": "ZBsv_5fHtIg.0.3.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40694892406463623,
+        "pos_text_neg_image": 0.29397985339164734,
+        "neg_text_pos_image": 0.46834373474121094,
+        "neg_text_neg_image": 0.29399704933166504
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5921071767807007,
+        "pos_text_neg_image": 0.7052210569381714,
+        "neg_text_pos_image": 0.5307029485702515,
+        "neg_text_neg_image": 0.7052622437477112
+      },
+      "error": null
+    },
+    {
+      "pos_video": "RIz3klPET3o.0.6.mp4",
+      "neg_video": "Gel59Iy3YhQ.2.0.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10662537068128586,
+        "pos_text_neg_image": 0.008576604537665844,
+        "neg_text_pos_image": 0.11911553144454956,
+        "neg_text_neg_image": 0.01243005320429802
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8927632570266724,
+        "pos_text_neg_image": 0.9913206696510315,
+        "neg_text_pos_image": 0.8801513314247131,
+        "neg_text_neg_image": 0.9874414205551147
+      },
+      "error": null
+    },
+    {
+      "pos_video": "wm7U8nEH59o.0.0.mp4",
+      "neg_video": "video_206294.0.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.13289278745651245,
+        "pos_text_neg_image": 0.07581799477338791,
+        "neg_text_pos_image": 0.09530816972255707,
+        "neg_text_neg_image": 0.1643800288438797
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8665698170661926,
+        "pos_text_neg_image": 0.9236522912979126,
+        "neg_text_pos_image": 0.9042587876319885,
+        "neg_text_neg_image": 0.8347907066345215
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4080.2.3.mp4",
+      "neg_video": "mIiPt1YVkP8.10.7.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.16440777480602264,
+        "pos_text_neg_image": 0.4374527037143707,
+        "neg_text_pos_image": 0.16440635919570923,
+        "neg_text_neg_image": 0.8172574043273926
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8349316120147705,
+        "pos_text_neg_image": 0.5617004036903381,
+        "neg_text_pos_image": 0.8349244594573975,
+        "neg_text_neg_image": 0.18235477805137634
+      },
+      "error": null
+    },
+    {
+      "pos_video": "f4ZzHtww6Tc.2.2.mp4",
+      "neg_video": "VO8Bk03Xv90.3.0.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.26870569586753845,
+        "pos_text_neg_image": 0.29394274950027466,
+        "neg_text_pos_image": 0.3205546438694,
+        "neg_text_neg_image": 0.29395344853401184
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7304177284240723,
+        "pos_text_neg_image": 0.705132007598877,
+        "neg_text_pos_image": 0.6786141395568848,
+        "neg_text_neg_image": 0.7051576972007751
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MQugcNLFI9k.7.11.mp4",
+      "neg_video": "Uofofz62A2E.0.2.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3772275447845459,
+        "pos_text_neg_image": 0.24490290880203247,
+        "neg_text_pos_image": 0.40701058506965637,
+        "neg_text_neg_image": 0.3205501139163971
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6219430565834045,
+        "pos_text_neg_image": 0.7543540596961975,
+        "neg_text_pos_image": 0.5921968817710876,
+        "neg_text_neg_image": 0.6786045432090759
+      },
+      "error": null
+    },
+    {
+      "pos_video": "px9IqOnilHI.3.0.mp4",
+      "neg_video": "VaSlqE0Nx2Q.6.0.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40689390897750854,
+        "pos_text_neg_image": 0.46832048892974854,
+        "neg_text_pos_image": 0.5616331100463867,
+        "neg_text_neg_image": 0.7306204438209534
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5920271277427673,
+        "pos_text_neg_image": 0.5306766629219055,
+        "neg_text_pos_image": 0.43740028142929077,
+        "neg_text_neg_image": 0.26878029108047485
+      },
+      "error": null
+    },
+    {
+      "pos_video": "r-BCbF55fxo.0.2.mp4",
+      "neg_video": "RIz3klPET3o.0.8.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.22255849838256836,
+        "pos_text_neg_image": 0.085032157599926,
+        "neg_text_pos_image": 0.32057780027389526,
+        "neg_text_neg_image": 0.24477556347846985
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7768054604530334,
+        "pos_text_neg_image": 0.9141818881034851,
+        "neg_text_pos_image": 0.6786631941795349,
+        "neg_text_neg_image": 0.7539618611335754
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3vBUREkRzug.0.5.mp4",
+      "neg_video": "JpEfHcVrtXI.3.6.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.320541113615036,
+        "pos_text_neg_image": 0.4997107982635498,
+        "neg_text_pos_image": 0.3205282986164093,
+        "neg_text_neg_image": 0.6221702694892883
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6785854697227478,
+        "pos_text_neg_image": 0.4997107982635498,
+        "neg_text_pos_image": 0.678558349609375,
+        "neg_text_neg_image": 0.3773653507232666
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.2.0.mp4",
+      "neg_video": "VaSlqE0Nx2Q.7.2.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2225385308265686,
+        "pos_text_neg_image": 0.26870983839035034,
+        "neg_text_pos_image": 0.26874256134033203,
+        "neg_text_neg_image": 0.5617251992225647
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.776735782623291,
+        "pos_text_neg_image": 0.7304289937019348,
+        "neg_text_pos_image": 0.7305179834365845,
+        "neg_text_neg_image": 0.43747201561927795
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Gel59Iy3YhQ.7.5.mp4",
+      "neg_video": "8ouj_JN2ytI.0.25.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4070673882961273,
+        "pos_text_neg_image": 0.40700003504753113,
+        "neg_text_pos_image": 0.46847400069236755,
+        "neg_text_neg_image": 0.4683831036090851
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5922795534133911,
+        "pos_text_neg_image": 0.5921815633773804,
+        "neg_text_pos_image": 0.5308505892753601,
+        "neg_text_neg_image": 0.5307475924491882
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VaSlqE0Nx2Q.4.1.mp4",
+      "neg_video": "Gel59Iy3YhQ.0.3.mp4",
+      "pos_question": "Is it a side-tracking shot where the camera moves left to follow the subject?",
+      "neg_question": "Is it a side-tracking shot where the camera moves right to follow the subject?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29398253560066223,
+        "pos_text_neg_image": 0.14798510074615479,
+        "neg_text_pos_image": 0.5308331251144409,
+        "neg_text_neg_image": 0.3206508159637451
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7052274346351624,
+        "pos_text_neg_image": 0.8515955805778503,
+        "neg_text_pos_image": 0.4684585928916931,
+        "neg_text_neg_image": 0.6788177490234375
+      },
+      "error": null
+    }
+  ]
+}

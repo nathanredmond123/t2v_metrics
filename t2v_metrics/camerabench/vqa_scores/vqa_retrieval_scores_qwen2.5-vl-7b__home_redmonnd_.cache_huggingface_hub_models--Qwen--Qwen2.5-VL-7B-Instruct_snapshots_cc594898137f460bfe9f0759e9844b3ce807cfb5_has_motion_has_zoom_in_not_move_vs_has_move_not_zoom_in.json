@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "has motion",
+    "task_name": "has zoom in not move vs has move not zoom in",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T13:03:25.005164",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "3HYfPz8lvDI.2.2.mp4",
+      "neg_video": "fSWFUFdV5TU.0.4.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.678859531879425,
+        "pos_text_neg_image": 0.3772962689399719,
+        "neg_text_pos_image": 0.2687409222126007,
+        "neg_text_neg_image": 0.1479628086090088
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.32067054510116577,
+        "pos_text_neg_image": 0.6220563650131226,
+        "neg_text_pos_image": 0.7305134534835815,
+        "neg_text_neg_image": 0.8514673113822937
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.4.2.mp4",
+      "neg_video": "637ea05e5192428c06fd77b128bd3aa5436dbb3596b8ab6b87405e484e721bc1.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9737253785133362,
+        "pos_text_neg_image": 0.2448735535144806,
+        "neg_text_pos_image": 0.08504045009613037,
+        "neg_text_neg_image": 0.5304926633834839
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.02594890259206295,
+        "pos_text_neg_image": 0.7542636394500732,
+        "neg_text_pos_image": 0.9142710566520691,
+        "neg_text_neg_image": 0.468158096075058
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ttZAdY3n4nc.2.0.mp4",
+      "neg_video": "vEvBpjCOBu0.6.4.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2686600387096405,
+        "pos_text_neg_image": 0.776713490486145,
+        "neg_text_pos_image": 0.43742573261260986,
+        "neg_text_neg_image": 0.32044318318367004
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7302935719490051,
+        "pos_text_neg_image": 0.22253213822841644,
+        "neg_text_pos_image": 0.5616657733917236,
+        "neg_text_neg_image": 0.678378164768219
+      },
+      "error": null
+    },
+    {
+      "pos_video": "awPo_VZabRc.4.0.mp4",
+      "neg_video": "pNGMY3xVkVE.0.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7053344249725342,
+        "pos_text_neg_image": 0.3484274744987488,
+        "neg_text_pos_image": 0.09529219567775726,
+        "neg_text_neg_image": 0.7055016160011292
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2940271198749542,
+        "pos_text_neg_image": 0.6509482264518738,
+        "neg_text_pos_image": 0.9041072130203247,
+        "neg_text_neg_image": 0.29409682750701904
+      },
+      "error": null
+    },
+    {
+      "pos_video": "rfg9l66Eskw.0.1.mp4",
+      "neg_video": "1470.0.35.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5921592712402344,
+        "pos_text_neg_image": 0.3770258128643036,
+        "neg_text_pos_image": 0.08505874127149582,
+        "neg_text_neg_image": 0.26858845353126526
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40698471665382385,
+        "pos_text_neg_image": 0.6216104626655579,
+        "neg_text_pos_image": 0.9144676923751831,
+        "neg_text_neg_image": 0.7300990223884583
+      },
+      "error": null
+    },
+    {
+      "pos_video": "anEdRKaWM-I.0.3.mp4",
+      "neg_video": "3HYfPz8lvDI.4.3.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7977627515792847,
+        "pos_text_neg_image": 0.8352033495903015,
+        "neg_text_pos_image": 0.1066247746348381,
+        "neg_text_neg_image": 0.24490569531917572
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.20170602202415466,
+        "pos_text_neg_image": 0.16446128487586975,
+        "neg_text_pos_image": 0.892758309841156,
+        "neg_text_neg_image": 0.7543627023696899
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0u4NY-YtVII.5.0.mp4",
+      "neg_video": "awPo_VZabRc.1.1.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.592244029045105,
+        "pos_text_neg_image": 0.9146080017089844,
+        "neg_text_pos_image": 0.06006420776247978,
+        "neg_text_neg_image": 0.32055848836898804
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4070429801940918,
+        "pos_text_neg_image": 0.08507179468870163,
+        "neg_text_pos_image": 0.9395623207092285,
+        "neg_text_neg_image": 0.678622305393219
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sKJeTaIEldM.2.2.mp4",
+      "neg_video": "fSWFUFdV5TU.2.6.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9238877892494202,
+        "pos_text_neg_image": 0.407138466835022,
+        "neg_text_pos_image": 0.10663151741027832,
+        "neg_text_neg_image": 0.24494148790836334
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.07583732903003693,
+        "pos_text_neg_image": 0.5923829078674316,
+        "neg_text_pos_image": 0.8928147554397583,
+        "neg_text_neg_image": 0.7544729113578796
+      },
+      "error": null
+    },
+    {
+      "pos_video": "molA_wwvFbk.9.0.mp4",
+      "neg_video": "yGsVo0uIJVs.0.4.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7047998309135437,
+        "pos_text_neg_image": 0.5618991255760193,
+        "neg_text_pos_image": 0.5303594470024109,
+        "neg_text_neg_image": 0.11915051937103271
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2938042879104614,
+        "pos_text_neg_image": 0.4376074969768524,
+        "neg_text_pos_image": 0.4680405855178833,
+        "neg_text_neg_image": 0.8804098963737488
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.3.mp4",
+      "neg_video": "2530.0.9.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.592311441898346,
+        "pos_text_neg_image": 0.6219154000282288,
+        "neg_text_pos_image": 0.16441527009010315,
+        "neg_text_neg_image": 0.49950096011161804
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.40708932280540466,
+        "pos_text_neg_image": 0.3772107660770416,
+        "neg_text_pos_image": 0.834969699382782,
+        "neg_text_neg_image": 0.49950096011161804
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5e7Kk3WEFAA.0.3.mp4",
+      "neg_video": "8iZ8RtiJq14.4.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8348358869552612,
+        "pos_text_neg_image": 0.9576928615570068,
+        "neg_text_pos_image": 0.11908961087465286,
+        "neg_text_neg_image": 0.34837523102760315
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16438892483711243,
+        "pos_text_neg_image": 0.04207808896899223,
+        "neg_text_pos_image": 0.8799598813056946,
+        "neg_text_neg_image": 0.6508505940437317
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sLX9J2NBL3w.0.6.mp4",
+      "neg_video": "8ouj_JN2ytI.0.27.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8351567983627319,
+        "pos_text_neg_image": 0.34844449162483215,
+        "neg_text_pos_image": 0.2939998209476471,
+        "neg_text_neg_image": 0.40705159306526184
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16445212066173553,
+        "pos_text_neg_image": 0.6509799957275391,
+        "neg_text_pos_image": 0.705268919467926,
+        "neg_text_neg_image": 0.5922565460205078
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5454.1.17.mp4",
+      "neg_video": "ZkLQqywiwlY.0.1.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6788563132286072,
+        "pos_text_neg_image": 0.5616657137870789,
+        "neg_text_pos_image": 0.40703365206718445,
+        "neg_text_neg_image": 0.8350338339805603
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.320669025182724,
+        "pos_text_neg_image": 0.4374256730079651,
+        "neg_text_pos_image": 0.5922304391860962,
+        "neg_text_neg_image": 0.16442790627479553
+      },
+      "error": null
+    },
+    {
+      "pos_video": "kSx5KGOv5Qc.0.mp4",
+      "neg_video": "MuNyfqxAO6Y.2.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.37726497650146484,
+        "pos_text_neg_image": 0.4375968277454376,
+        "neg_text_pos_image": 0.10664153099060059,
+        "neg_text_neg_image": 0.4997270405292511
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6220048069953918,
+        "pos_text_neg_image": 0.561885416507721,
+        "neg_text_pos_image": 0.8928985595703125,
+        "neg_text_neg_image": 0.4997270405292511
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0Pzq0URbL2M.2.0.mp4",
+      "neg_video": "pNGMY3xVkVE.0.1.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.592302143573761,
+        "pos_text_neg_image": 0.49968579411506653,
+        "neg_text_pos_image": 0.34842467308044434,
+        "neg_text_neg_image": 0.6509717702865601
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4070829153060913,
+        "pos_text_neg_image": 0.49968579411506653,
+        "neg_text_pos_image": 0.6509429216384888,
+        "neg_text_neg_image": 0.34844011068344116
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.1.mp4",
+      "neg_video": "KF5p8VIbt0Y.2.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24496445059776306,
+        "pos_text_neg_image": 0.8921622037887573,
+        "neg_text_pos_image": 0.029305726289749146,
+        "neg_text_neg_image": 0.244673952460289
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.754543662071228,
+        "pos_text_neg_image": 0.1065535843372345,
+        "neg_text_pos_image": 0.9704723954200745,
+        "neg_text_neg_image": 0.7536488175392151
+      },
+      "error": null
+    },
+    {
+      "pos_video": "_I6Y-rtiTPc.0.2.mp4",
+      "neg_video": "4uGfFYzxWEg.5.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6508901119232178,
+        "pos_text_neg_image": 0.40704256296157837,
+        "neg_text_pos_image": 0.5921405553817749,
+        "neg_text_neg_image": 0.18229970335960388
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3483963906764984,
+        "pos_text_neg_image": 0.5922434329986572,
+        "neg_text_pos_image": 0.40697187185287476,
+        "neg_text_neg_image": 0.8170105814933777
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4uGfFYzxWEg.5.2.mp4",
+      "neg_video": "tJ7xCQpF00s.0.12.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5618141293525696,
+        "pos_text_neg_image": 0.22260145843029022,
+        "neg_text_pos_image": 0.2687341272830963,
+        "neg_text_neg_image": 0.5923542976379395
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43754127621650696,
+        "pos_text_neg_image": 0.7769554257392883,
+        "neg_text_pos_image": 0.730495035648346,
+        "neg_text_neg_image": 0.4071187973022461
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4f3hG-5grlw.4.3.mp4",
+      "neg_video": "xo9p8p6deRI.4.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29396307468414307,
+        "pos_text_neg_image": 0.7769882678985596,
+        "neg_text_pos_image": 0.18229025602340698,
+        "neg_text_neg_image": 0.16442416608333588
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7051807641983032,
+        "pos_text_neg_image": 0.22261087596416473,
+        "neg_text_pos_image": 0.8169682621955872,
+        "neg_text_neg_image": 0.8350148797035217
+      },
+      "error": null
+    },
+    {
+      "pos_video": "aVA7aXOH1pk.0.1.mp4",
+      "neg_video": "05f098e07283ae06f8058a746cd3d87683506af22324a8bdf544b9804e9ae5d5.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8349733948707581,
+        "pos_text_neg_image": 0.5308537483215332,
+        "neg_text_pos_image": 0.26862549781799316,
+        "neg_text_neg_image": 0.4683859944343567
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.16441600024700165,
+        "pos_text_neg_image": 0.468476802110672,
+        "neg_text_pos_image": 0.7301996946334839,
+        "neg_text_neg_image": 0.5307508707046509
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yQLgp8trSDc.2.0.mp4",
+      "neg_video": "1448735.1.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.9146361351013184,
+        "pos_text_neg_image": 0.3205995261669159,
+        "neg_text_pos_image": 0.43744462728500366,
+        "neg_text_neg_image": 0.7306146621704102
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.08507440984249115,
+        "pos_text_neg_image": 0.6787092089653015,
+        "neg_text_pos_image": 0.5616900324821472,
+        "neg_text_neg_image": 0.26877814531326294
+      },
+      "error": null
+    },
+    {
+      "pos_video": "u-dEnJpCGAQ.15.1.mp4",
+      "neg_video": "z9Bw94k7AxQ.0.7.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6509851217269897,
+        "pos_text_neg_image": 0.32055968046188354,
+        "neg_text_pos_image": 0.020328644663095474,
+        "neg_text_neg_image": 0.1479474902153015
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3484472334384918,
+        "pos_text_neg_image": 0.6786248683929443,
+        "neg_text_pos_image": 0.9794889688491821,
+        "neg_text_neg_image": 0.8513790369033813
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.7.2.mp4",
+      "neg_video": "9c0f08e0b5320fa4c6feb8137f23143e9c72587815db316a221da5a97ad8c755.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32062146067619324,
+        "pos_text_neg_image": 0.16444605588912964,
+        "neg_text_pos_image": 0.04207485914230347,
+        "neg_text_neg_image": 0.022973550483584404
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6787555813789368,
+        "pos_text_neg_image": 0.8351260423660278,
+        "neg_text_pos_image": 0.9576193690299988,
+        "neg_text_neg_image": 0.9768601655960083
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4PcpGxihPac.1.3.mp4",
+      "neg_video": "0UthxdAH0ks.3.0.mp4",
+      "pos_question": "Does the camera zoom in without physically moving forward?",
+      "neg_question": "Does the camera physically move forward without zooming in?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7054415941238403,
+        "pos_text_neg_image": 0.4683786928653717,
+        "neg_text_pos_image": 0.320598840713501,
+        "neg_text_neg_image": 0.095290906727314
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.29407182335853577,
+        "pos_text_neg_image": 0.5307425856590271,
+        "neg_text_pos_image": 0.6787077188491821,
+        "neg_text_neg_image": 0.904094934463501
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "confusable motion",
+    "task_name": "only tilt up vs only pedestal up",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T14:54:14.102013",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "fT6olrwrjnI.0.0.mp4",
+      "neg_video": "Cj6ho1-G6tw.0.13.mp4",
+      "pos_question": "Does the camera only tilt up with no other movement?",
+      "neg_question": "Does the camera only move physically upward (pedestal up) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.29401057958602905,
+        "pos_text_neg_image": 0.042072948068380356,
+        "neg_text_pos_image": 0.09532104432582855,
+        "neg_text_neg_image": 0.06752070039510727
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7052947282791138,
+        "pos_text_neg_image": 0.9575759172439575,
+        "neg_text_pos_image": 0.9043809175491333,
+        "neg_text_neg_image": 0.9320944547653198
+      },
+      "error": null
+    },
+    {
+      "pos_video": "9jLZPZEIWq0.0.0.mp4",
+      "neg_video": "Cj6ho1-G6tw.0.2.mp4",
+      "pos_question": "Does the camera only tilt up with no other movement?",
+      "neg_question": "Does the camera only move physically upward (pedestal up) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7770262360572815,
+        "pos_text_neg_image": 0.3483981490135193,
+        "neg_text_pos_image": 0.7054834961891174,
+        "neg_text_neg_image": 0.13290630280971527
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22262173891067505,
+        "pos_text_neg_image": 0.6508933901786804,
+        "neg_text_pos_image": 0.29408925771713257,
+        "neg_text_neg_image": 0.8666579127311707
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XDndUR0xeAQ.0.2.mp4",
+      "neg_video": "fT6olrwrjnI.5.3.mp4",
+      "pos_question": "Does the camera only tilt up with no other movement?",
+      "neg_question": "Does the camera only move physically upward (pedestal up) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7306822538375854,
+        "pos_text_neg_image": 0.37725508213043213,
+        "neg_text_pos_image": 0.5309287309646606,
+        "neg_text_neg_image": 0.20171856880187988
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.2688030004501343,
+        "pos_text_neg_image": 0.6219884753227234,
+        "neg_text_pos_image": 0.46854299306869507,
+        "neg_text_neg_image": 0.7978124022483826
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3877.0.2.mp4",
+      "neg_video": "KI2lsdXJQ40.0.3.mp4",
+      "pos_question": "Does the camera only tilt up with no other movement?",
+      "neg_question": "Does the camera only move physically upward (pedestal up) with no other movement?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2939116656780243,
+        "pos_text_neg_image": 0.6508384346961975,
+        "neg_text_pos_image": 0.14792533218860626,
+        "neg_text_neg_image": 0.5921800136566162
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7050574421882629,
+        "pos_text_neg_image": 0.34836873412132263,
+        "neg_text_pos_image": 0.8512516021728516,
+        "neg_text_neg_image": 0.40699896216392517
+      },
+      "error": null
+    }
+  ]
+}

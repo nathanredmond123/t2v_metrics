@@ -1,0 +1,855 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "motion direction",
+    "task_name": "roll cc vs roll ccw",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T02:10:38.600426",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "187.6.15.mp4",
+      "neg_video": "JGiXuXc3cao.3.4.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.06751570850610733,
+        "pos_text_neg_image": 0.32057178020477295,
+        "neg_text_pos_image": 0.08505409210920334,
+        "neg_text_neg_image": 0.24489860236644745
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9320256114006042,
+        "pos_text_neg_image": 0.678650438785553,
+        "neg_text_pos_image": 0.9144176840782166,
+        "neg_text_neg_image": 0.7543408274650574
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3HYfPz8lvDI.4.3.mp4",
+      "neg_video": "QMlfVwN3iTw.3.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.348362535238266,
+        "pos_text_neg_image": 0.37717682123184204,
+        "neg_text_pos_image": 0.14797112345695496,
+        "neg_text_neg_image": 0.2939635217189789
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6508268713951111,
+        "pos_text_neg_image": 0.6218594312667847,
+        "neg_text_pos_image": 0.8515150547027588,
+        "neg_text_neg_image": 0.7051818370819092
+      },
+      "error": null
+    },
+    {
+      "pos_video": "SsbNOKn2cOs.3.2.mp4",
+      "neg_video": "MQugcNLFI9k.0.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.26863372325897217,
+        "pos_text_neg_image": 0.4684787690639496,
+        "neg_text_pos_image": 0.3771066665649414,
+        "neg_text_neg_image": 0.437509685754776
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7302221059799194,
+        "pos_text_neg_image": 0.5308559536933899,
+        "neg_text_pos_image": 0.6217437982559204,
+        "neg_text_neg_image": 0.5617735981941223
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.3.mp4",
+      "neg_video": "1560.0.3.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.11913934350013733,
+        "pos_text_neg_image": 0.46823906898498535,
+        "neg_text_pos_image": 0.10663769394159317,
+        "neg_text_neg_image": 0.2016734927892685
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8803272843360901,
+        "pos_text_neg_image": 0.5305843949317932,
+        "neg_text_pos_image": 0.8928664326667786,
+        "neg_text_neg_image": 0.7976341247558594
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sLX9J2NBL3w.0.6.mp4",
+      "neg_video": "FOtmU0oJf-8.0.8.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4373835325241089,
+        "pos_text_neg_image": 0.46834617853164673,
+        "neg_text_pos_image": 0.2939659059047699,
+        "neg_text_neg_image": 0.4374397397041321
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5616115927696228,
+        "pos_text_neg_image": 0.5307057499885559,
+        "neg_text_pos_image": 0.7051875591278076,
+        "neg_text_neg_image": 0.5616837739944458
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.11.1.mp4",
+      "neg_video": "JGiXuXc3cao.11.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.029306143522262573,
+        "pos_text_neg_image": 0.07582984864711761,
+        "neg_text_pos_image": 0.03307918459177017,
+        "neg_text_neg_image": 0.08505896478891373
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9704861640930176,
+        "pos_text_neg_image": 0.9237967133522034,
+        "neg_text_pos_image": 0.9667155146598816,
+        "neg_text_neg_image": 0.9144700765609741
+      },
+      "error": null
+    },
+    {
+      "pos_video": "0Pzq0URbL2M.9.3.mp4",
+      "neg_video": "hHG1wva1B0w.5.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3483017086982727,
+        "pos_text_neg_image": 0.20167778432369232,
+        "neg_text_pos_image": 0.32053419947624207,
+        "neg_text_neg_image": 0.18230301141738892
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6507132649421692,
+        "pos_text_neg_image": 0.7976511120796204,
+        "neg_text_pos_image": 0.6785708665847778,
+        "neg_text_neg_image": 0.817025363445282
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.1.4.mp4",
+      "neg_video": "1560.0.15.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.40701135993003845,
+        "pos_text_neg_image": 0.37712594866752625,
+        "neg_text_pos_image": 0.3483891785144806,
+        "neg_text_neg_image": 0.29393497109413147
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5921980142593384,
+        "pos_text_neg_image": 0.6217755675315857,
+        "neg_text_pos_image": 0.6508766412734985,
+        "neg_text_neg_image": 0.7051133513450623
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sdidb7Z8IUc.9.0.mp4",
+      "neg_video": "Wwndsgg7_DU.13.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3772299289703369,
+        "pos_text_neg_image": 0.40673184394836426,
+        "neg_text_pos_image": 0.26875039935112,
+        "neg_text_neg_image": 0.3481113910675049
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6219469904899597,
+        "pos_text_neg_image": 0.5917913317680359,
+        "neg_text_pos_image": 0.7305392622947693,
+        "neg_text_neg_image": 0.6503576636314392
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MQugcNLFI9k.4.6.mp4",
+      "neg_video": "KdfhMulBsyk.5.1.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32047906517982483,
+        "pos_text_neg_image": 0.3771216571331024,
+        "neg_text_pos_image": 0.3482620418071747,
+        "neg_text_neg_image": 0.34829527139663696
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6784541606903076,
+        "pos_text_neg_image": 0.6217684745788574,
+        "neg_text_pos_image": 0.6506391167640686,
+        "neg_text_neg_image": 0.6507011651992798
+      },
+      "error": null
+    },
+    {
+      "pos_video": "VKre9_wM3Mo.3.6.mp4",
+      "neg_video": "Vm-b2AVwARw.5.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3204689919948578,
+        "pos_text_neg_image": 0.20166368782520294,
+        "neg_text_pos_image": 0.20163774490356445,
+        "neg_text_neg_image": 0.10663120448589325
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6784328818321228,
+        "pos_text_neg_image": 0.7975953817367554,
+        "neg_text_pos_image": 0.7974928021430969,
+        "neg_text_neg_image": 0.8928120732307434
+      },
+      "error": null
+    },
+    {
+      "pos_video": "K3U7Ybik1wM.1.3.mp4",
+      "neg_video": "VKre9_wM3Mo.3.3.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4371238648891449,
+        "pos_text_neg_image": 0.34831756353378296,
+        "neg_text_pos_image": 0.268536239862442,
+        "neg_text_neg_image": 0.2225276529788971
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5612781643867493,
+        "pos_text_neg_image": 0.6507428288459778,
+        "neg_text_pos_image": 0.729957103729248,
+        "neg_text_neg_image": 0.7766978144645691
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.0.0.mp4",
+      "neg_video": "307.2.11.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4373652935028076,
+        "pos_text_neg_image": 0.4681251049041748,
+        "neg_text_pos_image": 0.32047826051712036,
+        "neg_text_neg_image": 0.4067630469799042
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5615881681442261,
+        "pos_text_neg_image": 0.5304552316665649,
+        "neg_text_pos_image": 0.6784524321556091,
+        "neg_text_neg_image": 0.5918367505073547
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5ClsAp49w3c.0.3.mp4",
+      "neg_video": "t2_J-RVP7EM.10.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34834107756614685,
+        "pos_text_neg_image": 0.09528792649507523,
+        "neg_text_pos_image": 0.2939469814300537,
+        "neg_text_neg_image": 0.08505724370479584
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.650786817073822,
+        "pos_text_neg_image": 0.9040666818618774,
+        "neg_text_pos_image": 0.7051421403884888,
+        "neg_text_neg_image": 0.914451539516449
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.1.6.mp4",
+      "neg_video": "LtXUoaZcp70.7.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.02930602803826332,
+        "pos_text_neg_image": 0.4373915493488312,
+        "neg_text_pos_image": 0.03731667250394821,
+        "neg_text_neg_image": 0.34831270575523376
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.970482349395752,
+        "pos_text_neg_image": 0.5616218447685242,
+        "neg_text_pos_image": 0.9624096751213074,
+        "neg_text_neg_image": 0.6507337689399719
+      },
+      "error": null
+    },
+    {
+      "pos_video": "7jUW96CiEKA.0.0.mp4",
+      "neg_video": "ZADlkbr7Avg.6.7.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2939315736293793,
+        "pos_text_neg_image": 0.3771311342716217,
+        "neg_text_pos_image": 0.2939023971557617,
+        "neg_text_neg_image": 0.3205019533634186
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7051052451133728,
+        "pos_text_neg_image": 0.6217840909957886,
+        "neg_text_pos_image": 0.7050352096557617,
+        "neg_text_neg_image": 0.67850261926651
+      },
+      "error": null
+    },
+    {
+      "pos_video": "LI7i6DQfh0o.0.1.mp4",
+      "neg_video": "EimYM1xxBys.3.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6504684090614319,
+        "pos_text_neg_image": 0.3482510447502136,
+        "neg_text_pos_image": 0.4371749758720398,
+        "neg_text_neg_image": 0.22241535782814026
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.348170667886734,
+        "pos_text_neg_image": 0.6506185531616211,
+        "neg_text_pos_image": 0.561343789100647,
+        "neg_text_neg_image": 0.7763058543205261
+      },
+      "error": null
+    },
+    {
+      "pos_video": "HasIb5pfWkQ.3.2.mp4",
+      "neg_video": "Vm-b2AVwARw.3.5.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4374367594718933,
+        "pos_text_neg_image": 0.10662953555583954,
+        "neg_text_pos_image": 0.43743017315864563,
+        "neg_text_neg_image": 0.13285847008228302
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5616798996925354,
+        "pos_text_neg_image": 0.892798125743866,
+        "neg_text_pos_image": 0.5616714358329773,
+        "neg_text_neg_image": 0.866346001625061
+      },
+      "error": null
+    },
+    {
+      "pos_video": "B_8bbKn3amE.0.9.mp4",
+      "neg_video": "CBRwF0LU3Ys.0.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4682777523994446,
+        "pos_text_neg_image": 0.3770735561847687,
+        "neg_text_pos_image": 0.4683000147342682,
+        "neg_text_neg_image": 0.3482429087162018
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5306282043457031,
+        "pos_text_neg_image": 0.6216891407966614,
+        "neg_text_pos_image": 0.5306534767150879,
+        "neg_text_neg_image": 0.6506033539772034
+      },
+      "error": null
+    },
+    {
+      "pos_video": "03hvbnE0asg.0.1.mp4",
+      "neg_video": "CBRwF0LU3Ys.0.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5613614916801453,
+        "pos_text_neg_image": 0.4993378221988678,
+        "neg_text_pos_image": 0.4370754659175873,
+        "neg_text_neg_image": 0.4682084918022156
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4371887743473053,
+        "pos_text_neg_image": 0.4993378221988678,
+        "neg_text_pos_image": 0.5612159967422485,
+        "neg_text_neg_image": 0.5305497646331787
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yAgI51QvWxs.0.6.mp4",
+      "neg_video": "Gel59Iy3YhQ.39.4.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.26863986253738403,
+        "pos_text_neg_image": 0.6219058036804199,
+        "neg_text_pos_image": 0.20165665447711945,
+        "neg_text_neg_image": 0.530582070350647
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7302387952804565,
+        "pos_text_neg_image": 0.37720492482185364,
+        "neg_text_pos_image": 0.7975675463676453,
+        "neg_text_neg_image": 0.4682370126247406
+      },
+      "error": null
+    },
+    {
+      "pos_video": "ZADlkbr7Avg.6.0.mp4",
+      "neg_video": "mIiPt1YVkP8.4.3.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3771347403526306,
+        "pos_text_neg_image": 0.40696579217910767,
+        "neg_text_pos_image": 0.29392480850219727,
+        "neg_text_neg_image": 0.34834274649620056
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6217900514602661,
+        "pos_text_neg_image": 0.5921317338943481,
+        "neg_text_pos_image": 0.7050889730453491,
+        "neg_text_neg_image": 0.6507898569107056
+      },
+      "error": null
+    },
+    {
+      "pos_video": "as8lT-q2_E8.0.0.mp4",
+      "neg_video": "-FGVJS3rT80.2.1.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.2686852514743805,
+        "pos_text_neg_image": 0.2687571346759796,
+        "neg_text_pos_image": 0.2016119360923767,
+        "neg_text_neg_image": 0.2939912974834442
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7303621172904968,
+        "pos_text_neg_image": 0.7305575609207153,
+        "neg_text_pos_image": 0.7973906397819519,
+        "neg_text_neg_image": 0.7052484750747681
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3HYfPz8lvDI.1.5.mp4",
+      "neg_video": "xEo1cgaU3VE.0.18.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4373469948768616,
+        "pos_text_neg_image": 0.4683656096458435,
+        "neg_text_pos_image": 0.4069342315196991,
+        "neg_text_neg_image": 0.37722083926200867
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5615646839141846,
+        "pos_text_neg_image": 0.5307278037071228,
+        "neg_text_pos_image": 0.5920857787132263,
+        "neg_text_neg_image": 0.6219320297241211
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6bcc1d04931deb5549253523998da524d73587e19f99d9bb517ce879d84bb938.1.mp4",
+      "neg_video": "lF-bzmNosmc.4.3.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10661780089139938,
+        "pos_text_neg_image": 0.2687276303768158,
+        "neg_text_pos_image": 0.06005074456334114,
+        "neg_text_neg_image": 0.32057616114616394
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8926998972892761,
+        "pos_text_neg_image": 0.7304773330688477,
+        "neg_text_pos_image": 0.9393516778945923,
+        "neg_text_neg_image": 0.6786597371101379
+      },
+      "error": null
+    },
+    {
+      "pos_video": "bCowyYPCYts.2.0.mp4",
+      "neg_video": "JGiXuXc3cao.6.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.1643066704273224,
+        "pos_text_neg_image": 0.22253262996673584,
+        "neg_text_pos_image": 0.14788952469825745,
+        "neg_text_neg_image": 0.11913187801837921
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8344181776046753,
+        "pos_text_neg_image": 0.7767152190208435,
+        "neg_text_pos_image": 0.851045548915863,
+        "neg_text_neg_image": 0.8802721500396729
+      },
+      "error": null
+    },
+    {
+      "pos_video": "GjEImPidK4g.0.4.mp4",
+      "neg_video": "B_8bbKn3amE.0.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.0758199617266655,
+        "pos_text_neg_image": 0.4374099373817444,
+        "neg_text_pos_image": 0.0600585862994194,
+        "neg_text_neg_image": 0.43737855553627014
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.9236762523651123,
+        "pos_text_neg_image": 0.5616454482078552,
+        "neg_text_pos_image": 0.93947434425354,
+        "neg_text_neg_image": 0.5616052150726318
+      },
+      "error": null
+    },
+    {
+      "pos_video": "1560.0.8.mp4",
+      "neg_video": "hHG1wva1B0w.1.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4683353304862976,
+        "pos_text_neg_image": 0.3772449791431427,
+        "neg_text_pos_image": 0.4069327414035797,
+        "neg_text_neg_image": 0.20167765021324158
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5306934714317322,
+        "pos_text_neg_image": 0.621971845626831,
+        "neg_text_pos_image": 0.5920836329460144,
+        "neg_text_neg_image": 0.7976505756378174
+      },
+      "error": null
+    },
+    {
+      "pos_video": "TktL3QR8Yg8.0.10.mp4",
+      "neg_video": "17d79cf8-1924-4566-b8a2-54e41f14b5ea.24.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.24487347900867462,
+        "pos_text_neg_image": 0.2447027713060379,
+        "neg_text_pos_image": 0.1479337364435196,
+        "neg_text_neg_image": 0.2447051703929901
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.7542634606361389,
+        "pos_text_neg_image": 0.7537375688552856,
+        "neg_text_pos_image": 0.8512998819351196,
+        "neg_text_neg_image": 0.7537449598312378
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sJsu7Tv-fRY.0.2.mp4",
+      "neg_video": "VO8Bk03Xv90.1.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6787703037261963,
+        "pos_text_neg_image": 0.34833070635795593,
+        "neg_text_pos_image": 0.40696975588798523,
+        "neg_text_neg_image": 0.3205528259277344
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.32062840461730957,
+        "pos_text_neg_image": 0.6507673859596252,
+        "neg_text_pos_image": 0.5921374559402466,
+        "neg_text_neg_image": 0.6786103248596191
+      },
+      "error": null
+    },
+    {
+      "pos_video": "upC8hjr2b4g.10.2.mp4",
+      "neg_video": "ORHIVufNfRM.13.10.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.49954384565353394,
+        "pos_text_neg_image": 0.437304824590683,
+        "neg_text_pos_image": 0.40692782402038574,
+        "neg_text_neg_image": 0.3482189476490021
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.49954384565353394,
+        "pos_text_neg_image": 0.5615105032920837,
+        "neg_text_pos_image": 0.5920764803886414,
+        "neg_text_neg_image": 0.6505586504936218
+      },
+      "error": null
+    },
+    {
+      "pos_video": "MQugcNLFI9k.3.4.mp4",
+      "neg_video": "oRt5NPY7yYA.4.2.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4373588263988495,
+        "pos_text_neg_image": 0.14794600009918213,
+        "neg_text_pos_image": 0.4994920790195465,
+        "neg_text_neg_image": 0.20164863765239716
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5615798234939575,
+        "pos_text_neg_image": 0.8513705134391785,
+        "neg_text_pos_image": 0.4994920790195465,
+        "neg_text_neg_image": 0.7975358366966248
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.0.1.mp4",
+      "neg_video": "ZADlkbr7Avg.6.10.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.468334436416626,
+        "pos_text_neg_image": 0.22251231968402863,
+        "neg_text_pos_image": 0.3204892873764038,
+        "neg_text_neg_image": 0.14794881641864777
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.530692458152771,
+        "pos_text_neg_image": 0.7766442894935608,
+        "neg_text_pos_image": 0.6784758567810059,
+        "neg_text_neg_image": 0.8513867259025574
+      },
+      "error": null
+    },
+    {
+      "pos_video": "03hvbnE0asg.0.0.mp4",
+      "neg_video": "QaRnEZFM6ZQ.2.8.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4680088758468628,
+        "pos_text_neg_image": 0.22251862287521362,
+        "neg_text_pos_image": 0.37690338492393494,
+        "neg_text_neg_image": 0.24487993121147156
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5303235650062561,
+        "pos_text_neg_image": 0.7766662836074829,
+        "neg_text_pos_image": 0.6214086413383484,
+        "neg_text_neg_image": 0.7542833089828491
+      },
+      "error": null
+    },
+    {
+      "pos_video": "HxHJqnaPIt8.0.1.mp4",
+      "neg_video": "8iZ8RtiJq14.5.1.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4374160170555115,
+        "pos_text_neg_image": 0.5617415904998779,
+        "neg_text_pos_image": 0.3772129714488983,
+        "neg_text_neg_image": 0.22252479195594788
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5616532564163208,
+        "pos_text_neg_image": 0.4374848008155823,
+        "neg_text_pos_image": 0.6219190359115601,
+        "neg_text_neg_image": 0.7766878008842468
+      },
+      "error": null
+    },
+    {
+      "pos_video": "LtXUoaZcp70.5.7.mp4",
+      "neg_video": "5eDQ2SSsmEk.13.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4375227093696594,
+        "pos_text_neg_image": 0.34816309809684753,
+        "neg_text_pos_image": 0.2940160632133484,
+        "neg_text_neg_image": 0.3204116225242615
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5617902874946594,
+        "pos_text_neg_image": 0.6504542827606201,
+        "neg_text_pos_image": 0.7053078413009644,
+        "neg_text_neg_image": 0.6783114075660706
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.7.1.mp4",
+      "neg_video": "5eDQ2SSsmEk.9.7.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.03307849168777466,
+        "pos_text_neg_image": 0.4996441900730133,
+        "neg_text_pos_image": 0.033077917993068695,
+        "neg_text_neg_image": 0.46847593784332275
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.966695249080658,
+        "pos_text_neg_image": 0.4996441900730133,
+        "neg_text_pos_image": 0.9666785001754761,
+        "neg_text_neg_image": 0.5308527946472168
+      },
+      "error": null
+    },
+    {
+      "pos_video": "6303.0.26.mp4",
+      "neg_video": "QMlfVwN3iTw.2.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3205361068248749,
+        "pos_text_neg_image": 0.4373798668384552,
+        "neg_text_pos_image": 0.4069006145000458,
+        "neg_text_neg_image": 0.2939015328884125
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6785749197006226,
+        "pos_text_neg_image": 0.5616068243980408,
+        "neg_text_pos_image": 0.5920369029045105,
+        "neg_text_neg_image": 0.7050331234931946
+      },
+      "error": null
+    },
+    {
+      "pos_video": "Qh6c-SZmWUI.2.2.mp4",
+      "neg_video": "4021529.0.0.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.46834975481033325,
+        "pos_text_neg_image": 0.49921855330467224,
+        "neg_text_pos_image": 0.40693897008895874,
+        "neg_text_neg_image": 0.406696617603302
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5307098031044006,
+        "pos_text_neg_image": 0.49921855330467224,
+        "neg_text_pos_image": 0.5920926928520203,
+        "neg_text_neg_image": 0.591740071773529
+      },
+      "error": null
+    },
+    {
+      "pos_video": "upC8hjr2b4g.10.1.mp4",
+      "neg_video": "QaRnEZFM6ZQ.2.4.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32054078578948975,
+        "pos_text_neg_image": 0.377194881439209,
+        "neg_text_pos_image": 0.320527046918869,
+        "neg_text_neg_image": 0.40695932507514954
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6785848140716553,
+        "pos_text_neg_image": 0.6218892335891724,
+        "neg_text_pos_image": 0.6785557270050049,
+        "neg_text_neg_image": 0.5921223163604736
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3i-cb5ATODE.0.1.mp4",
+      "neg_video": "2aU6O-hbhmI.0.22.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.10663358122110367,
+        "pos_text_neg_image": 0.5305216908454895,
+        "neg_text_pos_image": 0.14793390035629272,
+        "neg_text_neg_image": 0.43722379207611084
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8928320407867432,
+        "pos_text_neg_image": 0.4681837558746338,
+        "neg_text_pos_image": 0.851300835609436,
+        "neg_text_neg_image": 0.5614064931869507
+      },
+      "error": null
+    },
+    {
+      "pos_video": "2aU6O-hbhmI.0.20.mp4",
+      "neg_video": "1265.1.33.mp4",
+      "pos_question": "Does the camera roll clockwise?",
+      "neg_question": "Does the camera roll counterclockwise?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.46809956431388855,
+        "pos_text_neg_image": 0.3772223889827728,
+        "neg_text_pos_image": 0.40664201974868774,
+        "neg_text_neg_image": 0.26873788237571716
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5304262638092041,
+        "pos_text_neg_image": 0.6219345927238464,
+        "neg_text_pos_image": 0.5916606187820435,
+        "neg_text_neg_image": 0.7305051684379578
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "model_name": "qwen2.5-vl-7b",
+    "checkpoint": "/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "skill_name": "only motion",
+    "task_name": "only zoom out vs has zoom out and not only",
+    "combined_tasks": false,
+    "video_dir": "data/videos",
+    "question_template": "{} Please only answer Yes or No.",
+    "generation_timestamp": "2025-09-19T16:16:31.881832",
+    "method_type": "VQAScore_LMM"
+  },
+  "scores": [
+    {
+      "pos_video": "lz5xvWTodyw.9.3.mp4",
+      "neg_video": "IWv0EhEGmNI.16.6.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5920985341072083,
+        "pos_text_neg_image": 0.10664565861225128,
+        "neg_text_pos_image": 0.5921190977096558,
+        "neg_text_neg_image": 0.10665255039930344
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4069429934024811,
+        "pos_text_neg_image": 0.892933189868927,
+        "neg_text_pos_image": 0.40695711970329285,
+        "neg_text_neg_image": 0.8929908871650696
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3pxrECZYEAA.3.5.mp4",
+      "neg_video": "iXzposKQzvs.2.1.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.4373956620693207,
+        "pos_text_neg_image": 0.3203979432582855,
+        "neg_text_pos_image": 0.2687053382396698,
+        "neg_text_neg_image": 0.18214532732963562
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5616271495819092,
+        "pos_text_neg_image": 0.6782824397087097,
+        "neg_text_pos_image": 0.7304167747497559,
+        "neg_text_neg_image": 0.8163187503814697
+      },
+      "error": null
+    },
+    {
+      "pos_video": "4PcpGxihPac.4.0.mp4",
+      "neg_video": "5eDQ2SSsmEk.8.5.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6788414120674133,
+        "pos_text_neg_image": 0.0850692167878151,
+        "neg_text_pos_image": 0.6509434580802917,
+        "neg_text_neg_image": 0.0675283893942833
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3206619918346405,
+        "pos_text_neg_image": 0.9145802855491638,
+        "neg_text_pos_image": 0.3484249413013458,
+        "neg_text_neg_image": 0.9322006702423096
+      },
+      "error": null
+    },
+    {
+      "pos_video": "QMlfVwN3iTw.8.2.mp4",
+      "neg_video": "6d270d88db28043321dd8a3e0e6204ce7aac74c6fd8916e0b244626e531f2733.7.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5617168545722961,
+        "pos_text_neg_image": 0.4683995246887207,
+        "neg_text_pos_image": 0.22252507507801056,
+        "neg_text_neg_image": 0.1823032796382904
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.43746551871299744,
+        "pos_text_neg_image": 0.5307661890983582,
+        "neg_text_pos_image": 0.776688814163208,
+        "neg_text_neg_image": 0.8170265555381775
+      },
+      "error": null
+    },
+    {
+      "pos_video": "KdfhMulBsyk.2.8.mp4",
+      "neg_video": "1934.1.11.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6221402883529663,
+        "pos_text_neg_image": 0.4069145917892456,
+        "neg_text_pos_image": 0.34839099645614624,
+        "neg_text_neg_image": 0.20158129930496216
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3773471713066101,
+        "pos_text_neg_image": 0.5920572280883789,
+        "neg_text_pos_image": 0.6508800387382507,
+        "neg_text_neg_image": 0.7972694635391235
+      },
+      "error": null
+    },
+    {
+      "pos_video": "AhnS92hxqCA.3.1.mp4",
+      "neg_video": "4uGfFYzxWEg.1.5.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.14795824885368347,
+        "pos_text_neg_image": 0.6221600770950317,
+        "neg_text_pos_image": 0.1328931748867035,
+        "neg_text_neg_image": 0.4996644854545593
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.8514410257339478,
+        "pos_text_neg_image": 0.37735918164253235,
+        "neg_text_pos_image": 0.8665723204612732,
+        "neg_text_neg_image": 0.4996644854545593
+      },
+      "error": null
+    },
+    {
+      "pos_video": "XA2X_JBzkzY.2.1.mp4",
+      "neg_video": "JDaw5I_5hPk.0.19.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.7768502831459045,
+        "pos_text_neg_image": 0.16443125903606415,
+        "neg_text_pos_image": 0.9522693157196045,
+        "neg_text_neg_image": 0.06752420961856842
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.22257134318351746,
+        "pos_text_neg_image": 0.8350508809089661,
+        "neg_text_pos_image": 0.04741069674491882,
+        "neg_text_neg_image": 0.932142972946167
+      },
+      "error": null
+    },
+    {
+      "pos_video": "3epU697sU9E.5.7.mp4",
+      "neg_video": "6h6bMAWLYAI.2.2.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.34834858775138855,
+        "pos_text_neg_image": 0.022969424724578857,
+        "neg_text_pos_image": 0.2939769923686981,
+        "neg_text_neg_image": 0.033071696758270264
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6508008241653442,
+        "pos_text_neg_image": 0.9766848087310791,
+        "neg_text_pos_image": 0.7052142024040222,
+        "neg_text_neg_image": 0.9664966464042664
+      },
+      "error": null
+    },
+    {
+      "pos_video": "yQLgp8trSDc.0.5.mp4",
+      "neg_video": "H4AZhS5WqKk.0.0.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3482535779476166,
+        "pos_text_neg_image": 0.147978276014328,
+        "neg_text_pos_image": 0.22248919308185577,
+        "neg_text_neg_image": 0.14797669649124146
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6506233215332031,
+        "pos_text_neg_image": 0.8515562415122986,
+        "neg_text_pos_image": 0.7765635251998901,
+        "neg_text_neg_image": 0.851547122001648
+      },
+      "error": null
+    },
+    {
+      "pos_video": "NJm86fzxG8s.4.5.mp4",
+      "neg_video": "4PcpGxihPac.3.2.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.8516282439231873,
+        "pos_text_neg_image": 0.4996882975101471,
+        "neg_text_pos_image": 0.9838825464248657,
+        "neg_text_neg_image": 0.3772730827331543
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.14799079298973083,
+        "pos_text_neg_image": 0.4996882975101471,
+        "neg_text_pos_image": 0.01590297929942608,
+        "neg_text_neg_image": 0.6220180988311768
+      },
+      "error": null
+    },
+    {
+      "pos_video": "oRt5NPY7yYA.3.4.mp4",
+      "neg_video": "px9IqOnilHI.1.2.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.5919644832611084,
+        "pos_text_neg_image": 0.01798339933156967,
+        "neg_text_pos_image": 0.5919038653373718,
+        "neg_text_neg_image": 0.022974494844675064
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.4068508446216583,
+        "pos_text_neg_image": 0.981860339641571,
+        "neg_text_pos_image": 0.4068091809749603,
+        "neg_text_neg_image": 0.9769003391265869
+      },
+      "error": null
+    },
+    {
+      "pos_video": "t2_J-RVP7EM.2.3.mp4",
+      "neg_video": "sKJeTaIEldM.2.2.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6788941621780396,
+        "pos_text_neg_image": 0.05338529497385025,
+        "neg_text_pos_image": 0.7545532584190369,
+        "neg_text_neg_image": 0.09530331194400787
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3206869065761566,
+        "pos_text_neg_image": 0.9462769627571106,
+        "neg_text_pos_image": 0.24496757984161377,
+        "neg_text_neg_image": 0.9042126536369324
+      },
+      "error": null
+    },
+    {
+      "pos_video": "JGiXuXc3cao.6.0.mp4",
+      "neg_video": "9H942RAVrHQ.0.2.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.3772566020488739,
+        "pos_text_neg_image": 0.2448541820049286,
+        "neg_text_pos_image": 0.11913731694221497,
+        "neg_text_neg_image": 0.16436675190925598
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.621990978717804,
+        "pos_text_neg_image": 0.7542039752006531,
+        "neg_text_pos_image": 0.8803123235702515,
+        "neg_text_neg_image": 0.8347233533859253
+      },
+      "error": null
+    },
+    {
+      "pos_video": "sLX9J2NBL3w.0.12.mp4",
+      "neg_video": "HasIb5pfWkQ.3.3.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.32049787044525146,
+        "pos_text_neg_image": 0.2940288782119751,
+        "neg_text_pos_image": 0.5616028308868408,
+        "neg_text_neg_image": 0.293992817401886
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.6784939169883728,
+        "pos_text_neg_image": 0.7053386569023132,
+        "neg_text_pos_image": 0.4373767077922821,
+        "neg_text_neg_image": 0.7052521109580994
+      },
+      "error": null
+    },
+    {
+      "pos_video": "xBFcUI4z0Wk.5.mp4",
+      "neg_video": "4021529.0.0.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.6787721514701843,
+        "pos_text_neg_image": 0.2939032316207886,
+        "neg_text_pos_image": 0.9042894840240479,
+        "neg_text_neg_image": 0.6505828499794006
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.3206292688846588,
+        "pos_text_neg_image": 0.7050371766090393,
+        "neg_text_pos_image": 0.09531141072511673,
+        "neg_text_neg_image": 0.3482319116592407
+      },
+      "error": null
+    },
+    {
+      "pos_video": "5679.1.3.mp4",
+      "neg_video": "h1PjJ9_Yd2c.2.16.mp4",
+      "pos_question": "Does the camera only zoom out with no other movement?",
+      "neg_question": "Does the camera not just zoom out?",
+      "method": "qwen2.5-vl-7b_/home/redmonnd/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5",
+      "yes_scores": {
+        "pos_text_pos_image": 0.46849486231803894,
+        "pos_text_neg_image": 0.5308370590209961,
+        "neg_text_pos_image": 0.5618538856506348,
+        "neg_text_neg_image": 0.26872414350509644
+      },
+      "no_scores": {
+        "pos_text_pos_image": 0.5308742523193359,
+        "pos_text_neg_image": 0.4684620499610901,
+        "neg_text_pos_image": 0.43757227063179016,
+        "neg_text_neg_image": 0.7304678559303284
+      },
+      "error": null
+    }
+  ]
+}
