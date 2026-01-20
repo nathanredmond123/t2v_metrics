@@ -17,6 +17,7 @@ from datetime import datetime
 def load_jsonl_data(file_path):
     """Load JSONL data from file"""
     data = []
+    print(f"Attempting to load file: {file_path}")
     with open(file_path, 'r') as f:
         for line in f:
             data.append(json.loads(line.strip()))
@@ -54,74 +55,80 @@ def load_data_by_skill(data_dir, specific_skill=None):
 def generate_vqa_retrieval_scores(samples, model, video_base_path, question_template="{}", method_name=""):
     """Generate VQA and retrieval scores for samples"""
     results = []
-    
+        
     for i, sample in enumerate(tqdm(samples, desc="Computing VQA/Retrieval scores")):
-        agent1_image = sample['images'][0]
-        agent2_image = sample['images'][1]
+        result_entry = {}
+        images = []
+        for j in range(len(sample['images'])):
+            images.append(os.path.join(video_base_path, sample['images'][j]))
+            img_key = f'agent{j}_image'
+            result_entry[img_key] = images[-1]
+
         question = sample['question']
+        result_entry["question"] = question
+        result_entry["method"] = method_name
+        result_entry["ground_truth"] = sample["ground_truth"]
+        result_entry["error"] = None
         
-        # Create result entry with metadata
-        result_entry = {
-            "agent1_image": agent1_image,
-            "agent2_image": agent2_image,
-            "question": question,
-            "method": method_name,
-            "option1_score": None,
-            "option2_score": None,
-            "option3_score": None,
-            "option4_score": None,
-            "ground_truth": sample['ground_truth'],
-            "error": None
-        }
-        
+        for j in range(len(sample["choices"])):
+            choice_key = f'option{j}_score'
+            result_entry["choice_key"] = None
+ 
         # Construct full video paths
-        agent1_img_path = os.path.join(video_base_path, agent1_image)
-        agent2_img_path = os.path.join(video_base_path, agent2_image)
-        
-        # Check if img files exist
-        if not os.path.exists(agent1_img_path):
-            print(f"Warning: Image not found: {agent1_img_path}")
-            result_entry["error"] = f"Image file not found: {agent1_img_path}"
-            # Default scores for missing files
-            default_score = 0.0
-            result_entry["option1_score"] = default_score
-            result_entry["option2_score"] = default_score
-            result_entry["option3_score"] = default_score
-            result_entry["option4_score"] = default_score
-            results.append(result_entry)
+        #agent1_img_path = os.path.join(video_base_path, agent1_image)
+        #agent2_img_path = os.path.join(video_base_path, agent2_image)
+
+        skip = False
+        for i in range(len(images)):
+            if not os.path.exists(images[i]):
+                print(f"Warning: Image not found: {images[i]}")
+                result_entry["error"] = f"Image file not found: {images[i]}"
+                for j in range(len(sample["choices"])):
+                    result_entry[f"option{j}_score"] = 0.0
+                results.append(result_entry)
+               	skip = True
+                break
+        if skip:
             continue
-        
-        if not os.path.exists(agent2_img_path):
-            print(f"Warning: Image not found: {agent2_img_path}")
-            result_entry["error"] = f"Image file not found: {agent2_img_path}"
-            continue
-        
+
         try:
             choices = sample['choices']
-            answer_choice_text = f"Possible choices are '1': {choices[0]}, '2': {choices[1]}, '3': {choices[2]}, '4': {choices[3]}. Remember to respond with the number that corresponds to your selected answer."
-            question = f"{question}{answer_choice_text}"
-            qa_kwargs = {"question_template": "The following question/proposition has 4 possible answers that are presented in numerical order. You must respond to the question with '1', '2', '3', or '4', where each number corresponds to its respective answer choice. {}"}
+            pretext = "Possible choices are "
+            for j in range(len(choices)):
+                if j == (len(choices) - 1):
+                    choice_text = f"'{j+1}': {choices[j]}. "
+                else:
+                    choice_text = f"'{j+1}': {choices[j]}, "
+                pretext += choice_text
 
+            answer_choice_text = pretext + "Remember to respond with the number that corresponds to your selected answer."
+            question = f"{question}{answer_choice_text}"
+            choices_str = ""
+            for j in range(len(choices)):
+                if j == len(choices) - 1:
+                    choices_str += f"or '{j+1}', "
+                else:
+                    choices_str += f"'{j+1}', "
+
+            qa_kwargs = {"question_template": f"The following question/proposition has {len(choices)} " + "possible answers that are presented in numerical order. You must respond to the question with " + choices_str + "where each number corresponds to its respective answer choice. {}"}
+#            print("\n\n", qa_kwargs, "\n\n")
+            enumerated_choices = []
+            for k in range(len(choices)):
+                enumerated_choices.append(f"{k+1}")
             # Compute scores for all 4 MC answers
-            model_result = model(images=[agent1_img_path, agent2_img_path], texts=[question], choices=['1', '2', '3', '4'], **qa_kwargs).detach().cpu().tolist()
+            model_result = model(images=images, texts=[question], choices=enumerated_choices, **qa_kwargs).detach().cpu().tolist()
             print(f"model_result: {model_result}")
-            result_entry["option1_score"] = float(model_result[0])
-            result_entry["option2_score"] = float(model_result[1])
-            result_entry["option3_score"] = float(model_result[2])
-            result_entry["option4_score"] = float(model_result[3])
-            
+            for j in range(len(choices)):
+                result_entry[f"option{j}_score"] = float(model_result[j])
         
         except Exception as e:
             print(f"Error processing sample: {e}")
             result_entry["error"] = str(e)
-            default_score = 0.0
-            result_entry["option1_score"] = default_score
-            result_entry["option2_score"] = default_score
-            result_entry["option3_score"] = default_score
-            result_entry["option4_score"] = default_score
-        
+            for j in range(len(choices)):
+                result_entry[f"option{j}_score"] = 0.0
+                    
         results.append(result_entry)
-    
+        print(results[-1]["option0_score"])
     return results
 
 
@@ -163,7 +170,7 @@ def main():
     parser.add_argument('--model', type=str, required=True,
                       help='Model name (e.g., llava-onevision-qwen2-7b-ov)')
     parser.add_argument('--checkpoint', type=str, required=False,
-                      help='Checkpoint name for qwen2.5-vl models (e.g., chancharikm/qwen2.5-vl-7b-cam-motion)')
+                       help='Checkpoint name for qwen2.5-vl models (e.g., chancharikm/qwen2.5-vl-7b-cam-motion)')
     parser.add_argument('--data_dir', type=str, default='data',
                       help='Directory containing exported data')
     parser.add_argument('--video_dir', type=str, default='data/videos',
